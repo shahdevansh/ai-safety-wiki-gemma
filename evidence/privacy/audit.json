@@ -1,7 +1,7 @@
 {
   "passed": true,
   "files_scanned": 1905,
-  "reachable_git_objects_scanned": 0,
+  "reachable_git_objects_scanned": 1558,
   "known_identifier_checks": 15,
   "issues": [],
   "scope": "Text/JSON/code and reachable Git blobs/metadata. Images require separate visual review; no regex scan proves absence of every possible indirect identifier."
