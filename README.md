@@ -4,15 +4,46 @@
 
 **Delivery:** this repository is private at the owner's explicit request. That overrides the assignment's public/signed-out-access requirement; authorized GitHub access is needed. Course-portal submission is not claimed. All model demonstrations run with OS-enforced denial of external network access while host Wi-Fi remains on, as requested. Local loopback connects the CLI to Ollama. This is workload isolation, not evidence of physically disabling Wi-Fi or blocking other applications.
 
-## Start here
+## Watch the terminal recording
 
-- [Wiki index](vault/index.md), [source catalog](vault/Source%20Catalog.md), [three frozen sources](vault/raw), [six reviewed notes](vault/wiki).
-- [Harness code](wiki.py), [mode instructions](prompts), [prospective four-question design](evals/design.md), [fixed expectations](evals/cases.json).
-- [Current terminal recording](evidence/goal-run/terminal.cast), [self-contained replay](evidence/goal-run/terminal.html), [transcript](evidence/goal-run/terminal.txt), [current review](evidence/GOAL-REVIEW.md).
-- [Independent reports and original failures](evidence/independent/README.md), [Obsidian screenshots and navigation](evidence/obsidian/README.md), [requirement checklist](evidence/assignment-checklist.md).
-- [Network-enforcement evidence](evidence/goal-isolation), [privacy audit](evidence/privacy/audit.json), [private-delivery verification](evidence/private-delivery.json).
+**[Open the terminal replay — HTML](evidence/goal-run/terminal.html)** · [Read the full transcript](evidence/goal-run/terminal.txt) · [Raw terminal recording — .cast](evidence/goal-run/terminal.cast)
 
-The HTML recording has no external resources. Download it and open it locally; GitHub normally displays HTML source rather than executing it. Earlier directories named `assignment-run` or reports titled “final” describe the earlier revision; the **goal-run** evidence and linked current review supersede them without hiding their failures.
+The recording shows CLI help, six-note ingestion, all four research questions, the chat/search checks and re-ingestion. It is an interactive terminal replay, not an MP4. GitHub displays the HTML source: download the HTML file, open it in a browser, and click **Replay (10×)** or **Show full transcript**. The player is self-contained and works without internet access or model setup. From a local clone on macOS:
+
+```bash
+open evidence/goal-run/terminal.html
+```
+
+## Submission deliverables — direct links
+
+Use this table to inspect all seven required deliverables. The linked **goal-run** records are the current demonstration; earlier recordings and reports remain as labelled development history.
+
+| Required deliverable | Open the submitted artifact |
+|---|---|
+| **1. Own CLI and harness:** chat, ask, search, ingest and help | [Python harness](wiki.py) · [CLI launcher](wiki) · [Mode instructions](prompts) · [Exact commands](#setup-and-exact-commands) |
+| **2. Three sources, linked wiki, index and Obsidian screenshots** | [Alignment lecture source](vault/raw/alignment-lecture-notes.md) · [Fundamentals source](vault/raw/alignment-fundamentals-notes.md) · [Risk/defenses source](vault/raw/risk-defenses-notes.md). [Wiki index](vault/index.md) · [Six reviewed pages](vault/wiki) · [Source catalog](vault/Source%20Catalog.md). Screenshots: [open note with sources/related links](evidence/obsidian/reviewed-note.png), [index/page list](evidence/obsidian/index.png), [graph](evidence/obsidian/graph.png). |
+| **3. Three answerable ask tests:** expected sources, retrieved passages, actual Gemma answers and citations | [Test 1 — assistance-game goal and uncertainty](evidence/goal-run/01-assistance-game.md) · [Test 2 — deception comparison](evidence/goal-run/02-deception-detection.md) · [Test 3 — physical/human controls](evidence/goal-run/03-physical-defenses.md) · [Frozen expectations](evals/cases.json) · [Claim-support assessment](evidence/GOAL-REVIEW.md#required-four-question-semantic-review) |
+| **4. Unsupported ask test and chat/search mode checks** | [Test 4 — missing approved budget](evidence/goal-run/04-unsupported.md) · [Direct links to every mode check](#chat-and-search-evidence) |
+| **5. Model, data, retrieval and prompt choices; limitation and improvement** | [Sources and wiki choices](#sources-wiki-and-privacy) · [Model, retrieval and harness](#model-retrieval-and-harness) · [Observed failures and proposed improvements](#current-evaluation-results) |
+| **6. Offline demonstration and saved evidence cards** | [Terminal replay](evidence/goal-run/terminal.html) · [Transcript](evidence/goal-run/terminal.txt) · [Ingestion evidence](evidence/goal-run/ingest.md) · [All evidence cards and full JSON records](evidence/goal-run) · [Network policy](isolation/no-external-network.sb) · [Server denial probes](evidence/goal-isolation/server-network.json) · [Completed isolated run](evidence/goal-isolation/run.json) |
+| **7. README:** setup, model/version/quantization, runtime, device, rationale, measured memory/time and evidence | [Setup and CLI commands](#setup-and-exact-commands) · [Model/device details, rationale and measurements](#device-and-measured-run) · [Machine-readable measurements](evidence/goal-measurements.json) |
+
+**Source and offline scope:** the three submitted sources were anonymized before being frozen; those redacted copies remain unchanged through ingestion and tests. The recorded workload had OS-enforced external-network denial with Wi-Fi on, as requested. Local loopback served Gemma; this is not a recording of Wi-Fi being switched off.
+
+## Chat and search evidence
+
+Each readable evidence card links its full JSON request/response record. These checks are also included in the terminal replay above.
+
+| Check | Actual saved output |
+|---|---|
+| Accurate capabilities without unnecessary retrieval | [“what can we do?”](evidence/goal-run/chat-01.md) · [“what can you help me with?”](evidence/goal-run/chat-02.md) |
+| Conversation follow-up | [Original study plan](evidence/goal-run/chat-03.md) · [“make that shorter” — 99→42 words](evidence/goal-run/chat-04.md) |
+| Source-dependent chat with citations | [Assistance-game explanation](evidence/goal-run/chat-06.md) |
+| Original-passage search with zero model calls | [Physical-controls search](evidence/goal-run/search.md) · [Search with all network access blocked, including localhost](evidence/goal-no-model/assessment.json) |
+| Chat-only facts excluded from research evidence | [Chat-only codename](evidence/goal-run/chat-05.md) · [Separate ask correctly abstains](evidence/goal-run/chat-isolation.md) |
+| Literal assignment examples | [Workshop-location search](evidence/goal-run/literal-search.md) · [“Where is the workshop?” ask](evidence/goal-run/literal-ask.md) |
+
+Additional verification: [two independent evaluators and preserved failures](evidence/independent/README.md) · [final semantic review](evidence/GOAL-REVIEW.md) · [Obsidian navigation and all six screenshots](evidence/obsidian/README.md) · [reviewed re-ingestion integrity](evidence/goal-reingest-integrity.json) · [full requirement checklist](evidence/assignment-checklist.md) · [privacy audit](evidence/privacy/audit.json) · [private-delivery verification](evidence/private-delivery.json).
 
 ## Setup and exact commands
 
