@@ -1,8 +1,12 @@
 {
-  "verified_at_utc": "2026-09-29T08:25:20.898118+00:00",
+  "recorded_at_utc": "2026-09-29T08:57:53.766754+00:00",
   "repository": "ai-safety-wiki-gemma (configured private origin)",
   "visibility": "PRIVATE",
   "visibility_verified": true,
-  "payload_upload_verified": false,
-  "scope": "Visibility verified before the final sanitized upload. This record will be updated with the authenticated payload verification after upload. Course submission is not claimed."
+  "payload_upload_verified": true,
+  "verified_commit": "0d23c7d314a28fe6f0afb77b633a92c569a54275",
+  "remote_head_matches_local": true,
+  "authenticated_archive_files_verified": 1906,
+  "all_file_blobs_match": true,
+  "scope": "Authenticated GitHub archive compared with every tracked Git blob at the stated commit. Private delivery overrides the assignment public-access clause. Course portal not submitted. Verification receipt may be a later documentation-only commit."
 }
