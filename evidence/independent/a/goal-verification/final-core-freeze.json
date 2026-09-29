@@ -1,0 +1,9 @@
+{
+  "verified_utc": "2026-09-29T08:11:33.556992+00:00",
+  "expected_and_verified_hashes": {
+    "wiki.py": "640884e09d7be392cad6df4d8d2421d6879006b466bda8e7b5e3101a18da6826",
+    "prompts/research.md": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+  },
+  "all_case_and_evaluator_files_unchanged": true
+}

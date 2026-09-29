@@ -1,0 +1,20 @@
+{
+  "label": "fresh-ingest",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/final-run/workspace/wiki.py",
+    "ingest",
+    "./vault/raw",
+    "--save",
+    "<evaluation>/goal-verification/final-run/records/fresh-ingest.json"
+  ],
+  "cwd": "<evaluation>/goal-verification/final-run/workspace",
+  "stdin": null,
+  "returncode": 0,
+  "stdout": "Pip | ingest | local | gemma4:e2b-it-qat\nvault/wiki/Concepts/Assistance Games.md: generated; review required\nvault/wiki/Governance/Compute Governance.md: generated; review required\nvault/wiki/Concepts/Transformer Safety Limits.md: generated; review required\nvault/wiki/Concepts/Alignment and Interpretability.md: generated; review required\nvault/wiki/Governance/Human Control and Defenses.md: generated; review required\nvault/wiki/Governance/Power and Disempowerment.md: generated; review required\n8 passages indexed; 27.66 s\n\nSaved: fresh-ingest.json\n",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T08:15:19.646344+00:00",
+  "wall_seconds": 27.719,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

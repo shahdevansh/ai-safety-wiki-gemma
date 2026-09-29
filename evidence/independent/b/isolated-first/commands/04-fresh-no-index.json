@@ -1,0 +1,18 @@
+{
+  "label": "fresh-no-index",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/isolated-first/workspace/wiki.py",
+    "search",
+    "autonomy"
+  ],
+  "cwd": "<evaluation>/isolated-first/workspace",
+  "stdin": null,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Error: No index. Run ./wiki ingest or ./wiki reindex first.\n",
+  "started_at_utc": "2026-09-29T07:24:24.217439+00:00",
+  "wall_seconds": 0.053,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

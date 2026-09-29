@@ -1,0 +1,135 @@
+{
+  "network_policy": "macOS deny-all sandbox including loopback; no model stubs",
+  "model_generations": 0,
+  "commands": [
+    {
+      "label": "help",
+      "argv": [
+        "/usr/bin/sandbox-exec",
+        "-f",
+        "<submission>/isolation/no-network-at-all.sb",
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "<evaluation>/goal-verification/nonmodel-workspace/wiki.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout": "usage: wiki.py [-h] {help,doctor,reindex,ingest,review,ask,search,chat} ...\n\nPip: local Gemma personal wiki. No cloud fallback; Python standard library\nonly.\n\npositional arguments:\n  {help,doctor,reindex,ingest,review,ask,search,chat}\n    help                Show commands\n    doctor              Inspect local model and device\n    reindex             Rebuild original-source retrieval without calling\n                        Gemma\n    ingest              Generate wiki drafts and index registered originals\n    review              Explicitly mark a checked wiki page as reviewed\n    ask                 Independent grounded answer\n    search              Original passages; no model call\n    chat                Conversational assistant; /exit to end, /reset to\n                        clear history\n\noptional arguments:\n  -h, --help            show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "label": "reindex",
+      "argv": [
+        "/usr/bin/sandbox-exec",
+        "-f",
+        "<submission>/isolation/no-network-at-all.sb",
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "<evaluation>/goal-verification/nonmodel-workspace/wiki.py",
+        "reindex"
+      ],
+      "returncode": 0,
+      "stdout": "8 original passages indexed; no model called.\n",
+      "stderr": ""
+    },
+    {
+      "label": "source-only-search-no-network",
+      "argv": [
+        "/usr/bin/sandbox-exec",
+        "-f",
+        "<submission>/isolation/no-network-at-all.sb",
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "<evaluation>/goal-verification/nonmodel-workspace/wiki.py",
+        "search",
+        "autonomy",
+        "--save",
+        "<evaluation>/goal-verification/nonmodel-search.json"
+      ],
+      "returncode": 0,
+      "stdout": "Pip | search | local | retrieval only; no model call\n\nOriginal evidence:\n[P4f87872fbb73] vault/raw/alignment-lecture-notes.md:L38-L56\n- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?\n- Autonomy dimension:\n  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency\n  - Closing off \u201cexits\u201d (non-optimal choices) violates autonomy even if outcomes are optimal\n  - Strivings and achievements are not captured by pure state-of-the-world preferences\n  - Fixable by incorporating mental states and process into the preference model; may require a modified decision theory\n- Training data gap: no 400 trillion labeled examples of an assistance game solver; only human behavior data exists\n\n### Governance and Regulation\n\n- Behavioral red lines are hard to enforce without better understanding of system internals\n- Compute governance is more tractable: regulate training runs and hardware rather than software\n  - Software can be copied and transmitted freely; malware costs \\~$12T/year globally and is largely uncontrolled\n  - Hardware governance: if TSMC and all major chip manufacturers embed safety checks, bypassing requires building a fab from scratch (currently infeasible)\n- Treaty organization models compared:\n  - ICAO/IMO model: regulate the national regulators; hands-off, less intrusive\n  - IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won\u2019t accept jurisdiction)\n  - Some White House voices now calling for \u201can IAEA for AI\u201d\n- CTBTO experience: UN structural impediments (5-continent division requirement, 4-year term limits, no institutional memory) make competent organizations very hard to build\n\n\n[Pd36e317f50b9] vault/raw/alignment-lecture-notes.md:L21-L40\n\n- Core framing: AI\u2019s only goal is to promote human interests; it is uncertain what those interests are and must infer them\n- \u201cInterest\u201d preferred over \u201cpreference\u201d or \u201cvalues\u201d:\n  - \u201cValues\u201d triggered culture-war reactions\n  - \u201cStated preferences\u201d are easily manipulated; \u201cinterest\u201d implicitly acknowledges that preferences can be shaped against one\u2019s own good\n- Inference mechanism: observe behavior and internal mental states, apply Bayesian priors\n- Convergence: in theory, infinite data + fixed model of human decision-making \u2192 recover true preferences; in practice, unlikely to fully converge\n- Non-identifiability problem: behavior alone can\u2019t distinguish preferences from beliefs (e.g., a chess-player example: anti-rational agent looks identical from outside)\n  - Bayesian prior that someone is anti-rational is infinitesimally low, so practically resolvable\n\n### Hard Problems for the Assistance Game\n\n- Preferences vs. interests: what someone prefers may not be good for them\n- Preference plasticity and manipulation:\n  - Addiction changes preference structures; AI should weight \u201creflective\u201d preferences over drug-modified ones\n  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women\u2019s preferences)\n  - Risk: AI systems are now themselves engaged in preference engineering\n- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?\n- Autonomy dimension:\n  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency\n\n\nSaved: nonmodel-search.json\n",
+      "stderr": ""
+    },
+    {
+      "label": "scripted-reset-no-network",
+      "argv": [
+        "/usr/bin/sandbox-exec",
+        "-f",
+        "<submission>/isolation/no-network-at-all.sb",
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "<evaluation>/goal-verification/nonmodel-workspace/wiki.py",
+        "chat",
+        "--script",
+        "<evaluation>/goal-verification/nonmodel-reset.txt",
+        "--save-dir",
+        "<evaluation>/goal-verification/nonmodel-reset-chat"
+      ],
+      "returncode": 0,
+      "stdout": "Pip | chat | local | gemma4:e2b-it-qat\n/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.\nYou> what can we do?\nPip | chat | local | gemma4:e2b-it-qat\n\nI'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.\nYou> /reset\nYou> what can you help me with?\nPip | chat | local | gemma4:e2b-it-qat\n\nI'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.\nYou> /exit\n",
+      "stderr": ""
+    },
+    {
+      "label": "online-refused",
+      "argv": [
+        "/usr/bin/sandbox-exec",
+        "-f",
+        "<submission>/isolation/no-network-at-all.sb",
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "<evaluation>/goal-verification/nonmodel-workspace/wiki.py",
+        "ask",
+        "Example",
+        "--mode",
+        "online"
+      ],
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "usage: wiki.py ask [-h] [--save SAVE] [--mode {local}] question\nwiki.py ask: error: argument --mode: invalid choice: 'online' (choose from 'local')\n"
+    },
+    {
+      "label": "ask-denied-no-network",
+      "argv": [
+        "/usr/bin/sandbox-exec",
+        "-f",
+        "<submission>/isolation/no-network-at-all.sb",
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "<evaluation>/goal-verification/nonmodel-workspace/wiki.py",
+        "ask",
+        "What are the obstacles to human value alignment?",
+        "--save",
+        "<evaluation>/goal-verification/nonmodel-denied-ask.json"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Error: Local Ollama unavailable: <urlopen error [Errno 1] Operation not permitted>. Start Ollama; run ollama pull gemma4:e2b-it-qat while online. No cloud fallback.\n"
+    }
+  ],
+  "reset": {
+    "two_records": true,
+    "history_zero_before_and_after": true,
+    "no_retrieval_or_generation": true
+  },
+  "search": {
+    "model_calls": 0,
+    "passages": 2,
+    "fidelity": [
+      {
+        "id": "P4f87872fbb73",
+        "exact_text": true,
+        "hash": true
+      },
+      {
+        "id": "Pd36e317f50b9",
+        "exact_text": true,
+        "hash": true
+      }
+    ]
+  },
+  "source_sha256": {
+    "risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+    "alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+  }
+}

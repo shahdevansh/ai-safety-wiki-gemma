@@ -1,0 +1,22 @@
+{
+  "label": "chat-only-codename-search",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/chat-regression/workspace/wiki.py",
+    "search",
+    "Tangerine",
+    "--mode",
+    "local",
+    "--save",
+    "<evaluation>/goal-verification/chat-regression/records/chat-only-codename-search.json"
+  ],
+  "cwd": "<evaluation>/goal-verification/chat-regression/workspace",
+  "stdin": null,
+  "returncode": 0,
+  "stdout": "Pip | search | local | retrieval only; no model call\nNo matching original passages. Try another keyword.\n\nSaved: chat-only-codename-search.json\n",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T08:35:26.924009+00:00",
+  "wall_seconds": 0.074,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

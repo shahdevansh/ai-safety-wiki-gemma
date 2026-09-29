@@ -1,0 +1,6 @@
+{
+  "command": "/usr/bin/sandbox-exec -f isolation/no-network-at-all.sb ./wiki ask 'What physical controls did the workshop propose?' --mode local",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Error: Local Ollama unavailable: <urlopen error [Errno 1] Operation not permitted>. Start Ollama; run ollama pull gemma4:e2b-it-qat while online. No cloud fallback.\n"
+}

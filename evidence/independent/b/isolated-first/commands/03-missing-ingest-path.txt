@@ -1,0 +1,4 @@
+$ /Library/Developer/CommandLineTools/usr/bin/python3 <evaluation>/isolated-first/workspace/wiki.py ingest ./does-not-exist
+
+STDERR:
+Error: Ingest expects ./vault/raw. Register original files in sources.json first.

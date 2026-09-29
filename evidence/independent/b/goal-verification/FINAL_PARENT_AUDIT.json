@@ -1,0 +1,103 @@
+{
+  "at_utc": "2026-09-29T08:50:48.408820+00:00",
+  "scope": "Bounded final parent documentation/record audit, no new model calls, no root edits; before final authenticated upload verification.",
+  "docs_sha256": {
+    "README.md": "aca63cd5e769f73460661488b81e107456de0fcc55913c8f0015cba7b84a26ec",
+    "evidence/GOAL-REVIEW.md": "f41ddbe5aadf55e3fcf0830dfd980acdf160139480dbda2f301c21cc462b9c49",
+    "evidence/assignment-checklist.md": "a4daa9169748ef6a6288108a10ce9a977288d5fd6776c79abb4c75b87039cad6",
+    "evidence/independent/README.md": "eedd4dc95ee109b6077b77dfb18e4431177ab2b1fb33fea4c792f54aefaaa6ca"
+  },
+  "core_sha256": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+  "local_links_checked": 117,
+  "missing_local_links": [
+    {
+      "from": "README.md",
+      "target": "evidence/independent/b/goal-verification/LINE_REGRESSION_ADDENDUM.md",
+      "exists": false
+    },
+    {
+      "from": "evidence/GOAL-REVIEW.md",
+      "target": "independent/b/goal-verification/LINE_REGRESSION_ADDENDUM.md",
+      "exists": false
+    },
+    {
+      "from": "evidence/independent/README.md",
+      "target": "b/goal-verification/LINE_REGRESSION_ADDENDUM.md",
+      "exists": false
+    },
+    {
+      "from": "evidence/independent/README.md",
+      "target": "b/goal-verification/LINE_REGRESSION_ASSESSMENT.json",
+      "exists": false
+    },
+    {
+      "from": "evidence/independent/README.md",
+      "target": "b/goal-verification/CHAT_REGRESSION_ADDENDUM.md",
+      "exists": false
+    }
+  ],
+  "all_source_and_citation_checks_pass": true,
+  "all_chat_catalog_original_lines_pass": true,
+  "recorded_actual_generations": 16,
+  "all_exact_model_identity": true,
+  "ordinary_shortening_words": [
+    99,
+    42
+  ],
+  "grounded_chat_semantic_verdict": "PASS: all four material claims supported by cited selected lines; correct goal/uncertainty and complete terminology reasons.",
+  "grounded_chat_actual_answer_matches_independent_B": true,
+  "metrics": {
+    "ingest_whole_operation": 36.71,
+    "ingest_model_sum": 27.865999999999996,
+    "ingest_peak_MiB": 18.984375,
+    "first_ask_peak_MiB": 19.328125,
+    "sampled_model_sum_GiB": 4.8214874267578125,
+    "reingest_seconds": 0.01,
+    "disk_GiB": 12.279060363769531,
+    "free_GiB": 2.0168304443359375,
+    "inactive_GiB": 10.501480102539062,
+    "speculative_GiB": 1.5533447265625
+  },
+  "reviewed_notes": [
+    {
+      "title": "Assistance Games",
+      "hash_matches": true,
+      "reviewed": true
+    },
+    {
+      "title": "Compute Governance",
+      "hash_matches": true,
+      "reviewed": true
+    },
+    {
+      "title": "Transformer Safety Limits",
+      "hash_matches": true,
+      "reviewed": true
+    },
+    {
+      "title": "Alignment and Interpretability",
+      "hash_matches": true,
+      "reviewed": true
+    },
+    {
+      "title": "Human Control and Defenses",
+      "hash_matches": true,
+      "reviewed": true
+    },
+    {
+      "title": "Power and Disempowerment",
+      "hash_matches": true,
+      "reviewed": true
+    }
+  ],
+  "reingest_model_generations": 0,
+  "private_delivery": {
+    "verified_at_utc": "2026-09-29T08:25:20.898118+00:00",
+    "repository": "ai-safety-wiki-gemma (configured private origin)",
+    "visibility": "PRIVATE",
+    "visibility_verified": true,
+    "payload_upload_verified": false,
+    "scope": "Visibility verified before the final sanitized upload. This record will be updated with the authenticated payload verification after upload. Course submission is not claimed."
+  },
+  "scope_verdict": "No remaining substantive documentation inconsistency found in reviewed four files. Full vs bounded revision scope and preserved independent failures explicit. Upload verification remains pending as disclosed."
+}

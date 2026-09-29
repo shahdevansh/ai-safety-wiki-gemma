@@ -1,0 +1,121 @@
+# Ask evidence
+
+Execution: **local**. Recorded: 2026-09-29T08:18:32.759252+00:00.
+
+Model: `gemma4:e2b-it-qat`; digest `07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c`. Wall time: 11.47 s.
+
+## Input
+
+What measured success rate do these notes report for detecting deceptive reasoning?
+
+## Actual displayed result
+
+Insufficient evidence: the provided sources do not answer this question.
+
+## Retrieved original passages
+
+### [Pd3902efa8beb] vault/raw/alignment-fundamentals-notes.md:L32-L52
+
+```text
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+- Process reward models exist but limited to math
+  - Still trained on traces that reach a “correct” answer
+  - Don’t capture what a correct process actually looks like
+- Agents still misread intent and don’t ask for clarification
+  - Unlike human collaborators, they don’t flag ambiguity
+
+### Interpretability: The Other Half
+
+- Hard to align models without understanding their internals
+  - Analogous to not knowing what a human is thinking
+- Interpretability and alignment are two sides of the same objective
+  - Need to know what direction to go, and how to get there
+- Active research direction: detecting deception in reasoning models
+  - Tracking discrepancies between thinking trace and explicit model output
+  - Hidden states that lead to deceptive outputs as a target
+
+
+[Participant biographies and personal follow-up actions removed for public sharing.]
+
+```
+
+### [P571ac3d9e151] vault/raw/risk-defenses-notes.md:L1-L31
+
+```text
+
+### AI Safety Workshop - Kill Chain Analysis
+
+- Participated in breakout exercise analyzing AI risk scenarios
+  - Focused on critical infrastructure collapse as kill chain topic
+  - Other participants covered gradual disempowerment, power concentration, mirror life risks
+
+### Critical Infrastructure Vulnerabilities Discussion
+
+- Cybersecurity threats to outdated government systems
+  - Legacy software in oil/gas pipelines, power grids, water supplies vulnerable to AI-enhanced attacks
+  - Bad state actors or terrorists could exploit these with powerful models
+  - Recent attacks on US pipelines by human actors demonstrate current vulnerability
+- Proposed defense mechanisms:
+  1. Physical fail-safes with human override capabilities
+  2. Multiple humans in decision loops
+  3. Physical buttons/levers to shut off software entirely (airplane example)
+  - AI lacks physical world access currently - key defensive advantage
+  - Always cat-and-mouse chase between attack/defense capabilities
+
+### Gradual Disempowerment Analysis (Participant A’s Presentation)
+
+- Economic displacement concerns:
+  - Workers replaced by AI losing meaningful work and income
+  - Skills atrophy as AI handles previous human tasks
+  - 40% unemployment scenario potential social crisis
+- Defense strategies discussed:
+  1. Proactive job creation and reskilling programs
+    - Coordination between education, companies, government needed
+  2. Universal Basic Income implementation
+  3. Human-as-bottleneck model where AI abundance increases human leverage
+
+```
+
+### [P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34
+
+```text
+
+### AI Safety Course: Group Image Exercise
+
+- Three groups presented AI futures via generated images
+- Group 1 (Outgroup): framed AI development as “camps”
+  - Camp 1: slow development
+  - Camp 2: race ahead (current reality)
+  - Camp 3: pause + global coordination
+  - Ideal future: global agreement on AI governance or ban
+- Group 2: projected AI capabilities to 2045
+  - \~90% of cognitive tasks, some physical via robotics
+  - Also considered humanity becoming extraterrestrial
+- One group: “equitable AI” prompt
+  - Personal assistant for 8B+ people
+  - Enables professional, personal, and creative fulfillment
+  - Image depicted human-AI hybrid wielding AI for self-determined futures
+  - AI freeing humans from repetitive tasks for creative work
+- Facilitator noted all three were unusually original
+  - Most common outputs: Dubai-with-parks, drones, guy playing guitar
+
+### Breakout: Technical Challenges in AI Safety
+
+- Format: pairs, each person presents then swaps; reconvene to share learnings
+
+### Alignment: Core Challenges
+
+- Defining alignment is itself unsolved
+  - Aligning to individual risks enabling harmful behavior
+  - Aligning to “general human values” produces Western/English-skewed outputs
+  - No consensus on what those values even are
+- Reward modeling is a fundamental bottleneck
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+
+```
+
+Full model request, raw response, metrics, and validation fields: [H5-missing-efficacy.json](H5-missing-efficacy.json).

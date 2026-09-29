@@ -1,0 +1,29 @@
+{
+  "probes": [
+    {
+      "family": 2,
+      "kind": 1,
+      "denied": true,
+      "errno": 1
+    },
+    {
+      "family": 2,
+      "kind": 2,
+      "denied": true,
+      "errno": 1
+    },
+    {
+      "family": 30,
+      "kind": 1,
+      "denied": true,
+      "errno": 1
+    },
+    {
+      "family": 30,
+      "kind": 2,
+      "denied": true,
+      "errno": 1
+    }
+  ],
+  "server_pid": "31408"
+}

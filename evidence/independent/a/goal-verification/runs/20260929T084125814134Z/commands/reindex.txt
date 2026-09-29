@@ -1,0 +1,7 @@
+$ 'python3' 'wiki.py' 'reindex'
+CWD: <evaluation>/goal-verification/runs/20260929T084125814134Z/project
+8 original passages indexed; no model called.
+
+STDERR:
+
+EXIT: 0

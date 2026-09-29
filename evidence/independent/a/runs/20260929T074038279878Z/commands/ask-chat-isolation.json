@@ -1,0 +1,19 @@
+{
+  "label": "ask-chat-isolation",
+  "command": [
+    "python3",
+    "wiki.py",
+    "ask",
+    "According to the original notes, what time and room is the study session on 18 November 2031?",
+    "--mode",
+    "local",
+    "--save",
+    "<evaluation>/runs/20260929T074038279878Z/records/ask-chat-isolation.json"
+  ],
+  "cwd": "<evaluation>/runs/20260929T074038279878Z/project",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 6.334,
+  "stdout": "Pip | ask | local | gemma4:e2b-it-qat\n\nInsufficient evidence: the provided sources do not answer this question.\n\nOriginal evidence:\n[P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34\n\n### AI Safety Course: Group Image Exercise\n\n- Three groups presented AI futures via generated images\n- Group 1 (Outgroup): framed AI development as “camps”\n  - Camp 1: slow development\n  - Camp 2: race ahead (current reality)\n  - Camp 3: pause + global coordination\n  - Ideal future: global agreement on AI governance or ban\n- Group 2: projected AI capabilities to 2045\n  - \\~90% of cognitive tasks, some physical via robotics\n  - Also considered humanity becoming extraterrestrial\n- One group: “equitable AI” prompt\n  - Personal assistant for 8B+ people\n  - Enables professional, personal, and creative fulfillment\n  - Image depicted human-AI hybrid wielding AI for self-determined futures\n  - AI freeing humans from repetitive tasks for creative work\n- Facilitator noted all three were unusually original\n  - Most common outputs: Dubai-with-parks, drones, guy playing guitar\n\n### Breakout: Technical Challenges in AI Safety\n\n- Format: pairs, each person presents then swaps; reconvene to share learnings\n\n### Alignment: Core Challenges\n\n- Defining alignment is itself unsolved\n  - Aligning to individual risks enabling harmful behavior\n  - Aligning to “general human values” produces Western/English-skewed outputs\n  - No consensus on what those values even are\n- Reward modeling is a fundamental bottleneck\n  - SGD and numerical optimization assume a single optimum\n  - Fails to capture cultural and individual diversity\n  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective\n\n\nModel time: 6.254 s\n\nSaved: ask-chat-isolation.json\n",
+  "stderr": ""
+}

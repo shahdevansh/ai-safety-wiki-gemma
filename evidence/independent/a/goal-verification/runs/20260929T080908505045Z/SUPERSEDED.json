@@ -1,0 +1,15 @@
+{
+  "requested_at_utc": "2026-09-29T08:10:51.558269+00:00",
+  "status": "SUPERSEDED AND INTERRUPTED; incomplete run, not final evidence",
+  "reason": "Parent supplied final routing-only core after this run started and explicitly authorized stopping this owned run for one fresh final-code full run.",
+  "owned_wrapper_pid": 27155,
+  "signaled_pids": [
+    27155,
+    27161,
+    27166,
+    27534
+  ],
+  "signal": "SIGINT; wrapper finally block owns isolated-server cleanup",
+  "owned_server_stopped": true,
+  "port_confirmed_free": true
+}

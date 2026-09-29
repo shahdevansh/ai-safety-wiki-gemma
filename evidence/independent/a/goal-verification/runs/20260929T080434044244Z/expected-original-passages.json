@@ -1,0 +1,58 @@
+[
+  {
+    "case": "ask-1-assistance-objective",
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "line_start": 22,
+    "line_end": 22,
+    "expected_original_fragment": "AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them"
+  },
+  {
+    "case": "ask-2-infrastructure-controls",
+    "path": "vault/raw/risk-defenses-notes.md",
+    "sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+    "line_start": 15,
+    "line_end": 15,
+    "expected_original_fragment": "Physical fail-safes with human override capabilities"
+  },
+  {
+    "case": "ask-2-infrastructure-controls",
+    "path": "vault/raw/risk-defenses-notes.md",
+    "sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+    "line_start": 16,
+    "line_end": 16,
+    "expected_original_fragment": "Multiple humans in decision loops"
+  },
+  {
+    "case": "ask-2-infrastructure-controls",
+    "path": "vault/raw/risk-defenses-notes.md",
+    "sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+    "line_start": 17,
+    "line_end": 17,
+    "expected_original_fragment": "Physical buttons/levers to shut off software entirely"
+  },
+  {
+    "case": "ask-3-alignment-interpretability",
+    "path": "vault/raw/alignment-fundamentals-notes.md",
+    "sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "line_start": 43,
+    "line_end": 43,
+    "expected_original_fragment": "Hard to align models without understanding their internals"
+  },
+  {
+    "case": "ask-3-alignment-interpretability",
+    "path": "vault/raw/alignment-fundamentals-notes.md",
+    "sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "line_start": 45,
+    "line_end": 45,
+    "expected_original_fragment": "Interpretability and alignment are two sides of the same objective"
+  },
+  {
+    "case": "ask-3-alignment-interpretability",
+    "path": "vault/raw/alignment-fundamentals-notes.md",
+    "sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "line_start": 46,
+    "line_end": 46,
+    "expected_original_fragment": "Need to know what direction to go, and how to get there"
+  }
+]

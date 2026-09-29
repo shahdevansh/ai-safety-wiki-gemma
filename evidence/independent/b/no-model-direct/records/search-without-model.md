@@ -1,0 +1,62 @@
+# Search evidence
+
+Execution: **local**. Recorded: 2026-09-29T07:27:05.735245+00:00.
+
+## Input
+
+autonomy
+
+## Retrieved original passages
+
+### [P9e2cc541c9bc] vault/raw/alignment-lecture-notes.md:L38-L56
+
+```text
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+  - Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal
+  - Strivings and achievements are not captured by pure state-of-the-world preferences
+  - Fixable by incorporating mental states and process into the preference model; may require a modified decision theory
+- Training data gap: no 400 trillion labeled examples of an assistance game solver; only human behavior data exists
+
+### Governance and Regulation
+
+- Behavioral red lines are hard to enforce without better understanding of system internals
+- Compute governance is more tractable: regulate training runs and hardware rather than software
+  - Software can be copied and transmitted freely; malware costs \~$12T/year globally and is largely uncontrolled
+  - Hardware governance: if TSMC and all major chip manufacturers embed safety checks, bypassing requires building a fab from scratch (currently infeasible)
+- Treaty organization models compared:
+  - ICAO/IMO model: regulate the national regulators; hands-off, less intrusive
+  - IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)
+  - Some White House voices now calling for “an IAEA for AI”
+- CTBTO experience: UN structural impediments (5-continent division requirement, 4-year term limits, no institutional memory) make competent organizations very hard to build
+
+```
+
+### [Pd36e317f50b9] vault/raw/alignment-lecture-notes.md:L21-L40
+
+```text
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+  - “Values” triggered culture-war reactions
+  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good
+- Inference mechanism: observe behavior and internal mental states, apply Bayesian priors
+- Convergence: in theory, infinite data + fixed model of human decision-making → recover true preferences; in practice, unlikely to fully converge
+- Non-identifiability problem: behavior alone can’t distinguish preferences from beliefs (e.g., a chess-player example: anti-rational agent looks identical from outside)
+  - Bayesian prior that someone is anti-rational is infinitesimally low, so practically resolvable
+
+### Hard Problems for the Assistance Game
+
+- Preferences vs. interests: what someone prefers may not be good for them
+- Preference plasticity and manipulation:
+  - Addiction changes preference structures; AI should weight “reflective” preferences over drug-modified ones
+  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)
+  - Risk: AI systems are now themselves engaged in preference engineering
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+
+```
+
+Full model request, raw response, metrics, and validation fields: [search-without-model.json](search-without-model.json).

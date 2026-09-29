@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "test": "A synthetic email removed from a temporary working tree remains detectable in reachable Git history. Fixture and identifiers stay in ignored state.",
+  "expected_exit_code": 1,
+  "actual_exit_code": 1,
+  "reachable_git_objects_scanned": 3
+}

@@ -1,0 +1,11 @@
+{
+  "core_sha256": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+  "validator_AST_unchanged": true,
+  "generate_AST_unchanged": true,
+  "research_prompt_unchanged": true,
+  "mechanism": "Every qualifying original line receives a request-local L ID; selected IDs resolve to literal original text, source passage ID, source path and absolute source line number. The resolver does not normalize or repair model-written quotations; the model selects lines instead. Shared validator still checks resolved references.",
+  "heading_exclusion": "Markdown headings, bracket-prefixed disclosures and very short lines have null IDs. Some list labels may still be selectable; semantic support must be reviewed.",
+  "raw_evidence": "Raw model line selections and complete line catalog are saved alongside resolved citations.",
+  "no_answer_key_access": true,
+  "proof_boundary": "Selection validity ensures provenance/quote identity, not semantic entailment or completeness."
+}

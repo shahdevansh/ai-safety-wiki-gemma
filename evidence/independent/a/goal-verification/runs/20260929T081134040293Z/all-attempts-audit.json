@@ -1,0 +1,155 @@
+[
+  {
+    "record": "records/ask-1-assistance-objective.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 16.698,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-2-infrastructure-controls.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 17.548,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-3-alignment-interpretability.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 9.905,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-4-unsupported-schedule.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 10.544,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-chat-isolation.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 9.054,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-03.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 2.695,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-04.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 1.696,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-05.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 2.134,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/heldout-1-distinct-reasons.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 18.098,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/heldout-2-plural-human-objectives.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 16.444,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/heldout-3-hardware-human-override.json",
+    "attempt_count": 2,
+    "completed_generation_count": 2,
+    "all_attempt_seconds": 37.859,
+    "attempt_errors": [
+      [
+        "Unknown citation or nonverbatim quote: P571ac3d9e151"
+      ],
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/heldout-4-scenario-versus-measurement.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 13.519,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/heldout-chat-note-routing/chat-01.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 3.561,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/heldout-chat-reset/chat-01.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 0.672,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/heldout-chat-reset/chat-03.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 1.041,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  }
+]

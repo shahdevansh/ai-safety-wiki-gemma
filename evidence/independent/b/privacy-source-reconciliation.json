@@ -1,0 +1,32 @@
+[
+  {
+    "case": "B01-values",
+    "source": "vault/raw/alignment-fundamentals-notes.md",
+    "exact_expected_passage_present": true,
+    "sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8"
+  },
+  {
+    "case": "B02-mountaintop",
+    "source": "vault/raw/alignment-lecture-notes.md",
+    "exact_expected_passage_present": true,
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865"
+  },
+  {
+    "case": "B03-oversight",
+    "source": "vault/raw/alignment-lecture-notes.md",
+    "exact_expected_passage_present": true,
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865"
+  },
+  {
+    "case": "B05-two-source",
+    "source": "vault/raw/alignment-fundamentals-notes.md",
+    "exact_expected_passage_present": true,
+    "sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8"
+  },
+  {
+    "case": "B05-two-source",
+    "source": "vault/raw/alignment-lecture-notes.md",
+    "exact_expected_passage_present": true,
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865"
+  }
+]

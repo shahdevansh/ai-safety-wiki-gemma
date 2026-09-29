@@ -1,0 +1,17 @@
+{
+  "scope": "Parent samples only the isolated Ollama process tree approximately every 0.5 seconds. Summed RSS may double-count shared pages; sampled maximum is not exact peak memory or GPU allocation. Monitoring process makes no network requests.",
+  "maximum_sampled_sum_rss_bytes": 28000256,
+  "samples": [
+    {
+      "elapsed_seconds": 0.049,
+      "summed_rss_bytes": 28000256,
+      "processes": [
+        {
+          "pid": 32302,
+          "rss_bytes": 28000256,
+          "process": "ollama"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+$ /Library/Developer/CommandLineTools/usr/bin/python3 <evaluation>/final-regression/workspace/wiki.py ask What do the notes say? --mode online
+
+STDERR:
+usage: wiki.py ask [-h] [--save SAVE] [--mode {local}] question
+wiki.py ask: error: argument --mode: invalid choice: 'online' (choose from 'local')

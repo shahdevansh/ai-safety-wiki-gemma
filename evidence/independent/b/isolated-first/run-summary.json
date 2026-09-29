@@ -1,0 +1,130 @@
+{
+  "command_count": 24,
+  "command_outcomes": [
+    {
+      "label": "help-top",
+      "returncode": 0,
+      "wall_seconds": 0.055
+    },
+    {
+      "label": "help-command",
+      "returncode": 0,
+      "wall_seconds": 0.055
+    },
+    {
+      "label": "missing-ingest-path",
+      "returncode": 1,
+      "wall_seconds": 0.054
+    },
+    {
+      "label": "fresh-no-index",
+      "returncode": 1,
+      "wall_seconds": 0.053
+    },
+    {
+      "label": "fresh-ingest",
+      "returncode": 0,
+      "wall_seconds": 26.05
+    },
+    {
+      "label": "assignment-search",
+      "returncode": 0,
+      "wall_seconds": 0.081
+    },
+    {
+      "label": "topic-search",
+      "returncode": 0,
+      "wall_seconds": 0.065
+    },
+    {
+      "label": "B01-values-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.064
+    },
+    {
+      "label": "B01-values",
+      "returncode": 0,
+      "wall_seconds": 15.877
+    },
+    {
+      "label": "B02-mountaintop-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.071
+    },
+    {
+      "label": "B02-mountaintop",
+      "returncode": 0,
+      "wall_seconds": 14.214
+    },
+    {
+      "label": "B03-oversight-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.065
+    },
+    {
+      "label": "B03-oversight",
+      "returncode": 0,
+      "wall_seconds": 15.77
+    },
+    {
+      "label": "B04-next-workshop-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.064
+    },
+    {
+      "label": "B04-next-workshop",
+      "returncode": 0,
+      "wall_seconds": 9.631
+    },
+    {
+      "label": "B05-two-source-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.071
+    },
+    {
+      "label": "B05-two-source",
+      "returncode": 0,
+      "wall_seconds": 19.738
+    },
+    {
+      "label": "interactive-chat",
+      "returncode": 0,
+      "wall_seconds": 14.033
+    },
+    {
+      "label": "B04-after-chat",
+      "returncode": 0,
+      "wall_seconds": 7.444
+    },
+    {
+      "label": "chat-fact-not-indexed",
+      "returncode": 0,
+      "wall_seconds": 0.068
+    },
+    {
+      "label": "assignment-ask",
+      "returncode": 0,
+      "wall_seconds": 7.581
+    },
+    {
+      "label": "unchanged-reingest",
+      "returncode": 0,
+      "wall_seconds": 0.073
+    },
+    {
+      "label": "B01-after-cli-restart",
+      "returncode": 0,
+      "wall_seconds": 13.768
+    },
+    {
+      "label": "invalid-online-mode",
+      "returncode": 2,
+      "wall_seconds": 0.063
+    }
+  ],
+  "source_unchanged": true,
+  "isolation_prefix": [],
+  "server_isolation_proof": "Must be supplied by parent; evaluator prefix alone does not prove model server isolation.",
+  "model_server_restart": "NOT YET VERIFIED; use --restart-check after parent-controlled restart",
+  "semantic_verdict": "REQUIRES INDEPENDENT REVIEW"
+}

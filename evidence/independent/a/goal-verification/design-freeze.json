@@ -1,0 +1,23 @@
+{
+  "frozen_before_execution_utc": "2026-09-29T08:04:32.940146+00:00",
+  "test_files": {
+    "cases.json": "401189badc3052e89ded6cd1451067394a981a08c381aa1af66a7d6ba9b6f571",
+    "test_plan.md": "eb05820a1313f8fdb51e531352c307ffe8277a2b7b4b3d319249117ebdb4d8e6",
+    "heldout-cases.json": "f0739820a00b8c5908c6e93bab830ad7fd3172d928b0275c9d2b4c522ccc6ce9",
+    "heldout-plan.md": "72618a3e0057ac0c7230c848fa7c61c0bab90e9a0259d5269a5f4d41e0b178fa",
+    "baseline_evaluator.py": "dcbb97db899d5d28f036697b48da95cbc13d7d0e63a36686b2d3de2e5ff25af4",
+    "run_goal_verification.py": "5815a40e2bda500e7a091b9b41e6c1010e371072eaa63223600a10e562a6daaa"
+  },
+  "approved_core": {
+    "wiki.py": "b3e9ef1bf5a101c0d8fa404c9d1948f3aa74d4cefc2ab64bceda2cf3321b98c8",
+    "prompts/research.md": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c"
+  },
+  "source_hashes": {
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/alignment-lecture-notes.md": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  },
+  "unchanged_A_cases": true,
+  "unchanged_A_evaluator": true,
+  "new_model_outputs_seen": false
+}

@@ -1,0 +1,4 @@
+$ /usr/bin/sandbox-exec -f <submission>/isolation/no-network-at-all.sb /Library/Developer/CommandLineTools/usr/bin/python3 <evaluation>/isolated-first/workspace/wiki.py ask Which two obstacles do the alignment notes identify when aligning AI to general human values? --mode local --save <evaluation>/no-model-direct/records/ask-without-model.json
+
+STDERR:
+Error: Local Ollama unavailable: <urlopen error [Errno 1] Operation not permitted>. Start Ollama; run ollama pull gemma4:e2b-it-qat while online. No cloud fallback.

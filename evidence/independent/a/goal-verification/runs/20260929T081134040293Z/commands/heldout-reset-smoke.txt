@@ -1,0 +1,10 @@
+$ 'python3' 'wiki.py' 'chat' '--script' '<evaluation>/goal-verification/runs/20260929T081134040293Z/heldout-reset-smoke-input.txt' '--save-dir' '<evaluation>/goal-verification/runs/20260929T081134040293Z/records/heldout-reset-smoke'
+CWD: <evaluation>/goal-verification/runs/20260929T081134040293Z/project
+Pip | chat | local | gemma4:e2b-it-qat
+/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.
+You> /reset
+You> /exit
+
+STDERR:
+
+EXIT: 0

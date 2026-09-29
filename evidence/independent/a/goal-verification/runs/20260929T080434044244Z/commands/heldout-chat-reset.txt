@@ -1,0 +1,21 @@
+$ 'python3' 'wiki.py' 'chat' '--script' '<evaluation>/goal-verification/runs/20260929T080434044244Z/heldout-chat-reset-input.txt' '--save-dir' '<evaluation>/goal-verification/runs/20260929T080434044244Z/records/heldout-chat-reset'
+CWD: <evaluation>/goal-verification/runs/20260929T080434044244Z/project
+Pip | chat | local | gemma4:e2b-it-qat
+/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.
+You> For this conversation only, use the fictional marker PLUM-LANTERN-642. Repeat it once without saving it as source material.
+Pip | chat | local | gemma4:e2b-it-qat
+
+PLUM-LANTERN-642
+
+Model time: 0.658 s
+You> /reset
+You> What fictional marker did I ask you to use earlier?
+Pip | chat | local | gemma4:e2b-it-qat
+
+I don't have access to our previous conversation history unless it's in the current context. Could you remind me what fictional marker you are referring to?
+
+Model time: 1.034 s
+
+STDERR:
+
+EXIT: 0

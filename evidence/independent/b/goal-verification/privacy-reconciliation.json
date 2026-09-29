@@ -1,0 +1,90 @@
+{
+  "at_utc": "2026-09-29T08:11:04.024299+00:00",
+  "original_expectations_sha256": "12ccd4cc38ede6349c91b005f85e5ce8cab0b06fedaef7c25012dbd8fbe24097",
+  "privacy_reconciled_expectations_sha256": "227b0121ec9878a243c28158727116a09fb1e3f99ed95a896f5522e7ebf4f4a8",
+  "questions_claims_and_forbidden_claims_unchanged": true,
+  "privacy_edits": "An identifying source filename was aliased; one author parenthetical was omitted. An unrelated speaker-specific career anecdote was removed from the source; no expected claim depends on it. Originals remain privately preserved.",
+  "existing_cases": [
+    {
+      "case": "B01-values",
+      "final_source": "vault/raw/alignment-fundamentals-notes.md",
+      "source_alias_changed": false,
+      "exact_excerpt_changed": false,
+      "change_reason": "No excerpt change",
+      "original_excerpt_sha256": "0dfb266bca5d41c32e70cbfeb265576963e5b94bc532bd6d1b9bd6f43ccc7d32",
+      "final_excerpt_sha256": "0dfb266bca5d41c32e70cbfeb265576963e5b94bc532bd6d1b9bd6f43ccc7d32",
+      "final_source_sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8"
+    },
+    {
+      "case": "B02-mountaintop",
+      "final_source": "vault/raw/alignment-lecture-notes.md",
+      "source_alias_changed": true,
+      "exact_excerpt_changed": true,
+      "change_reason": "Remove named-author parenthetical only",
+      "original_excerpt_sha256": "15e2fe95c54fd0244fe6e3c5e8837082e73bc9dfad48ebb1d1d5a43a204df7c3",
+      "final_excerpt_sha256": "0b9a082989592085237530fac168b97037ff868c6072a0db3997e59c71a803d7",
+      "final_source_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+    },
+    {
+      "case": "B03-oversight",
+      "final_source": "vault/raw/alignment-lecture-notes.md",
+      "source_alias_changed": true,
+      "exact_excerpt_changed": false,
+      "change_reason": "No excerpt change",
+      "original_excerpt_sha256": "965995bf7b47d5e17a36e9f54a6e39f96942d47a6c3d5334e050b7008618c59f",
+      "final_excerpt_sha256": "965995bf7b47d5e17a36e9f54a6e39f96942d47a6c3d5334e050b7008618c59f",
+      "final_source_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+    },
+    {
+      "case": "B05-two-source",
+      "final_source": "vault/raw/alignment-fundamentals-notes.md",
+      "source_alias_changed": false,
+      "exact_excerpt_changed": false,
+      "change_reason": "No excerpt change",
+      "original_excerpt_sha256": "8f3b7be5ab1dd6b223e7c4a840211c6bf3c190217a4ccb953952c36481a6d565",
+      "final_excerpt_sha256": "8f3b7be5ab1dd6b223e7c4a840211c6bf3c190217a4ccb953952c36481a6d565",
+      "final_source_sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8"
+    },
+    {
+      "case": "B05-two-source",
+      "final_source": "vault/raw/alignment-lecture-notes.md",
+      "source_alias_changed": true,
+      "exact_excerpt_changed": false,
+      "change_reason": "No excerpt change",
+      "original_excerpt_sha256": "f5693eb494a8f4851abacff126ab19aa611544741fa024c350551c1ed62c6c4b",
+      "final_excerpt_sha256": "f5693eb494a8f4851abacff126ab19aa611544741fa024c350551c1ed62c6c4b",
+      "final_source_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+    }
+  ],
+  "heldout_cases": [
+    {
+      "case": "H3-topic-transition",
+      "source": "vault/raw/alignment-lecture-notes.md",
+      "exact_expected_text_unchanged": true,
+      "frozen_source_sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+      "final_source_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+    },
+    {
+      "case": "H3-topic-transition",
+      "source": "vault/raw/alignment-lecture-notes.md",
+      "exact_expected_text_unchanged": true,
+      "frozen_source_sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+      "final_source_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+    },
+    {
+      "case": "H4-response-coverage",
+      "source": "vault/raw/risk-defenses-notes.md",
+      "exact_expected_text_unchanged": true,
+      "frozen_source_sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+      "final_source_sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+    },
+    {
+      "case": "H5-missing-efficacy",
+      "source": "vault/raw/alignment-fundamentals-notes.md",
+      "exact_expected_text_unchanged": true,
+      "frozen_source_sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+      "final_source_sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8"
+    }
+  ],
+  "heldout_expectations_unchanged_sha256": "db8ec4955272bf160f0e24fbffa17e37835e2e16b47f27070fea039a08556eb7"
+}

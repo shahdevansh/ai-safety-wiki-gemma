@@ -1,0 +1,16 @@
+{
+  "scope": "All submitted source bodies and metadata, copied historical evidence and reachable Git history. Final execution evidence is regenerated against the privacy-revised frozen corpus. Exact unredacted originals remain privately archived outside Git.",
+  "original_sources_retained_locally": true,
+  "public_source_count": 3,
+  "categories_removed": [
+    "personal names in examples and participant attribution",
+    "participant biographies and personal follow-up actions",
+    "personal scheduling detail",
+    "private meeting links and IDs",
+    "meeting dates and venue identifying the note owner",
+    "speaker-specific biographical fingerprint",
+    "remaining named-person attribution"
+  ],
+  "source_policy": "Public raw files are redacted copies, frozen before ingestion; no claim of byte identity to private originals.",
+  "public_git_history_policy": "Fresh sanitized history replaces the prior reachable history for private delivery. Prior Git metadata remains only in a local archive."
+}

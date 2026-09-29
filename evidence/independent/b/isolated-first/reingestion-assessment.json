@@ -1,0 +1,392 @@
+{
+  "source_hashes_before": {
+    "alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "alignment-lecture-notes.md": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  },
+  "source_hashes_after": {
+    "alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "alignment-lecture-notes.md": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  },
+  "originals_unchanged": true,
+  "note_hashes_before": {
+    "Concepts/Alignment and Interpretability.md": "2acb31f308db0b0608809dd2f2dca5dcf68ef23605bafce2064ba5a935f84993",
+    "Concepts/Assistance Games.md": "e0ea040022b8b2669b1cca2e697423940c06e19b02fef140dacd065a049cca3b",
+    "Concepts/Transformer Safety Limits.md": "9b0d3a649db6ce6b5ff04fc933e930c5460028572acd6998e3ff99eacf822d5c",
+    "Governance/Compute Governance.md": "019d3e93f7b5544788c4965d1e06dd403f4ba01ace7b14aab8051d7d7e31b909",
+    "Governance/Human Control and Defenses.md": "82af45e891efe3dbb354b5d6d26118b840ee4c9a44b4caeb9fe801779c519323",
+    "Governance/Power and Disempowerment.md": "c39e79c4571e71512ce78de2a3ebb66ea63b5f887dfd6391815a48efde2ad03e"
+  },
+  "note_hashes_after": {
+    "Concepts/Alignment and Interpretability.md": "2acb31f308db0b0608809dd2f2dca5dcf68ef23605bafce2064ba5a935f84993",
+    "Concepts/Assistance Games.md": "e0ea040022b8b2669b1cca2e697423940c06e19b02fef140dacd065a049cca3b",
+    "Concepts/Transformer Safety Limits.md": "9b0d3a649db6ce6b5ff04fc933e930c5460028572acd6998e3ff99eacf822d5c",
+    "Governance/Compute Governance.md": "019d3e93f7b5544788c4965d1e06dd403f4ba01ace7b14aab8051d7d7e31b909",
+    "Governance/Human Control and Defenses.md": "82af45e891efe3dbb354b5d6d26118b840ee4c9a44b4caeb9fe801779c519323",
+    "Governance/Power and Disempowerment.md": "c39e79c4571e71512ce78de2a3ebb66ea63b5f887dfd6391815a48efde2ad03e"
+  },
+  "same_note_paths": true,
+  "notes_byte_identical": true,
+  "structure": {
+    "note_count": 6,
+    "note_paths": [
+      "wiki/Concepts/Alignment and Interpretability.md",
+      "wiki/Concepts/Assistance Games.md",
+      "wiki/Concepts/Transformer Safety Limits.md",
+      "wiki/Governance/Compute Governance.md",
+      "wiki/Governance/Human Control and Defenses.md",
+      "wiki/Governance/Power and Disempowerment.md"
+    ],
+    "notes": [
+      {
+        "path": "wiki/Concepts/Alignment and Interpretability.md",
+        "words": 3,
+        "heading_match": true,
+        "readable_name": true,
+        "has_source_section": true,
+        "has_related_section": true,
+        "reviewed": false
+      },
+      {
+        "path": "wiki/Concepts/Assistance Games.md",
+        "words": 2,
+        "heading_match": true,
+        "readable_name": true,
+        "has_source_section": true,
+        "has_related_section": true,
+        "reviewed": false
+      },
+      {
+        "path": "wiki/Concepts/Transformer Safety Limits.md",
+        "words": 3,
+        "heading_match": true,
+        "readable_name": true,
+        "has_source_section": true,
+        "has_related_section": true,
+        "reviewed": false
+      },
+      {
+        "path": "wiki/Governance/Compute Governance.md",
+        "words": 2,
+        "heading_match": true,
+        "readable_name": true,
+        "has_source_section": true,
+        "has_related_section": true,
+        "reviewed": false
+      },
+      {
+        "path": "wiki/Governance/Human Control and Defenses.md",
+        "words": 4,
+        "heading_match": true,
+        "readable_name": true,
+        "has_source_section": true,
+        "has_related_section": true,
+        "reviewed": false
+      },
+      {
+        "path": "wiki/Governance/Power and Disempowerment.md",
+        "words": 3,
+        "heading_match": true,
+        "readable_name": true,
+        "has_source_section": true,
+        "has_related_section": true,
+        "reviewed": false
+      }
+    ],
+    "links": [
+      {
+        "from": "Source Catalog.md",
+        "target": "raw/alignment-lecture-notes",
+        "matches": [
+          "raw/alignment-lecture-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "Source Catalog.md",
+        "target": "Assistance Games",
+        "matches": [
+          "wiki/Concepts/Assistance Games.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "Source Catalog.md",
+        "target": "Compute Governance",
+        "matches": [
+          "wiki/Governance/Compute Governance.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "Source Catalog.md",
+        "target": "Transformer Safety Limits",
+        "matches": [
+          "wiki/Concepts/Transformer Safety Limits.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "Source Catalog.md",
+        "target": "raw/alignment-fundamentals-notes",
+        "matches": [
+          "raw/alignment-fundamentals-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "Source Catalog.md",
+        "target": "Alignment and Interpretability",
+        "matches": [
+          "wiki/Concepts/Alignment and Interpretability.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "Source Catalog.md",
+        "target": "raw/risk-defenses-notes",
+        "matches": [
+          "raw/risk-defenses-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "Source Catalog.md",
+        "target": "Human Control and Defenses",
+        "matches": [
+          "wiki/Governance/Human Control and Defenses.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "Source Catalog.md",
+        "target": "Power and Disempowerment",
+        "matches": [
+          "wiki/Governance/Power and Disempowerment.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Assistance Games",
+        "matches": [
+          "wiki/Concepts/Assistance Games.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Transformer Safety Limits",
+        "matches": [
+          "wiki/Concepts/Transformer Safety Limits.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Alignment and Interpretability",
+        "matches": [
+          "wiki/Concepts/Alignment and Interpretability.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Compute Governance",
+        "matches": [
+          "wiki/Governance/Compute Governance.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Human Control and Defenses",
+        "matches": [
+          "wiki/Governance/Human Control and Defenses.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Power and Disempowerment",
+        "matches": [
+          "wiki/Governance/Power and Disempowerment.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Assistance Games",
+        "matches": [
+          "wiki/Concepts/Assistance Games.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Alignment and Interpretability",
+        "matches": [
+          "wiki/Concepts/Alignment and Interpretability.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "index.md",
+        "target": "Source Catalog",
+        "matches": [
+          "Source Catalog.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Alignment and Interpretability.md",
+        "target": "raw/alignment-fundamentals-notes",
+        "matches": [
+          "raw/alignment-fundamentals-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Alignment and Interpretability.md",
+        "target": "Assistance Games",
+        "matches": [
+          "wiki/Concepts/Assistance Games.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Alignment and Interpretability.md",
+        "target": "Transformer Safety Limits",
+        "matches": [
+          "wiki/Concepts/Transformer Safety Limits.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Assistance Games.md",
+        "target": "raw/alignment-lecture-notes",
+        "matches": [
+          "raw/alignment-lecture-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Assistance Games.md",
+        "target": "Alignment and Interpretability",
+        "matches": [
+          "wiki/Concepts/Alignment and Interpretability.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Assistance Games.md",
+        "target": "Human Control and Defenses",
+        "matches": [
+          "wiki/Governance/Human Control and Defenses.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Transformer Safety Limits.md",
+        "target": "raw/alignment-lecture-notes",
+        "matches": [
+          "raw/alignment-lecture-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Transformer Safety Limits.md",
+        "target": "Alignment and Interpretability",
+        "matches": [
+          "wiki/Concepts/Alignment and Interpretability.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Concepts/Transformer Safety Limits.md",
+        "target": "Compute Governance",
+        "matches": [
+          "wiki/Governance/Compute Governance.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Compute Governance.md",
+        "target": "raw/alignment-lecture-notes",
+        "matches": [
+          "raw/alignment-lecture-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Compute Governance.md",
+        "target": "Power and Disempowerment",
+        "matches": [
+          "wiki/Governance/Power and Disempowerment.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Compute Governance.md",
+        "target": "Transformer Safety Limits",
+        "matches": [
+          "wiki/Concepts/Transformer Safety Limits.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Human Control and Defenses.md",
+        "target": "raw/risk-defenses-notes",
+        "matches": [
+          "raw/risk-defenses-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Human Control and Defenses.md",
+        "target": "Assistance Games",
+        "matches": [
+          "wiki/Concepts/Assistance Games.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Human Control and Defenses.md",
+        "target": "Power and Disempowerment",
+        "matches": [
+          "wiki/Governance/Power and Disempowerment.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Power and Disempowerment.md",
+        "target": "raw/risk-defenses-notes",
+        "matches": [
+          "raw/risk-defenses-notes.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Power and Disempowerment.md",
+        "target": "Compute Governance",
+        "matches": [
+          "wiki/Governance/Compute Governance.md"
+        ],
+        "unambiguous": true
+      },
+      {
+        "from": "wiki/Governance/Power and Disempowerment.md",
+        "target": "Human Control and Defenses",
+        "matches": [
+          "wiki/Governance/Human Control and Defenses.md"
+        ],
+        "unambiguous": true
+      }
+    ],
+    "all_links_resolve_unambiguously": true,
+    "index_exists": true,
+    "source_catalog_exists": true,
+    "machine_files_inside_vault": []
+  }
+}

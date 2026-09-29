@@ -1,0 +1,18 @@
+{
+  "label": "fresh-no-index",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/final-regression/workspace/wiki.py",
+    "search",
+    "autonomy"
+  ],
+  "cwd": "<evaluation>/final-regression/workspace",
+  "stdin": null,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Error: No index. Run ./wiki ingest or ./wiki reindex first.\n",
+  "started_at_utc": "2026-09-29T07:37:29.163641+00:00",
+  "wall_seconds": 0.055,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

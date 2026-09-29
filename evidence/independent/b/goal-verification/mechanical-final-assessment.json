@@ -1,0 +1,1124 @@
+{
+  "records": [
+    {
+      "record": "records/B01-after-cli-restart.json",
+      "interaction": "ask",
+      "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+      "answer": "According to the retrieved meeting notes:\n\nAligning to \"general human values\" produces Western/English-skewed outputs [P6641881a8987]\n\nNo consensus on what those values even are [P6641881a8987]",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": [
+        {
+          "claim": "Aligning to \"general human values\" produces Western/English-skewed outputs",
+          "id_and_quote_exact": true,
+          "source_id": "P6641881a8987",
+          "quote": "Aligning to “general human values” produces Western/English-skewed outputs"
+        },
+        {
+          "claim": "No consensus on what those values even are",
+          "id_and_quote_exact": true,
+          "source_id": "P6641881a8987",
+          "quote": "No consensus on what those values even are"
+        }
+      ]
+    },
+    {
+      "record": "records/B01-values-retrieval.json",
+      "interaction": "search",
+      "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/B01-values.json",
+      "interaction": "ask",
+      "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+      "answer": "According to the retrieved meeting notes:\n\nAligning to \"general human values\" produces Western/English-skewed outputs [P6641881a8987]\n\nNo consensus on what those values even are [P6641881a8987]",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": [
+        {
+          "claim": "Aligning to \"general human values\" produces Western/English-skewed outputs",
+          "id_and_quote_exact": true,
+          "source_id": "P6641881a8987",
+          "quote": "Aligning to “general human values” produces Western/English-skewed outputs"
+        },
+        {
+          "claim": "No consensus on what those values even are",
+          "id_and_quote_exact": true,
+          "source_id": "P6641881a8987",
+          "quote": "No consensus on what those values even are"
+        }
+      ]
+    },
+    {
+      "record": "records/B02-mountaintop-retrieval.json",
+      "interaction": "search",
+      "question": "Why might taking someone straight to the mountaintop fail to respect what they want from the climb?",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P59429a0cbfc7",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/B02-mountaintop.json",
+      "interaction": "ask",
+      "question": "Why might taking someone straight to the mountaintop fail to respect what they want from the climb?",
+      "answer": "According to the retrieved meeting notes:\n\nClimbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency [P4f87872fbb73]\n\nClosing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal [P4f87872fbb73]",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P59429a0cbfc7",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": [
+        {
+          "claim": "Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency",
+          "id_and_quote_exact": true,
+          "source_id": "P4f87872fbb73",
+          "quote": "Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency"
+        },
+        {
+          "claim": "Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal",
+          "id_and_quote_exact": true,
+          "source_id": "P4f87872fbb73",
+          "quote": "Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal"
+        }
+      ]
+    },
+    {
+      "record": "records/B03-oversight-retrieval.json",
+      "interaction": "search",
+      "question": "How do the notes contrast the ICAO/IMO and IAEA approaches to AI oversight?",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P59429a0cbfc7",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/B03-oversight.json",
+      "interaction": "ask",
+      "question": "How do the notes contrast the ICAO/IMO and IAEA approaches to AI oversight?",
+      "answer": "According to the retrieved meeting notes:\n\nICAO/IMO model: regulate the national regulators; hands-off, less intrusive [P4f87872fbb73]\n\nIAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction) [P4f87872fbb73]",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P59429a0cbfc7",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": [
+        {
+          "claim": "ICAO/IMO model: regulate the national regulators; hands-off, less intrusive",
+          "id_and_quote_exact": true,
+          "source_id": "P4f87872fbb73",
+          "quote": "ICAO/IMO model: regulate the national regulators; hands-off, less intrusive"
+        },
+        {
+          "claim": "IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)",
+          "id_and_quote_exact": true,
+          "source_id": "P4f87872fbb73",
+          "quote": "IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)"
+        }
+      ]
+    },
+    {
+      "record": "records/B04-after-chat.json",
+      "interaction": "ask",
+      "question": "What is the date, start time, and room number of the next AI safety workshop?",
+      "answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/B04-next-workshop-retrieval.json",
+      "interaction": "search",
+      "question": "What is the date, start time, and room number of the next AI safety workshop?",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/B04-next-workshop.json",
+      "interaction": "ask",
+      "question": "What is the date, start time, and room number of the next AI safety workshop?",
+      "answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/B05-two-source-retrieval.json",
+      "interaction": "search",
+      "question": "According to these notes, how do cultural skew and preference manipulation complicate deciding whose interests an AI should serve?",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/B05-two-source.json",
+      "interaction": "ask",
+      "question": "According to these notes, how do cultural skew and preference manipulation complicate deciding whose interests an AI should serve?",
+      "answer": "According to the retrieved meeting notes:\n\n“Values” triggered culture-war reactions [Pd36e317f50b9]\n\n“Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good [Pd36e317f50b9]\n\nAligning to “general human values” produces Western/English-skewed outputs [P6641881a8987]",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": [
+        {
+          "claim": "“Values” triggered culture-war reactions",
+          "id_and_quote_exact": true,
+          "source_id": "Pd36e317f50b9",
+          "quote": "“Values” triggered culture-war reactions"
+        },
+        {
+          "claim": "“Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+          "id_and_quote_exact": true,
+          "source_id": "Pd36e317f50b9",
+          "quote": "“Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good"
+        },
+        {
+          "claim": "Aligning to “general human values” produces Western/English-skewed outputs",
+          "id_and_quote_exact": true,
+          "source_id": "P6641881a8987",
+          "quote": "Aligning to “general human values” produces Western/English-skewed outputs"
+        }
+      ]
+    },
+    {
+      "record": "records/H4-response-coverage-retrieval.json",
+      "interaction": "search",
+      "question": "Which responses do the notes propose for economic displacement and for AI-generated content crowding out human content?",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/H4-response-coverage.json",
+      "interaction": "ask",
+      "question": "Which responses do the notes propose for economic displacement and for AI-generated content crowding out human content?",
+      "answer": "According to the retrieved meeting notes:\n\nProactive job creation and reskilling programs [P571ac3d9e151]\n\nUniversal Basic Income implementation [P571ac3d9e151]\n\nHuman-as-bottleneck model where AI abundance increases human leverage [P571ac3d9e151]\n\nMandatory labeling of AI-generated content as intervention [P19588883e584]",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": [
+        {
+          "claim": "Proactive job creation and reskilling programs",
+          "id_and_quote_exact": true,
+          "source_id": "P571ac3d9e151",
+          "quote": "1. Proactive job creation and reskilling programs"
+        },
+        {
+          "claim": "Universal Basic Income implementation",
+          "id_and_quote_exact": true,
+          "source_id": "P571ac3d9e151",
+          "quote": "2. Universal Basic Income implementation"
+        },
+        {
+          "claim": "Human-as-bottleneck model where AI abundance increases human leverage",
+          "id_and_quote_exact": true,
+          "source_id": "P571ac3d9e151",
+          "quote": "3. Human-as-bottleneck model where AI abundance increases human leverage"
+        },
+        {
+          "claim": "Mandatory labeling of AI-generated content as intervention",
+          "id_and_quote_exact": true,
+          "source_id": "P19588883e584",
+          "quote": "Mandatory labeling of AI-generated content as intervention"
+        }
+      ]
+    },
+    {
+      "record": "records/H5-missing-efficacy-retrieval.json",
+      "interaction": "search",
+      "question": "What measured success rate do these notes report for detecting deceptive reasoning?",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/H5-missing-efficacy.json",
+      "interaction": "ask",
+      "question": "What measured success rate do these notes report for detecting deceptive reasoning?",
+      "answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/assignment-ask.json",
+      "interaction": "ask",
+      "question": "Where is the workshop?",
+      "answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/assignment-search.json",
+      "interaction": "search",
+      "question": "workshop location",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/chat-fact-not-indexed.json",
+      "interaction": "search",
+      "question": "Z-814",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "records/fresh-ingest.json",
+      "interaction": "ingest",
+      "question": null,
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": null,
+      "model_calls_actual_recorded": 6,
+      "citation_errors": null,
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "records/reingest.json",
+      "interaction": "ingest",
+      "question": null,
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": null,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "records/topic-search.json",
+      "interaction": "search",
+      "question": "autonomy",
+      "answer": null,
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": null,
+      "fidelity": [
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "chat/chat-01.json",
+      "interaction": "chat",
+      "question": "what can we do?",
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "history_messages": 0,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "chat/chat-02.json",
+      "interaction": "chat",
+      "question": "what can you help me with?",
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "history_messages": 2,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "chat/chat-03.json",
+      "interaction": "chat",
+      "question": "Suggest a three-step plan for turning my reading notes into a one-page study guide.",
+      "answer": "Suggestion: Here is a three-step plan to turn your reading notes into a one-page study guide:\n\n1.  **Identify Core Concepts:** Go through your notes and pull out the absolute main ideas, key terms, and central arguments.\n2.  **Synthesize and Condense:** For each core concept, write a concise summary (1-3 sentences) rather than copying full paragraphs. Use bullet points for clarity.\n3.  **Structure and Visualize:** Organize these condensed points into a logical flow (e.g., Introduction $\\rightarrow$ Main Points $\\rightarrow$ Conclusion). Use headings, bold text, and maybe a simple diagram or timeline to make it visually digestible on one page.",
+      "history_messages": 4,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "chat/chat-04.json",
+      "interaction": "chat",
+      "question": "make that shorter",
+      "answer": "Suggestion: Here is a shorter, three-step plan:\n\n1.  **Extract Core Concepts:** Pull out main ideas and key terms.\n2.  **Condense:** Summarize each concept into 1-3 concise bullet points.\n3.  **Structure:** Organize points logically with headings and bold text for a clean, one-page layout.",
+      "history_messages": 6,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "chat/chat-05.json",
+      "interaction": "chat",
+      "question": "According to my notes, what are the two main obstacles to aligning AI to general human values?",
+      "answer": "According to your notes, the two main obstacles to aligning AI to general human values are:\n\n1.  **Defining Alignment Itself is Unsolved:** There is no consensus on what \"general human values\" even are, and aligning to individual risks can enable harmful behavior [P6641881a8987].\n2.  **Reward Modeling Limitations:** Current methods like Stochastic Gradient Descent (SGD) and numerical optimization assume a single optimum, which fails to capture cultural and individual diversity. Pluralistic alignment is explored but not yet effective [P6641881a8987, Pd3902efa8beb].",
+      "history_messages": 8,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": [
+        {
+          "id_exists": true,
+          "source_id": "P6641881a8987"
+        },
+        {
+          "id_exists": true,
+          "source_id": "P6641881a8987"
+        },
+        {
+          "id_exists": true,
+          "source_id": "Pd3902efa8beb"
+        }
+      ]
+    },
+    {
+      "record": "chat/chat-06.json",
+      "interaction": "chat",
+      "question": "For this conversation only, my next AI safety workshop is on 17 March 2031 at 09:37 in Room Z-814. Please acknowledge this as an unverified hypothetical.",
+      "answer": "Acknowledged. For this conversation only, I have noted that your next AI safety workshop is scheduled for March 17, 2031, at 09:37 in Room Z-814. I will treat this as an unverified hypothetical.",
+      "history_messages": 8,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "heldout-chat/H1-domain-draft/chat-01.json",
+      "interaction": "chat",
+      "question": "Write a two-sentence invitation to a casual study group on AI alignment. Invent no venue, date, or participant details.",
+      "answer": "Suggestion: Join our casual study group to discuss the fascinating and complex topic of AI alignment. Come share your thoughts and learn alongside others in this engaging conversation.",
+      "history_messages": 0,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "heldout-chat/H2-capability-paraphrase/chat-01.json",
+      "interaction": "chat",
+      "question": "Please list the commands you support and one thing you cannot do.",
+      "answer": "I am Pip, a practical, friendly study partner. I work locally with this AI Safety vault.\n\nI support the following commands:\n*   **ask**: For independent factual research with citations.\n*   **search**: To search original passages.\n*   **ingest**: To generate wiki drafts and rebuild retrieval.\n*   **review**: To review provided text.\n*   **doctor**: To doctor provided text.\n*   **help**: To provide assistance.\n\nOne thing I cannot do is browse the internet.\n\nA useful starting point would be to ask me a question to see how I handle the `ask` command.",
+      "history_messages": 0,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "interaction": "chat",
+      "question": "What do my notes say about preferences versus interests?",
+      "answer": "Suggestion: Your notes distinguish between \"preferences,\" \"values,\" and \"interests.\"\n\n*   **Values** trigger culture-war reactions.\n*   **Stated preferences** are easily manipulated.\n*   **\"Interest\"** is preferred over \"preference\" or \"values\" because it implicitly acknowledges that preferences can be shaped against one's own good [Pd36e317f50b9].\n\nAdditionally, the notes discuss the difference between preferences and interests in the context of the Assistance Game: \"what someone prefers may not be good for them\" [Pd36e317f50b9].",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citations": [
+        {
+          "id_exists": true,
+          "source_id": "Pd36e317f50b9"
+        },
+        {
+          "id_exists": true,
+          "source_id": "Pd36e317f50b9"
+        }
+      ]
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-02.json",
+      "interaction": "chat",
+      "question": "For an unrelated community activity, suggest three names for a book club.",
+      "answer": "Suggestion: Here are three names for a book club, depending on the vibe you're going for:\n\n1.  **The Chapter Collective:** Sounds literary and collaborative.\n2.  **Page Turners Anonymous:** A fun, self-aware, and slightly humorous option.\n3.  **The Unbound Pages:** Suggests exploration and open-minded discussion.\n\nWhich style do you like best? We could brainstorm more if you give me a theme!",
+      "history_messages": 2,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 1,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "reset-chat/chat-01.json",
+      "interaction": "chat",
+      "question": "what can we do?",
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "history_messages": 0,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "reset-chat/chat-03.json",
+      "interaction": "chat",
+      "question": "what can you help me with?",
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "history_messages": 0,
+      "retrieval_called": false,
+      "model_calls_actual_recorded": 0,
+      "citation_errors": [],
+      "fidelity": [],
+      "citations": []
+    }
+  ],
+  "generations": [
+    {
+      "record": "records/B01-after-cli-restart.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 15.431,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/B01-values.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 18.035,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/B02-mountaintop.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 17.435,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/B03-oversight.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 15.885,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/B04-after-chat.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 6.547,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/B04-next-workshop.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 9.356,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/B05-two-source.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 20.727,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/H4-response-coverage.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 18.501,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/H5-missing-efficacy.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 11.47,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/assignment-ask.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 7.379,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/fresh-ingest.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 6.292,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/fresh-ingest.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 5.324,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/fresh-ingest.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 4.466,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/fresh-ingest.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 3.491,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/fresh-ingest.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 4.107,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "records/fresh-ingest.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 3.925,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "chat/chat-03.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 3.229,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "chat/chat-04.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 1.39,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "chat/chat-05.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 5.155,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "chat/chat-06.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 2.183,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "heldout-chat/H1-domain-draft/chat-01.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 1.032,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "heldout-chat/H2-capability-paraphrase/chat-01.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 2.731,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 4.657,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-02.json",
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "wall_seconds": 2.291,
+      "done_reason": "stop",
+      "endpoint": "http://127.0.0.1:11435"
+    }
+  ],
+  "generation_count": 24,
+  "all_model_identity_correct": true,
+  "all_fidelity_pass": true,
+  "model_seconds": 191.03900000000004
+}

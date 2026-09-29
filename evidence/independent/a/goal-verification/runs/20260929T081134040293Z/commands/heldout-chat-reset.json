@@ -1,0 +1,18 @@
+{
+  "label": "heldout-chat-reset",
+  "command": [
+    "python3",
+    "wiki.py",
+    "chat",
+    "--script",
+    "<evaluation>/goal-verification/runs/20260929T081134040293Z/heldout-chat-reset-input.txt",
+    "--save-dir",
+    "<evaluation>/goal-verification/runs/20260929T081134040293Z/records/heldout-chat-reset"
+  ],
+  "cwd": "<evaluation>/goal-verification/runs/20260929T081134040293Z/project",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 1.798,
+  "stdout": "Pip | chat | local | gemma4:e2b-it-qat\n/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.\nYou> For this conversation only, use the fictional marker PLUM-LANTERN-642. Repeat it once without saving it as source material.\nPip | chat | local | gemma4:e2b-it-qat\n\nPLUM-LANTERN-642\n\nModel time: 0.672 s\nYou> /reset\nYou> What fictional marker did I ask you to use earlier?\nPip | chat | local | gemma4:e2b-it-qat\n\nI don't have access to our previous conversation history unless it's in the current context. Could you remind me what fictional marker you are referring to?\n\nModel time: 1.041 s\n",
+  "stderr": ""
+}

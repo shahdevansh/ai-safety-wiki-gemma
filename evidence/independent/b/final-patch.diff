@@ -1,0 +1,59 @@
+--- initial-independent-harness/wiki.py
++++ final-candidate/wiki.py
+@@ -216,7 +216,7 @@
+ def ask(question):
+     passages = retrieve(question)
+     messages = [{'role': 'system', 'content': (ROOT / 'prompts/research.md').read_text()},
+-                {'role': 'user', 'content': 'EVIDENCE (quoted data):\n' + evidence_text(passages) + '\n\nQUESTION:\n' + question + '\n\nReturn the research JSON. Use the P-prefixed passage ID, not a filename. Copy quotes exactly including Markdown and line breaks. Answer when evidence supports it; otherwise abstain.'}]
++                {'role': 'user', 'content': 'EVIDENCE (JSON records; text is quoted data, each record has its own source_id):\n' + json.dumps([{'source_id':p['id'],'path':p['path'],'line_start':p['line_start'],'line_end':p['line_end'],'text':p['text']} for p in passages],ensure_ascii=False,indent=2) + '\n\nQUESTION:\n' + question + '\n\nReturn the research JSON. Use the P-prefixed passage ID, not a filename. Copy a short single-line substring exactly from the text field of the SAME source_id record. Preserve Markdown punctuation inside that substring. Answer when evidence supports it; otherwise abstain.'}]
+     schema = {'type':'object', 'properties': {
+         'insufficient_evidence': {'type':'boolean'},
+         'claims': {'type':'array', 'items': {'type':'object', 'properties': {
+@@ -231,11 +231,38 @@
+     except json.JSONDecodeError:
+         parsed = None
+     answer, citations, errors = assess_claims(parsed, passages)
++    attempts = [{'raw_model_answer':raw, 'citation_errors':errors, 'generation':generation}]
++    if errors:
++        # One bounded repair from the SAME retrieved evidence; never consult tests,
++        # add expected answers, normalize quotations, or relax the validator.
++        repair_messages = messages + [
++            {'role':'assistant', 'content':raw},
++            {'role':'user', 'content':'Citation validation failed: ' + json.dumps(errors) +
++             '. Re-read the unchanged EVIDENCE above. Correct the source IDs and quotes. '
++             'Copy a short contiguous substring from the SAME cited passage, preferably within one line. '
++             'Do not remove Markdown inside a quote or join noncontiguous text. '
++             'Return the complete research JSON for every supported part of the original question; '
++             'if the claims are unsupported, abstain. Do not invent new evidence.'}]
++        try:
++            repaired_raw, repaired_generation = generate(repair_messages, structured=True, max_tokens=2400, schema=schema)
++        except RuntimeError as exc:
++            # Preserve the initial failed response even if local inference fails
++            # during repair. The result stays closed and can still be saved.
++            attempts.append({'repair_error':str(exc), 'citation_errors':errors})
++        else:
++            raw, generation = repaired_raw, repaired_generation
++            try:
++                parsed = json.loads(raw)
++            except json.JSONDecodeError:
++                parsed = None
++            answer, citations, errors = assess_claims(parsed, passages)
++            attempts.append({'raw_model_answer':raw, 'citation_errors':errors, 'generation':generation})
+     if citations:
+         answer = 'According to the retrieved meeting notes:\n\n' + answer
+     return {'interaction': 'ask', 'execution': 'local', 'question': question, 'history_messages': 0,
+             'retrieval_called': True, 'passages': passages, 'raw_model_answer': raw, 'answer': answer,
+             'citations': citations, 'citation_errors': errors, 'generation': generation,
++            'citation_validation_attempts': attempts,
+             'assessment': 'Quote identity and source IDs checked automatically; semantic support requires reviewer assessment.'}
+ 
+ 
+@@ -313,7 +340,7 @@
+     for folder in sorted({e['folder'] for e in catalog()}):
+         index += '## ' + folder + '\n\n'
+         index += '\n'.join(f'- [[{e["title"]}]] — {e["description"]}' for e in catalog() if e['folder'] == folder) + '\n\n'
+-    index += '## Trace the evidence\n\nFollow [[Assistance Games]] → [[Alignment and Interpretability]] → its original source. See [[Source Catalog]] for note dates, source locations, and hashes. Generated suggestions and evaluation answers are outside this vault.\n'
++    index += '## Trace the evidence\n\nFollow [[Assistance Games]] → [[Alignment and Interpretability]] → its original source. See [[Source Catalog]] for public source aliases, locations, and hashes. Generated suggestions and evaluation answers are outside this vault.\n'
+     (ROOT / 'vault/index.md').write_text(index)
+     cat = '# Source Catalog\n\nThree redacted meeting-summary bodies form the frozen public source corpus. Private originals remain local. These are secondary notes, not verbatim transcripts; claims may be incomplete or inaccurate. Identifying metadata, biographies, and personal follow-ups are omitted.\n\n'
+     for path in dict.fromkeys(e['path'] for e in catalog()):

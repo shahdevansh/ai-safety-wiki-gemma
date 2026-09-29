@@ -1,0 +1,227 @@
+{
+  "cases": [
+    {
+      "id": "B01-values",
+      "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+      "verdict": "PASS",
+      "retrieval_verdict": "PASS",
+      "citation_semantic_support": "PASS",
+      "coverage": [
+        {
+          "claim": "Western/English skew in outputs",
+          "status": "PASS"
+        },
+        {
+          "claim": "No consensus on the human values to target",
+          "status": "PASS"
+        }
+      ],
+      "reason": "Every predeclared expected point is answered and materially supported by its cited quote.",
+      "confidence": "high",
+      "record": "isolated-first/records/B01-values.json"
+    },
+    {
+      "id": "B02-mountaintop",
+      "question": "Why might taking someone straight to the mountaintop fail to respect what they want from the climb?",
+      "verdict": "PASS",
+      "retrieval_verdict": "PASS",
+      "citation_semantic_support": "PASS",
+      "coverage": [
+        {
+          "claim": "Agency, process, striving or achievement matter in addition to the final outcome",
+          "status": "PASS"
+        },
+        {
+          "claim": "Removing non-optimal choices can violate autonomy",
+          "status": "PASS"
+        }
+      ],
+      "reason": "Every predeclared expected point is answered and materially supported by its cited quote.",
+      "confidence": "high",
+      "record": "isolated-first/records/B02-mountaintop.json"
+    },
+    {
+      "id": "B03-oversight",
+      "question": "How do the notes contrast the ICAO/IMO and IAEA approaches to AI oversight?",
+      "verdict": "PASS",
+      "retrieval_verdict": "PASS",
+      "citation_semantic_support": "PASS",
+      "coverage": [
+        {
+          "claim": "ICAO/IMO regulates national regulators and is less intrusive",
+          "status": "PASS"
+        },
+        {
+          "claim": "IAEA has direct inspection powers including entering facilities and seizing files",
+          "status": "PASS"
+        },
+        {
+          "claim": "Stronger inspection is politically harder",
+          "status": "PASS"
+        }
+      ],
+      "reason": "Every predeclared expected point is answered and materially supported by its cited quote.",
+      "confidence": "high",
+      "record": "isolated-first/records/B03-oversight.json"
+    },
+    {
+      "id": "B04-next-workshop",
+      "question": "What is the date, start time, and room number of the next AI safety workshop?",
+      "verdict": "PASS",
+      "retrieval_verdict": "EXPECTED_NO_ANSWER_IN_SOURCES",
+      "citation_semantic_support": "NOT_APPLICABLE",
+      "coverage": [
+        {
+          "claim": "Explicitly says the source evidence is insufficient or does not contain the requested details",
+          "status": "PASS"
+        }
+      ],
+      "reason": "Explicit insufficient-evidence response with no fabricated schedule or citations.",
+      "confidence": "high",
+      "record": "isolated-first/records/B04-next-workshop.json"
+    },
+    {
+      "id": "B05-two-source",
+      "question": "According to these notes, how do cultural skew and preference manipulation complicate deciding whose interests an AI should serve?",
+      "verdict": "PARTIAL",
+      "retrieval_verdict": "PASS",
+      "citation_semantic_support": "PASS",
+      "coverage": [
+        {
+          "claim": "General human value alignment can be Western/English-skewed and lacks consensus",
+          "status": "PARTIAL",
+          "reason": "Western/English skew is stated; lack of consensus is omitted."
+        },
+        {
+          "claim": "Observed or stated preferences can be manipulated or shaped against interests",
+          "status": "PASS",
+          "reason": "Manipulability and external preference shaping are explicitly stated."
+        },
+        {
+          "claim": "Multiple people can have conflicting interests",
+          "status": "FAIL",
+          "reason": "Conflicting interests among multiple humans are omitted although retrieved passage Pd36e317f50b9 includes the point."
+        }
+      ],
+      "reason": "Both expected sources retrieved; all four answer claims are entailed by exact cited quotes. Completeness fails the full frozen expectation.",
+      "confidence": "high",
+      "record": "isolated-first/records/B05-two-source.json"
+    }
+  ],
+  "checks": {
+    "main_research_cases": "4/4 PASS (3 answerable plus 1 missing evidence)",
+    "additional_cross_source_case": "PARTIAL; grounded but incomplete",
+    "capability_chat": {
+      "verdict": "PASS",
+      "retrieval_called": [
+        false,
+        false
+      ],
+      "model_calls": [
+        0,
+        0
+      ],
+      "origin": "Explicit deterministic harness capability contract, not Gemma generation"
+    },
+    "draft_followup": {
+      "verdict": "PASS",
+      "draft_words": 98,
+      "shorter_words": 43,
+      "both_suggestion_label": true,
+      "both_skip_retrieval": true,
+      "same_subject": "one-page study guide; extract, condense, structure"
+    },
+    "notes_chat": {
+      "verdict": "PASS_FOR_PREDECLARED_MODE_CRITERION",
+      "retrieval_called": true,
+      "citation_ids": [
+        "P6641881a8987",
+        "P6641881a8987",
+        "Pd3902efa8beb"
+      ],
+      "material_claims_supported": true,
+      "additional_observation": "Chooses reward-model limitations as its second broad obstacle and omits Western/English skew. Main fixed ask handles both expected obstacles exactly."
+    },
+    "ask_chat_isolation": {
+      "verdict": "PASS",
+      "chat_hypothetical_acknowledged": true,
+      "standalone_ask": "Insufficient evidence: the provided sources do not answer this question.",
+      "hypothetical_search_passages": 0
+    },
+    "search_and_model_unavailable": {
+      "method": "Direct host launch under deny-all OS profile after isolated server stopped. No nested sandbox, model substitute or endpoint edit.",
+      "search_success": true,
+      "search_passages": 2,
+      "search_model_calls": 0,
+      "search_fidelity": [
+        {
+          "id": "P9e2cc541c9bc",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        }
+      ],
+      "ask_failed": true,
+      "ask_error": "Error: Local Ollama unavailable: <urlopen error [Errno 1] Operation not permitted>. Start Ollama; run ollama pull gemma4:e2b-it-qat while online. No cloud fallback.\n",
+      "ask_record_created": false
+    },
+    "reingestion": {
+      "verdict": "PASS",
+      "originals_unchanged": true,
+      "same_note_paths": true,
+      "notes_byte_identical": true,
+      "model_calls_on_repeat": 0
+    },
+    "fresh_server_persistence": {
+      "verdict": "PASS",
+      "first_pid": 19603,
+      "second_pid": 19929,
+      "distinct_pids": true,
+      "first_answer_equals_restarted_answer": true,
+      "both_servers_fresh_then_stopped": true,
+      "post_cleanup_port11435_connect_errno": 61
+    },
+    "model": {
+      "actual_generation_count": 19,
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "all_same_model_digest": true,
+      "all_local_loopback": true,
+      "ask_count": 9,
+      "ask_latency_seconds": {
+        "min": 7.367,
+        "max": 19.662,
+        "median": 14.139
+      },
+      "latest_loaded_allocation_bytes": 3734492937,
+      "runtime_rss_unavailable": true
+    }
+  }
+}

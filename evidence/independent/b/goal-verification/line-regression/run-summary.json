@@ -1,0 +1,52 @@
+{
+  "command_count": 9,
+  "outcomes": [
+    {
+      "label": "reindex",
+      "returncode": 0,
+      "wall_seconds": 0.077
+    },
+    {
+      "label": "required-chat",
+      "returncode": 0,
+      "wall_seconds": 32.983
+    },
+    {
+      "label": "H2-capability-paraphrase",
+      "returncode": 0,
+      "wall_seconds": 0.064
+    },
+    {
+      "label": "H3-topic-transition",
+      "returncode": 0,
+      "wall_seconds": 23.815
+    },
+    {
+      "label": "source-shortening-reset",
+      "returncode": 0,
+      "wall_seconds": 32.727
+    },
+    {
+      "label": "chat-only-codename-search",
+      "returncode": 0,
+      "wall_seconds": 0.07
+    },
+    {
+      "label": "codename-isolation",
+      "returncode": 0,
+      "wall_seconds": 6.204
+    },
+    {
+      "label": "B01-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.071
+    },
+    {
+      "label": "B01-research",
+      "returncode": 0,
+      "wall_seconds": 17.165
+    }
+  ],
+  "source_bytes_preserved": true,
+  "semantic_verdict": "REQUIRES INDEPENDENT REVIEW"
+}

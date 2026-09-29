@@ -1,0 +1,5 @@
+{
+  "policy": "Fresh sanitized history. The prior history is retained only in a local private archive outside this repository. Push uses an explicit expected old remote head to avoid overwriting unrelated changes.",
+  "old_history_is_ancestor": false,
+  "scope": "Reachable repository content and refs. This does not claim removal of external copies or hosting-provider caches."
+}

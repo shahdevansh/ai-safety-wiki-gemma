@@ -1,0 +1,117 @@
+{
+  "01-assistance-game": {
+    "seconds": 12.963,
+    "attempts": 1,
+    "citation_errors": [],
+    "citations": [
+      {
+        "source_id": "P0796ce4b536c",
+        "quote": "AI\u2019s only goal is to promote human interests",
+        "claim": "AI\u2019s only goal is to promote human interests"
+      },
+      {
+        "source_id": "P0796ce4b536c",
+        "quote": "it is uncertain what those interests are and must infer them",
+        "claim": "it is uncertain what those interests are and must infer them"
+      }
+    ],
+    "peak_rss": 20267008,
+    "loaded": [
+      {
+        "size": 3734492937,
+        "size_vram": 3734492937,
+        "context_length": 8192
+      }
+    ]
+  },
+  "02-deception-detection": {
+    "seconds": 14.412,
+    "attempts": 1,
+    "citation_errors": [],
+    "citations": [
+      {
+        "source_id": "Pd3902efa8beb",
+        "quote": "Tracking discrepancies between thinking trace and explicit model output",
+        "claim": "Tracking discrepancies between thinking trace and explicit model output"
+      }
+    ],
+    "peak_rss": 19955712,
+    "loaded": [
+      {
+        "size": 3734492937,
+        "size_vram": 3734492937,
+        "context_length": 8192
+      }
+    ]
+  },
+  "03-physical-defenses": {
+    "seconds": 11.753,
+    "attempts": 1,
+    "citation_errors": [],
+    "citations": [
+      {
+        "source_id": "P571ac3d9e151",
+        "quote": "1. Physical fail-safes with human override capabilities",
+        "claim": "Proposed defense mechanisms: 1. Physical fail-safes with human override capabilities"
+      },
+      {
+        "source_id": "P571ac3d9e151",
+        "quote": "2. Multiple humans in decision loops",
+        "claim": "Proposed defense mechanisms: 2. Multiple humans in decision loops"
+      },
+      {
+        "source_id": "P571ac3d9e151",
+        "quote": "3. Physical buttons/levers to shut off software entirely (airplane example)",
+        "claim": "Proposed defense mechanisms: 3. Physical buttons/levers to shut off software entirely (airplane example)"
+      }
+    ],
+    "peak_rss": 20267008,
+    "loaded": [
+      {
+        "size": 3734492937,
+        "size_vram": 3734492937,
+        "context_length": 8192
+      }
+    ]
+  },
+  "04-unsupported": {
+    "seconds": 12.646,
+    "attempts": 1,
+    "citation_errors": [],
+    "citations": [],
+    "peak_rss": 20217856,
+    "loaded": [
+      {
+        "size": 3734492937,
+        "size_vram": 3734492937,
+        "context_length": 8192
+      }
+    ]
+  },
+  "ingest": {
+    "wall": 28.696,
+    "sum_model": 27.512999999999998,
+    "peak_cli": 19841024
+  },
+  "max_model_rss": 5175361536,
+  "draft_words": 68,
+  "short_words": 28,
+  "device": {
+    "recorded_at_utc": "2026-09-29T08:19:14.712818+00:00",
+    "os": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+    "cpu": "Apple M3 Pro",
+    "unified_memory_bytes": 38654705664,
+    "gpu": "Apple Silicon integrated GPU; shared unified memory, no separate dedicated VRAM",
+    "python": "3.9.6",
+    "disk_free_bytes": 12672466944,
+    "memory_snapshot": {
+      "free_bytes": 2526986240,
+      "inactive_bytes": 11989467136,
+      "speculative_bytes": 1360297984,
+      "note": "Free is immediately unused memory. Inactive and speculative pages include reclaimable caches; these are not a single guaranteed available-memory value. CPU/GPU share the installed unified-memory pool.",
+      "os_reported_free_percentage": 76
+    }
+  },
+  "reingest_seconds": 0.01,
+  "scope": "Observed current run. Ask times sum all recorded inference attempts; ingestion wall covers the whole ingest operation. CLI ru_maxrss is bytes on this macOS device. Model process RSS is sampled, summed and may double-count shared mappings; API allocation is a different measure. Not a formal speed benchmark or exact peak unified-memory pressure."
+}

@@ -1,0 +1,20 @@
+{
+  "interaction": "chat",
+  "execution": "local",
+  "question": "what can we do?",
+  "history_messages": 0,
+  "retrieval_called": false,
+  "passages": [],
+  "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+  "citations": [],
+  "citation_errors": [],
+  "model_calls": 0,
+  "response_origin": "harness capability contract; no model generation",
+  "network_policy": "os-enforced-loopback-only",
+  "recorded_at_utc": "2026-09-29T08:18:32.861274+00:00",
+  "source_hashes": {
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02",
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  }
+}

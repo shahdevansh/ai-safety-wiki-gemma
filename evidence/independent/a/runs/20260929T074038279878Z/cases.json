@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "evaluator": "independent_eval_a",
+  "design_basis": "Assignment, wiki.py, prompts, and original sources only; no existing evaluations or results were read.",
+  "source_path_change": "Parent disclosed a privacy-only rename from alignment-lecture-notes.md to alignment-lecture-notes.md. Accept either; technical expectations are unchanged.",
+  "ask_cases": [
+    {
+      "id": "ask-1-assistance-objective",
+      "question": "According to the notes, what is the AI's only goal in an assistance game, and what uncertainty must it resolve?",
+      "expected_behavior": "Answer that AI aims to promote human interests while uncertain what those interests are, and must infer them. Attribute this to the notes.",
+      "expected_paths": ["vault/raw/alignment-lecture-notes.md", "vault/raw/alignment-lecture-notes.md"],
+      "required_source_fragments": ["AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them"],
+      "answer_concepts": [["human interests", "human interest"], ["uncertain", "uncertainty", "does not know", "doesn't know"], ["infer", "learn", "determine"]],
+      "unsupported_strengthening": "Do not claim the system always recovers true interests, or that convergence is proven in practice."
+    },
+    {
+      "id": "ask-2-infrastructure-controls",
+      "question": "Which three proposed safeguards in the critical infrastructure discussion keep people able to intervene or stop the software?",
+      "expected_behavior": "List physical fail-safes with human override, multiple humans in decision loops, and physical buttons or levers that shut software off. Preserve proposed/discussed status.",
+      "expected_paths": ["vault/raw/risk-defenses-notes.md"],
+      "required_source_fragments": ["Physical fail-safes with human override capabilities", "Multiple humans in decision loops", "Physical buttons/levers to shut off software entirely"],
+      "answer_concepts": [["fail-safe", "failsafe", "fail safe"], ["override"], ["multiple humans", "multiple people", "several humans", "several people"], ["button", "lever"], ["shut", "stop", "turn off"]],
+      "unsupported_strengthening": "Do not present proposals as deployed, proven effective, or sufficient to eliminate risk."
+    },
+    {
+      "id": "ask-3-alignment-interpretability",
+      "question": "Why do the notes describe alignment and interpretability as two sides of the same objective?",
+      "expected_behavior": "Explain that aligning models is hard without understanding their internals; the notes compare knowing the direction to go with knowing how to get there.",
+      "expected_paths": ["vault/raw/alignment-fundamentals-notes.md"],
+      "required_source_fragments": ["Hard to align models without understanding their internals", "Interpretability and alignment are two sides of the same objective", "Need to know what direction to go, and how to get there"],
+      "answer_concepts": [["internals", "internal", "understanding", "understand"], ["direction", "where to go", "what to aim"], ["how to get there", "how to", "get there"]],
+      "unsupported_strengthening": "Do not claim interpretability guarantees alignment, or import a general-knowledge technical mechanism."
+    },
+    {
+      "id": "ask-4-unsupported-schedule",
+      "question": "On what exact calendar date was the next critical infrastructure workshop scheduled?",
+      "expected_behavior": "Explicit insufficient evidence; no invented date or inferred schedule.",
+      "expected_paths": [],
+      "required_source_fragments": [],
+      "unsupported": true
+    }
+  ],
+  "search_query": "physical fail-safes human override",
+  "search_expected_fragment": "Physical fail-safes with human override capabilities",
+  "chat_turns": [
+    "what can we do?",
+    "what can you help me with?",
+    "Draft a friendly 70-90 word invitation for a study group to a proposed 30-minute reading session. Include a simple agenda. Do not invent a time, place, organizer, or confirmed event. Label it as a suggestion.",
+    "make that shorter",
+    "For this conversation only, use this fictional test detail: the study session is at 07:43 on 18 November 2031 in Room Cedar. Repeat the detail as a tentative suggestion and do not save it."
+  ],
+  "isolation_question": "According to the original notes, what time and room is the study session on 18 November 2031?",
+  "isolation_sentinels": ["07:43", "Room Cedar"]
+}

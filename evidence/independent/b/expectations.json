@@ -1,0 +1,125 @@
+{
+  "evaluator": "B",
+  "frozen_at_utc": "2026-09-29T07:16:55.668939+00:00",
+  "basis": "Assignment and original raw files only. No evals/, evidence/, existing tests, implementation, README or evaluator A contents read before this freeze. Directory inventory exposed filenames but not contents.",
+  "cases": [
+    {
+      "id": "B01-values",
+      "kind": "answerable-direct",
+      "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+      "expected_claims": [
+        "Western/English skew in outputs",
+        "No consensus on the human values to target"
+      ],
+      "required_passages": [
+        {
+          "source": "vault/raw/alignment-fundamentals-notes.md",
+          "lines_at_design": [
+            27,
+            30
+          ],
+          "exact_passage": "- Defining alignment is itself unsolved\n  - Aligning to individual risks enabling harmful behavior\n  - Aligning to “general human values” produces Western/English-skewed outputs\n  - No consensus on what those values even are",
+          "source_sha256_at_design": "27e59c4c89a8d36c4b1bed7ba9653075518c5c74d0cc4e8d170f4274a2a15740"
+        }
+      ],
+      "forbidden_claims": [
+        "A consensus value system is already solved",
+        "Universal general human values are known"
+      ]
+    },
+    {
+      "id": "B02-mountaintop",
+      "kind": "answerable-paraphrase",
+      "question": "Why might taking someone straight to the mountaintop fail to respect what they want from the climb?",
+      "expected_claims": [
+        "Agency, process, striving or achievement matter in addition to the final outcome",
+        "Removing non-optimal choices can violate autonomy"
+      ],
+      "required_passages": [
+        {
+          "source": "vault/raw/alignment-lecture-notes.md",
+          "lines_at_design": [
+            39,
+            43
+          ],
+          "exact_passage": "- Autonomy dimension:\n  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency\n  - Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal\n  - Strivings and achievements are not captured by pure state-of-the-world preferences\n  - Fixable by incorporating mental states and process into the preference model; may require a modified decision theory",
+          "source_sha256_at_design": "3f467f25e4118eae1307a742aea1247eacae224edeee85c2841c088741abc336"
+        }
+      ],
+      "forbidden_claims": [
+        "The notes establish a literal mountaineering safety recommendation",
+        "An optimal final outcome makes agency irrelevant"
+      ]
+    },
+    {
+      "id": "B03-oversight",
+      "kind": "answerable-comparison",
+      "question": "How do the notes contrast the ICAO/IMO and IAEA approaches to AI oversight?",
+      "expected_claims": [
+        "ICAO/IMO regulates national regulators and is less intrusive",
+        "IAEA has direct inspection powers including entering facilities and seizing files",
+        "Stronger inspection is politically harder"
+      ],
+      "required_passages": [
+        {
+          "source": "vault/raw/alignment-lecture-notes.md",
+          "lines_at_design": [
+            52,
+            54
+          ],
+          "exact_passage": "- Treaty organization models compared:\n  - ICAO/IMO model: regulate the national regulators; hands-off, less intrusive\n  - IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)",
+          "source_sha256_at_design": "3f467f25e4118eae1307a742aea1247eacae224edeee85c2841c088741abc336"
+        }
+      ],
+      "forbidden_claims": [
+        "The IAEA currently has legal AI inspection authority",
+        "The described governance proposal has already been enacted"
+      ]
+    },
+    {
+      "id": "B04-next-workshop",
+      "kind": "missing-evidence",
+      "question": "What is the date, start time, and room number of the next AI safety workshop?",
+      "expected_claims": [
+        "Explicitly says the source evidence is insufficient or does not contain the requested details"
+      ],
+      "required_passages": [],
+      "forbidden_claims": [
+        "A specific calendar date, start time, room, organizer contact or external lookup stated as known"
+      ]
+    },
+    {
+      "id": "B05-two-source",
+      "kind": "answerable-cross-source-stress",
+      "question": "According to these notes, how do cultural skew and preference manipulation complicate deciding whose interests an AI should serve?",
+      "expected_claims": [
+        "General human value alignment can be Western/English-skewed and lacks consensus",
+        "Observed or stated preferences can be manipulated or shaped against interests",
+        "Multiple people can have conflicting interests"
+      ],
+      "required_passages": [
+        {
+          "source": "vault/raw/alignment-fundamentals-notes.md",
+          "lines_at_design": [
+            27,
+            34
+          ],
+          "exact_passage": "- Defining alignment is itself unsolved\n  - Aligning to individual risks enabling harmful behavior\n  - Aligning to “general human values” produces Western/English-skewed outputs\n  - No consensus on what those values even are\n- Reward modeling is a fundamental bottleneck\n  - SGD and numerical optimization assume a single optimum\n  - Fails to capture cultural and individual diversity\n  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective",
+          "source_sha256_at_design": "27e59c4c89a8d36c4b1bed7ba9653075518c5c74d0cc4e8d170f4274a2a15740"
+        },
+        {
+          "source": "vault/raw/alignment-lecture-notes.md",
+          "lines_at_design": [
+            33,
+            38
+          ],
+          "exact_passage": "- Preferences vs. interests: what someone prefers may not be good for them\n- Preference plasticity and manipulation:\n  - Addiction changes preference structures; AI should weight “reflective” preferences over drug-modified ones\n  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)\n  - Risk: AI systems are now themselves engaged in preference engineering\n- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?",
+          "source_sha256_at_design": "3f467f25e4118eae1307a742aea1247eacae224edeee85c2841c088741abc336"
+        }
+      ],
+      "forbidden_claims": [
+        "A complete solution to aggregation or pluralistic alignment is already established"
+      ]
+    }
+  ]
+}

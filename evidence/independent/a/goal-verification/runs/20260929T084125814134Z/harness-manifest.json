@@ -1,0 +1,13 @@
+{
+  "sources.json": "e93bb85166cdfcae4c6e66d6f98c106ebcd534f92acd737857b19d977e23207e",
+  "wiki": "246db2dc7be439f35f407353d9aa487e99cf378e713b22de9963ff7cdeb9e827",
+  "wiki.py": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+  "prompts/capabilities.md": "b35fa0aba66208638fd66ff0949cbd50f3ca86dae247cf4b73ff8245befe0ac9",
+  "prompts/research.md": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+  "prompts/ingest.md": "d46773a3ba20f03f8db777a32dc3b9eebc0fa25068a2d6da100daa9a7f41a473",
+  "prompts/persona.md": "2c659d4b2be20a2673abd1fca89f3e6765c4a40febb267998d4299440152b069",
+  "prompts/grounded-chat.md": "d45dc84da09787da9c8af2d4304cafde7698bea8234fcd713c6acc67b81e9ebe",
+  "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+  "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+  "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+}

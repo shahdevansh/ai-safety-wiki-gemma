@@ -1,0 +1,596 @@
+{
+  "records": [
+    {
+      "record": "records/B01-research.json",
+      "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+      "answer": "According to the retrieved meeting notes:\n\nAligning to \"general human values\" produces Western/English-skewed outputs [P6641881a8987]\n\nNo consensus on what those values even are [P6641881a8987]",
+      "interaction": "ask",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls": 1,
+      "citation_errors": [],
+      "source_fidelity": [
+        {
+          "id": "P6641881a8987",
+          "path": "vault/raw/alignment-fundamentals-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "path": "vault/raw/alignment-fundamentals-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P19588883e584",
+          "path": "vault/raw/risk-defenses-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "P6641881a8987",
+          "quote": "Aligning to “general human values” produces Western/English-skewed outputs",
+          "claim": "Aligning to \"general human values\" produces Western/English-skewed outputs",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "P6641881a8987",
+          "quote": "No consensus on what those values even are",
+          "claim": "No consensus on what those values even are",
+          "exact_quote_correct_id": true
+        }
+      ]
+    },
+    {
+      "record": "records/B01-retrieval.json",
+      "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+      "answer": null,
+      "interaction": "search",
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls": 0,
+      "citation_errors": null,
+      "source_fidelity": [
+        {
+          "id": "P6641881a8987",
+          "path": "vault/raw/alignment-fundamentals-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "path": "vault/raw/alignment-fundamentals-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P19588883e584",
+          "path": "vault/raw/risk-defenses-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "records/chat-only-codename-search.json",
+      "question": "Tangerine",
+      "answer": null,
+      "interaction": "search",
+      "history_messages": null,
+      "retrieval_called": true,
+      "model_calls": 0,
+      "citation_errors": null,
+      "source_fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "records/codename-isolation.json",
+      "question": "What is my project codename?",
+      "answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "interaction": "ask",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls": 1,
+      "citation_errors": [],
+      "source_fidelity": [
+        {
+          "id": "P6641881a8987",
+          "path": "vault/raw/alignment-fundamentals-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "required-chat/chat-01.json",
+      "question": "what can we do?",
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, revise, and retrieve notes with citations.\n\nCommands: `chat` uses conversation; `ask` researches independently; `search` shows original passages; `ingest` generates wiki drafts; `review` records an inspected page's review; `reindex` rebuilds retrieval; `doctor` reports model/device information; `help` lists commands.\n\nI have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "interaction": "chat",
+      "history_messages": 0,
+      "retrieval_called": false,
+      "model_calls": 0,
+      "citation_errors": [],
+      "source_fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "required-chat/chat-02.json",
+      "question": "what can you help me with?",
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, revise, and retrieve notes with citations.\n\nCommands: `chat` uses conversation; `ask` researches independently; `search` shows original passages; `ingest` generates wiki drafts; `review` records an inspected page's review; `reindex` rebuilds retrieval; `doctor` reports model/device information; `help` lists commands.\n\nI have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "interaction": "chat",
+      "history_messages": 2,
+      "retrieval_called": false,
+      "model_calls": 0,
+      "citation_errors": [],
+      "source_fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "required-chat/chat-03.json",
+      "question": "Draft a three-step plan for a 30-minute study session.",
+      "answer": "Suggestion:\n\n1. **Review Goals (5 minutes):** Define exactly what you want to accomplish in the 30 minutes. Be specific (e.g., \"Understand concept X\" or \"Complete practice problems 1-5\").\n2. **Active Study (20 minutes):** Focus intensely on the material. Use active recall techniques like flashcards, summarizing key points, or working through examples. Minimize distractions.\n3. **Quick Review & Plan Next Steps (5 minutes):** Briefly review what you covered. Note any weak spots and decide what you need to focus on next.\n\nHow does that look? We can make it shorter or more specific if you tell me what you're studying!",
+      "interaction": "chat",
+      "history_messages": 4,
+      "retrieval_called": false,
+      "model_calls": 1,
+      "citation_errors": [],
+      "source_fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "required-chat/chat-04.json",
+      "question": "make that shorter",
+      "answer": "Suggestion:\n\n1. **Define Goal (5 min):** State exactly what you need to learn.\n2. **Active Study (20 min):** Focus intensely on the material (e.g., practice, summarizing).\n3. **Review & Plan (5 min):** Quick recap and note next steps.\n\nIs that concise enough?",
+      "interaction": "chat",
+      "history_messages": 6,
+      "retrieval_called": false,
+      "model_calls": 1,
+      "citation_errors": [],
+      "source_fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "required-chat/chat-05.json",
+      "question": "For this conversation only, my project codename is Tangerine. Acknowledge it without saving it to the wiki.",
+      "answer": "Got it. For this conversation only, I acknowledge that your project codename is Tangerine. I will not save this information to the wiki.",
+      "interaction": "chat",
+      "history_messages": 8,
+      "retrieval_called": false,
+      "model_calls": 1,
+      "citation_errors": [],
+      "source_fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "question": "What do my notes say about assistance games?",
+      "answer": "Insufficient evidence: citation validation failed; inspect the saved raw Gemma response.",
+      "interaction": "chat",
+      "history_messages": 8,
+      "retrieval_called": true,
+      "model_calls": 2,
+      "citation_errors": [
+        "Unknown citation or nonverbatim quote: P6641881a8987",
+        "Unknown citation or nonverbatim quote: Pd36e317f50b9",
+        "Unknown citation or nonverbatim quote: P4f87872fbb73"
+      ],
+      "source_fidelity": [
+        {
+          "id": "P6641881a8987",
+          "path": "vault/raw/alignment-fundamentals-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "heldout-chat/H2-capability-paraphrase/chat-01.json",
+      "question": "Please list the commands you support and one thing you cannot do.",
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, revise, and retrieve notes with citations.\n\nCommands: `chat` uses conversation; `ask` researches independently; `search` shows original passages; `ingest` generates wiki drafts; `review` records an inspected page's review; `reindex` rebuilds retrieval; `doctor` reports model/device information; `help` lists commands.\n\nI have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "interaction": "chat",
+      "history_messages": 0,
+      "retrieval_called": false,
+      "model_calls": 0,
+      "citation_errors": [],
+      "source_fidelity": [],
+      "citations": []
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "question": "What do my notes say about preferences versus interests?",
+      "answer": "Insufficient evidence: citation validation failed; inspect the saved raw Gemma response.",
+      "interaction": "chat",
+      "history_messages": 0,
+      "retrieval_called": true,
+      "model_calls": 2,
+      "citation_errors": [
+        "Unknown citation or nonverbatim quote: Pd36e317f50b9"
+      ],
+      "source_fidelity": [
+        {
+          "id": "Pd36e317f50b9",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P6641881a8987",
+          "path": "vault/raw/alignment-fundamentals-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "path": "vault/raw/alignment-lecture-notes.md",
+          "safe_raw_path": true,
+          "exact_line_match": true,
+          "source_hash_match": true
+        }
+      ],
+      "citations": []
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-02.json",
+      "question": "For an unrelated community activity, suggest three names for a book club.",
+      "answer": "Suggestion: How about \"The Chapter Collective,\" \"Page Turners Anonymous,\" or \"Bookish Brain Trust\"?",
+      "interaction": "chat",
+      "history_messages": 2,
+      "retrieval_called": false,
+      "model_calls": 1,
+      "citation_errors": [],
+      "source_fidelity": [],
+      "citations": []
+    }
+  ],
+  "generations": [
+    {
+      "record": "records/B01-research.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 17.122,
+      "num_predict": 2400,
+      "structured": true,
+      "think": true,
+      "request_message_count": 2
+    },
+    {
+      "record": "records/codename-isolation.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 6.176,
+      "num_predict": 2400,
+      "structured": true,
+      "think": true,
+      "request_message_count": 2
+    },
+    {
+      "record": "required-chat/chat-03.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 4.9,
+      "num_predict": 650,
+      "structured": false,
+      "think": false,
+      "request_message_count": 6
+    },
+    {
+      "record": "required-chat/chat-04.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 1.374,
+      "num_predict": 650,
+      "structured": false,
+      "think": false,
+      "request_message_count": 8
+    },
+    {
+      "record": "required-chat/chat-05.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 0.635,
+      "num_predict": 650,
+      "structured": false,
+      "think": false,
+      "request_message_count": 10
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 27.454,
+      "num_predict": 2400,
+      "structured": true,
+      "think": true,
+      "request_message_count": 10
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 20.976,
+      "num_predict": 2400,
+      "structured": true,
+      "think": true,
+      "request_message_count": 12
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 25.636,
+      "num_predict": 2400,
+      "structured": true,
+      "think": true,
+      "request_message_count": 2
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 20.27,
+      "num_predict": 2400,
+      "structured": true,
+      "think": true,
+      "request_message_count": 4
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-02.json",
+      "identity": {
+        "name": "gemma4:e2b-it-qat",
+        "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "4.6B",
+          "quantization_level": "Q4_0",
+          "context_length": 131072,
+          "embedding_length": 1536
+        },
+        "download_bytes": 4336358185,
+        "runtime": {
+          "version": "0.34.4"
+        },
+        "endpoint": "http://127.0.0.1:11435"
+      },
+      "seconds": 0.894,
+      "num_predict": 650,
+      "structured": false,
+      "think": false,
+      "request_message_count": 4
+    }
+  ],
+  "generation_count": 10
+}

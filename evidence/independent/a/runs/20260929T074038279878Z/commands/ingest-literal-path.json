@@ -1,0 +1,17 @@
+{
+  "label": "ingest-literal-path",
+  "command": [
+    "python3",
+    "wiki.py",
+    "ingest",
+    "./vault/raw",
+    "--save",
+    "<evaluation>/runs/20260929T074038279878Z/records/ingest-initial.json"
+  ],
+  "cwd": "<evaluation>/runs/20260929T074038279878Z/project",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 28.72,
+  "stdout": "Pip | ingest | local | gemma4:e2b-it-qat\nvault/wiki/Concepts/Assistance Games.md: generated; review required\nvault/wiki/Governance/Compute Governance.md: generated; review required\nvault/wiki/Concepts/Transformer Safety Limits.md: generated; review required\nvault/wiki/Concepts/Alignment and Interpretability.md: generated; review required\nvault/wiki/Governance/Human Control and Defenses.md: generated; review required\nvault/wiki/Governance/Power and Disempowerment.md: generated; review required\n8 passages indexed; 28.656 s\n\nSaved: ingest-initial.json\n",
+  "stderr": ""
+}

@@ -1,0 +1,19 @@
+{
+  "label": "H2-capability-paraphrase",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/final-run/workspace/wiki.py",
+    "chat",
+    "--save-dir",
+    "<evaluation>/goal-verification/final-run/heldout-chat/H2-capability-paraphrase"
+  ],
+  "cwd": "<evaluation>/goal-verification/final-run/workspace",
+  "stdin": "Please list the commands you support and one thing you cannot do.\n/exit\n",
+  "returncode": 0,
+  "stdout": "Pip | chat | local | gemma4:e2b-it-qat\n/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.\nYou> Pip | chat | local | gemma4:e2b-it-qat\n\nI am Pip, a practical, friendly study partner. I work locally with this AI Safety vault.\n\nI support the following commands:\n*   **ask**: For independent factual research with citations.\n*   **search**: To search original passages.\n*   **ingest**: To generate wiki drafts and rebuild retrieval.\n*   **review**: To review provided text.\n*   **doctor**: To doctor provided text.\n*   **help**: To provide assistance.\n\nOne thing I cannot do is browse the internet.\n\nA useful starting point would be to ask me a question to see how I handle the `ask` command.\n\nModel time: 2.731 s\nYou> ",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T08:17:52.653902+00:00",
+  "wall_seconds": 2.805,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

@@ -1,0 +1,25 @@
+{
+  "note": "Execution after parent-announced server restart; restart proof is parent-owned and must be linked.",
+  "record_saved": true,
+  "record_model": {
+    "name": "gemma4:e2b-it-qat",
+    "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "gemma4",
+      "families": [
+        "gemma4"
+      ],
+      "parameter_size": "4.6B",
+      "quantization_level": "Q4_0",
+      "context_length": 131072,
+      "embedding_length": 1536
+    },
+    "download_bytes": 4336358185,
+    "runtime": {
+      "version": "0.34.4"
+    },
+    "endpoint": "http://127.0.0.1:11435"
+  }
+}

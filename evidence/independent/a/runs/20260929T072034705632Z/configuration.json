@@ -1,0 +1,20 @@
+{
+  "project": "<submission>",
+  "command_prefix": [],
+  "inherited_isolation": true,
+  "cli": [
+    "python3",
+    "wiki.py"
+  ],
+  "expected_model": "gemma4:e2b-it-qat",
+  "expected_model_digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+  "endpoint": "http://127.0.0.1:11435",
+  "offline_proof_path": "<submission>/evidence/evaluator-a-isolation/server-network.json",
+  "approval_note": "Parent approved the frozen sanitized project and execution inside scripts/local_only.py; evaluator and descendant CLI processes inherit the OS network sandbox, while the wrapper runs a separately isolated local Ollama server. WIKI_PORT is inherited from the wrapper. This configuration is only authorized through that wrapper.",
+  "command_timeout_seconds": 1800,
+  "search_without_model_prefix": [
+    "/usr/bin/sandbox-exec",
+    "-f",
+    "<submission>/isolation/no-network-at-all.sb"
+  ]
+}

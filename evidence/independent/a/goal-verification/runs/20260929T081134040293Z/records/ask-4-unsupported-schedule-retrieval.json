@@ -1,0 +1,27 @@
+{
+  "interaction": "search",
+  "execution": "local",
+  "question": "On what exact calendar date was the next critical infrastructure workshop scheduled?",
+  "passages": [
+    {
+      "id": "P571ac3d9e151",
+      "path": "vault/raw/risk-defenses-notes.md",
+      "title": "Power and Disempowerment",
+      "section": "Power and Disempowerment",
+      "line_start": 1,
+      "line_end": 31,
+      "text": "\n### AI Safety Workshop - Kill Chain Analysis\n\n- Participated in breakout exercise analyzing AI risk scenarios\n  - Focused on critical infrastructure collapse as kill chain topic\n  - Other participants covered gradual disempowerment, power concentration, mirror life risks\n\n### Critical Infrastructure Vulnerabilities Discussion\n\n- Cybersecurity threats to outdated government systems\n  - Legacy software in oil/gas pipelines, power grids, water supplies vulnerable to AI-enhanced attacks\n  - Bad state actors or terrorists could exploit these with powerful models\n  - Recent attacks on US pipelines by human actors demonstrate current vulnerability\n- Proposed defense mechanisms:\n  1. Physical fail-safes with human override capabilities\n  2. Multiple humans in decision loops\n  3. Physical buttons/levers to shut off software entirely (airplane example)\n  - AI lacks physical world access currently - key defensive advantage\n  - Always cat-and-mouse chase between attack/defense capabilities\n\n### Gradual Disempowerment Analysis (Participant A’s Presentation)\n\n- Economic displacement concerns:\n  - Workers replaced by AI losing meaningful work and income\n  - Skills atrophy as AI handles previous human tasks\n  - 40% unemployment scenario potential social crisis\n- Defense strategies discussed:\n  1. Proactive job creation and reskilling programs\n    - Coordination between education, companies, government needed\n  2. Universal Basic Income implementation\n  3. Human-as-bottleneck model where AI abundance increases human leverage\n",
+      "source_sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+      "bm25": -6.0171608502824645
+    }
+  ],
+  "model_calls": 0,
+  "retrieval_called": true,
+  "network_policy": "os-enforced-loopback-only",
+  "recorded_at_utc": "2026-09-29T08:12:46.838134+00:00",
+  "source_hashes": {
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02",
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  }
+}

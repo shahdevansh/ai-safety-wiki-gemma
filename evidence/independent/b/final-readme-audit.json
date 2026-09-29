@@ -1,0 +1,51 @@
+{
+  "reviewed_at_utc": "2026-09-29T07:41:14.049633+00:00",
+  "readme_sha256": "68c062724c403bdcb6f2ee573fd1b9e74513daea9fc6df980ae051dc60d4a995",
+  "links_checked": 45,
+  "missing_links": [],
+  "invalid_chat_mode_fixed": true,
+  "final_four_semantically_pass": true,
+  "measurements": {
+    "ask": [
+      {
+        "file": "01-assistance-game.json",
+        "generation_calls": 1,
+        "model_wall_seconds_total": 13.355,
+        "cli_peak_rss_bytes": 20234240,
+        "loaded_allocation_bytes": 3734492937,
+        "citation_errors": []
+      },
+      {
+        "file": "02-deception-detection.json",
+        "generation_calls": 1,
+        "model_wall_seconds_total": 13.818,
+        "cli_peak_rss_bytes": 19808256,
+        "loaded_allocation_bytes": 3734492937,
+        "citation_errors": []
+      },
+      {
+        "file": "03-physical-defenses.json",
+        "generation_calls": 1,
+        "model_wall_seconds_total": 15.807,
+        "cli_peak_rss_bytes": 20185088,
+        "loaded_allocation_bytes": 3734492937,
+        "citation_errors": []
+      },
+      {
+        "file": "04-unsupported.json",
+        "generation_calls": 1,
+        "model_wall_seconds_total": 10.848,
+        "cli_peak_rss_bytes": 19972096,
+        "loaded_allocation_bytes": 3734492937,
+        "citation_errors": []
+      }
+    ],
+    "ingestion_model_wall_seconds_sum": 28.892,
+    "model_tree_maximum_sampled_sum_rss_bytes": 5190254592,
+    "memory_note": "Parent samples only the isolated Ollama process tree approximately every 0.5 seconds. Summed RSS may double-count shared pages; sampled maximum is not exact peak memory or GPU allocation. Monitoring process makes no network requests.",
+    "ingestion_cli_wall_seconds": 28.951,
+    "ingestion_cli_peak_rss_bytes": 19398656,
+    "ingestion_loaded_allocation_bytes": 3734492937,
+    "reingestion_cli_wall_seconds": 0.01
+  }
+}

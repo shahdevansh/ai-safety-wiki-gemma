@@ -1,0 +1,28 @@
+{
+  "reviewed_at_utc": "2026-09-29T07:35:01.517061+00:00",
+  "changes": [
+    {
+      "path": "wiki.py",
+      "frozen_sha256": "73da464460c56ae720665da82ecc6e8c75dbcea803a381fffc33301076e40454",
+      "current_sha256": "6b16e888047731badd9a11a2567baedd5f06384f679e1cd70723f7cb966f55fa"
+    }
+  ],
+  "integrity_verdict": "PASS - no answer-key conditioning observed",
+  "scope": "Static review only. Runtime semantics await completed final run.",
+  "bounded_repair_limit": 1,
+  "trigger": "Nonempty strict citation/schema validation errors",
+  "repair_evidence": "Unchanged retrieved passages and original question, first raw answer, validator errors, generic quote instructions",
+  "preservation": "First and repaired raw answers, generation metadata, and errors retained when ask returns successfully",
+  "unchanged_components": [
+    "source corpus",
+    "prompts",
+    "retrieval",
+    "strict citation validation",
+    "original support schema"
+  ],
+  "limitations": [
+    "A valid quote can still fail semantic entailment or completeness.",
+    "If repair generation raises an exception, the first attempt is not saved by this function.",
+    "Top-level generation timing is final call only; total work must include each citation_validation_attempt."
+  ]
+}

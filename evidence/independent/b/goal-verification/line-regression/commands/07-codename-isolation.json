@@ -1,0 +1,22 @@
+{
+  "label": "codename-isolation",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/line-regression/workspace/wiki.py",
+    "ask",
+    "What is my project codename?",
+    "--mode",
+    "local",
+    "--save",
+    "<evaluation>/goal-verification/line-regression/records/codename-isolation.json"
+  ],
+  "cwd": "<evaluation>/goal-verification/line-regression/workspace",
+  "stdin": null,
+  "returncode": 0,
+  "stdout": "Pip | ask | local | gemma4:e2b-it-qat\n\nInsufficient evidence: the provided sources do not answer this question.\n\nOriginal evidence:\n[P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34\n\n### AI Safety Course: Group Image Exercise\n\n- Three groups presented AI futures via generated images\n- Group 1 (Outgroup): framed AI development as “camps”\n  - Camp 1: slow development\n  - Camp 2: race ahead (current reality)\n  - Camp 3: pause + global coordination\n  - Ideal future: global agreement on AI governance or ban\n- Group 2: projected AI capabilities to 2045\n  - \\~90% of cognitive tasks, some physical via robotics\n  - Also considered humanity becoming extraterrestrial\n- One group: “equitable AI” prompt\n  - Personal assistant for 8B+ people\n  - Enables professional, personal, and creative fulfillment\n  - Image depicted human-AI hybrid wielding AI for self-determined futures\n  - AI freeing humans from repetitive tasks for creative work\n- Facilitator noted all three were unusually original\n  - Most common outputs: Dubai-with-parks, drones, guy playing guitar\n\n### Breakout: Technical Challenges in AI Safety\n\n- Format: pairs, each person presents then swaps; reconvene to share learnings\n\n### Alignment: Core Challenges\n\n- Defining alignment is itself unsolved\n  - Aligning to individual risks enabling harmful behavior\n  - Aligning to “general human values” produces Western/English-skewed outputs\n  - No consensus on what those values even are\n- Reward modeling is a fundamental bottleneck\n  - SGD and numerical optimization assume a single optimum\n  - Fails to capture cultural and individual diversity\n  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective\n\n\nModel time: 6.128 s\n\nSaved: codename-isolation.json\n",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T08:45:09.111719+00:00",
+  "wall_seconds": 6.204,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

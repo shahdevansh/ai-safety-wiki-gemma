@@ -1,0 +1,17 @@
+{
+  "label": "ingest-repeat",
+  "command": [
+    "python3",
+    "wiki.py",
+    "ingest",
+    "./vault/raw",
+    "--save",
+    "<evaluation>/runs/20260929T072034705632Z/records/ingest-repeat.json"
+  ],
+  "cwd": "<evaluation>/runs/20260929T072034705632Z/project",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 0.106,
+  "stdout": "Pip | ingest | local | gemma4:e2b-it-qat\nvault/wiki/Concepts/Assistance Games.md: unchanged; reviewed edits preserved\nvault/wiki/Governance/Compute Governance.md: unchanged; reviewed edits preserved\nvault/wiki/Concepts/Transformer Safety Limits.md: unchanged; reviewed edits preserved\nvault/wiki/Concepts/Alignment and Interpretability.md: unchanged; reviewed edits preserved\nvault/wiki/Governance/Human Control and Defenses.md: unchanged; reviewed edits preserved\nvault/wiki/Governance/Power and Disempowerment.md: unchanged; reviewed edits preserved\n8 passages indexed; 0.01 s\n\nSaved: ingest-repeat.json\n",
+  "stderr": ""
+}

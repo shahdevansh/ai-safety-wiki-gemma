@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-09-29T08:46:00.263363+00:00",
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+  "cpu": "Apple M3 Pro",
+  "unified_memory_bytes": 38654705664,
+  "gpu": "Apple Silicon integrated GPU; shared unified memory, no separate dedicated VRAM",
+  "python": "3.9.6",
+  "disk_free_bytes": 13184540672,
+  "memory_snapshot": {
+    "free_bytes": 2165555200,
+    "inactive_bytes": 11275878400,
+    "speculative_bytes": 1667891200,
+    "note": "Free is immediately unused memory. Inactive and speculative pages include reclaimable caches; these are not a single guaranteed available-memory value. CPU/GPU share the installed unified-memory pool.",
+    "os_reported_free_percentage": 73
+  }
+}

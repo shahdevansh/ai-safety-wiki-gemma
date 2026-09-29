@@ -1,0 +1,939 @@
+
+$ ./wiki help
+usage: wiki.py [-h] {help,doctor,reindex,ingest,review,ask,search,chat} ...
+
+Pip: local Gemma personal wiki. No cloud fallback; Python standard library
+only.
+
+positional arguments:
+  {help,doctor,reindex,ingest,review,ask,search,chat}
+    help                Show commands
+    doctor              Inspect local model and device
+    reindex             Rebuild original-source retrieval without calling
+                        Gemma
+    ingest              Generate wiki drafts and index registered originals
+    review              Explicitly mark a checked wiki page as reviewed
+    ask                 Independent grounded answer
+    search              Original passages; no model call
+    chat                Conversational assistant; /exit to end, /reset to
+                        clear history
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+$ ./wiki ask According to the alignment lecture notes, what is the assistance-game AI's goal, and what is it uncertain about? --save evidence/assignment-run/01-assistance-game.json
+Pip | ask | local | gemma4:e2b-it-qat
+
+According to the retrieved meeting notes:
+
+AI’s only goal is to promote human interests [P0796ce4b536c]
+
+it is uncertain what those interests are and must infer them [P0796ce4b536c]
+
+Original evidence:
+[P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34
+
+### AI Safety Course: Group Image Exercise
+
+- Three groups presented AI futures via generated images
+- Group 1 (Outgroup): framed AI development as “camps”
+  - Camp 1: slow development
+  - Camp 2: race ahead (current reality)
+  - Camp 3: pause + global coordination
+  - Ideal future: global agreement on AI governance or ban
+- Group 2: projected AI capabilities to 2045
+  - \~90% of cognitive tasks, some physical via robotics
+  - Also considered humanity becoming extraterrestrial
+- One group: “equitable AI” prompt
+  - Personal assistant for 8B+ people
+  - Enables professional, personal, and creative fulfillment
+  - Image depicted human-AI hybrid wielding AI for self-determined futures
+  - AI freeing humans from repetitive tasks for creative work
+- Facilitator noted all three were unusually original
+  - Most common outputs: Dubai-with-parks, drones, guy playing guitar
+
+### Breakout: Technical Challenges in AI Safety
+
+- Format: pairs, each person presents then swaps; reconvene to share learnings
+
+### Alignment: Core Challenges
+
+- Defining alignment is itself unsolved
+  - Aligning to individual risks enabling harmful behavior
+  - Aligning to “general human values” produces Western/English-skewed outputs
+  - No consensus on what those values even are
+- Reward modeling is a fundamental bottleneck
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+
+
+[P0796ce4b536c] vault/raw/alignment-lecture-notes.md:L1-L23
+
+### Objective Specification vs. Optimal Behavior
+
+- Two distinct ways to build a system that optimizes an objective:
+  - Specify the objective and let the system optimize it
+  - Derive optimal behavior for a given objective and hard-code the behavior
+- Control theory example: autopilot derives a simple control law (e.g., force = 6x deviation + 2x deviation²) without explicitly representing the cost function
+- Humans and animals are similar: evolution optimizes for reproduction, but animals don’t consciously pursue it
+- Classical AI systems (1960–2020) mostly fall into the “objective-in-the-machine” category
+
+### Imitation Learning and the Problem of Objectives
+
+- Imitation learning in the limit reproduces the behavior-generating mechanism of the training source
+- Key complications:
+  - Training data comes from millions of humans in invisible, varied circumstances (e.g., a Solidarity operative in Communist Poland)
+  - Context is stripped; the resulting entity may not resemble a classical rational agent with stable objectives
+- Open question: do imitation-trained models have a mixture of objective structures activated conditionally by context?
+- Empirical signals suggest LLMs develop proxy goals: self-preservation, wealth, human companionship (natural byproducts of human training data)
+
+### The Assistance Game Model
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+
+
+[Pd36e317f50b9] vault/raw/alignment-lecture-notes.md:L21-L40
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+  - “Values” triggered culture-war reactions
+  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good
+- Inference mechanism: observe behavior and internal mental states, apply Bayesian priors
+- Convergence: in theory, infinite data + fixed model of human decision-making → recover true preferences; in practice, unlikely to fully converge
+- Non-identifiability problem: behavior alone can’t distinguish preferences from beliefs (e.g., a chess-player example: anti-rational agent looks identical from outside)
+  - Bayesian prior that someone is anti-rational is infinitesimally low, so practically resolvable
+
+### Hard Problems for the Assistance Game
+
+- Preferences vs. interests: what someone prefers may not be good for them
+- Preference plasticity and manipulation:
+  - Addiction changes preference structures; AI should weight “reflective” preferences over drug-modified ones
+  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)
+  - Risk: AI systems are now themselves engaged in preference engineering
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+
+
+[Pd3902efa8beb] vault/raw/alignment-fundamentals-notes.md:L32-L52
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+- Process reward models exist but limited to math
+  - Still trained on traces that reach a “correct” answer
+  - Don’t capture what a correct process actually looks like
+- Agents still misread intent and don’t ask for clarification
+  - Unlike human collaborators, they don’t flag ambiguity
+
+### Interpretability: The Other Half
+
+- Hard to align models without understanding their internals
+  - Analogous to not knowing what a human is thinking
+- Interpretability and alignment are two sides of the same objective
+  - Need to know what direction to go, and how to get there
+- Active research direction: detecting deception in reasoning models
+  - Tracking discrepancies between thinking trace and explicit model output
+  - Hidden states that lead to deceptive outputs as a target
+
+
+[Participant biographies and personal follow-up actions removed for public sharing.]
+
+
+Model time: 13.289 s
+
+Saved: evidence/assignment-run/01-assistance-game.json
+
+$ ./wiki ask In the fundamentals session, what two things were compared to look for deception in reasoning models? --save evidence/assignment-run/02-deception-detection.json
+Pip | ask | local | gemma4:e2b-it-qat
+
+Insufficient evidence: citation validation failed; inspect the saved raw Gemma response.
+
+Original evidence:
+[Pd3902efa8beb] vault/raw/alignment-fundamentals-notes.md:L32-L52
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+- Process reward models exist but limited to math
+  - Still trained on traces that reach a “correct” answer
+  - Don’t capture what a correct process actually looks like
+- Agents still misread intent and don’t ask for clarification
+  - Unlike human collaborators, they don’t flag ambiguity
+
+### Interpretability: The Other Half
+
+- Hard to align models without understanding their internals
+  - Analogous to not knowing what a human is thinking
+- Interpretability and alignment are two sides of the same objective
+  - Need to know what direction to go, and how to get there
+- Active research direction: detecting deception in reasoning models
+  - Tracking discrepancies between thinking trace and explicit model output
+  - Hidden states that lead to deceptive outputs as a target
+
+
+[Participant biographies and personal follow-up actions removed for public sharing.]
+
+
+[P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34
+
+### AI Safety Course: Group Image Exercise
+
+- Three groups presented AI futures via generated images
+- Group 1 (Outgroup): framed AI development as “camps”
+  - Camp 1: slow development
+  - Camp 2: race ahead (current reality)
+  - Camp 3: pause + global coordination
+  - Ideal future: global agreement on AI governance or ban
+- Group 2: projected AI capabilities to 2045
+  - \~90% of cognitive tasks, some physical via robotics
+  - Also considered humanity becoming extraterrestrial
+- One group: “equitable AI” prompt
+  - Personal assistant for 8B+ people
+  - Enables professional, personal, and creative fulfillment
+  - Image depicted human-AI hybrid wielding AI for self-determined futures
+  - AI freeing humans from repetitive tasks for creative work
+- Facilitator noted all three were unusually original
+  - Most common outputs: Dubai-with-parks, drones, guy playing guitar
+
+### Breakout: Technical Challenges in AI Safety
+
+- Format: pairs, each person presents then swaps; reconvene to share learnings
+
+### Alignment: Core Challenges
+
+- Defining alignment is itself unsolved
+  - Aligning to individual risks enabling harmful behavior
+  - Aligning to “general human values” produces Western/English-skewed outputs
+  - No consensus on what those values even are
+- Reward modeling is a fundamental bottleneck
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+
+
+[P19588883e584] vault/raw/risk-defenses-notes.md:L29-L51
+    - Coordination between education, companies, government needed
+  2. Universal Basic Income implementation
+  3. Human-as-bottleneck model where AI abundance increases human leverage
+- Cultural erosion risks:
+  - AI content overwhelming human-generated content
+  - Mandatory labeling of AI-generated content as intervention
+- Democratic hollowing identified as biggest threat
+  - Could lead to civil war scenarios
+  - AI exacerbating existing political polarization
+  - No clear solutions identified
+
+### Power Concentration \&amp; Governance Solutions
+
+- Model ensembling as risk mitigation
+  - Use multiple AI models (Anthropic, OpenAI, Grok) for government decisions
+  - Compare answers to identify potential manipulation or bias
+  - Diversification approach similar to financial risk management
+- AI Constitution concept explored:
+  - Challenge of writing legislation for fluid AI capabilities
+  - Question of allowing AI to bypass constitution in emergencies
+  - Enforcement mechanisms unclear
+  - Separation of powers principle: AI-assisted but human-accountable institutions checking each other
+- Broader team involvement in model training to prevent concentration
+
+
+[Pd36e317f50b9] vault/raw/alignment-lecture-notes.md:L21-L40
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+  - “Values” triggered culture-war reactions
+  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good
+- Inference mechanism: observe behavior and internal mental states, apply Bayesian priors
+- Convergence: in theory, infinite data + fixed model of human decision-making → recover true preferences; in practice, unlikely to fully converge
+- Non-identifiability problem: behavior alone can’t distinguish preferences from beliefs (e.g., a chess-player example: anti-rational agent looks identical from outside)
+  - Bayesian prior that someone is anti-rational is infinitesimally low, so practically resolvable
+
+### Hard Problems for the Assistance Game
+
+- Preferences vs. interests: what someone prefers may not be good for them
+- Preference plasticity and manipulation:
+  - Addiction changes preference structures; AI should weight “reflective” preferences over drug-modified ones
+  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)
+  - Risk: AI systems are now themselves engaged in preference engineering
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+
+
+Model time: 13.532 s
+
+Saved: evidence/assignment-run/02-deception-detection.json
+
+$ ./wiki ask What physical or human controls did the infrastructure workshop propose to stop software from taking over? --save evidence/assignment-run/03-physical-defenses.json
+Pip | ask | local | gemma4:e2b-it-qat
+
+According to the retrieved meeting notes:
+
+1. Physical fail-safes with human override capabilities [P571ac3d9e151]
+
+2. Multiple humans in decision loops [P571ac3d9e151]
+
+3. Physical buttons/levers to shut off software entirely (airplane example) [P571ac3d9e151]
+
+Original evidence:
+[P571ac3d9e151] vault/raw/risk-defenses-notes.md:L1-L31
+
+### AI Safety Workshop - Kill Chain Analysis
+
+- Participated in breakout exercise analyzing AI risk scenarios
+  - Focused on critical infrastructure collapse as kill chain topic
+  - Other participants covered gradual disempowerment, power concentration, mirror life risks
+
+### Critical Infrastructure Vulnerabilities Discussion
+
+- Cybersecurity threats to outdated government systems
+  - Legacy software in oil/gas pipelines, power grids, water supplies vulnerable to AI-enhanced attacks
+  - Bad state actors or terrorists could exploit these with powerful models
+  - Recent attacks on US pipelines by human actors demonstrate current vulnerability
+- Proposed defense mechanisms:
+  1. Physical fail-safes with human override capabilities
+  2. Multiple humans in decision loops
+  3. Physical buttons/levers to shut off software entirely (airplane example)
+  - AI lacks physical world access currently - key defensive advantage
+  - Always cat-and-mouse chase between attack/defense capabilities
+
+### Gradual Disempowerment Analysis (Participant A’s Presentation)
+
+- Economic displacement concerns:
+  - Workers replaced by AI losing meaningful work and income
+  - Skills atrophy as AI handles previous human tasks
+  - 40% unemployment scenario potential social crisis
+- Defense strategies discussed:
+  1. Proactive job creation and reskilling programs
+    - Coordination between education, companies, government needed
+  2. Universal Basic Income implementation
+  3. Human-as-bottleneck model where AI abundance increases human leverage
+
+
+[P0796ce4b536c] vault/raw/alignment-lecture-notes.md:L1-L23
+
+### Objective Specification vs. Optimal Behavior
+
+- Two distinct ways to build a system that optimizes an objective:
+  - Specify the objective and let the system optimize it
+  - Derive optimal behavior for a given objective and hard-code the behavior
+- Control theory example: autopilot derives a simple control law (e.g., force = 6x deviation + 2x deviation²) without explicitly representing the cost function
+- Humans and animals are similar: evolution optimizes for reproduction, but animals don’t consciously pursue it
+- Classical AI systems (1960–2020) mostly fall into the “objective-in-the-machine” category
+
+### Imitation Learning and the Problem of Objectives
+
+- Imitation learning in the limit reproduces the behavior-generating mechanism of the training source
+- Key complications:
+  - Training data comes from millions of humans in invisible, varied circumstances (e.g., a Solidarity operative in Communist Poland)
+  - Context is stripped; the resulting entity may not resemble a classical rational agent with stable objectives
+- Open question: do imitation-trained models have a mixture of objective structures activated conditionally by context?
+- Empirical signals suggest LLMs develop proxy goals: self-preservation, wealth, human companionship (natural byproducts of human training data)
+
+### The Assistance Game Model
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+
+
+[Pd36e317f50b9] vault/raw/alignment-lecture-notes.md:L21-L40
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+  - “Values” triggered culture-war reactions
+  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good
+- Inference mechanism: observe behavior and internal mental states, apply Bayesian priors
+- Convergence: in theory, infinite data + fixed model of human decision-making → recover true preferences; in practice, unlikely to fully converge
+- Non-identifiability problem: behavior alone can’t distinguish preferences from beliefs (e.g., a chess-player example: anti-rational agent looks identical from outside)
+  - Bayesian prior that someone is anti-rational is infinitesimally low, so practically resolvable
+
+### Hard Problems for the Assistance Game
+
+- Preferences vs. interests: what someone prefers may not be good for them
+- Preference plasticity and manipulation:
+  - Addiction changes preference structures; AI should weight “reflective” preferences over drug-modified ones
+  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)
+  - Risk: AI systems are now themselves engaged in preference engineering
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+
+
+[P9e2cc541c9bc] vault/raw/alignment-lecture-notes.md:L38-L56
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+  - Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal
+  - Strivings and achievements are not captured by pure state-of-the-world preferences
+  - Fixable by incorporating mental states and process into the preference model; may require a modified decision theory
+- Training data gap: no 400 trillion labeled examples of an assistance game solver; only human behavior data exists
+
+### Governance and Regulation
+
+- Behavioral red lines are hard to enforce without better understanding of system internals
+- Compute governance is more tractable: regulate training runs and hardware rather than software
+  - Software can be copied and transmitted freely; malware costs \~$12T/year globally and is largely uncontrolled
+  - Hardware governance: if TSMC and all major chip manufacturers embed safety checks, bypassing requires building a fab from scratch (currently infeasible)
+- Treaty organization models compared:
+  - ICAO/IMO model: regulate the national regulators; hands-off, less intrusive
+  - IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)
+  - Some White House voices now calling for “an IAEA for AI”
+- CTBTO experience: UN structural impediments (5-continent division requirement, 4-year term limits, no institutional memory) make competent organizations very hard to build
+
+
+Model time: 13.637 s
+
+Saved: evidence/assignment-run/03-physical-defenses.json
+
+$ ./wiki ask What exact annual dollar budget was approved for the international AI treaty organization discussed in the alignment lecture? --save evidence/assignment-run/04-unsupported.json
+Pip | ask | local | gemma4:e2b-it-qat
+
+Insufficient evidence: the provided sources do not answer this question.
+
+Original evidence:
+[P9e2cc541c9bc] vault/raw/alignment-lecture-notes.md:L38-L56
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+  - Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal
+  - Strivings and achievements are not captured by pure state-of-the-world preferences
+  - Fixable by incorporating mental states and process into the preference model; may require a modified decision theory
+- Training data gap: no 400 trillion labeled examples of an assistance game solver; only human behavior data exists
+
+### Governance and Regulation
+
+- Behavioral red lines are hard to enforce without better understanding of system internals
+- Compute governance is more tractable: regulate training runs and hardware rather than software
+  - Software can be copied and transmitted freely; malware costs \~$12T/year globally and is largely uncontrolled
+  - Hardware governance: if TSMC and all major chip manufacturers embed safety checks, bypassing requires building a fab from scratch (currently infeasible)
+- Treaty organization models compared:
+  - ICAO/IMO model: regulate the national regulators; hands-off, less intrusive
+  - IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)
+  - Some White House voices now calling for “an IAEA for AI”
+- CTBTO experience: UN structural impediments (5-continent division requirement, 4-year term limits, no institutional memory) make competent organizations very hard to build
+
+
+[P393649e8c594] vault/raw/alignment-lecture-notes.md:L54-L67
+  - IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)
+  - Some White House voices now calling for “an IAEA for AI”
+- CTBTO experience: UN structural impediments (5-continent division requirement, 4-year term limits, no institutional memory) make competent organizations very hard to build
+  - Alternative: UN-affiliated but independently run (like ICAO), avoiding veto paralysis
+- [Speaker-specific career anecdote removed for privacy.]
+
+### Transformer Limitations and Safety
+
+- Fixed-depth transformers cannot solve certain problems (e.g., graph connectivity) regardless of scale
+- Chain-of-thought and recurrent models are effectively Turing machines: unbounded computation per token
+- Transformers + context window + wrapping algorithm = functionally a Turing machine
+- Current saving grace: transformers still fail to learn certain regularities (e.g., the Reversal Curse) due to sample complexity
+- Not a strong safety guarantee: MCO chess analogy applies (win without understanding; bypass limitations via pattern matching)
+- Recurrent models could flip the situation “almost overnight” with a research breakthrough
+
+
+[Pd3902efa8beb] vault/raw/alignment-fundamentals-notes.md:L32-L52
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+- Process reward models exist but limited to math
+  - Still trained on traces that reach a “correct” answer
+  - Don’t capture what a correct process actually looks like
+- Agents still misread intent and don’t ask for clarification
+  - Unlike human collaborators, they don’t flag ambiguity
+
+### Interpretability: The Other Half
+
+- Hard to align models without understanding their internals
+  - Analogous to not knowing what a human is thinking
+- Interpretability and alignment are two sides of the same objective
+  - Need to know what direction to go, and how to get there
+- Active research direction: detecting deception in reasoning models
+  - Tracking discrepancies between thinking trace and explicit model output
+  - Hidden states that lead to deceptive outputs as a target
+
+
+[Participant biographies and personal follow-up actions removed for public sharing.]
+
+
+[P571ac3d9e151] vault/raw/risk-defenses-notes.md:L1-L31
+
+### AI Safety Workshop - Kill Chain Analysis
+
+- Participated in breakout exercise analyzing AI risk scenarios
+  - Focused on critical infrastructure collapse as kill chain topic
+  - Other participants covered gradual disempowerment, power concentration, mirror life risks
+
+### Critical Infrastructure Vulnerabilities Discussion
+
+- Cybersecurity threats to outdated government systems
+  - Legacy software in oil/gas pipelines, power grids, water supplies vulnerable to AI-enhanced attacks
+  - Bad state actors or terrorists could exploit these with powerful models
+  - Recent attacks on US pipelines by human actors demonstrate current vulnerability
+- Proposed defense mechanisms:
+  1. Physical fail-safes with human override capabilities
+  2. Multiple humans in decision loops
+  3. Physical buttons/levers to shut off software entirely (airplane example)
+  - AI lacks physical world access currently - key defensive advantage
+  - Always cat-and-mouse chase between attack/defense capabilities
+
+### Gradual Disempowerment Analysis (Participant A’s Presentation)
+
+- Economic displacement concerns:
+  - Workers replaced by AI losing meaningful work and income
+  - Skills atrophy as AI handles previous human tasks
+  - 40% unemployment scenario potential social crisis
+- Defense strategies discussed:
+  1. Proactive job creation and reskilling programs
+    - Coordination between education, companies, government needed
+  2. Universal Basic Income implementation
+  3. Human-as-bottleneck model where AI abundance increases human leverage
+
+
+Model time: 10.044 s
+
+Saved: evidence/assignment-run/04-unsupported.json
+
+$ ./wiki chat --script evals/chat.txt --save-dir evidence/assignment-run
+Pip | chat | local | gemma4:e2b-it-qat
+/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.
+You> what can we do?
+Pip | chat | local | gemma4:e2b-it-qat
+
+I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.
+
+Use `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.
+
+Suggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.
+You> what can you help me with?
+Pip | chat | local | gemma4:e2b-it-qat
+
+I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.
+
+Use `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.
+
+Suggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.
+You> Draft a three-step plan for a 30-minute study session.
+Pip | chat | local | gemma4:e2b-it-qat
+
+Suggestion:
+
+1. **Review Material (10 minutes):** Quickly skim your notes or textbook sections to refresh your memory on the core concepts.
+2. **Active Recall/Practice (15 minutes):** Test yourself on the material using flashcards, practice problems, or by trying to explain a concept out loud.
+3. **Summarize & Identify Gaps (5 minutes):** Write down the main takeaways and note any areas where you felt unsure or need further review.
+
+Model time: 2.6 s
+You> make that shorter
+Pip | chat | local | gemma4:e2b-it-qat
+
+Suggestion:
+
+1. **Review (10 min):** Skim notes for core concepts.
+2. **Practice (15 min):** Active recall or practice problems.
+3. **Summarize (5 min):** Write takeaways and note gaps.
+
+Model time: 1.072 s
+You> For this conversation only, my project codename is Tangerine. Acknowledge it without saving it to the wiki.
+Pip | chat | local | gemma4:e2b-it-qat
+
+Got it. For this conversation only, your project codename is Tangerine.
+
+Original evidence:
+[Pd36e317f50b9] vault/raw/alignment-lecture-notes.md:L21-L40
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+  - “Values” triggered culture-war reactions
+  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good
+- Inference mechanism: observe behavior and internal mental states, apply Bayesian priors
+- Convergence: in theory, infinite data + fixed model of human decision-making → recover true preferences; in practice, unlikely to fully converge
+- Non-identifiability problem: behavior alone can’t distinguish preferences from beliefs (e.g., a chess-player example: anti-rational agent looks identical from outside)
+  - Bayesian prior that someone is anti-rational is infinitesimally low, so practically resolvable
+
+### Hard Problems for the Assistance Game
+
+- Preferences vs. interests: what someone prefers may not be good for them
+- Preference plasticity and manipulation:
+  - Addiction changes preference structures; AI should weight “reflective” preferences over drug-modified ones
+  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)
+  - Risk: AI systems are now themselves engaged in preference engineering
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+
+
+[P393649e8c594] vault/raw/alignment-lecture-notes.md:L54-L67
+  - IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)
+  - Some White House voices now calling for “an IAEA for AI”
+- CTBTO experience: UN structural impediments (5-continent division requirement, 4-year term limits, no institutional memory) make competent organizations very hard to build
+  - Alternative: UN-affiliated but independently run (like ICAO), avoiding veto paralysis
+- [Speaker-specific career anecdote removed for privacy.]
+
+### Transformer Limitations and Safety
+
+- Fixed-depth transformers cannot solve certain problems (e.g., graph connectivity) regardless of scale
+- Chain-of-thought and recurrent models are effectively Turing machines: unbounded computation per token
+- Transformers + context window + wrapping algorithm = functionally a Turing machine
+- Current saving grace: transformers still fail to learn certain regularities (e.g., the Reversal Curse) due to sample complexity
+- Not a strong safety guarantee: MCO chess analogy applies (win without understanding; bypass limitations via pattern matching)
+- Recurrent models could flip the situation “almost overnight” with a research breakthrough
+
+
+[P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34
+
+### AI Safety Course: Group Image Exercise
+
+- Three groups presented AI futures via generated images
+- Group 1 (Outgroup): framed AI development as “camps”
+  - Camp 1: slow development
+  - Camp 2: race ahead (current reality)
+  - Camp 3: pause + global coordination
+  - Ideal future: global agreement on AI governance or ban
+- Group 2: projected AI capabilities to 2045
+  - \~90% of cognitive tasks, some physical via robotics
+  - Also considered humanity becoming extraterrestrial
+- One group: “equitable AI” prompt
+  - Personal assistant for 8B+ people
+  - Enables professional, personal, and creative fulfillment
+  - Image depicted human-AI hybrid wielding AI for self-determined futures
+  - AI freeing humans from repetitive tasks for creative work
+- Facilitator noted all three were unusually original
+  - Most common outputs: Dubai-with-parks, drones, guy playing guitar
+
+### Breakout: Technical Challenges in AI Safety
+
+- Format: pairs, each person presents then swaps; reconvene to share learnings
+
+### Alignment: Core Challenges
+
+- Defining alignment is itself unsolved
+  - Aligning to individual risks enabling harmful behavior
+  - Aligning to “general human values” produces Western/English-skewed outputs
+  - No consensus on what those values even are
+- Reward modeling is a fundamental bottleneck
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+
+
+[P0796ce4b536c] vault/raw/alignment-lecture-notes.md:L1-L23
+
+### Objective Specification vs. Optimal Behavior
+
+- Two distinct ways to build a system that optimizes an objective:
+  - Specify the objective and let the system optimize it
+  - Derive optimal behavior for a given objective and hard-code the behavior
+- Control theory example: autopilot derives a simple control law (e.g., force = 6x deviation + 2x deviation²) without explicitly representing the cost function
+- Humans and animals are similar: evolution optimizes for reproduction, but animals don’t consciously pursue it
+- Classical AI systems (1960–2020) mostly fall into the “objective-in-the-machine” category
+
+### Imitation Learning and the Problem of Objectives
+
+- Imitation learning in the limit reproduces the behavior-generating mechanism of the training source
+- Key complications:
+  - Training data comes from millions of humans in invisible, varied circumstances (e.g., a Solidarity operative in Communist Poland)
+  - Context is stripped; the resulting entity may not resemble a classical rational agent with stable objectives
+- Open question: do imitation-trained models have a mixture of objective structures activated conditionally by context?
+- Empirical signals suggest LLMs develop proxy goals: self-preservation, wealth, human companionship (natural byproducts of human training data)
+
+### The Assistance Game Model
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+
+
+Model time: 3.263 s
+You> What do my notes say about assistance games?
+Pip | chat | local | gemma4:e2b-it-qat
+
+Your notes frame the Assistance Game with the core idea that "AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them" [P0796ce4b536c].
+
+Key aspects mentioned include:
+
+*   **Framing:** The goal is to promote "interests" rather than "preferences" or "values," as "values" can trigger culture-war reactions and "stated preferences" are easily manipulated [Pd36e317f50b9, P0796ce4b536c].
+*   **Inference:** AI needs to infer these interests by observing behavior and internal mental states, applying Bayesian priors [Pd36e317f50b9].
+*   **Challenges:** The notes highlight challenges like the difference between preferences and interests, preference plasticity, and the need to address aggregation and social choice when serving multiple humans with conflicting interests [P9e2cc541c9bc].
+
+Original evidence:
+[P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34
+
+### AI Safety Course: Group Image Exercise
+
+- Three groups presented AI futures via generated images
+- Group 1 (Outgroup): framed AI development as “camps”
+  - Camp 1: slow development
+  - Camp 2: race ahead (current reality)
+  - Camp 3: pause + global coordination
+  - Ideal future: global agreement on AI governance or ban
+- Group 2: projected AI capabilities to 2045
+  - \~90% of cognitive tasks, some physical via robotics
+  - Also considered humanity becoming extraterrestrial
+- One group: “equitable AI” prompt
+  - Personal assistant for 8B+ people
+  - Enables professional, personal, and creative fulfillment
+  - Image depicted human-AI hybrid wielding AI for self-determined futures
+  - AI freeing humans from repetitive tasks for creative work
+- Facilitator noted all three were unusually original
+  - Most common outputs: Dubai-with-parks, drones, guy playing guitar
+
+### Breakout: Technical Challenges in AI Safety
+
+- Format: pairs, each person presents then swaps; reconvene to share learnings
+
+### Alignment: Core Challenges
+
+- Defining alignment is itself unsolved
+  - Aligning to individual risks enabling harmful behavior
+  - Aligning to “general human values” produces Western/English-skewed outputs
+  - No consensus on what those values even are
+- Reward modeling is a fundamental bottleneck
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+
+
+[Pd36e317f50b9] vault/raw/alignment-lecture-notes.md:L21-L40
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+  - “Values” triggered culture-war reactions
+  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good
+- Inference mechanism: observe behavior and internal mental states, apply Bayesian priors
+- Convergence: in theory, infinite data + fixed model of human decision-making → recover true preferences; in practice, unlikely to fully converge
+- Non-identifiability problem: behavior alone can’t distinguish preferences from beliefs (e.g., a chess-player example: anti-rational agent looks identical from outside)
+  - Bayesian prior that someone is anti-rational is infinitesimally low, so practically resolvable
+
+### Hard Problems for the Assistance Game
+
+- Preferences vs. interests: what someone prefers may not be good for them
+- Preference plasticity and manipulation:
+  - Addiction changes preference structures; AI should weight “reflective” preferences over drug-modified ones
+  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)
+  - Risk: AI systems are now themselves engaged in preference engineering
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+
+
+[P9e2cc541c9bc] vault/raw/alignment-lecture-notes.md:L38-L56
+- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?
+- Autonomy dimension:
+  - Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency
+  - Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal
+  - Strivings and achievements are not captured by pure state-of-the-world preferences
+  - Fixable by incorporating mental states and process into the preference model; may require a modified decision theory
+- Training data gap: no 400 trillion labeled examples of an assistance game solver; only human behavior data exists
+
+### Governance and Regulation
+
+- Behavioral red lines are hard to enforce without better understanding of system internals
+- Compute governance is more tractable: regulate training runs and hardware rather than software
+  - Software can be copied and transmitted freely; malware costs \~$12T/year globally and is largely uncontrolled
+  - Hardware governance: if TSMC and all major chip manufacturers embed safety checks, bypassing requires building a fab from scratch (currently infeasible)
+- Treaty organization models compared:
+  - ICAO/IMO model: regulate the national regulators; hands-off, less intrusive
+  - IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)
+  - Some White House voices now calling for “an IAEA for AI”
+- CTBTO experience: UN structural impediments (5-continent division requirement, 4-year term limits, no institutional memory) make competent organizations very hard to build
+
+
+[P0796ce4b536c] vault/raw/alignment-lecture-notes.md:L1-L23
+
+### Objective Specification vs. Optimal Behavior
+
+- Two distinct ways to build a system that optimizes an objective:
+  - Specify the objective and let the system optimize it
+  - Derive optimal behavior for a given objective and hard-code the behavior
+- Control theory example: autopilot derives a simple control law (e.g., force = 6x deviation + 2x deviation²) without explicitly representing the cost function
+- Humans and animals are similar: evolution optimizes for reproduction, but animals don’t consciously pursue it
+- Classical AI systems (1960–2020) mostly fall into the “objective-in-the-machine” category
+
+### Imitation Learning and the Problem of Objectives
+
+- Imitation learning in the limit reproduces the behavior-generating mechanism of the training source
+- Key complications:
+  - Training data comes from millions of humans in invisible, varied circumstances (e.g., a Solidarity operative in Communist Poland)
+  - Context is stripped; the resulting entity may not resemble a classical rational agent with stable objectives
+- Open question: do imitation-trained models have a mixture of objective structures activated conditionally by context?
+- Empirical signals suggest LLMs develop proxy goals: self-preservation, wealth, human companionship (natural byproducts of human training data)
+
+### The Assistance Game Model
+
+- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them
+- “Interest” preferred over “preference” or “values”:
+
+
+Model time: 6.676 s
+
+$ ./wiki search physical fail-safes human override --save evidence/assignment-run/search.json
+Pip | search | local | retrieval only; no model call
+
+Original evidence:
+[P571ac3d9e151] vault/raw/risk-defenses-notes.md:L1-L31
+
+### AI Safety Workshop - Kill Chain Analysis
+
+- Participated in breakout exercise analyzing AI risk scenarios
+  - Focused on critical infrastructure collapse as kill chain topic
+  - Other participants covered gradual disempowerment, power concentration, mirror life risks
+
+### Critical Infrastructure Vulnerabilities Discussion
+
+- Cybersecurity threats to outdated government systems
+  - Legacy software in oil/gas pipelines, power grids, water supplies vulnerable to AI-enhanced attacks
+  - Bad state actors or terrorists could exploit these with powerful models
+  - Recent attacks on US pipelines by human actors demonstrate current vulnerability
+- Proposed defense mechanisms:
+  1. Physical fail-safes with human override capabilities
+  2. Multiple humans in decision loops
+  3. Physical buttons/levers to shut off software entirely (airplane example)
+  - AI lacks physical world access currently - key defensive advantage
+  - Always cat-and-mouse chase between attack/defense capabilities
+
+### Gradual Disempowerment Analysis (Participant A’s Presentation)
+
+- Economic displacement concerns:
+  - Workers replaced by AI losing meaningful work and income
+  - Skills atrophy as AI handles previous human tasks
+  - 40% unemployment scenario potential social crisis
+- Defense strategies discussed:
+  1. Proactive job creation and reskilling programs
+    - Coordination between education, companies, government needed
+  2. Universal Basic Income implementation
+  3. Human-as-bottleneck model where AI abundance increases human leverage
+
+
+[P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34
+
+### AI Safety Course: Group Image Exercise
+
+- Three groups presented AI futures via generated images
+- Group 1 (Outgroup): framed AI development as “camps”
+  - Camp 1: slow development
+  - Camp 2: race ahead (current reality)
+  - Camp 3: pause + global coordination
+  - Ideal future: global agreement on AI governance or ban
+- Group 2: projected AI capabilities to 2045
+  - \~90% of cognitive tasks, some physical via robotics
+  - Also considered humanity becoming extraterrestrial
+- One group: “equitable AI” prompt
+  - Personal assistant for 8B+ people
+  - Enables professional, personal, and creative fulfillment
+  - Image depicted human-AI hybrid wielding AI for self-determined futures
+  - AI freeing humans from repetitive tasks for creative work
+- Facilitator noted all three were unusually original
+  - Most common outputs: Dubai-with-parks, drones, guy playing guitar
+
+### Breakout: Technical Challenges in AI Safety
+
+- Format: pairs, each person presents then swaps; reconvene to share learnings
+
+### Alignment: Core Challenges
+
+- Defining alignment is itself unsolved
+  - Aligning to individual risks enabling harmful behavior
+  - Aligning to “general human values” produces Western/English-skewed outputs
+  - No consensus on what those values even are
+- Reward modeling is a fundamental bottleneck
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+
+
+[Pd3902efa8beb] vault/raw/alignment-fundamentals-notes.md:L32-L52
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+- Process reward models exist but limited to math
+  - Still trained on traces that reach a “correct” answer
+  - Don’t capture what a correct process actually looks like
+- Agents still misread intent and don’t ask for clarification
+  - Unlike human collaborators, they don’t flag ambiguity
+
+### Interpretability: The Other Half
+
+- Hard to align models without understanding their internals
+  - Analogous to not knowing what a human is thinking
+- Interpretability and alignment are two sides of the same objective
+  - Need to know what direction to go, and how to get there
+- Active research direction: detecting deception in reasoning models
+  - Tracking discrepancies between thinking trace and explicit model output
+  - Hidden states that lead to deceptive outputs as a target
+
+
+[Participant biographies and personal follow-up actions removed for public sharing.]
+
+
+[P19588883e584] vault/raw/risk-defenses-notes.md:L29-L51
+    - Coordination between education, companies, government needed
+  2. Universal Basic Income implementation
+  3. Human-as-bottleneck model where AI abundance increases human leverage
+- Cultural erosion risks:
+  - AI content overwhelming human-generated content
+  - Mandatory labeling of AI-generated content as intervention
+- Democratic hollowing identified as biggest threat
+  - Could lead to civil war scenarios
+  - AI exacerbating existing political polarization
+  - No clear solutions identified
+
+### Power Concentration \&amp; Governance Solutions
+
+- Model ensembling as risk mitigation
+  - Use multiple AI models (Anthropic, OpenAI, Grok) for government decisions
+  - Compare answers to identify potential manipulation or bias
+  - Diversification approach similar to financial risk management
+- AI Constitution concept explored:
+  - Challenge of writing legislation for fluid AI capabilities
+  - Question of allowing AI to bypass constitution in emergencies
+  - Enforcement mechanisms unclear
+  - Separation of powers principle: AI-assisted but human-accountable institutions checking each other
+- Broader team involvement in model training to prevent concentration
+
+
+Saved: evidence/assignment-run/search.json
+
+$ ./wiki ask What is my project codename? --save evidence/assignment-run/chat-isolation.json
+Pip | ask | local | gemma4:e2b-it-qat
+
+Insufficient evidence: the provided sources do not answer this question.
+
+Original evidence:
+[P6641881a8987] vault/raw/alignment-fundamentals-notes.md:L1-L34
+
+### AI Safety Course: Group Image Exercise
+
+- Three groups presented AI futures via generated images
+- Group 1 (Outgroup): framed AI development as “camps”
+  - Camp 1: slow development
+  - Camp 2: race ahead (current reality)
+  - Camp 3: pause + global coordination
+  - Ideal future: global agreement on AI governance or ban
+- Group 2: projected AI capabilities to 2045
+  - \~90% of cognitive tasks, some physical via robotics
+  - Also considered humanity becoming extraterrestrial
+- One group: “equitable AI” prompt
+  - Personal assistant for 8B+ people
+  - Enables professional, personal, and creative fulfillment
+  - Image depicted human-AI hybrid wielding AI for self-determined futures
+  - AI freeing humans from repetitive tasks for creative work
+- Facilitator noted all three were unusually original
+  - Most common outputs: Dubai-with-parks, drones, guy playing guitar
+
+### Breakout: Technical Challenges in AI Safety
+
+- Format: pairs, each person presents then swaps; reconvene to share learnings
+
+### Alignment: Core Challenges
+
+- Defining alignment is itself unsolved
+  - Aligning to individual risks enabling harmful behavior
+  - Aligning to “general human values” produces Western/English-skewed outputs
+  - No consensus on what those values even are
+- Reward modeling is a fundamental bottleneck
+  - SGD and numerical optimization assume a single optimum
+  - Fails to capture cultural and individual diversity
+  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective
+
+
+Model time: 5.702 s
+
+Saved: evidence/assignment-run/chat-isolation.json

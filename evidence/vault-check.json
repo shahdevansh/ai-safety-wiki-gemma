@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "errors": [],
+  "curated_note_count": 6,
+  "original_source_count": 3,
+  "passage_count": 8,
+  "pages": [
+    {
+      "title": "Assistance Games",
+      "reviewed": true
+    },
+    {
+      "title": "Compute Governance",
+      "reviewed": true
+    },
+    {
+      "title": "Transformer Safety Limits",
+      "reviewed": true
+    },
+    {
+      "title": "Alignment and Interpretability",
+      "reviewed": true
+    },
+    {
+      "title": "Human Control and Defenses",
+      "reviewed": true
+    },
+    {
+      "title": "Power and Disempowerment",
+      "reviewed": true
+    }
+  ],
+  "source_paths": [
+    "vault/raw/alignment-lecture-notes.md",
+    "vault/raw/alignment-fundamentals-notes.md",
+    "vault/raw/risk-defenses-notes.md"
+  ]
+}

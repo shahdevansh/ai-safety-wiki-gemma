@@ -1,0 +1,16 @@
+{
+  "project": "<submission>",
+  "command_prefix": [],
+  "inherited_isolation": true,
+  "cli": [
+    "python3",
+    "wiki.py"
+  ],
+  "expected_model": "gemma4:e2b-it-qat",
+  "expected_model_digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+  "endpoint": "http://127.0.0.1:11435",
+  "offline_proof_path": "<submission>/evidence/goal-evaluator-a-chat-isolation/server-network.json",
+  "approval_note": "Parent authorized bounded final chat regression now, against c40a2ff core. New source-dependent chat validator; ask request design must remain identical. Prior failures retained.",
+  "command_timeout_seconds": 1800,
+  "search_without_model_prefix": null
+}

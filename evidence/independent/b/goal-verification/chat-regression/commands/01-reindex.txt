@@ -1,0 +1,4 @@
+$ /Library/Developer/CommandLineTools/usr/bin/python3 <evaluation>/goal-verification/chat-regression/workspace/wiki.py reindex
+8 original passages indexed; no model called.
+
+STDERR:

@@ -1,0 +1,23 @@
+{
+  "source_hashes_unchanged": true,
+  "reviewed_note_hashes_preserved": true,
+  "note_paths_before": [
+    "vault/wiki/Concepts/Alignment and Interpretability.md",
+    "vault/wiki/Concepts/Assistance Games.md",
+    "vault/wiki/Concepts/Transformer Safety Limits.md",
+    "vault/wiki/Governance/Compute Governance.md",
+    "vault/wiki/Governance/Human Control and Defenses.md",
+    "vault/wiki/Governance/Power and Disempowerment.md"
+  ],
+  "note_paths_after": [
+    "vault/wiki/Concepts/Alignment and Interpretability.md",
+    "vault/wiki/Concepts/Assistance Games.md",
+    "vault/wiki/Concepts/Transformer Safety Limits.md",
+    "vault/wiki/Governance/Compute Governance.md",
+    "vault/wiki/Governance/Human Control and Defenses.md",
+    "vault/wiki/Governance/Power and Disempowerment.md"
+  ],
+  "reviewed_notes": 6,
+  "new_generations_on_reingest": 0,
+  "passed": true
+}

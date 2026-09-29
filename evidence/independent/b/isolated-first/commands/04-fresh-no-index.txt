@@ -1,0 +1,4 @@
+$ /Library/Developer/CommandLineTools/usr/bin/python3 <evaluation>/isolated-first/workspace/wiki.py search autonomy
+
+STDERR:
+Error: No index. Run ./wiki ingest or ./wiki reindex first.

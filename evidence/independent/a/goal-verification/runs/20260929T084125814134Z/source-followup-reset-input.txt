@@ -1,0 +1,4 @@
+In the lecture, why is hardware regulation described as easier to enforce than software regulation?
+Make that explanation shorter.
+/reset
+What did we just discuss?

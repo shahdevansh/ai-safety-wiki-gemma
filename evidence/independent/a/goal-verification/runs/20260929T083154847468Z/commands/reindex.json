@@ -1,0 +1,14 @@
+{
+  "label": "reindex",
+  "command": [
+    "python3",
+    "wiki.py",
+    "reindex"
+  ],
+  "cwd": "<evaluation>/goal-verification/runs/20260929T083154847468Z/project",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 0.066,
+  "stdout": "8 original passages indexed; no model called.\n",
+  "stderr": ""
+}

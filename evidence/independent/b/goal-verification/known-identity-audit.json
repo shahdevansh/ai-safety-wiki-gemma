@@ -1,0 +1,10 @@
+{
+  "known_identity_pattern_count": 5,
+  "issues": [],
+  "metadata": {
+    "known_identity_in_commit_author": false,
+    "all_author_emails_noreply": true,
+    "author_name_matches_project_generic_label": true
+  },
+  "note": "Known names are checked locally and are not reproduced in this report. A generic project identity is not flagged solely for containing a no-reply email."
+}

@@ -1,0 +1,9 @@
+{
+  "verified_core_data": {
+    "wiki.py": "c40a2ff46ff488cf0d5fead68b7ecafb18142c7ff24cdee51b9e30b76ed1b0e8",
+    "prompts/research.md": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+  },
+  "new_prompt_sha256": "3deed3366d6308b663d1a5b8a22c0197ebf049cf01b521ae300b3a98da3627e5",
+  "prospective_cases_sha256": "0f1c6444dd12e4600073666ba63f2f2f95e4d4c7849781f9b6ae78f49796d7cc"
+}

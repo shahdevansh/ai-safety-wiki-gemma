@@ -1,0 +1,2205 @@
+{
+  "scope": "Original-line identity/provenance only; entailment is independently reviewed in the report.",
+  "check_count": 426,
+  "passed_count": 426,
+  "checks": [
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L001"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L001"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L001"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L002"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L002"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L002"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L003"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L003"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L003"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L004"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L004"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L004"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L005"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L005"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L005"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L006"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L006"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L006"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L007"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L007"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L007"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L008"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L008"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L008"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L012"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L012"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L012"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L013"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L013"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L013"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L014"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L014"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L014"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L015"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L015"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L015"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L016"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L016"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L016"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L017"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L017"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L017"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L018"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L018"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L018"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L019"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L019"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L019"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L020"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L020"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L020"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L021"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L021"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L021"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L022"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L022"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L022"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L023"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L023"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L023"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L024"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L024"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L024"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L025"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L025"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L025"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L026"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L026"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L026"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L027"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L027"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L027"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L028"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L028"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L028"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L029"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L029"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L029"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L030"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L030"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L030"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L031"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L031"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L031"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L032"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L032"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L032"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L033"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L033"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L033"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L034"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L034"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L034"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L035"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L035"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L035"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L036"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L036"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L036"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L037"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L037"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L037"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L038"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L038"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L038"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L039"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L039"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L039"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L040"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L040"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L040"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L041"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L041"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L041"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L042"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L042"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L042"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L043"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L043"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L043"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L044"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L044"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L044"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L045"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L045"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L045"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L046"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L046"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L046"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L047"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L047"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L047"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L048"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L048"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L048"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L049"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L049"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L049"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L050"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L050"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L050"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L051"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L051"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L051"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L052"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L052"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L052"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L053"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L053"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L053"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L054"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L054"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L054"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L055"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L055"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L055"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L056"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L056"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L056"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L057"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L057"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L057"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L058"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L058"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L058"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L059"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L059"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L059"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L060"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L060"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L060"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L061"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L061"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L061"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L062"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L062"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L062"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L063"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L063"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L063"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L064"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L064"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L064"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L065"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L065"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L065"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L066"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L066"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L066"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L067"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L067"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L067"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L068"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L068"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L068"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L069"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L069"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L069"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: model selected a supplied line",
+      "passed": true,
+      "attempt": 1,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: final citation exactly resolves selected line",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: model selected a supplied line",
+      "passed": true,
+      "attempt": 1,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: final citation exactly resolves selected line",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: model selected a supplied line",
+      "passed": true,
+      "attempt": 1,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-01.json: final citation exactly resolves selected line",
+      "passed": true,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L001"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L001"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L001"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L002"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L002"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L002"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L003"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L003"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L003"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L004"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L004"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L004"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L005"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L005"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L005"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L006"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L006"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L006"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L007"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L007"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L007"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L008"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L008"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L008"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L012"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L012"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L012"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L013"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L013"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L013"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L014"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L014"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L014"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L015"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L015"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L015"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L016"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L016"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L016"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L017"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L017"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L017"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L018"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L018"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L018"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L019"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L019"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L019"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L020"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L020"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L020"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L021"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L021"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L021"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L022"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L022"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L022"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L023"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L023"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L023"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L024"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L024"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L024"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L025"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L025"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L025"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L026"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L026"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L026"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L027"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L027"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L027"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L028"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L028"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L028"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L029"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L029"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L029"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L030"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L030"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L030"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L031"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L031"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L031"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L032"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L032"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L032"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L033"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L033"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L033"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L034"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L034"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L034"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L035"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L035"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L035"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L036"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L036"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L036"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L037"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L037"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L037"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L038"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L038"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L038"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L039"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L039"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L039"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L040"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L040"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L040"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L041"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L041"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L041"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L042"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L042"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L042"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L043"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L043"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L043"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L044"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L044"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L044"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L045"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L045"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L045"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L046"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L046"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L046"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L047"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L047"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L047"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L048"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L048"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L048"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L049"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L049"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L049"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L050"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L050"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L050"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L051"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L051"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L051"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L052"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L052"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L052"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L053"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L053"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L053"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L054"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L054"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L054"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L055"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L055"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L055"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L056"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L056"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L056"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L057"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L057"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L057"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L058"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L058"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L058"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L059"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L059"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L059"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L060"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L060"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L060"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L061"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L061"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L061"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L062"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L062"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L062"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L063"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L063"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L063"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L064"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L064"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L064"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L065"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L065"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L065"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L066"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L066"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L066"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L067"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L067"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L067"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L068"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L068"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L068"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact original text",
+      "passed": true,
+      "line_id": "L069"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog line has exact passage provenance",
+      "passed": true,
+      "line_id": "L069"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: catalog source hash matches",
+      "passed": true,
+      "line_id": "L069"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: model selected a supplied line",
+      "passed": true,
+      "attempt": 1,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: final citation exactly resolves selected line",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: model selected a supplied line",
+      "passed": true,
+      "attempt": 1,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: final citation exactly resolves selected line",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: model selected a supplied line",
+      "passed": true,
+      "attempt": 1,
+      "line_id": "L011"
+    },
+    {
+      "check": "records/source-followup-reset/chat-02.json: final citation exactly resolves selected line",
+      "passed": true,
+      "line_id": "L011"
+    }
+  ],
+  "selected_lines": [
+    {
+      "record": "records/source-followup-reset/chat-01.json",
+      "attempt": 1,
+      "claim": "Compute governance is more tractable than software regulation.",
+      "line_id": "L009",
+      "source_id": "P4f87872fbb73",
+      "quote": "- Compute governance is more tractable: regulate training runs and hardware rather than software",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 49
+    },
+    {
+      "record": "records/source-followup-reset/chat-01.json",
+      "attempt": 1,
+      "claim": "Software is easier to bypass because it can be copied and transmitted freely, and malware is largely uncontrolled.",
+      "line_id": "L010",
+      "source_id": "P4f87872fbb73",
+      "quote": "  - Software can be copied and transmitted freely; malware costs \\~$12T/year globally and is largely uncontrolled",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 50
+    },
+    {
+      "record": "records/source-followup-reset/chat-01.json",
+      "attempt": 1,
+      "claim": "Hardware governance is more difficult to bypass because if major chip manufacturers embed safety checks, bypassing requires building a fab from scratch, which is currently infeasible.",
+      "line_id": "L011",
+      "source_id": "P4f87872fbb73",
+      "quote": "  - Hardware governance: if TSMC and all major chip manufacturers embed safety checks, bypassing requires building a fab from scratch (currently infeasible)",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 51
+    },
+    {
+      "record": "records/source-followup-reset/chat-02.json",
+      "attempt": 1,
+      "claim": "Compute governance is more tractable than software regulation.",
+      "line_id": "L009",
+      "source_id": "P4f87872fbb73",
+      "quote": "- Compute governance is more tractable: regulate training runs and hardware rather than software",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 49
+    },
+    {
+      "record": "records/source-followup-reset/chat-02.json",
+      "attempt": 1,
+      "claim": "Software is easier to bypass because it can be copied and transmitted freely, and malware is largely uncontrolled.",
+      "line_id": "L010",
+      "source_id": "P4f87872fbb73",
+      "quote": "  - Software can be copied and transmitted freely; malware costs \\~$12T/year globally and is largely uncontrolled",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 50
+    },
+    {
+      "record": "records/source-followup-reset/chat-02.json",
+      "attempt": 1,
+      "claim": "Hardware governance is more difficult to bypass because if major chip manufacturers embed safety checks, bypassing requires building a fab from scratch, which is currently infeasible.",
+      "line_id": "L011",
+      "source_id": "P4f87872fbb73",
+      "quote": "  - Hardware governance: if TSMC and all major chip manufacturers embed safety checks, bypassing requires building a fab from scratch (currently infeasible)",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 51
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "frozen_at_utc": "2026-09-29T08:43:36.437139+00:00",
+  "scope": "Same bounded regression on original-line selection design plus explicitly requested source-shortening/reset check; previous plan and c40 failures remain unchanged.",
+  "core_sha256": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+  "research_prompt_sha256": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+  "raw_manifest": {
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  },
+  "required_chat_script": [
+    "what can we do?",
+    "what can you help me with?",
+    "Draft a three-step plan for a 30-minute study session.",
+    "make that shorter",
+    "For this conversation only, my project codename is Tangerine. Acknowledge it without saving it to the wiki.",
+    "What do my notes say about assistance games?"
+  ],
+  "required_chat_expectations": [
+    "Exact capabilities accurately describe implemented commands, no retrieval or model call.",
+    "Real Gemma plan then shortening retains the 30-minute three-step goal.",
+    "Chat-only codename is acknowledged without retrieval and does not become source evidence.",
+    "Source-dependent chat retrieves actual notes, covers assistance-game goal and uncertainty, and every material factual claim is supported by its specific source-ID passage and exact quote. No generic heading-only support."
+  ],
+  "heldout_cases": [
+    {
+      "id": "H2-capability-paraphrase",
+      "mode": "chat",
+      "fresh_session": true,
+      "message": "Please list the commands you support and one thing you cannot do.",
+      "expected": {
+        "retrieval_called": false,
+        "behavior": [
+          "Accurately describe chat, ask, search, ingest and help (additional implemented commands are acceptable)",
+          "Name a real unsupported capability, such as web browsing or sending email",
+          "Do not overclaim file editing, web lookup, or autonomous personal memory",
+          "No insufficient-evidence refusal or source citations"
+        ]
+      }
+    },
+    {
+      "id": "H3-topic-transition",
+      "mode": "chat",
+      "fresh_session": true,
+      "turns": [
+        {
+          "message": "What do my notes say about preferences versus interests?",
+          "expected": {
+            "retrieval_called": true,
+            "behavior": [
+              "Explain that a stated or observed preference may be shaped or manipulated against a person's interests",
+              "Cite an actual retrieved source"
+            ],
+            "expected_passages": [
+              {
+                "source": "vault/raw/alignment-lecture-notes.md",
+                "line_start": 23,
+                "line_end": 25,
+                "text": "- “Interest” preferred over “preference” or “values”:\n  - “Values” triggered culture-war reactions\n  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+                "source_sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865"
+              },
+              {
+                "source": "vault/raw/alignment-lecture-notes.md",
+                "line_start": 33,
+                "line_end": 37,
+                "text": "- Preferences vs. interests: what someone prefers may not be good for them\n- Preference plasticity and manipulation:\n  - Addiction changes preference structures; AI should weight “reflective” preferences over drug-modified ones\n  - Broader issue: preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)\n  - Risk: AI systems are now themselves engaged in preference engineering",
+                "source_sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865"
+              }
+            ]
+          }
+        },
+        {
+          "message": "For an unrelated community activity, suggest three names for a book club.",
+          "expected": {
+            "retrieval_called": false,
+            "behavior": [
+              "Offer three book-club names as suggestions",
+              "Do not keep answering the AI-safety question",
+              "No evidence citations or unsupported personal facts"
+            ],
+            "note": "Carrying previous evidence internally is not itself a failure; the visible answer must respect the explicit new topic."
+          }
+        }
+      ]
+    }
+  ],
+  "representative_ask": {
+    "id": "B01-values",
+    "kind": "answerable-direct",
+    "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+    "expected_claims": [
+      "Western/English skew in outputs",
+      "No consensus on the human values to target"
+    ],
+    "required_passages": [
+      {
+        "source": "vault/raw/alignment-fundamentals-notes.md",
+        "lines_at_design": [
+          27,
+          30
+        ],
+        "exact_passage": "- Defining alignment is itself unsolved\n  - Aligning to individual risks enabling harmful behavior\n  - Aligning to “general human values” produces Western/English-skewed outputs\n  - No consensus on what those values even are",
+        "source_sha256_at_design": "27e59c4c89a8d36c4b1bed7ba9653075518c5c74d0cc4e8d170f4274a2a15740"
+      }
+    ],
+    "forbidden_claims": [
+      "A consensus value system is already solved",
+      "Universal general human values are known"
+    ]
+  },
+  "isolation_question": "What is my project codename?",
+  "isolation_expectation": "Explicit insufficient evidence with zero chat history; do not report the chat-only codename.",
+  "source_only_search": "Tangerine",
+  "source_only_expectation": "No passages; no model call.",
+  "independent_test_boundary": "This is a targeted affected-path regression, not a rerun of every original/held-out case. B05/H4 previous partials remain unresolved unless separately rerun.",
+  "grounded_chat_prompt_sha256": "d45dc84da09787da9c8af2d4304cafde7698bea8234fcd713c6acc67b81e9ebe",
+  "source_shortening": {
+    "turns": [
+      "What do my notes say about preferences versus interests?",
+      "make that shorter",
+      "/reset",
+      "what can we do?"
+    ],
+    "expected": [
+      "First factual answer meets unchanged H3 expectation.",
+      "Follow-up uses conversation and original carried evidence; no new retrieval required.",
+      "Fewer words than previous answer while retaining supported preference-versus-interest explanation and correct citations.",
+      "Reset clears history and source carry; following capability record has zero history, no retrieval, no model call."
+    ],
+    "design_note": "Added before executing the new patch, at parent request to check source-dependent shortening/reset; not an original held-out case."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "source_project": "<submission>",
+  "copied_at_utc": "2026-09-29T08:15:19.415803+00:00",
+  "expectations_sha256": "227b0121ec9878a243c28158727116a09fb1e3f99ed95a896f5522e7ebf4f4a8",
+  "copied_files": {
+    "prompts/capabilities.md": "57f8629c6fd2a6ef4218a15ca178b358a07f7fd999a9f93691340c22ddeee55d",
+    "prompts/ingest.md": "d46773a3ba20f03f8db777a32dc3b9eebc0fa25068a2d6da100daa9a7f41a473",
+    "prompts/persona.md": "2c659d4b2be20a2673abd1fca89f3e6765c4a40febb267998d4299440152b069",
+    "prompts/research.md": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+    "requirements.txt": "4b96dd4571733894475a3bb31528436526d7b8eb519f5a4f6817b63392cf2673",
+    "source-manifest.json": "1299471916c7d26aeb14cc9318662ed81dfe2f05216ced8baaee038f7d4eed94",
+    "sources.json": "e93bb85166cdfcae4c6e66d6f98c106ebcd534f92acd737857b19d977e23207e",
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+    "wiki": "246db2dc7be439f35f407353d9aa487e99cf378e713b22de9963ff7cdeb9e827",
+    "wiki.py": "640884e09d7be392cad6df4d8d2421d6879006b466bda8e7b5e3101a18da6826"
+  },
+  "reconciliation": [
+    {
+      "case": "B01-values",
+      "original_path": "vault/raw/alignment-fundamentals-notes.md",
+      "final_path": "vault/raw/alignment-fundamentals-notes.md",
+      "expected_exact_passage_present": true,
+      "final_sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8"
+    },
+    {
+      "case": "B02-mountaintop",
+      "original_path": "vault/raw/alignment-lecture-notes.md",
+      "final_path": "vault/raw/alignment-lecture-notes.md",
+      "expected_exact_passage_present": true,
+      "final_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+    },
+    {
+      "case": "B03-oversight",
+      "original_path": "vault/raw/alignment-lecture-notes.md",
+      "final_path": "vault/raw/alignment-lecture-notes.md",
+      "expected_exact_passage_present": true,
+      "final_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+    },
+    {
+      "case": "B05-two-source",
+      "original_path": "vault/raw/alignment-fundamentals-notes.md",
+      "final_path": "vault/raw/alignment-fundamentals-notes.md",
+      "expected_exact_passage_present": true,
+      "final_sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8"
+    },
+    {
+      "case": "B05-two-source",
+      "original_path": "vault/raw/alignment-lecture-notes.md",
+      "final_path": "vault/raw/alignment-lecture-notes.md",
+      "expected_exact_passage_present": true,
+      "final_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+    }
+  ],
+  "source_readme_sha256": "9d90a21d626060375443172fb9cfa94c1ad3fcf5e3b7e695ec5a2df7a73ef79c"
+}

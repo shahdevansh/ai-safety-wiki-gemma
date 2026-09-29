@@ -1,0 +1,1160 @@
+[
+  {
+    "file": "evidence/independent/a/approved-run.json",
+    "original_private_sha256": "195fe238cb8ffec49621a94ef979bb3faf59c9bf924da0304045be383c6d7502",
+    "public_sha256": "6f6be0e4cad9d00c2183fdeeb1d323edb2dc472eef089312c31cd13109018a67",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/test_plan.md",
+    "original_private_sha256": "eb05820a1313f8fdb51e531352c307ffe8277a2b7b4b3d319249117ebdb4d8e6",
+    "public_sha256": "a256ffa1e9ce42ea1b946d40e3ea8e92461100bac031af693c2736dc3988e79c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/cases.json",
+    "original_private_sha256": "401189badc3052e89ded6cd1451067394a981a08c381aa1af66a7d6ba9b6f571",
+    "public_sha256": "a7a7b004b3e225ea8656c4ec3534326b88be05844c16201b33ad010e10731140",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/final-approved-run.json",
+    "original_private_sha256": "5b0bfabdb018a9aa8fffe1c0cdb9ede18de687338ef3a1ec0a7b7c4841c58a00",
+    "public_sha256": "e6c36dd1d5f522f6f93ba4031899e6f6b438472c2a30c51b851552f254f441e4",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/summary.json",
+    "original_private_sha256": "83209a1be053a54cd0c9813b8471428938616434bdb624241202d20a285ac1bc",
+    "public_sha256": "231ed90c40e9348122e2c321feb07cb38366e561596778b832cefda472ccc72c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/test_plan.md",
+    "original_private_sha256": "eb05820a1313f8fdb51e531352c307ffe8277a2b7b4b3d319249117ebdb4d8e6",
+    "public_sha256": "a256ffa1e9ce42ea1b946d40e3ea8e92461100bac031af693c2736dc3988e79c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/configuration.json",
+    "original_private_sha256": "5b0bfabdb018a9aa8fffe1c0cdb9ede18de687338ef3a1ec0a7b7c4841c58a00",
+    "public_sha256": "e6c36dd1d5f522f6f93ba4031899e6f6b438472c2a30c51b851552f254f441e4",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/cases.json",
+    "original_private_sha256": "401189badc3052e89ded6cd1451067394a981a08c381aa1af66a7d6ba9b6f571",
+    "public_sha256": "a7a7b004b3e225ea8656c4ec3534326b88be05844c16201b33ad010e10731140",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/review.md",
+    "original_private_sha256": "5ea0f8d31b74bc800481c48b6965f4a61297cafcb83bde5baf0a24a6bd2e4878",
+    "public_sha256": "0ba6cd96e998d184293334a76c499f7774806bf7c7240b5e0de8070880128163",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-chat-isolation.json",
+    "original_private_sha256": "01cb3bd6b06703ccd2c94ec5c0328f858eb6e4d5ed4b1898d5a43176190ced0a",
+    "public_sha256": "00aeaaf4c47405ecb0010013f247d71da74a85bd17254d801b857f77f60dc09e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-4-unsupported-schedule-retrieval.txt",
+    "original_private_sha256": "9a60c0664834f76cfae7e06d3446b7c3575a26cccddc96828bcadf8e55bc30a3",
+    "public_sha256": "0466ae0e7ab6cde9b54dee58e8bcb105db95e1783aeb3ce332ad6e30b18ea503",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/search-model-unavailable.txt",
+    "original_private_sha256": "012f4f8be8b60cbdd77feed0c06a106b219b66ea1563cbb209d224d7ffdce5d4",
+    "public_sha256": "8363f31fce810176040f60ff910f33af399251a563f90344cea913c9ee0b8c44",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-2-infrastructure-controls.json",
+    "original_private_sha256": "e0891b862d8a78812a421121f29096be4299ed16373d66a034b39b7968ec6617",
+    "public_sha256": "ba6f5ba8dedec5af41a4e3b64c318a235c5e946e4267a425fefd9a5e5e9b0796",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/help-command.json",
+    "original_private_sha256": "c2ccb145869b446ff1e6eb2f0d31be796bcc8f631cb806b9976c8dd0bedd56d8",
+    "public_sha256": "20aac0616d985a411284e9a5e9f033763100a7dbb3f9b40720af50ccbb083d16",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-4-unsupported-schedule-retrieval.json",
+    "original_private_sha256": "3889688bbcacbb5bced6c882d98191bf2b2e398a979d04e0afebae301e417433",
+    "public_sha256": "058e8018864fcb00def965e6bdfa854b22173e6cdc6983bd3c476c43be0dd4cd",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-chat-isolation.txt",
+    "original_private_sha256": "eb239003a0e90cd516449df1dd3127fc5f1534eb3e505e4e61eab95c19b5e3b7",
+    "public_sha256": "07fa83c19a63da98dbe5482b00276852e74b7e1dc3c59c326610a51ec35b9b60",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/chat-script.json",
+    "original_private_sha256": "53d38f55deb6745205e2f74c03f23f24f47300eb7e16428ab359212f1fa29aee",
+    "public_sha256": "782ec34c5ca9b563a57d418587f2a41796c518b94389b8249fb736d23ddf3b66",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/help-command.txt",
+    "original_private_sha256": "90cd7d4ec9f7eec1e09c76798d23d4a8f722f3a6a528627e46aca3ff4b974d16",
+    "public_sha256": "35556f60693797159324c5603f696cc1d359dd503ec2e53e7fda41ffd73f8d71",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/help-ingest.json",
+    "original_private_sha256": "02d1312619460093abd9aa6a7411ea77d506a5788823e5b35fb2a1077b623073",
+    "public_sha256": "f1dd49b12fe7158bdda3c0d85f8879874fa85da9d18e53280113cd9a21f6ee5e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-1-assistance-objective.json",
+    "original_private_sha256": "e36e4fbb0d02205d46a6f3ad325f252cb7d5ff3bccb8f44fbc2d5ebc3c2eda89",
+    "public_sha256": "0b7ca04f1ea2641e0a2342959d0f3b6466d2f90b6e5e1864014817ad3fb840d9",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-2-infrastructure-controls.txt",
+    "original_private_sha256": "f774c1370d4d3f2052628b522e6f3b25bbfd309b4bde73496b320c5e2a6b9516",
+    "public_sha256": "8f9cd8990bcce3a2b7e0551e450ced4d2edde987b49c3cd646986d6236c948aa",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/search-original.json",
+    "original_private_sha256": "467020b0f8bd7be400eb30f6cedbf84ca0615eb268da1046cb19913de6f3bda8",
+    "public_sha256": "6a0b3cbf544457660d2880fbf49e5d8877d605ab053b0128bd522fbae2969b73",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/search-original.txt",
+    "original_private_sha256": "550eb9a0e0331eacab531b1a94f090df31c57fd786413725ccd405492d474f72",
+    "public_sha256": "5cab92f047fffc5b64a4cdfc98ddbad5579406bea1f56a87cf1f3fdc85f5faa5",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-1-assistance-objective.txt",
+    "original_private_sha256": "d095325c7c8dea706228ff905ae6a5e2a19b1f3396aa254fed3f96e6a88ab624",
+    "public_sha256": "36624c0cccb3b0062b68d466e7c426449203051ce87c8becdcc0051ce3740808",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-4-unsupported-schedule.json",
+    "original_private_sha256": "0ec3199a9ff76990d0be5297433a454e5a65906c64b9094fb0285d3b79a2624d",
+    "public_sha256": "2a51c7087b94e5fbc39330f3abb3c386567adecc48bdb63c22f07a1a86a8f2cf",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-2-infrastructure-controls-retrieval.txt",
+    "original_private_sha256": "16f540c152ee0caff1586777ef00d2db7618b5e3224cb07d9f18fe461c6559d1",
+    "public_sha256": "5425e6f00e85ab2b67511f0e868a499fc127d0fbe737008d1d237bb563f06111",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/search-model-unavailable.json",
+    "original_private_sha256": "27be4304ff0e52aba28c18356e2309d074e94a015d312ea9880500e0b93195fc",
+    "public_sha256": "c5dd442a8eba453415b36331ff219ccc4a1770e1da71e5e5d7c4aa4167078f96",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ingest-repeat.json",
+    "original_private_sha256": "fe3d19b522e43c1489fe111c0d342fc657bd7ce9740fe708da0e6fc7caf4c461",
+    "public_sha256": "596a0896f9c144619ccd7c738da832adb2f83ed3102a85862ca63050742c6136",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/help-flag.txt",
+    "original_private_sha256": "ad7d36fa8f417cdab3e1d947905bf415eee18e0411cc322551c0ad2cda328614",
+    "public_sha256": "470be14bdc68a48253f75aae997b5aca420444237fe185c43d2193dfd0139754",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-3-alignment-interpretability-retrieval.txt",
+    "original_private_sha256": "2c1c286d3fefe1bff636801b60f1f54b6c14990a3a835130eb8ee73459df19b6",
+    "public_sha256": "d2337bc6dc3d53da9f3dd0e670f8be3dd8bb2daacade811a2e47627451f73164",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/help-ingest.txt",
+    "original_private_sha256": "f2bc57bb8465e28323ed8f6a1f1d5eddd24f82943af1e4f7afe11433c8425322",
+    "public_sha256": "51fb7aa4d9596816b365b74bab6f42a68637989f6728c3da01b49bc4c74f2d38",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ingest-repeat.txt",
+    "original_private_sha256": "f7fdbb62960ee35c6f65998896a51b22430d203699cdddef2cac7c1aa655e21c",
+    "public_sha256": "6a130c2c59bb55b879c4b9cc2766476331e6404c5c74a81f777df27caab98ba7",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/search-model-unavailable-direct.json",
+    "original_private_sha256": "488e0f0925ad0b5fa593f215bbdd8a66ea28ab9bcd28555b75ec6b2fed07fb04",
+    "public_sha256": "65bdf9bec63dd61c15646ff07a1effe2180b80477fb26196b103b5ea7b1ad5d5",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ingest-literal-path.txt",
+    "original_private_sha256": "d4539cf76ed324656dbf0f226c11e8291c92b1eb7b9c58e4830b75c24153c549",
+    "public_sha256": "c80bc683b709238cbd81a656d7917270b1a069152629f41b8adb551c0a6db0be",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-4-unsupported-schedule.txt",
+    "original_private_sha256": "2a26a8ce170d8c75b43e9643af3cf7729a376b3507b2f78f18df55fc941633ce",
+    "public_sha256": "1134c1de93b4f847a569fe710685cfc1155193509214a5570899a874e1daa99c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-3-alignment-interpretability-retrieval.json",
+    "original_private_sha256": "e400058ea85d9b3f4b7f04633e41bce109e36d25989d62e82686dfa587538e69",
+    "public_sha256": "f981701b6614635e6fb82bef6c4009da944566f6875faf4dd2227a2f07dbe2b3",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/help-flag.json",
+    "original_private_sha256": "88f53c5b0b4595e29f57ee0876f74c274042444d9cadd41c99be5bb8be7996b2",
+    "public_sha256": "1cbbd6debda7f790d53550e15614901a4ca319a93c7d418fbeecda9e3280b2f9",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-1-assistance-objective-retrieval.json",
+    "original_private_sha256": "72eca8e9b91fb28e0a3f754607dd59928c4d34bd04e7d0b7d1bed70aa1750df4",
+    "public_sha256": "adcf27641e50ef2d242eb93a732a270bdc78b594b1d7115d1d9c64fd82ae9add",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-3-alignment-interpretability.json",
+    "original_private_sha256": "eff3fc3ecbb682588da4c4d26d939128279b29b8d93577a51b2a3aec4fb9f320",
+    "public_sha256": "909ba0fabe2e9601d8da5b64fb21a6bd26adf3b67be49639c77255bf36cabf76",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-1-assistance-objective-retrieval.txt",
+    "original_private_sha256": "580db542bfde19adb5df3438977152de9c0d4c934bf4e7f77acfbac23efdec8e",
+    "public_sha256": "905c77125513f81feaeed557e69e4bf8bc21d5a2dd9e7e13ff519c49d729c37d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/chat-script.txt",
+    "original_private_sha256": "19113e57e26f47f2d7d20b05034c15d1726717480e0f8abe96462aba99794e00",
+    "public_sha256": "7edba0353552a6596f158ca47c695fe098ee1c048a4a6d4d1201b8556db3a339",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-3-alignment-interpretability.txt",
+    "original_private_sha256": "f18e6e1c5832b54684d2536caa1a0dd42103f9ea23a6f44e9203ec522da7405a",
+    "public_sha256": "634449f99dcc80db8392e2fb34907c1aef62e372777428b999d5c7f4eb56f8ec",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ingest-literal-path.json",
+    "original_private_sha256": "0b11b8e71fdaff1ffb4ff74b0dfc3c0c41ad9e8abfd1b0b13ea934a6fece6d29",
+    "public_sha256": "04b18f476a6d4cef50b3cb9b0ec21a71fda3d39ee23cbb70151f80f8d1d1de36",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T074038279878Z/commands/ask-2-infrastructure-controls-retrieval.json",
+    "original_private_sha256": "bb297337609e0f142e5f3083d3ccdcbd0cfc8b75d15075e0fddba612b4dd8a99",
+    "public_sha256": "504dd010920684fe3f32272520d298b224dc3d53a9e701c715295e1dccae8d75",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/summary.json",
+    "original_private_sha256": "8d5c6ccbb292b5fec303308f6241ba262f40ad295ff6c7851d2e701800d940b3",
+    "public_sha256": "88e8e1ee06094e0b364b91dcb13b4940ed5c3f20d9aa08ab035f0ed762c3295c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/test_plan.md",
+    "original_private_sha256": "eb05820a1313f8fdb51e531352c307ffe8277a2b7b4b3d319249117ebdb4d8e6",
+    "public_sha256": "a256ffa1e9ce42ea1b946d40e3ea8e92461100bac031af693c2736dc3988e79c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/configuration.json",
+    "original_private_sha256": "9a2a965ad11174f9a11a7032777f30b77182276216f3419315c215d70ab182cc",
+    "public_sha256": "624ae74a7fea3123882be2f624ced0dd42f6529a527af8e1da5ec761bf137542",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/cases.json",
+    "original_private_sha256": "401189badc3052e89ded6cd1451067394a981a08c381aa1af66a7d6ba9b6f571",
+    "public_sha256": "a7a7b004b3e225ea8656c4ec3534326b88be05844c16201b33ad010e10731140",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/review.md",
+    "original_private_sha256": "9f10f543adf7b323ac5bf1a0b1ab291757592591977a6e5dd6ff8b4dc1e2ee3c",
+    "public_sha256": "9fb76e143f273bf4358ce8be2aa875e88653238e7a390427de7561ebd1a80563",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-chat-isolation.json",
+    "original_private_sha256": "f53ab8cf417c85710c5466c88a7c4ca29e5f312e16b0b095555d8d2057d6d45c",
+    "public_sha256": "68bbeee88b431040bd21af90b19496677498465a58bc9ff6a2fbe3223270e7a4",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-4-unsupported-schedule-retrieval.txt",
+    "original_private_sha256": "e2cb03b6e9d5bd0e07b3bc1d4fc6474c7368ce58a7ef24e83c8c5cfad0c82df8",
+    "public_sha256": "40cf37ba9ab6d81dc33c561013150b8e82bcfbb96312eb1f2cff0a997a3b7b1c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/search-model-unavailable.txt",
+    "original_private_sha256": "88b7982096a1893641cc1cbc71e5e272e37693826a21223b82b1d2a23f91fac1",
+    "public_sha256": "51588860b2e1b72080024837895293e066f09af0aff2a13dc8b1c0bc87d96067",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-2-infrastructure-controls.json",
+    "original_private_sha256": "306e79b4968712419f888b060b815ab7a9fe99e9fd87cb4a688e92c0695a981b",
+    "public_sha256": "e19b81f1d54aa5c67d10c8aeacaca38b8a51cafeefbeb091dd88d5b3f1b0d67f",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/help-command.json",
+    "original_private_sha256": "f779ce9b098f6619dfc9553f31e80136d141fe618733b07b6c4192bdd85ded90",
+    "public_sha256": "7a4d6cfe510bf515f8b528d298cdbf3140d067fca7df606306989809c7d07510",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-4-unsupported-schedule-retrieval.json",
+    "original_private_sha256": "9c22c74c4917d8d5d5f80a59a29ec832ef9eefbbe29d994ab429b96489de7bf3",
+    "public_sha256": "6472b8b2e69cd05dd90925d431194586a041406e51b8e6ebfa3d295389261996",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-chat-isolation.txt",
+    "original_private_sha256": "a5670f261cba49bef0e9d19075504e638119bdf846c44baa3a4f38f6e670d745",
+    "public_sha256": "6a204af8bb4a82bca91bcd6dc73c1769a284c9b8c2802e88ec3e48eb92ec957d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/chat-script.json",
+    "original_private_sha256": "d81d8450bc45de694d713bc8d21e24d6dae178de6adb3880d7c2cc44e1e0fb40",
+    "public_sha256": "bacdfe725233588b13ab004b43be9b1192dc79681caf12c450d007b9f559ffb9",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/help-command.txt",
+    "original_private_sha256": "9aecd0d54baca9a2954b01a307c4bd15d59a086c95e52fa2c1fcdd3f1214b691",
+    "public_sha256": "2db5944d28e6fcea63c529bc4671dae3255a3b0df71c8157ad270a52ea11aa55",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/help-ingest.json",
+    "original_private_sha256": "82967c9f694a535fa0b255b28c01f408e85686ca103a59bf75dbdd63c96aa9aa",
+    "public_sha256": "dce1907a809167da6654bf718b024bf9a883a80e586d6afc6ec3df9ac6326bf9",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-1-assistance-objective.json",
+    "original_private_sha256": "e039b77c5d4fea2ca1e43bbcc9f0a03244aea11ce808a68685a252831c45f500",
+    "public_sha256": "11935f8c92bf70a02abdfffbcffe4b37618aa9e12e21636becccd114bbaea8b9",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-2-infrastructure-controls.txt",
+    "original_private_sha256": "5d87fc9be0420c7ca7934e524ac899b558aa22c85acfb862ada98520906f8450",
+    "public_sha256": "fb46b4b7bcef42c568ac71f2b1c3baf37d6ff8cbab2220cf459db69aa0cd8a2f",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/search-original.json",
+    "original_private_sha256": "51950a56cd7b839b8ffd31ba36098311cfca7f8de9fdc6e21dae13a5df9a5b97",
+    "public_sha256": "b5fd2e8638341fed8b0886df6f438853fdd247d4e37cba12e24e2977e67eab42",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/search-original.txt",
+    "original_private_sha256": "9ce0bab3f514f7392296f94ae49ee1c2685171fcc84abe2e2cb8f129a29b7772",
+    "public_sha256": "7d67dd192c5baf04e6ccb9684827cba1d48692c21e89f27d2b9efcc5719cc72f",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-1-assistance-objective.txt",
+    "original_private_sha256": "e1cca4d705abb3baac015b8bf9afce9119dcd93ae703801ae4e6077a166d0c23",
+    "public_sha256": "fcdb21210492d8fcb8cfc8c1b5436f2b77b4a93501f16793e0ceb23211cbfcd1",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-4-unsupported-schedule.json",
+    "original_private_sha256": "1503084eb4932eb52a4c373d067eb1e9a69a70724ac7a7b58f116f4c01652ac9",
+    "public_sha256": "b98eeb0952394c94a3738d7f8c5cd36b83f84821c0750aff38a6757bc9aaf9fb",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-2-infrastructure-controls-retrieval.txt",
+    "original_private_sha256": "0be95636e11f460a9b2c81a94a9ba569a2ac4212b7cbbb1541ffc3ea41e2017e",
+    "public_sha256": "955b9691ab43840edc1493e39b54ea198a4f72ad93a5aa0fa0e5ad0fdd60edb4",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/search-model-unavailable.json",
+    "original_private_sha256": "908f2b53dc12c8c399f9bc720d982f59509f5146e3912f40704416201dd73b80",
+    "public_sha256": "1980627a04179fa3af449e02c110be3f173873eff6b1aa2b4fa4f5ad06c17b0b",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ingest-repeat.json",
+    "original_private_sha256": "79f6572e184495cf1611352695b475bea3b3f8a7898153156787f6928c5bb25c",
+    "public_sha256": "e3a76680a474dab78c19808ee592eb96e29d3034c5d5384175ec58cea7cea0e1",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/help-flag.txt",
+    "original_private_sha256": "23eda8331a4dd9cabe161a087acecd7aa1f84f9c49c63058dc570c3ddf3352e7",
+    "public_sha256": "661fd2cfd8a822d6b8369f1318488cb0b6b095dac9101de43f296f40bc3c31ad",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-3-alignment-interpretability-retrieval.txt",
+    "original_private_sha256": "2ec3775344e4ba26849970896dadc785acdf880ab9f84c17dafcec3eec8043e9",
+    "public_sha256": "409a0bef41599b109125392bdd50105bc99f5321511623af55789a92452a7a51",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/help-ingest.txt",
+    "original_private_sha256": "7e464387ae0ba91885a957b36c5bc3a4d2a80ce01d148b060cca91f79e0c0d94",
+    "public_sha256": "6781751df0c337e0cf35aaf9cfa634522158bf62db068752087bdede280bb588",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ingest-repeat.txt",
+    "original_private_sha256": "b93e83bccd73407e4ff1a9584b6eabbba187df056e4b61e80e22620c6b77b2b2",
+    "public_sha256": "6fd20bb94204e55977cbe33c7c51b06e11f52deb8ea0cc4279d4cc865840939c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/search-model-unavailable-direct.json",
+    "original_private_sha256": "6a08bdd4d2b0ebd6321beff5685ebe10deb2d7e4cfd731fcfc2b14dd047b5895",
+    "public_sha256": "d694895fadb219668572addbf3103e94ff4fe5cf4abe029a6e81876b9c21045b",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ingest-literal-path.txt",
+    "original_private_sha256": "37c818ff88a2e2d5216c0cd4a59748e7cb417e44791d132d07ae9010252a46e1",
+    "public_sha256": "91121a138f12d2ed30d3aa0e287d1e5815e0aaf1f160757109af8f2cb3c46448",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-4-unsupported-schedule.txt",
+    "original_private_sha256": "c202e6f470be513897fc9c6f93c4c4073304179a6a5bd8311e6d69a92ab12030",
+    "public_sha256": "9176e502d0467c6b769b78db948e84263b68c17dbb5b4ff3903d1c93fdaafee6",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-3-alignment-interpretability-retrieval.json",
+    "original_private_sha256": "5e5231d4197faba780217eded9c16739cbcf5514bae650f5f328dbd1feb40b14",
+    "public_sha256": "12fdcc907ebf1fdc7c2bb80a9c16b69970d19c273541dbb963ea32e71fa81e4c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/help-flag.json",
+    "original_private_sha256": "6affa29b73c03b94715728cd6216a2e23d7e96005fe380a5f53aabfbcdead56b",
+    "public_sha256": "0d462c0529b3dbc370d44fff3547b5d7811f848b35eb5cecae4b1291209afbca",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-1-assistance-objective-retrieval.json",
+    "original_private_sha256": "868e979d557de99066365d68e4a805075de83fe822439f5b2c1a83601271571b",
+    "public_sha256": "0ab6dd069b718f90623b9c8e30ec638f5653108620ebd206ab803c4493b96f2c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-3-alignment-interpretability.json",
+    "original_private_sha256": "f0419e5780b4787d1ee44b761b225399dea24adb87577cdbd1c26ff402a1554a",
+    "public_sha256": "4b92bca52c8e958e300da1e98d326bd359923477805a425305bc4775f9854975",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-1-assistance-objective-retrieval.txt",
+    "original_private_sha256": "09e7b09ecb36f36c958392fa934a9477856c925726684cbe03ae4bab07cd5033",
+    "public_sha256": "0c4a7e5ce479c708ad77f1351a84d30acf1bd928b2b873e5391d0cbcfd172668",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/chat-script.txt",
+    "original_private_sha256": "e73371db8c83d1be274a9bbd81e04d55038decd116d4fcdc4286f01d7e8a4d12",
+    "public_sha256": "86574c0225809669d732ca45c25d37bf8eeb79d3fbcdd7e97ca26c631033e73d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-3-alignment-interpretability.txt",
+    "original_private_sha256": "a8e1e5c9148efc3d6b4ce26c9a9371275cb7b48519dbe3160aa65955d6a80672",
+    "public_sha256": "b7e148e2f317daf72f7fff2e714dce3e2d2a4ec20fb65f3e318c85253b72eefc",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ingest-literal-path.json",
+    "original_private_sha256": "cfe748f4038201afc0dfc6606994fda27e3d9276d5090ebb53168091f4e49e17",
+    "public_sha256": "dd8f6731e549125b9f01685598c5d337645628fbb49d14ba9ad774189dc76642",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/a/runs/20260929T072034705632Z/commands/ask-2-infrastructure-controls-retrieval.json",
+    "original_private_sha256": "a5f386cf9ce4f754cc4e1204c43de318d8058e6f320804e3412cfe19fe055efd",
+    "public_sha256": "cbb4f6426f558026a8becefebc163d5d4b6d70561092a05ee7f3d3ac08a75f64",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/expectations.json",
+    "original_private_sha256": "12ccd4cc38ede6349c91b005f85e5ce8cab0b06fedaef7c25012dbd8fbe24097",
+    "public_sha256": "d76c38337ee3c7d2ddefaed629a2dc5197c3695405d0c4c92c43a35d5bcf0656",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/freeze_expectations.py",
+    "original_private_sha256": "98eb783b1770e6842f3db3733fffba43609b092728f897ca08b2fb6e52665dc4",
+    "public_sha256": "7e857b073fd25c7ef4cae78d0723f4d3dbc7f74e2e40fe3a97d4187c889567ad",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/write_addendum.py",
+    "original_private_sha256": "6a8c70a8bbb03344d8ae79910d26ff0e15df364abac02c09ab66157b10774f8c",
+    "public_sha256": "5f45565ef257bf318e61b3b47bbdccf88a79bbd700628cfb60b354c1642f432b",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/PLAN.md",
+    "original_private_sha256": "79d6912555f67c1b1c4fcc636974dd1a91b455644d1bf4db7ec0087df52a8de4",
+    "public_sha256": "e33f87cffd58e9db6452d0aaed5f55e0131c631bfa98ee1cff6a9cae83073e81",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/evaluator.py",
+    "original_private_sha256": "b4009dfbeb019a721c041f0466822fd3aee5069a51cfc5eb714428aaaa2ddfc7",
+    "public_sha256": "65965b7f2790a7a8076c426da68236506d1d8a17a46754ddc271faa22e82019d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/source-freeze.json",
+    "original_private_sha256": "29d1ec5ba2c940b8cde0320efe8ca2e34d40edaef27bbaa84e070097704e0128",
+    "public_sha256": "4f7453a1a83c7f560945ae11cfd776b59e5cd9822157936b44550d65b4006feb",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/01-help-top.txt",
+    "original_private_sha256": "2a1247c9e314aafa316ec5eed3738198d5fd45e02f17ab21ecbeb844f5482479",
+    "public_sha256": "1e2ed56aa6d3cf8fd2d7079d7d3dc38daacce19fb70a21eb8b85287d7e39381e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/10-B02-mountaintop-retrieval.txt",
+    "original_private_sha256": "0cc038a8ced2a70fbd6be6b3153f4e88800ce32fdcdf062d4972e52521ef9c82",
+    "public_sha256": "23a00046a57f3d77e6343f5d04ee7fe92859f695948755699eeb909f7b3b836f",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/05-fresh-ingest.txt",
+    "original_private_sha256": "86ddf991554d1ecd5808ed32b91d543141dd72f0f7bd848321c77e3ea8f7e8a9",
+    "public_sha256": "9b6b5e25c81e3452371cfad75d9ad7458145d55a43428bf071d03c8850cb6622",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/21-assignment-ask.json",
+    "original_private_sha256": "a9968db96e0668e5b14b9b6d84fcbecbe4cf93473797c725ecdb4809a1d2f129",
+    "public_sha256": "1c7bae21407dfd119cdd557413d3c4c2d9b053951b4f49afff9675afb0b70f06",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/04-fresh-no-index.json",
+    "original_private_sha256": "cf9d27134ff8d6a343c921b35271995c5bd8996b17647e3f5ba7c86339697ba3",
+    "public_sha256": "3782478aa1f63e67559fd96a8346f03bb33dab41b2146a83739edaaa2b9575dd",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/13-B03-oversight.txt",
+    "original_private_sha256": "b2125bf43dc95b20318a71898da5617dac19bfb88787e2f53857f5308fc6617d",
+    "public_sha256": "0a1791edbee343f4819e3c356f16efa049f41988f353d14a76e6071570880ec1",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/11-B02-mountaintop.txt",
+    "original_private_sha256": "74171a06cb4bc3259b159542f706df4b5d5e3b957da207395e1a32cf686bd11c",
+    "public_sha256": "f46e6421a90875132a2693a6ae2b9988a95d7a215bd91456e83a64ba566f229b",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/19-B04-after-chat.txt",
+    "original_private_sha256": "8d024daee7e733541ddd58d78ebacac7dd69a278782290ecd47ddaeeab158048",
+    "public_sha256": "233d150d7ddf5a6aa09352465289e3314f1839dd9cb83fd7f2e89b02fc79f44a",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/20-chat-fact-not-indexed.json",
+    "original_private_sha256": "b283e93af7552e08a449b8b43c7ee691d473e405b4d6fd68b37652e66b2ac026",
+    "public_sha256": "5325ab7fd48c2c877574c751094ed7e6764a8c5a817003ebb6967eba4fff8fdb",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/03-missing-ingest-path.json",
+    "original_private_sha256": "9d919d540b77278a42dfb360b42e7af413493efb6150372cac9f383ba354e6aa",
+    "public_sha256": "7d49b3133619f9db5e77395753d763fcdd7cda18b57f75cf5724e1141a866f7d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/01-help-top.json",
+    "original_private_sha256": "5c9a8abe407c2b90161581a56c062738d66f4c394bd167f7446d2d28e05f83f7",
+    "public_sha256": "cabf2f42806d588feec77a101e35234c533ab7e0b39245f0ad25bafd9d89785c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/07-topic-search.txt",
+    "original_private_sha256": "bc5aad034796240ca52b8654aeae9e3074e69b4f5045ab9ef7050eddd0bfbd18",
+    "public_sha256": "c8ea55ab9188f25809a094f9ae16070a320a00b3951bbd672d56062630c4023e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/06-assignment-search.txt",
+    "original_private_sha256": "4bb9b2af5f38381ebe0d4044ac655105eb10a8c40df6ced1e1d539c394143c7f",
+    "public_sha256": "641fb1bbbb1c97ec7bc39db267f7e988f473e42496a18ff24150fc6a2b3b713e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/23-B01-after-cli-restart.json",
+    "original_private_sha256": "bca4acebea486870b06b60da0da47ef64fc2aa964d2147972f163b473085d156",
+    "public_sha256": "fd00c4064c29013552bca3c414c1e73616232fb894eb856c4c2290993addfc41",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/21-assignment-ask.txt",
+    "original_private_sha256": "4ea1d4188bd4387eb3ecbf5026d902328b2b531acedbf64feff60108135ab57a",
+    "public_sha256": "fd0f0d1bc5ef900a8d9f21a15044ab3750843a8b6d88630e39a823d760fcb69c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/19-B04-after-chat.json",
+    "original_private_sha256": "73da13ad29a162b024550091ac569597b35eb02911c7d5f108cdf7c912b48b1e",
+    "public_sha256": "72494f1569b0e7c4ea9766b93de49126e01848b785146bfdd7cdb07d9f7656fd",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/14-B04-next-workshop-retrieval.txt",
+    "original_private_sha256": "d35b0dd0e4117aa3b3de99a216639a218cc021a103c55fdda33eac83f5a4ad62",
+    "public_sha256": "7cc63f13006683ecf091120a1e3da107acd028c656b19cc118282c3bb78355b5",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/24-invalid-online-mode.txt",
+    "original_private_sha256": "62f8443653e5a6e4cd26ea1a48c93e11303810e18fd655845ed043d57e825bec",
+    "public_sha256": "29363dfa554039e09a4974e58b60522831cf6d5bed4d434ac90354d07f27ca22",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/18-interactive-chat.txt",
+    "original_private_sha256": "65071a25b6f42a5267300897bd080f270586b22e48c93b31a5850c308db3abc2",
+    "public_sha256": "94e3f7bf17f7b5cdc30871b87aef9655cee45c0bc3ee81d112109328296f4643",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/16-B05-two-source-retrieval.txt",
+    "original_private_sha256": "daeb57e711e4df9e529444bfc43702267e7d367908ecab64205a611571caa56a",
+    "public_sha256": "e70f8a70f07b87fe38cbff7a777b1d6e6b1beb5ee6c3d05b6191967d04db0e0b",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/23-B01-after-cli-restart.txt",
+    "original_private_sha256": "bdcfe8cb2d8bb9e88e432f42a5061df41e0b87c29526dd7ba2ad048fa1c69667",
+    "public_sha256": "7f9c091729ecb8cdb286c34635ba9337fafa82e7bdc64e915ba5e529a585160c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/09-B01-values.txt",
+    "original_private_sha256": "bbe0c0eca3f90b0258c6ba29899edf737b2e2cca2e9f8cb2d99263138bee0faa",
+    "public_sha256": "4be5ff5a65436eaf20178d7f66f89c4f37e8d6b0149062cffa3016a6dfed8ad4",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/24-invalid-online-mode.json",
+    "original_private_sha256": "082383bc62b511604dacc61317598d4fdf57a3811131fa48239e04a96cbefd3b",
+    "public_sha256": "25f53bd0f3813d79e77afbc06de27c0da9fd1608aa8791a7cb935f2511bad664",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/22-unchanged-reingest.txt",
+    "original_private_sha256": "850be92d7294ed485cbf66bc3abdb44bc1b1cecf52b4fe7e102086deaf62a6d7",
+    "public_sha256": "dc3ee5a5f497b2a544db02d4393db550264a0fcb27a388e877dcfca834db74b8",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/12-B03-oversight-retrieval.txt",
+    "original_private_sha256": "33da129e9ac21cf9ad8f54dfdeeb4911b4f8f7440418e48d829e9cacd523313c",
+    "public_sha256": "2e5b52f0ee22075cc06eeb65e9066d6266a4e7feb5170597ca5e34718ab3234a",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/20-chat-fact-not-indexed.txt",
+    "original_private_sha256": "c7753d0a23bee8c56a2323e8ac44c90e96542cdfb59f188f78936d7bfe122c05",
+    "public_sha256": "2183e78cb6b7030fc9b5027023383af9a77444c816c460e5a7ee3cd4397622e7",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/17-B05-two-source.json",
+    "original_private_sha256": "a57bd15db228637e86ea164a4d8d1ac706ba71aa34f1c0ba9a12478ebad0b309",
+    "public_sha256": "fd86f1a28a33107a88475935085e953535aadc15f3656c2e6b714138ba25f5f1",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/11-B02-mountaintop.json",
+    "original_private_sha256": "2584a9c1735777a2f33f627ba81ea1eee33627cd55e957cd12a6c448b38e43e5",
+    "public_sha256": "3ac9c20c48f26c81aae0be8d4ab8ba191719577081321c7e40d4ba48f4c4770b",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/02-help-command.txt",
+    "original_private_sha256": "57e7a43f65f5cc873a37ba9d2bb09458853e3a6d1894494098c3006de8162a36",
+    "public_sha256": "0063d7475102aae140666aef50729101cbbb987f2dd072e5f6d368e9baf1ce28",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/02-help-command.json",
+    "original_private_sha256": "1881e19b60d7fb6918c777b00e5ae2680dec50375533c22c22b017ac0a154d74",
+    "public_sha256": "a7479e61d8af5719bd2ff6c58531ea279f034434c894bafa5fea47a8a17447d5",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/16-B05-two-source-retrieval.json",
+    "original_private_sha256": "823058d476130e998644346bb4f6279635a7a11e21f7aac22f6181dc1e6a57b0",
+    "public_sha256": "6e89121992401b1f9d4de41bda4c2619e577e040d96854a7ac008584571ce7b3",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/05-fresh-ingest.json",
+    "original_private_sha256": "e1fa0b6ec5f63a8f4bd4ca5708efc0e38743c083df92e22e23c275a2df8ad99b",
+    "public_sha256": "9c59c922a63cb65c73fcd8aeccad23af9f8c8b35742df8a9fe43182850e76d22",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/15-B04-next-workshop.json",
+    "original_private_sha256": "d225cc3e5d433e861215b8e26ca8171077276d90828af0029ceac0f613a4971f",
+    "public_sha256": "9999f764ce0fa79ff922ceed2667064433cc3270672aa6cd92658838bc810092",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/07-topic-search.json",
+    "original_private_sha256": "8a5a430e4a3304d754a8604370a6e182f9eb01448db939061488a2cad3e4706a",
+    "public_sha256": "78850a8c84bdc546b3d912e39a6f3af7ef2c5801bd475d085c1b9bc4d70fa296",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/13-B03-oversight.json",
+    "original_private_sha256": "d9084b181588dad46faea0759d6d0c5613c7e7af295aff00040d85d3f99cdb98",
+    "public_sha256": "7bae8f16cd264d16b06be9450f90c19108e928626f138965bdfcf6232d3f6787",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/09-B01-values.json",
+    "original_private_sha256": "1c988b338d301cf54f47816660434a69874b073086a5dec87b4ec298666cca7a",
+    "public_sha256": "52cfd7c5f6f696eac55407fa129e490acd278adae2d51503f2161fccf513870d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/08-B01-values-retrieval.txt",
+    "original_private_sha256": "02caabd59f4f17841be856897813e4d2e66e5998a794adac0ba479bfd3c0dbc9",
+    "public_sha256": "0c70bffbc4c19dcf3566a02db3fe97f358be27a6e9d6bce6381c1cc91a7ecd22",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/15-B04-next-workshop.txt",
+    "original_private_sha256": "5f2fafcd1b46e849ad2fd4e1e65ab00935df831be82e684ed1ddaa50bd92cd22",
+    "public_sha256": "54c9c94feea381e2b3bab83aef181c67da6901a435595530765a96682638646d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/06-assignment-search.json",
+    "original_private_sha256": "f13413ba3ab9e4b921a1d17591f49cf8aa9e0164c77ccba3eee0ffaf112cfe08",
+    "public_sha256": "77d5ea0f73969859a6790856dc2eb36eb7fe48234ab63d9827fb4b3b7e5acbc8",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/17-B05-two-source.txt",
+    "original_private_sha256": "a0977a4f82923c9d9bb0fb8df9a382a983f7bb7926fcd1dd8670f9a3596e3063",
+    "public_sha256": "b9d825ed99a4599e43f12492beb1426d3022ee77b3c339181af99fdc33f62e88",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/03-missing-ingest-path.txt",
+    "original_private_sha256": "a4423b35a2ffe1605794d905f4b92bcb921634e7b95c85787d00f6cb2e388bb5",
+    "public_sha256": "3883003d34186f0532c9f196ca574c4735ac4defaefc3516b4072f0b0d9b52f7",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/10-B02-mountaintop-retrieval.json",
+    "original_private_sha256": "f7d3d13985e816670f8ef0a19fac90be4bd90907fd1935a2483736d1e3b3e3bc",
+    "public_sha256": "991a130ed3a317ebdaf5b885e7d1d458b15cdd6549386dc2597ee5de52b0703b",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/22-unchanged-reingest.json",
+    "original_private_sha256": "30d44b490ab762b9b37f1722b6fb624fa765e37ce3b9e21734bcce042d6acaf2",
+    "public_sha256": "502a2b8398f607b7a53ccd170b9d29be04a6930bab165f4d741fdf848c461364",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/12-B03-oversight-retrieval.json",
+    "original_private_sha256": "4528ff02a1dbe0fa3caa7efa6be7304d325c0f9c1af20b00776839dfb2870c05",
+    "public_sha256": "bc7fabb4e7036a7212dccf391ab71820c1524e3e6bc6d6579acfe36a9730ce59",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/04-fresh-no-index.txt",
+    "original_private_sha256": "475c80bfd0b513f41818c224dacab30bf29ebb56af4879ca9955b31693e338b3",
+    "public_sha256": "c861aea9e41b20f701d30cd6aa4b190dadf2fd15eb1e38834450cbd8a3336934",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/18-interactive-chat.json",
+    "original_private_sha256": "b18724fa286a77951823f32dbabf08b3573a065370d67bb12e5d3d7acc85bde5",
+    "public_sha256": "2d8dfd00438fc579475d2df85faae9314c475cc3440147531a8147844f1d2e4e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/14-B04-next-workshop-retrieval.json",
+    "original_private_sha256": "182c7adb7441e81aa16a2a918e8ea4fe14b3d90ca9fd66d8ea5454652c67ded2",
+    "public_sha256": "e8b0bd3324de8b09ea446290e62d3c56d1592dcaf734a6ded55c7600ea22b475",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/final-regression/commands/08-B01-values-retrieval.json",
+    "original_private_sha256": "4c4b5ff6a5fd2225fce806df6cd4fea2cbfbc96af776d8c25ab788461766dee5",
+    "public_sha256": "0a0012b5e1986c9835e07642f88d73a7a0524967559460e7e029171ba409609a",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/source-freeze.json",
+    "original_private_sha256": "6b1b73a5f8f85ca2b33c3ccd40efb466717f599b79b5fa009a7ffb24c5378887",
+    "public_sha256": "0421fcef129fb39aa982a5be9eb068b3abd21dd773e78e20980f301927fac545",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/01-help-top.txt",
+    "original_private_sha256": "888eacddebf184809afb3d819c80535189a17159d4ba9e9096239301ea608f18",
+    "public_sha256": "c57448c199b3478ebf0e4e2ee7fb928a3b46735e445002afe5a8e18824194747",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/10-B02-mountaintop-retrieval.txt",
+    "original_private_sha256": "1a8235d0b47e7b784218a6869f04b83cc0534064d06531836c2a93c44fad08a2",
+    "public_sha256": "766b1b5df88d5a7e7e24ea043a87efbf3d6459c8d7a9886465808f017d8ba208",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/05-fresh-ingest.txt",
+    "original_private_sha256": "a27a7ed425e5d2f1b4db3dfc4d8e61ad940fe160809a412e76024f68b9fa82a3",
+    "public_sha256": "3db984d57b3162d5970008781d69e65aba8b08288669c841855356ffb34acaed",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/21-assignment-ask.json",
+    "original_private_sha256": "828193eb5ad96fdb0c48a5de86f6fcc8979e8604e08590d6eb35469c0fb3ec9e",
+    "public_sha256": "04640a54956691e7e171196ced47f0e8c2628c2e052c975baff435ee42731125",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/04-fresh-no-index.json",
+    "original_private_sha256": "97dc507e8f5a339898fbb946d5b597210905ac3c70586e1c3c108e0915711077",
+    "public_sha256": "b456810857bc3b5e19d7aca94b737c590f6978e7dedc48e3ee945abae323dd4a",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/13-B03-oversight.txt",
+    "original_private_sha256": "5e17f56e965f90983901b0de79dc6868718aee2833eb7d9bc07c38b861f4f6ca",
+    "public_sha256": "5447d1822b243646229fcd7195262f269ecbe310198338d088b4496932d09964",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/11-B02-mountaintop.txt",
+    "original_private_sha256": "78fff95800682ea5a91226458930388a14da27f2947c8783a8cbe65fe2649b13",
+    "public_sha256": "32f79e87962554cbc751459dff1d9a760c0e76d1e6242408fc00fe72ac723d26",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/19-B04-after-chat.txt",
+    "original_private_sha256": "a0c0cee75c40ee9eac2f96ad598c8617838b7a544092be9d1936d9af778b9f5d",
+    "public_sha256": "ede7c056bec27edbc550d1dbed313a66a868b0dd315919445650febe1dd1a33f",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/20-chat-fact-not-indexed.json",
+    "original_private_sha256": "284d4778b3c1f05b699035d54e29452754297151208bb5c6c60f99a7d4cb3d1c",
+    "public_sha256": "4dcef5ee15b605d4d5fe8cbc3b0567aeec65c939249b534ef7ed68cf84deb1e4",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/03-missing-ingest-path.json",
+    "original_private_sha256": "1403a6742dc0fd030e0927212bc3c609cc0b8f9ff8d4692addc5bb5fbf230795",
+    "public_sha256": "ceca0d6034aaa3f1e0683c7dbacd8de00d59cde71d4403d47476149e0a43d4fc",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/01-help-top.json",
+    "original_private_sha256": "f180e7d7542eaf32289e380905d14d91159163d61cdd68644d1432d4648a2143",
+    "public_sha256": "9c4e1059ff6bbe2b71f15cc1b5510c283a0d70d3695a4a830469fe9919109b68",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/07-topic-search.txt",
+    "original_private_sha256": "b21b840a4387aff68d91ce6a81d5afc1bcc4fefa6446288dcfcafba45d1dcef4",
+    "public_sha256": "2c678655395b92a2dbdc0821c0cee3f2d208d8da68b60c8689abc52632d12274",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/06-assignment-search.txt",
+    "original_private_sha256": "60716b3ce10aa5720cca30811154717d4e5fd24c1a91a5b12d4ffbd1afbaf547",
+    "public_sha256": "9f23adda85b2d45da3e3ac4af8c5974b81b5fcaab9e077ea300e7fda9b2a82eb",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/23-B01-after-cli-restart.json",
+    "original_private_sha256": "ae0af350105dc252b00cd3cd25658efc70ec1bee86dd516ed01d98c4a7572015",
+    "public_sha256": "132fbc7dfc32284b347dbab77f6e86fc621c779f78b16a891fd78bc2e5fb14fe",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/21-assignment-ask.txt",
+    "original_private_sha256": "4a964847234d9089687e341756006f84ca6cbeed160df63e7dd802907f1d0689",
+    "public_sha256": "cb953477838dcee641f106c83dadac1c387da06d02b2f7449796d3a2609a8b65",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/19-B04-after-chat.json",
+    "original_private_sha256": "7dc5173be1dc73250fc1c07bee4aa8be383b085d24bbd5259e1daf015371516e",
+    "public_sha256": "5509eb5389d90479d40d804fb28c1e20642d9a92e538154305a5da329740f859",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/14-B04-next-workshop-retrieval.txt",
+    "original_private_sha256": "87eee53d5e8809c575bb856fd8e54fb16d2e81df8f10a2a864fa3eabcdc37615",
+    "public_sha256": "1448a057928a65dca4f64122fbe849d43bd25909910bed2c73878157e1c008eb",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/24-invalid-online-mode.txt",
+    "original_private_sha256": "96926eed934dbd0d31d36e5a3101401fe5fb4136a800596dc32ee4a18835a1e3",
+    "public_sha256": "1e11a20082367dbfe449ea14a61bb06e3a651da69995a58a200b09c99c02b307",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/18-interactive-chat.txt",
+    "original_private_sha256": "58e35092d189dfec5d03d23df2b699e4970fcbaf7ad3069684057289e91e5759",
+    "public_sha256": "c6919b988465c90f038273ba2ed5a229c8e9b304c84739ca09b526128a201901",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/16-B05-two-source-retrieval.txt",
+    "original_private_sha256": "c3d57a6fbf88137a65dad9e1e83d39119c571b1f4b0f06927ee6ded57730e928",
+    "public_sha256": "381d7c661e71065e1879274de1684a489cb4a426af50ff7f4e014a1492b998c2",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/23-B01-after-cli-restart.txt",
+    "original_private_sha256": "870841cd598e72914260275ce420afbef928c154ab9b2473e32d7c4a0c3cfbaf",
+    "public_sha256": "2acb3b850a3606719e42cfd53dfea31ae857a187ac32e99f2292d96a309e25fc",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/09-B01-values.txt",
+    "original_private_sha256": "290de21bfc3e8bf6d343f085664d2dd7db19335935080cf5c5c946777ed4eab5",
+    "public_sha256": "4fed8d3a3162c4c7ef9b6ea9e9b25c409944fd660baa7ee4e2640f0894e3d602",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/24-invalid-online-mode.json",
+    "original_private_sha256": "0d17ba720e0d65005f0c141c68d7da6b828fd2f6ec97786fd2af098b53af60f6",
+    "public_sha256": "2973a2797b6fd8d00caff2a41a1ea0729b6a8f29602a8769a401b40dc569a516",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/22-unchanged-reingest.txt",
+    "original_private_sha256": "8538365000a9cef9409c75d8bff1ea104d1ae2bf7e7ef9d9352ae0c9f1a73522",
+    "public_sha256": "5a447fd5d80376e32156686c64eb502b99c5af042826c8a4a7d936a5ba1dcaf0",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/12-B03-oversight-retrieval.txt",
+    "original_private_sha256": "9989ded1ebafb6401af68bda083abb33886d51f6bbc5b9025b15427d551a40c9",
+    "public_sha256": "802e7686ce7630792782fb9a24eb290a0678b82a6ee7f1aa747a65e4f037b50d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/20-chat-fact-not-indexed.txt",
+    "original_private_sha256": "878304d78d2b973652919e717317fe161f1a3e7c2c92614158320ab5c646be91",
+    "public_sha256": "e2725b7ad729e56425d81ae9af24d5794df726970675bae4702940c20d91313e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/17-B05-two-source.json",
+    "original_private_sha256": "8cccf1e98ca72a7e552af7a00efe06c4985102e2eaae0fbc225a016231336d0b",
+    "public_sha256": "59ef1dfea66b17ff6467a19149c6feea26e9ed4884455a042d41541ee0de3d1e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/11-B02-mountaintop.json",
+    "original_private_sha256": "6f335b7b78a96de2ed2c52dad67f1e231b24015e643b34108b9dd8599d1cfa49",
+    "public_sha256": "4ca2fff4adfc4a992a4e61936e2ac094479e59875768189b10c6cda67e994ba0",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/02-help-command.txt",
+    "original_private_sha256": "264bd67b3682014f9326689efb6bbb6a576fda3890f45da71a92c80019c87d5c",
+    "public_sha256": "2e66e76a7f7d0d5cafe4d050a90c7dd89ed555e405628d6d4567bf4959485f3c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/02-help-command.json",
+    "original_private_sha256": "6a732826e25704909e135b27c32ee6d177b91428426e43e176f96abe08d8b8b7",
+    "public_sha256": "0257f4347d38b8493990fdbdfb5fdd72ffd0ac2e8612b09b5d262c5c9edae674",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/16-B05-two-source-retrieval.json",
+    "original_private_sha256": "e569773fe1b5b822ae349f4ad7b501e978af7e9254e72942fd32a7233af27e07",
+    "public_sha256": "a63c88248dab6959f04006a21d52490c6354951f0262cf36e7363d3063aac754",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/05-fresh-ingest.json",
+    "original_private_sha256": "a86d30d1c9c25353691bacaf71570a59fde70f6b9806fc5ebcb61038d079f2ae",
+    "public_sha256": "0bdabf8bf518289e88211d552ca301ce244a03a015c7417dcbb6805b9cb60de5",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/15-B04-next-workshop.json",
+    "original_private_sha256": "17062af9a1e020f0b02852f37ce7979a3e0c3d6148c4262648379146c10511ab",
+    "public_sha256": "8fcc39e1437d731b921637954f6cc48b93241dcdc5b60f94fe13e1a1644e7d74",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/07-topic-search.json",
+    "original_private_sha256": "8ccebb6289bc06b59061ff5a2c948cf2fdd9b2ac5cb53d45cab3e77746e278da",
+    "public_sha256": "e0a6ee23d58e2236cf1c90e9dc002fe18e8d7a56fb32edc183a5a8ac42f8c718",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/13-B03-oversight.json",
+    "original_private_sha256": "6a730fe9ed0f17321cb1f7e4c97e61dffdcde8b3ae4a81b8704feda3cc997547",
+    "public_sha256": "d311c8db747a37166ef0535594a5c106001336d050815328c9ec01aeb57c4363",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/09-B01-values.json",
+    "original_private_sha256": "d6197a066d16b19bb0ae7eab49081163cd7586ba791d6a98c14ec51db0cec693",
+    "public_sha256": "25033f2bf1db218773f93dd28b4f3e92fb2666661de82d4a0883d9724771349f",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/08-B01-values-retrieval.txt",
+    "original_private_sha256": "45c21e655ac0f6031eb57ce991706892b20271783ed08233973b2c6b38c3cdd0",
+    "public_sha256": "0078e1832ed03d37346a4e99301cf281c01102db03ccad766621a14e2ba8592d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/15-B04-next-workshop.txt",
+    "original_private_sha256": "c03040a78fdcfd6ea234b2c53a5fe01ca36392952b72a2b6acf8338570ddb42c",
+    "public_sha256": "88f9e4a9c7da5efbc71130b38c80225a7fb2857a37a4b6189fac76298b78d59f",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/06-assignment-search.json",
+    "original_private_sha256": "22c24065689014575f500f4dc92e3a9b6a13665ec6b3a89994fb21d8ee0b4597",
+    "public_sha256": "36457053e8be1ca699dd62aa6dfe6188d1ae4406fa5213680cab174100e66fd7",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/17-B05-two-source.txt",
+    "original_private_sha256": "72bda39a58fc5af631bae02aea587c99dddd049de9393c9dd80d9f124cb1799d",
+    "public_sha256": "b4be57e6b18d1fc91c8262c4290094b8c36faf2449866cc62a9c7cf5f02f137d",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/03-missing-ingest-path.txt",
+    "original_private_sha256": "9b5a9427f1668fff51037205eb74e3b1045d440e61e7410d65a9cb1727dcfa2c",
+    "public_sha256": "a3ec34560cc89b9b17bed00d827880b35b837d7049336cd9de1615adb73c3051",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/10-B02-mountaintop-retrieval.json",
+    "original_private_sha256": "c2a728383785fcab29397268d1c9d58eacb46d1773f61506d7af5ee700b1768f",
+    "public_sha256": "516ae5d4cdad11cb009954751a7988cab36b20ad686c99f0116b93cd0a03aedd",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/22-unchanged-reingest.json",
+    "original_private_sha256": "1166c5101b92bb829bc07728b1887b0f3ca274a00c0e50257db06ab5de5627a0",
+    "public_sha256": "e585f45661f1144eb6a839690e46b5f4dbddde34ac59579e0e8f76cdd5e6850e",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/12-B03-oversight-retrieval.json",
+    "original_private_sha256": "083e3e72e76d225c5344bc017e445b22bffe4d0650d659f3e3c5cee53d5e9166",
+    "public_sha256": "eb57fb975e86aaa881913010bfda848156a2ceb75df7b9acf45d99e1b558b8a1",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/04-fresh-no-index.txt",
+    "original_private_sha256": "c6eab6165a76ea2509fb24bcda44686eca6e1376208e52cc38c1a0fa7171bc90",
+    "public_sha256": "11f42a026ce48e944f1b36a5670b3424da0b44944581eece3fb900ac89de5e8a",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/18-interactive-chat.json",
+    "original_private_sha256": "681b7981567d5dd29c25b3c823f5f485b2582419cf9aad9f7190a8894d4be71e",
+    "public_sha256": "b07983febd6010ec50ff70675956094651a139125355349dbff90c522a79d9e9",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/14-B04-next-workshop-retrieval.json",
+    "original_private_sha256": "71c62538e5c7fe8cb044b3f612f330d07137b4e1df6fc3f455f463dd7c307458",
+    "public_sha256": "f15b7b61cf1c09f33db3801478f4b1fb70ca35da65a6344af3a778ad6b9721cd",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/commands/08-B01-values-retrieval.json",
+    "original_private_sha256": "e29dc9f3cc40aaffc560766217ab54c15afb3b400a0317dd913c7b5753b8f3a9",
+    "public_sha256": "83f0001b4bbfbd709fdd85d739ec0feddf3f75e4b09750de011d52acdae0fc3b",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/restart-check/commands/01-B01-after-server-restart.json",
+    "original_private_sha256": "c2ae0c7c1d672b19dc5ff5db983f6d3a0c73078c25bb5993fe4d57ee75b1e501",
+    "public_sha256": "a8f1bdac2fcf6c419a43842025bc142dc2666cefbff38da743f6a9592569535a",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/isolated-first/restart-check/commands/01-B01-after-server-restart.txt",
+    "original_private_sha256": "7c22004e65cdd0af157e98ffe9323366b2d0a487cbe6c32b6b64173d624210b4",
+    "public_sha256": "2c3f45a383a17a4434e9e45d9946a1e7841c0510d92592fc3568f59976d3ab0c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/no-model-direct/commands/01-search-without-model.json",
+    "original_private_sha256": "d7d84cfc2a451532e69e60affc0f6148e32457fcc9d782ee1e44e048ae76b4df",
+    "public_sha256": "0fc6f607cc44bf602a4201d6c53dcaa5c6370424169a752de8d6dbfe12583530",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/no-model-direct/commands/01-search-without-model.txt",
+    "original_private_sha256": "d4243be3e0e4e991806459c6d415d020fc28756c11591aef4ad2dbfd8bc5098d",
+    "public_sha256": "2751936958829d6f9f48a423bde4cac64275aca3a7a8694d080c2c5558df4ffe",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/no-model-direct/commands/02-ask-without-model.json",
+    "original_private_sha256": "2314cc26417f4df2f83dd7cdf1988fb5894de52ab16e2232b817e85290ab63bf",
+    "public_sha256": "ccdd130092309dfb382f9a08dc6d976f1701aac2942e98be6b55414a20dff481",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  },
+  {
+    "file": "evidence/independent/b/no-model-direct/commands/02-ask-without-model.txt",
+    "original_private_sha256": "e96c91bdd94ab773b422900585b5ee5cec0eed1f10421d7c078d6cc9a6ac8359",
+    "public_sha256": "5a8361f1fb67526a18d00a8c4104fa082d8976f902081cb3dc01019aa919894c",
+    "change": "Identifying execution paths or legacy private source alias replaced; model answer content was not rewritten."
+  }
+]

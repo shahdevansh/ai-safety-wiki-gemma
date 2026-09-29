@@ -1,0 +1,3249 @@
+{
+  "scope": "Parent samples only the isolated Ollama process tree approximately every 0.5 seconds. Summed RSS may double-count shared pages; sampled maximum is not exact peak memory or GPU allocation. Monitoring process makes no network requests.",
+  "maximum_sampled_sum_rss_bytes": 5190254592,
+  "samples": [
+    {
+      "elapsed_seconds": 0.048,
+      "summed_rss_bytes": 26673152,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 26673152,
+          "process": "ollama"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 0.596,
+      "summed_rss_bytes": 187924480,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 33947648,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 153976832,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 1.147,
+      "summed_rss_bytes": 236224512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34013184,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 202211328,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 1.696,
+      "summed_rss_bytes": 4339679232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34013184,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4305666048,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 2.245,
+      "summed_rss_bytes": 4772986880,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34111488,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4738875392,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 2.813,
+      "summed_rss_bytes": 4776574976,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34127872,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4742447104,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 3.366,
+      "summed_rss_bytes": 4776574976,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34127872,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4742447104,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 3.917,
+      "summed_rss_bytes": 4776591360,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34127872,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4742463488,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 4.467,
+      "summed_rss_bytes": 4776574976,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34127872,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4742447104,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 5.016,
+      "summed_rss_bytes": 4776476672,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34127872,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4742348800,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 5.57,
+      "summed_rss_bytes": 4776542208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34127872,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4742414336,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 6.122,
+      "summed_rss_bytes": 4776542208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34127872,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4742414336,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 6.675,
+      "summed_rss_bytes": 4776542208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34127872,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4742414336,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 7.222,
+      "summed_rss_bytes": 4783194112,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34226176,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4748967936,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 7.774,
+      "summed_rss_bytes": 4783226880,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34226176,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749000704,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 8.329,
+      "summed_rss_bytes": 4783226880,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34226176,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749000704,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 8.885,
+      "summed_rss_bytes": 4783226880,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34226176,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749000704,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 9.439,
+      "summed_rss_bytes": 4783243264,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34242560,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749000704,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 9.992,
+      "summed_rss_bytes": 4783243264,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34242560,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749000704,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 10.546,
+      "summed_rss_bytes": 4783243264,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34242560,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749000704,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 11.1,
+      "summed_rss_bytes": 4783243264,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34242560,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749000704,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 11.652,
+      "summed_rss_bytes": 4783243264,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34242560,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749000704,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 12.208,
+      "summed_rss_bytes": 4783259648,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34242560,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4749017088,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 12.763,
+      "summed_rss_bytes": 4794318848,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759945216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 13.319,
+      "summed_rss_bytes": 4794335232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759961600,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 13.87,
+      "summed_rss_bytes": 4794335232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759961600,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 14.422,
+      "summed_rss_bytes": 4794335232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759961600,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 14.977,
+      "summed_rss_bytes": 4794335232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759961600,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 15.531,
+      "summed_rss_bytes": 4794335232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759961600,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 16.084,
+      "summed_rss_bytes": 4794335232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759961600,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 16.641,
+      "summed_rss_bytes": 4794335232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759961600,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 17.198,
+      "summed_rss_bytes": 4794335232,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34373632,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4759961600,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 17.749,
+      "summed_rss_bytes": 4807917568,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34439168,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4773478400,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 18.304,
+      "summed_rss_bytes": 4807917568,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34439168,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4773478400,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 18.854,
+      "summed_rss_bytes": 4807917568,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34439168,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4773478400,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 19.404,
+      "summed_rss_bytes": 4807917568,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34439168,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4773478400,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 19.959,
+      "summed_rss_bytes": 4807917568,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34439168,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4773478400,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 20.511,
+      "summed_rss_bytes": 4807917568,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34439168,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4773478400,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 21.062,
+      "summed_rss_bytes": 4823859200,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34471936,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4789387264,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 21.619,
+      "summed_rss_bytes": 4823859200,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34471936,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4789387264,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 22.17,
+      "summed_rss_bytes": 4823859200,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34471936,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4789387264,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 22.726,
+      "summed_rss_bytes": 4823859200,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34471936,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4789387264,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 23.28,
+      "summed_rss_bytes": 4823859200,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34471936,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4789387264,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 23.834,
+      "summed_rss_bytes": 4823859200,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34471936,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4789387264,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 24.382,
+      "summed_rss_bytes": 4823859200,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34471936,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4789387264,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 24.943,
+      "summed_rss_bytes": 4823859200,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34471936,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4789387264,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 25.492,
+      "summed_rss_bytes": 4837441536,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34488320,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4802953216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 26.049,
+      "summed_rss_bytes": 4837441536,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34488320,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4802953216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 26.598,
+      "summed_rss_bytes": 4837441536,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34488320,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4802953216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 27.15,
+      "summed_rss_bytes": 4837441536,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34488320,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4802953216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 27.705,
+      "summed_rss_bytes": 4837441536,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34488320,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4802953216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 28.261,
+      "summed_rss_bytes": 4837441536,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34488320,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4802953216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 28.813,
+      "summed_rss_bytes": 4837441536,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34488320,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4802953216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 29.362,
+      "summed_rss_bytes": 4837441536,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34488320,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4802953216,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 29.912,
+      "summed_rss_bytes": 4897914880,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34619392,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4863295488,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 30.461,
+      "summed_rss_bytes": 4897914880,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34619392,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4863295488,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 31.01,
+      "summed_rss_bytes": 4913594368,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34619392,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4878974976,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 31.558,
+      "summed_rss_bytes": 4913594368,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34619392,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4878974976,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 32.116,
+      "summed_rss_bytes": 4913643520,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34619392,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879024128,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 32.668,
+      "summed_rss_bytes": 4913676288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879040512,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 33.222,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 33.776,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 34.326,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 34.88,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 35.431,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 35.986,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 36.54,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 37.092,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 37.646,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 38.2,
+      "summed_rss_bytes": 4913758208,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879122432,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 38.754,
+      "summed_rss_bytes": 4913774592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879138816,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 39.309,
+      "summed_rss_bytes": 4913790976,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879155200,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 39.864,
+      "summed_rss_bytes": 4913790976,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879155200,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 40.419,
+      "summed_rss_bytes": 4913790976,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4879155200,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 40.972,
+      "summed_rss_bytes": 4949360640,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4914724864,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 41.524,
+      "summed_rss_bytes": 4949360640,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4914724864,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 42.087,
+      "summed_rss_bytes": 4949377024,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4914741248,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 42.643,
+      "summed_rss_bytes": 4949377024,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34635776,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4914741248,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 43.193,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 43.745,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 44.295,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 44.847,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 45.402,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 45.958,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 46.513,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 47.067,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 47.622,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 48.177,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 48.729,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 49.282,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 49.831,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 50.383,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 50.939,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 51.49,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 52.045,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 52.599,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 53.158,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 53.715,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 54.267,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 54.82,
+      "summed_rss_bytes": 4972134400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4937449472,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 55.367,
+      "summed_rss_bytes": 4988960768,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4954275840,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 55.923,
+      "summed_rss_bytes": 4988960768,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4954275840,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 56.473,
+      "summed_rss_bytes": 4988960768,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4954275840,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 57.022,
+      "summed_rss_bytes": 5011472384,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4976787456,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 57.573,
+      "summed_rss_bytes": 5011472384,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4976787456,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 58.123,
+      "summed_rss_bytes": 5012520960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977836032,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 58.673,
+      "summed_rss_bytes": 5012520960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977836032,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 59.221,
+      "summed_rss_bytes": 5012520960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977836032,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 59.776,
+      "summed_rss_bytes": 5012520960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977836032,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 60.331,
+      "summed_rss_bytes": 5012520960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977836032,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 60.883,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 61.437,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 61.991,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 62.545,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 63.107,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 63.66,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 64.216,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 64.77,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 65.324,
+      "summed_rss_bytes": 5012586496,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977901568,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 65.875,
+      "summed_rss_bytes": 5012570112,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977885184,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 66.428,
+      "summed_rss_bytes": 5012570112,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977885184,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 66.979,
+      "summed_rss_bytes": 5012570112,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977885184,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 67.534,
+      "summed_rss_bytes": 5012570112,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977885184,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 68.088,
+      "summed_rss_bytes": 5012570112,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977885184,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 68.644,
+      "summed_rss_bytes": 5012570112,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977885184,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 69.197,
+      "summed_rss_bytes": 5012570112,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4977885184,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 69.749,
+      "summed_rss_bytes": 5029380096,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4994695168,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 70.304,
+      "summed_rss_bytes": 5029380096,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4994695168,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 70.857,
+      "summed_rss_bytes": 5029380096,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4994695168,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 71.411,
+      "summed_rss_bytes": 5029396480,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4994711552,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 71.965,
+      "summed_rss_bytes": 5029396480,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4994711552,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 72.517,
+      "summed_rss_bytes": 5029396480,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34684928,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 4994711552,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 73.061,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 73.612,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 74.163,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 74.714,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 75.284,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 75.837,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 76.392,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 76.947,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 77.5,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 78.056,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 78.615,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 79.168,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 79.726,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 80.28,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 80.833,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 81.385,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 81.937,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 82.493,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 83.045,
+      "summed_rss_bytes": 5052940288,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34717696,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5018222592,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 83.596,
+      "summed_rss_bytes": 5090656256,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34734080,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5055922176,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 84.147,
+      "summed_rss_bytes": 5090656256,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34734080,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5055922176,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 84.709,
+      "summed_rss_bytes": 5090656256,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34734080,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5055922176,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 85.263,
+      "summed_rss_bytes": 5090672640,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34750464,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5055922176,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 85.814,
+      "summed_rss_bytes": 5090672640,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34750464,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5055922176,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 86.368,
+      "summed_rss_bytes": 5090689024,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34750464,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5055938560,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 86.945,
+      "summed_rss_bytes": 5090689024,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 34750464,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5055938560,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 87.496,
+      "summed_rss_bytes": 5121064960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5085986816,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 88.048,
+      "summed_rss_bytes": 5121064960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5085986816,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 88.597,
+      "summed_rss_bytes": 5121064960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5085986816,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 89.145,
+      "summed_rss_bytes": 5121064960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5085986816,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 89.692,
+      "summed_rss_bytes": 5121064960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5085986816,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 90.246,
+      "summed_rss_bytes": 5121064960,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5085986816,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 90.796,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 91.346,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 91.895,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 92.445,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 92.993,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 93.547,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 94.101,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 94.657,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 95.223,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 95.779,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 96.339,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 96.894,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 97.444,
+      "summed_rss_bytes": 5147328512,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35078144,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5112250368,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 97.991,
+      "summed_rss_bytes": 5181030400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5145935872,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 98.538,
+      "summed_rss_bytes": 5181030400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5145935872,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 99.092,
+      "summed_rss_bytes": 5181030400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5145935872,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 99.646,
+      "summed_rss_bytes": 5181030400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5145935872,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 100.198,
+      "summed_rss_bytes": 5181030400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5145935872,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 100.753,
+      "summed_rss_bytes": 5181030400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5145935872,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 101.31,
+      "summed_rss_bytes": 5181030400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5145935872,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 101.863,
+      "summed_rss_bytes": 5181030400,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5145935872,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 102.416,
+      "summed_rss_bytes": 5189468160,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5154373632,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 102.962,
+      "summed_rss_bytes": 5190205440,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155110912,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 103.511,
+      "summed_rss_bytes": 5190205440,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155110912,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 104.063,
+      "summed_rss_bytes": 5190205440,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155110912,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 104.617,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 105.166,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 105.721,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 106.273,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 106.824,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 107.388,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 107.945,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 108.503,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 109.057,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 109.612,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 110.164,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 110.718,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 111.297,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 111.851,
+      "summed_rss_bytes": 5190254592,
+      "processes": [
+        {
+          "pid": 21111,
+          "rss_bytes": 35094528,
+          "process": "ollama"
+        },
+        {
+          "pid": 21126,
+          "rss_bytes": 5155160064,
+          "process": "llama-server"
+        }
+      ]
+    }
+  ]
+}

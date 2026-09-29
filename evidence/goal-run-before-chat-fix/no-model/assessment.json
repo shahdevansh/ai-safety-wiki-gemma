@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-09-29T08:14:55.991235+00:00",
+  "scope": "Actual CLI processes under policy denying every network operation, including loopback. Search and reindex need no model server; ask fails usefully without fallback.",
+  "policy_sha256": "5c358b8d847211333e7ba22df82d84f796b5f30a41a2682209a949d783adbd08",
+  "checks": {
+    "reindex_succeeds": true,
+    "source_search_succeeds": true,
+    "answerable_ask_fails_without_model_access": true,
+    "search_makes_zero_model_calls": true
+  },
+  "passed": true
+}

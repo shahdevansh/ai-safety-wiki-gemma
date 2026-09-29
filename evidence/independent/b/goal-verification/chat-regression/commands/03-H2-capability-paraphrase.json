@@ -1,0 +1,19 @@
+{
+  "label": "H2-capability-paraphrase",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/chat-regression/workspace/wiki.py",
+    "chat",
+    "--save-dir",
+    "<evaluation>/goal-verification/chat-regression/heldout-chat/H2-capability-paraphrase"
+  ],
+  "cwd": "<evaluation>/goal-verification/chat-regression/workspace",
+  "stdin": "Please list the commands you support and one thing you cannot do.\n/exit\n",
+  "returncode": 0,
+  "stdout": "Pip | chat | local | gemma4:e2b-it-qat\n/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.\nYou> Pip | chat | local | gemma4:e2b-it-qat\n\nI'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, revise, and retrieve notes with citations.\n\nCommands: `chat` uses conversation; `ask` researches independently; `search` shows original passages; `ingest` generates wiki drafts; `review` records an inspected page's review; `reindex` rebuilds retrieval; `doctor` reports model/device information; `help` lists commands.\n\nI have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.\nYou> ",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T08:34:39.892974+00:00",
+  "wall_seconds": 0.074,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

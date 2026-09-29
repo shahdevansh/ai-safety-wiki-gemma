@@ -1,0 +1,12 @@
+{
+  "original_evaluator_sha256": "b4009dfbeb019a721c041f0466822fd3aee5069a51cfc5eb714428aaaa2ddfc7",
+  "goal_evaluator_sha256": "2599d060d2e224bdfc381037835fa087c58ebb9b587ebfbc436a8375c5f83366",
+  "changes": [
+    "Use privacy-reconciled expectation derivative; original expectations remain untouched.",
+    "Display commands with shell quoting.",
+    "Assert declared core/prompt/data freeze before inference.",
+    "Append unchanged held-out mode/coverage cases after original full suite.",
+    "Add deterministic scripted reset check."
+  ],
+  "model_calls_during_preparation": 0
+}

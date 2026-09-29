@@ -1,0 +1,578 @@
+[
+  {
+    "id": "B01-values",
+    "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+    "expected_claims": [
+      "Western/English skew in outputs",
+      "No consensus on the human values to target"
+    ],
+    "retrieval_source_candidates": [
+      {
+        "expected_source": "vault/raw/alignment-fundamentals-notes.md",
+        "matching_passage_ids": [
+          "P6641881a8987"
+        ],
+        "match_is_candidate_not_semantic_verdict": true
+      }
+    ],
+    "retrieval_fidelity": [
+      {
+        "id": "P6641881a8987",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "Pd3902efa8beb",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P19588883e584",
+        "path": "vault/raw/risk-defenses-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P0796ce4b536c",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer_fidelity": [
+      {
+        "id": "P6641881a8987",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "Pd3902efa8beb",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P19588883e584",
+        "path": "vault/raw/risk-defenses-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P0796ce4b536c",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer": "According to the retrieved meeting notes:\n\nAligning to “general human values” produces Western/English-skewed outputs [P6641881a8987]\n\nNo consensus on what those values even are [P6641881a8987]",
+    "citations": [
+      {
+        "claim": "Aligning to “general human values” produces Western/English-skewed outputs",
+        "source_id": "P6641881a8987",
+        "quote": "Aligning to “general human values” produces Western/English-skewed outputs",
+        "id_and_quote_valid": true
+      },
+      {
+        "claim": "No consensus on what those values even are",
+        "source_id": "P6641881a8987",
+        "quote": "No consensus on what those values even are",
+        "id_and_quote_valid": true
+      }
+    ],
+    "model_identity": {
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "4.6B",
+        "quantization_level": "Q4_0",
+        "context_length": 131072,
+        "embedding_length": 1536
+      },
+      "download_bytes": 4336358185,
+      "runtime": {
+        "version": "0.34.4"
+      },
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    "citation_errors": [],
+    "history_messages": 0,
+    "semantic_verdict": "REQUIRES INDEPENDENT REVIEW"
+  },
+  {
+    "id": "B02-mountaintop",
+    "question": "Why might taking someone straight to the mountaintop fail to respect what they want from the climb?",
+    "expected_claims": [
+      "Agency, process, striving or achievement matter in addition to the final outcome",
+      "Removing non-optimal choices can violate autonomy"
+    ],
+    "retrieval_source_candidates": [
+      {
+        "expected_source": "vault/raw/alignment-lecture-notes.md",
+        "matching_passage_ids": [
+          "Pd36e317f50b9",
+          "P9e2cc541c9bc"
+        ],
+        "match_is_candidate_not_semantic_verdict": true
+      }
+    ],
+    "retrieval_fidelity": [
+      {
+        "id": "Pd36e317f50b9",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P9e2cc541c9bc",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "Pd3902efa8beb",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P393649e8c594",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer_fidelity": [
+      {
+        "id": "Pd36e317f50b9",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P9e2cc541c9bc",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "Pd3902efa8beb",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P393649e8c594",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer": "According to the retrieved meeting notes:\n\nOutcomes matter, but so does agency when comparing climbing Everest versus being helicoptered to the top. [P9e2cc541c9bc]\n\nClosing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal. [P9e2cc541c9bc]",
+    "citations": [
+      {
+        "claim": "Outcomes matter, but so does agency when comparing climbing Everest versus being helicoptered to the top.",
+        "source_id": "P9e2cc541c9bc",
+        "quote": "Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency",
+        "id_and_quote_valid": true
+      },
+      {
+        "claim": "Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal.",
+        "source_id": "P9e2cc541c9bc",
+        "quote": "Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal",
+        "id_and_quote_valid": true
+      }
+    ],
+    "model_identity": {
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "4.6B",
+        "quantization_level": "Q4_0",
+        "context_length": 131072,
+        "embedding_length": 1536
+      },
+      "download_bytes": 4336358185,
+      "runtime": {
+        "version": "0.34.4"
+      },
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    "citation_errors": [],
+    "history_messages": 0,
+    "semantic_verdict": "REQUIRES INDEPENDENT REVIEW"
+  },
+  {
+    "id": "B03-oversight",
+    "question": "How do the notes contrast the ICAO/IMO and IAEA approaches to AI oversight?",
+    "expected_claims": [
+      "ICAO/IMO regulates national regulators and is less intrusive",
+      "IAEA has direct inspection powers including entering facilities and seizing files",
+      "Stronger inspection is politically harder"
+    ],
+    "retrieval_source_candidates": [
+      {
+        "expected_source": "vault/raw/alignment-lecture-notes.md",
+        "matching_passage_ids": [
+          "P9e2cc541c9bc",
+          "P393649e8c594"
+        ],
+        "match_is_candidate_not_semantic_verdict": true
+      }
+    ],
+    "retrieval_fidelity": [
+      {
+        "id": "P9e2cc541c9bc",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P393649e8c594",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P19588883e584",
+        "path": "vault/raw/risk-defenses-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P6641881a8987",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer_fidelity": [
+      {
+        "id": "P9e2cc541c9bc",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P393649e8c594",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P19588883e584",
+        "path": "vault/raw/risk-defenses-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P6641881a8987",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer": "According to the retrieved meeting notes:\n\nICAO/IMO model: regulate the national regulators; hands-off, less intrusive [P9e2cc541c9bc]\n\nIAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction) [P9e2cc541c9bc]",
+    "citations": [
+      {
+        "claim": "ICAO/IMO model: regulate the national regulators; hands-off, less intrusive",
+        "source_id": "P9e2cc541c9bc",
+        "quote": "- ICAO/IMO model: regulate the national regulators; hands-off, less intrusive",
+        "id_and_quote_valid": true
+      },
+      {
+        "claim": "IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)",
+        "source_id": "P9e2cc541c9bc",
+        "quote": "- IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)",
+        "id_and_quote_valid": true
+      }
+    ],
+    "model_identity": {
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "4.6B",
+        "quantization_level": "Q4_0",
+        "context_length": 131072,
+        "embedding_length": 1536
+      },
+      "download_bytes": 4336358185,
+      "runtime": {
+        "version": "0.34.4"
+      },
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    "citation_errors": [],
+    "history_messages": 0,
+    "semantic_verdict": "REQUIRES INDEPENDENT REVIEW"
+  },
+  {
+    "id": "B04-next-workshop",
+    "question": "What is the date, start time, and room number of the next AI safety workshop?",
+    "expected_claims": [
+      "Explicitly says the source evidence is insufficient or does not contain the requested details"
+    ],
+    "retrieval_source_candidates": [],
+    "retrieval_fidelity": [
+      {
+        "id": "P571ac3d9e151",
+        "path": "vault/raw/risk-defenses-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P6641881a8987",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "Pd36e317f50b9",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P0796ce4b536c",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer_fidelity": [
+      {
+        "id": "P571ac3d9e151",
+        "path": "vault/raw/risk-defenses-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P6641881a8987",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "Pd36e317f50b9",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P0796ce4b536c",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer": "Insufficient evidence: the provided sources do not answer this question.",
+    "citations": [],
+    "model_identity": {
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "4.6B",
+        "quantization_level": "Q4_0",
+        "context_length": 131072,
+        "embedding_length": 1536
+      },
+      "download_bytes": 4336358185,
+      "runtime": {
+        "version": "0.34.4"
+      },
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    "citation_errors": [],
+    "history_messages": 0,
+    "semantic_verdict": "REQUIRES INDEPENDENT REVIEW"
+  },
+  {
+    "id": "B05-two-source",
+    "question": "According to these notes, how do cultural skew and preference manipulation complicate deciding whose interests an AI should serve?",
+    "expected_claims": [
+      "General human value alignment can be Western/English-skewed and lacks consensus",
+      "Observed or stated preferences can be manipulated or shaped against interests",
+      "Multiple people can have conflicting interests"
+    ],
+    "retrieval_source_candidates": [
+      {
+        "expected_source": "vault/raw/alignment-fundamentals-notes.md",
+        "matching_passage_ids": [
+          "P6641881a8987"
+        ],
+        "match_is_candidate_not_semantic_verdict": true
+      },
+      {
+        "expected_source": "vault/raw/alignment-lecture-notes.md",
+        "matching_passage_ids": [
+          "Pd36e317f50b9",
+          "P9e2cc541c9bc"
+        ],
+        "match_is_candidate_not_semantic_verdict": true
+      }
+    ],
+    "retrieval_fidelity": [
+      {
+        "id": "Pd36e317f50b9",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P6641881a8987",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P0796ce4b536c",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P9e2cc541c9bc",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer_fidelity": [
+      {
+        "id": "Pd36e317f50b9",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P6641881a8987",
+        "path": "vault/raw/alignment-fundamentals-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P0796ce4b536c",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      },
+      {
+        "id": "P9e2cc541c9bc",
+        "path": "vault/raw/alignment-lecture-notes.md",
+        "safe_raw_path": true,
+        "exact_line_match": true,
+        "source_hash_match": true
+      }
+    ],
+    "answer": "According to the retrieved meeting notes:\n\n“Values” triggered culture-war reactions [Pd36e317f50b9]\n\n“Stated preferences” are easily manipulated [Pd36e317f50b9]\n\npreferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences) [Pd36e317f50b9]",
+    "citations": [
+      {
+        "claim": "“Values” triggered culture-war reactions",
+        "source_id": "Pd36e317f50b9",
+        "quote": "“Values” triggered culture-war reactions",
+        "id_and_quote_valid": true
+      },
+      {
+        "claim": "“Stated preferences” are easily manipulated",
+        "source_id": "Pd36e317f50b9",
+        "quote": "“Stated preferences” are easily manipulated",
+        "id_and_quote_valid": true
+      },
+      {
+        "claim": "preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)",
+        "source_id": "Pd36e317f50b9",
+        "quote": "preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)",
+        "id_and_quote_valid": true
+      }
+    ],
+    "model_identity": {
+      "name": "gemma4:e2b-it-qat",
+      "digest": "07ea59a474013479c8b6b802bef095c40e964a1d776ba02f264c0e30e1aede0c",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "4.6B",
+        "quantization_level": "Q4_0",
+        "context_length": 131072,
+        "embedding_length": 1536
+      },
+      "download_bytes": 4336358185,
+      "runtime": {
+        "version": "0.34.4"
+      },
+      "endpoint": "http://127.0.0.1:11435"
+    },
+    "citation_errors": [],
+    "history_messages": 0,
+    "semantic_verdict": "REQUIRES INDEPENDENT REVIEW"
+  }
+]

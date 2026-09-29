@@ -1,0 +1,205 @@
+{
+  "copied_isolation_files": {
+    "client-network-after.json": "40c32f488a460b77f4448277921e18abcfd003293874abdb7c8934d17548a195",
+    "client-network-before.json": "c414a088da1a5e77227dba032596e47fb5a85c0050d2f2db025caa4c278bc201",
+    "isolated_client_entry.py": "df9a085823047c4b6f29936ffbb53befa76d998f1124bd24b8a82d55f457c30b",
+    "isolated_server_entry.py": "4b84cae99db8272496a3edafebc0bfbb639bfe08949513820495441be550a1fe",
+    "local_only.py": "c494b60b0d46d6b2f3fc8e53e9114f108f5d8833bdc40a99b806367833cbe704",
+    "network_guard.py": "7d262d456c97a528d899c5818e40d3ce2ee6dcf836570ffa553b57265b5b3bfc",
+    "no-external-network.sb": "339423f809b977e1c1a1b0ca1d88035fc03f56227d8ae69e844d983b61bc484f",
+    "no-network-at-all.sb": "5c358b8d847211333e7ba22df82d84f796b5f30a41a2682209a949d783adbd08",
+    "run.json": "e9bc96c15c7b8443a120d98912237639fcf0acd193343661c299d83e5fecba8a",
+    "server-network.json": "c5d03df09f597879c97ca2744d7b7abdc7d7c41c326e59f33a16673b5347b85f"
+  },
+  "link_findings": [
+    {
+      "from": "Source Catalog.md",
+      "target": "raw/alignment-lecture-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "Source Catalog.md",
+      "target": "Assistance Games",
+      "matching_targets": 1
+    },
+    {
+      "from": "Source Catalog.md",
+      "target": "Compute Governance",
+      "matching_targets": 1
+    },
+    {
+      "from": "Source Catalog.md",
+      "target": "Transformer Safety Limits",
+      "matching_targets": 1
+    },
+    {
+      "from": "Source Catalog.md",
+      "target": "raw/alignment-fundamentals-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "Source Catalog.md",
+      "target": "Alignment and Interpretability",
+      "matching_targets": 1
+    },
+    {
+      "from": "Source Catalog.md",
+      "target": "raw/risk-defenses-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "Source Catalog.md",
+      "target": "Human Control and Defenses",
+      "matching_targets": 1
+    },
+    {
+      "from": "Source Catalog.md",
+      "target": "Power and Disempowerment",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Assistance Games",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Transformer Safety Limits",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Alignment and Interpretability",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Compute Governance",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Human Control and Defenses",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Power and Disempowerment",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Assistance Games",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Alignment and Interpretability",
+      "matching_targets": 1
+    },
+    {
+      "from": "index.md",
+      "target": "Source Catalog",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Alignment and Interpretability.md",
+      "target": "raw/alignment-fundamentals-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Alignment and Interpretability.md",
+      "target": "Assistance Games",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Alignment and Interpretability.md",
+      "target": "Transformer Safety Limits",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Transformer Safety Limits.md",
+      "target": "raw/alignment-lecture-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Transformer Safety Limits.md",
+      "target": "Alignment and Interpretability",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Transformer Safety Limits.md",
+      "target": "Compute Governance",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Assistance Games.md",
+      "target": "raw/alignment-lecture-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Assistance Games.md",
+      "target": "Alignment and Interpretability",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Concepts/Assistance Games.md",
+      "target": "Human Control and Defenses",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Power and Disempowerment.md",
+      "target": "raw/risk-defenses-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Power and Disempowerment.md",
+      "target": "Compute Governance",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Power and Disempowerment.md",
+      "target": "Human Control and Defenses",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Human Control and Defenses.md",
+      "target": "raw/risk-defenses-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Human Control and Defenses.md",
+      "target": "Assistance Games",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Human Control and Defenses.md",
+      "target": "Power and Disempowerment",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Compute Governance.md",
+      "target": "raw/alignment-lecture-notes",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Compute Governance.md",
+      "target": "Power and Disempowerment",
+      "matching_targets": 1
+    },
+    {
+      "from": "wiki/Governance/Compute Governance.md",
+      "target": "Transformer Safety Limits",
+      "matching_targets": 1
+    }
+  ],
+  "all_links_resolve_uniquely": true,
+  "note_heading_matches_filename": true,
+  "direct_no_network_search": {
+    "exit_code": 0,
+    "model_calls": 0,
+    "has_generation": false,
+    "has_synthesized_answer": false,
+    "original_text_ranges_verified": true
+  }
+}

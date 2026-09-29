@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "design_status": "Prospective; authored before the new code freeze or model outputs. Do not use for prompt tuning.",
+  "ask_cases": [
+    {
+      "id": "heldout-1-distinct-reasons",
+      "question": "Why does the assistance-game discussion favor 'interest' over both 'values' and 'stated preferences'? Explain the distinct reason given for each rejected term.",
+      "expected_behavior": "Explain separately that values triggered culture-war reactions and stated preferences are easily manipulated or can be shaped against a person's own good. Do not collapse these into a single generic reason.",
+      "expected_paths": ["vault/raw/alignment-lecture-notes.md"],
+      "source_requirements": [{"path": "vault/raw/alignment-lecture-notes.md", "fragments": ["“Values” triggered culture-war reactions", "“Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good"]}],
+      "required_source_fragments": ["“Values” triggered culture-war reactions", "“Stated preferences” are easily manipulated"],
+      "answer_concepts": [["culture", "culture-war"], ["manipulat", "shaped"]],
+      "semantic_requirements": ["The explanation explicitly assigns culture-war reactions to values.", "The explanation explicitly assigns manipulability or harmful shaping to stated preferences.", "Both reasons are explained, not merely the vocabulary choice restated."],
+      "unsupported_strengthening": "No claim that all values are manipulable, that interests cannot be manipulated, or that the notes prove this terminology resolves alignment."
+    },
+    {
+      "id": "heldout-2-plural-human-objectives",
+      "question": "What limitation does reward modeling have for cultural and individual diversity, and what parallel challenge do assistance games face when serving several people with conflicting interests?",
+      "expected_behavior": "Explain that the alignment notes connect single-optimum optimization with failure to capture cultural and individual diversity; separately identify aggregation or social choice among conflicting human interests as the assistance-game challenge. Both originals must contribute cited evidence.",
+      "expected_paths": ["vault/raw/alignment-fundamentals-notes.md", "vault/raw/alignment-lecture-notes.md"],
+      "source_requirements": [
+        {"path": "vault/raw/alignment-fundamentals-notes.md", "fragments": ["SGD and numerical optimization assume a single optimum", "Fails to capture cultural and individual diversity"]},
+        {"path": "vault/raw/alignment-lecture-notes.md", "fragments": ["Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?"]}
+      ],
+      "required_source_fragments": ["SGD and numerical optimization assume a single optimum", "Fails to capture cultural and individual diversity", "Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?"],
+      "answer_concepts": [["single", "one optimum"], ["divers", "cultural"], ["aggregation", "social choice", "conflicting interests", "conflict"]],
+      "semantic_requirements": ["A causal or explanatory connection is made between single-optimum framing and diversity limits.", "The separate problem of combining conflicting human interests is identified.", "At least one supporting citation comes from each required source."],
+      "unsupported_strengthening": "Do not claim pluralistic alignment is solved, or that a specified aggregation method was validated."
+    },
+    {
+      "id": "heldout-3-hardware-human-override",
+      "question": "Across the lecture and infrastructure workshop, why was hardware regulation proposed as more tractable than software regulation, and what two physical mechanisms were proposed for people to override or stop infrastructure software?",
+      "expected_behavior": "Give the lecture's contrast between freely copied/transmitted software and chip safety checks whose bypass requires building a fabrication facility; then give the workshop's physical fail-safes with human override and physical shutdown buttons/levers. The final answer must address both why and what, using both originals.",
+      "expected_paths": ["vault/raw/alignment-lecture-notes.md", "vault/raw/risk-defenses-notes.md"],
+      "source_requirements": [
+        {"path": "vault/raw/alignment-lecture-notes.md", "fragments": ["Software can be copied and transmitted freely", "bypassing requires building a fab from scratch"]},
+        {"path": "vault/raw/risk-defenses-notes.md", "fragments": ["Physical fail-safes with human override capabilities", "Physical buttons/levers to shut off software entirely"]}
+      ],
+      "required_source_fragments": ["Software can be copied and transmitted freely", "bypassing requires building a fab from scratch", "Physical fail-safes with human override capabilities", "Physical buttons/levers to shut off software entirely"],
+      "answer_concepts": [["copied", "copy", "transmit"], ["fab", "fabrication"], ["fail-safe", "failsafe", "fail safe"], ["override"], ["button", "lever"]],
+      "semantic_requirements": ["The hardware/software contrast is actually explained.", "Both distinct physical mechanisms are named, without treating multiple human decision-makers as a physical device.", "At least one supporting citation comes from each required source.", "The mechanisms remain proposals; fabrication difficulty is attributed to the notes."],
+      "unsupported_strengthening": "Do not claim that such hardware controls are deployed everywhere, that bypass is literally impossible, or that the controls guarantee safety."
+    },
+    {
+      "id": "heldout-4-scenario-versus-measurement",
+      "question": "In the gradual disempowerment discussion, what unemployment percentage was considered as a scenario, and what measured real-world unemployment rate did the workshop establish?",
+      "expected_behavior": "Answer the supported part as a 40% unemployment scenario, and explicitly state that the source does not establish a measured real-world unemployment rate. Do not turn a scenario into a measured statistic or abstain from the entire answer while dropping the supported part.",
+      "expected_paths": ["vault/raw/risk-defenses-notes.md"],
+      "source_requirements": [{"path": "vault/raw/risk-defenses-notes.md", "fragments": ["40% unemployment scenario potential social crisis"]}],
+      "required_source_fragments": ["40% unemployment scenario potential social crisis"],
+      "answer_concepts": [["40"], ["scenario", "hypothetical"], ["not", "no ", "doesn't", "does not", "insufficient"]],
+      "semantic_requirements": ["The 40% number is explicitly described as a hypothetical scenario.", "Absence of a measured unemployment rate is explicitly stated.", "The answer contains no invented measurement, time, region, or data source."],
+      "unsupported_strengthening": "A single insufficiency refusal is incomplete; a claimed measured 40% rate is false grounding."
+    }
+  ],
+  "routing_chat": {
+    "id": "heldout-chat-note-routing",
+    "turns": ["In the lecture, why is hardware regulation described as easier to enforce than software regulation?"],
+    "expected_behavior": "Recognize this as a request about the lecture source, retrieve original evidence, explain freely copyable software versus hard-to-bypass physical fabrication controls, and cite note-based claims.",
+    "expected_path": "vault/raw/alignment-lecture-notes.md",
+    "expected_fragments": ["Software can be copied and transmitted freely", "bypassing requires building a fab from scratch"]
+  },
+  "reset_smoke_turns": ["/reset", "/exit"],
+  "reset_chat": {
+    "id": "heldout-chat-reset",
+    "turns": ["For this conversation only, use the fictional marker PLUM-LANTERN-642. Repeat it once without saving it as source material.", "/reset", "What fictional marker did I ask you to use earlier?"],
+    "sentinel": "PLUM-LANTERN-642",
+    "expected_behavior": "Script advances past reset and exits. The final actual model request contains no pre-reset marker or messages; the assistant cannot recover the fictional marker and must not invent another. Originals remain unchanged."
+  }
+}

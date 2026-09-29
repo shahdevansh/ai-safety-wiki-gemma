@@ -1,0 +1,16 @@
+$ 'python3' 'wiki.py' 'ingest' './vault/raw' '--save' '<evaluation>/goal-verification/runs/20260929T080434044244Z/records/ingest-initial.json'
+CWD: <evaluation>/goal-verification/runs/20260929T080434044244Z/project
+Pip | ingest | local | gemma4:e2b-it-qat
+vault/wiki/Concepts/Assistance Games.md: generated; review required
+vault/wiki/Governance/Compute Governance.md: generated; review required
+vault/wiki/Concepts/Transformer Safety Limits.md: generated; review required
+vault/wiki/Concepts/Alignment and Interpretability.md: generated; review required
+vault/wiki/Governance/Human Control and Defenses.md: generated; review required
+vault/wiki/Governance/Power and Disempowerment.md: generated; review required
+8 passages indexed; 28.887 s
+
+Saved: ingest-initial.json
+
+STDERR:
+
+EXIT: 0

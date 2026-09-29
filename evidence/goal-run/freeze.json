@@ -1,0 +1,26 @@
+{
+  "recorded_at_utc": "2026-09-29T08:43:19.924873+00:00",
+  "purpose": "Frozen current harness, prompts, expectations and source corpus before the final corrected main demonstration.",
+  "sha256": {
+    "wiki.py": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+    "prompts/research.md": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+    "prompts/grounded-chat.md": "d45dc84da09787da9c8af2d4304cafde7698bea8234fcd713c6acc67b81e9ebe",
+    "prompts/persona.md": "2c659d4b2be20a2673abd1fca89f3e6765c4a40febb267998d4299440152b069",
+    "prompts/ingest.md": "d46773a3ba20f03f8db777a32dc3b9eebc0fa25068a2d6da100daa9a7f41a473",
+    "prompts/capabilities.md": "b35fa0aba66208638fd66ff0949cbd50f3ca86dae247cf4b73ff8245befe0ac9",
+    "evals/cases.json": "7d7deb23eeee7bacdbb3e5b8af71ff894d5bcaf4df71c9b47dcc1aae67c6e7d0",
+    "evals/chat.txt": "430bb0728a7c9d9a1738385ace7a698ab32d229528a31e9f03032129bff51664",
+    "sources.json": "e93bb85166cdfcae4c6e66d6f98c106ebcd534f92acd737857b19d977e23207e",
+    "source-manifest.json": "1299471916c7d26aeb14cc9318662ed81dfe2f05216ced8baaee038f7d4eed94",
+    "scripts/assignment_demo.sh": "85954547c7c4ffea8f3ca3b7ff5871115c5a85796969f48cc94c3e0636bedb7d",
+    "scripts/evaluate.py": "b81ba4706ea497a51bdcb521de631ee378995eec0815a99fb0a9f8799c096c53",
+    "scripts/local_only.py": "c7541e5589dba5f8cc7eba128ddb069e4bd0ce01427a70c936b805793c5518f1",
+    "scripts/record_terminal.py": "099a160d678151be211ac2978a0074fd946e6aba3027eb1f747b3e9189aed60e",
+    "isolation/no-external-network.sb": "339423f809b977e1c1a1b0ca1d88035fc03f56227d8ae69e844d983b61bc484f"
+  },
+  "source_hashes": {
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "verified_core_data": {
+    "wiki.py": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+    "prompts/grounded-chat.md": "d45dc84da09787da9c8af2d4304cafde7698bea8234fcd713c6acc67b81e9ebe",
+    "prompts/research.md": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02"
+  },
+  "prospective_cases_sha256": "0f1c6444dd12e4600073666ba63f2f2f95e4d4c7849781f9b6ae78f49796d7cc",
+  "runner_sha256": "8f5467e79918b2b6732dcdbcfa328f55cf60d81c5dcc43e2704802e835c87fe2",
+  "scope": "Unchanged bounded regression; full suite not rerun."
+}

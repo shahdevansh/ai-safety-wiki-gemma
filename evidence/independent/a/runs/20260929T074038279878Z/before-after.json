@@ -1,0 +1,122 @@
+{
+  "initial_run": "20260929T072034705632Z",
+  "final_run": "20260929T074038279878Z",
+  "cases_identical": true,
+  "evaluator_identical": true,
+  "source_manifests_identical": true,
+  "notes_identical": true,
+  "asks": [
+    {
+      "file": "ask-1-assistance-objective.json",
+      "initial_answer": "According to the retrieved meeting notes:\n\nAI\u2019s only goal is to promote human interests [Pd36e317f50b9] [P0796ce4b536c]\n\nIt is uncertain what those interests are and must infer them [Pd36e317f50b9] [P0796ce4b536c]",
+      "final_answer": "According to the retrieved meeting notes:\n\nAI\u2019s only goal is to promote human interests [Pd36e317f50b9]\n\nit is uncertain what those interests are and must infer them [Pd36e317f50b9]",
+      "initial_generation_seconds": 16.674,
+      "final_all_attempt_seconds": 17.933,
+      "final_attempt_count": 1,
+      "final_attempt_errors": [
+        []
+      ],
+      "all_attempts_expected_model": true,
+      "cli_seconds": 18.013
+    },
+    {
+      "file": "ask-2-infrastructure-controls.json",
+      "initial_answer": "According to the retrieved meeting notes:\n\nPhysical fail-safes with human override capabilities [P571ac3d9e151]\n\nMultiple humans in decision loops [P571ac3d9e151]\n\nPhysical buttons/levers to shut off software entirely [P571ac3d9e151]",
+      "final_answer": "According to the retrieved meeting notes:\n\nPhysical fail-safes with human override capabilities [P571ac3d9e151]\n\nMultiple humans in decision loops [P571ac3d9e151]\n\nPhysical buttons/levers to shut off software entirely [P571ac3d9e151]",
+      "initial_generation_seconds": 13.774,
+      "final_all_attempt_seconds": 13.481,
+      "final_attempt_count": 1,
+      "final_attempt_errors": [
+        []
+      ],
+      "all_attempts_expected_model": true,
+      "cli_seconds": 13.563
+    },
+    {
+      "file": "ask-3-alignment-interpretability.json",
+      "initial_answer": "According to the retrieved meeting notes:\n\nInterpretability and alignment are described as two sides of the same objective. [Pd3902efa8beb]\n\nUnderstanding these aspects is necessary to know the direction and method for achieving the objective. [Pd3902efa8beb]",
+      "final_answer": "According to the retrieved meeting notes:\n\nInterpretability and alignment are two sides of the same objective [Pd3902efa8beb]",
+      "initial_generation_seconds": 12.646,
+      "final_all_attempt_seconds": 12.301,
+      "final_attempt_count": 1,
+      "final_attempt_errors": [
+        []
+      ],
+      "all_attempts_expected_model": true,
+      "cli_seconds": 12.38
+    },
+    {
+      "file": "ask-4-unsupported-schedule.json",
+      "initial_answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "final_answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "initial_generation_seconds": 5.206,
+      "final_all_attempt_seconds": 4.823,
+      "final_attempt_count": 1,
+      "final_attempt_errors": [
+        []
+      ],
+      "all_attempts_expected_model": true,
+      "cli_seconds": 4.9
+    },
+    {
+      "file": "ask-chat-isolation.json",
+      "initial_answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "final_answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "initial_generation_seconds": 5.336,
+      "final_all_attempt_seconds": 6.254,
+      "final_attempt_count": 1,
+      "final_attempt_errors": [
+        []
+      ],
+      "all_attempts_expected_model": true,
+      "cli_seconds": 6.334
+    }
+  ],
+  "chat": [
+    {
+      "file": "chat-01.json",
+      "identical_answer": true,
+      "word_count": 77,
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "history_messages": 0,
+      "retrieval_called": false
+    },
+    {
+      "file": "chat-02.json",
+      "identical_answer": true,
+      "word_count": 77,
+      "answer": "I'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.",
+      "history_messages": 2,
+      "retrieval_called": false
+    },
+    {
+      "file": "chat-03.json",
+      "identical_answer": true,
+      "word_count": 69,
+      "answer": "Suggestion: Here is a draft for your study group invitation.\n\nHey everyone! I'm proposing a quick, casual 30-minute reading session to discuss [Insert Topic Here]. It would be a great chance to share our initial thoughts and get some fresh perspectives.\n\n**Simple Agenda:**\n1. Quick overview of the material (10 mins)\n2. Open discussion/Q&A (15 mins)\n3. Wrap up (5 mins)\n\nLet me know if this works for you!",
+      "history_messages": 4,
+      "retrieval_called": false
+    },
+    {
+      "file": "chat-04.json",
+      "identical_answer": true,
+      "word_count": 49,
+      "answer": "Suggestion: Here is a shorter version of the invitation.\n\nHey everyone! Let's have a quick, casual 30-minute reading session to discuss [Insert Topic Here]. Great chance to share thoughts!\n\n**Agenda:**\n1. Overview (10 mins)\n2. Discussion/Q&A (15 mins)\n3. Wrap up (5 mins)\n\nLet me know if you're in!",
+      "history_messages": 6,
+      "retrieval_called": false
+    },
+    {
+      "file": "chat-05.json",
+      "identical_answer": true,
+      "word_count": 59,
+      "answer": "Suggestion: Here is the revised invitation incorporating the fictional details.\n\nHey everyone! Let's have a quick, casual 30-minute reading session to discuss [Insert Topic Here] on November 18, 2031, at 07:43 in Room Cedar. Great chance to share thoughts!\n\n**Agenda:**\n1. Overview (10 mins)\n2. Discussion/Q&A (15 mins)\n3. Wrap up (5 mins)\n\nLet me know if you're in!",
+      "history_messages": 8,
+      "retrieval_called": false
+    }
+  ],
+  "direct_no_network_search": {
+    "exit_code": 0,
+    "wall_seconds": 0.084
+  },
+  "generation_count": 14
+}

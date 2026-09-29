@@ -1,0 +1,548 @@
+{
+  "reviewed_at_utc": "2026-09-29T08:20:27.102724+00:00",
+  "scope": "Final frozen goal revision. Original B cases unchanged except explicitly documented privacy excerpt/path reconciliation; held-out expectations unchanged. No answer-key changes or retries after seeing this run.",
+  "confidence": "high for observed records; no broad reliability/grade claim",
+  "core_sha256": "640884e09d7be392cad6df4d8d2421d6879006b466bda8e7b5e3101a18da6826",
+  "research_prompt_sha256": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+  "expectations_sha256": "227b0121ec9878a243c28158727116a09fb1e3f99ed95a896f5522e7ebf4f4a8",
+  "heldout_sha256": "db8ec4955272bf160f0e24fbffa17e37835e2e16b47f27070fea039a08556eb7",
+  "command_count": 32,
+  "actual_model_generations": 24,
+  "all_model_identity_correct": true,
+  "all_original_passage_text_and_hash_matches": true,
+  "all_research_quote_ids_exact": true,
+  "any_repair_used": false,
+  "cases": [
+    {
+      "id": "B01-values",
+      "verdict": "PASS",
+      "expected_claim_checks": [
+        {
+          "claim": "Western/English skew",
+          "present": true
+        },
+        {
+          "claim": "No consensus on target values",
+          "present": true
+        }
+      ],
+      "actual_answer": "According to the retrieved meeting notes:\n\nAligning to \"general human values\" produces Western/English-skewed outputs [P6641881a8987]\n\nNo consensus on what those values even are [P6641881a8987]",
+      "record": "records/B01-values.json",
+      "retrieved_source_paths": [
+        "vault/raw/alignment-fundamentals-notes.md",
+        "vault/raw/alignment-fundamentals-notes.md",
+        "vault/raw/risk-defenses-notes.md",
+        "vault/raw/alignment-lecture-notes.md"
+      ],
+      "citation_checks": [
+        {
+          "claim": "Aligning to \"general human values\" produces Western/English-skewed outputs",
+          "id_and_quote_exact": true,
+          "source_id": "P6641881a8987",
+          "quote": "Aligning to “general human values” produces Western/English-skewed outputs",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        },
+        {
+          "claim": "No consensus on what those values even are",
+          "id_and_quote_exact": true,
+          "source_id": "P6641881a8987",
+          "quote": "No consensus on what those values even are",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        }
+      ],
+      "fidelity": [
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citation_errors": [],
+      "generation_count": 1,
+      "all_required_evidence_retrieved": true
+    },
+    {
+      "id": "B02-mountaintop",
+      "verdict": "PASS",
+      "expected_claim_checks": [
+        {
+          "claim": "Agency/process matters beyond outcome",
+          "present": true
+        },
+        {
+          "claim": "Closing non-optimal choices violates autonomy",
+          "present": true
+        }
+      ],
+      "actual_answer": "According to the retrieved meeting notes:\n\nClimbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency [P4f87872fbb73]\n\nClosing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal [P4f87872fbb73]",
+      "record": "records/B02-mountaintop.json",
+      "retrieved_source_paths": [
+        "vault/raw/alignment-lecture-notes.md",
+        "vault/raw/alignment-lecture-notes.md",
+        "vault/raw/alignment-fundamentals-notes.md",
+        "vault/raw/alignment-lecture-notes.md"
+      ],
+      "citation_checks": [
+        {
+          "claim": "Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency",
+          "id_and_quote_exact": true,
+          "source_id": "P4f87872fbb73",
+          "quote": "Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        },
+        {
+          "claim": "Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal",
+          "id_and_quote_exact": true,
+          "source_id": "P4f87872fbb73",
+          "quote": "Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        }
+      ],
+      "fidelity": [
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P59429a0cbfc7",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citation_errors": [],
+      "generation_count": 1,
+      "all_required_evidence_retrieved": true
+    },
+    {
+      "id": "B03-oversight",
+      "verdict": "PASS",
+      "expected_claim_checks": [
+        {
+          "claim": "ICAO/IMO supervises national regulators with less intrusion",
+          "present": true
+        },
+        {
+          "claim": "IAEA has direct entry/inspection/seizure powers in the discussed comparison",
+          "present": true
+        },
+        {
+          "claim": "Stronger inspection politically harder",
+          "present": true
+        }
+      ],
+      "actual_answer": "According to the retrieved meeting notes:\n\nICAO/IMO model: regulate the national regulators; hands-off, less intrusive [P4f87872fbb73]\n\nIAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction) [P4f87872fbb73]",
+      "record": "records/B03-oversight.json",
+      "retrieved_source_paths": [
+        "vault/raw/alignment-lecture-notes.md",
+        "vault/raw/alignment-lecture-notes.md",
+        "vault/raw/risk-defenses-notes.md",
+        "vault/raw/alignment-fundamentals-notes.md"
+      ],
+      "citation_checks": [
+        {
+          "claim": "ICAO/IMO model: regulate the national regulators; hands-off, less intrusive",
+          "id_and_quote_exact": true,
+          "source_id": "P4f87872fbb73",
+          "quote": "ICAO/IMO model: regulate the national regulators; hands-off, less intrusive",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        },
+        {
+          "claim": "IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)",
+          "id_and_quote_exact": true,
+          "source_id": "P4f87872fbb73",
+          "quote": "IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        }
+      ],
+      "fidelity": [
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P59429a0cbfc7",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citation_errors": [],
+      "generation_count": 1,
+      "all_required_evidence_retrieved": true
+    },
+    {
+      "id": "B04-next-workshop",
+      "verdict": "PASS",
+      "expected_claim_checks": [
+        {
+          "claim": "Explicit lack of evidence; no invented scheduling details",
+          "present": true
+        }
+      ],
+      "actual_answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "record": "records/B04-next-workshop.json",
+      "retrieved_source_paths": [
+        "vault/raw/risk-defenses-notes.md",
+        "vault/raw/alignment-fundamentals-notes.md",
+        "vault/raw/alignment-lecture-notes.md",
+        "vault/raw/alignment-lecture-notes.md"
+      ],
+      "citation_checks": [],
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citation_errors": [],
+      "generation_count": 1,
+      "all_required_evidence_retrieved": null
+    },
+    {
+      "id": "B05-two-source",
+      "verdict": "PARTIAL",
+      "expected_claim_checks": [
+        {
+          "claim": "Western/English skew",
+          "present": true
+        },
+        {
+          "claim": "No consensus",
+          "present": false
+        },
+        {
+          "claim": "Manipulable preferences can work against interests",
+          "present": true
+        },
+        {
+          "claim": "Conflicting interests among multiple humans",
+          "present": false
+        }
+      ],
+      "actual_answer": "According to the retrieved meeting notes:\n\n“Values” triggered culture-war reactions [Pd36e317f50b9]\n\n“Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good [Pd36e317f50b9]\n\nAligning to “general human values” produces Western/English-skewed outputs [P6641881a8987]",
+      "record": "records/B05-two-source.json",
+      "retrieved_source_paths": [
+        "vault/raw/alignment-lecture-notes.md",
+        "vault/raw/alignment-fundamentals-notes.md",
+        "vault/raw/alignment-lecture-notes.md",
+        "vault/raw/alignment-lecture-notes.md"
+      ],
+      "citation_checks": [
+        {
+          "claim": "“Values” triggered culture-war reactions",
+          "id_and_quote_exact": true,
+          "source_id": "Pd36e317f50b9",
+          "quote": "“Values” triggered culture-war reactions",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        },
+        {
+          "claim": "“Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+          "id_and_quote_exact": true,
+          "source_id": "Pd36e317f50b9",
+          "quote": "“Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        },
+        {
+          "claim": "Aligning to “general human values” produces Western/English-skewed outputs",
+          "id_and_quote_exact": true,
+          "source_id": "P6641881a8987",
+          "quote": "Aligning to “general human values” produces Western/English-skewed outputs",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        }
+      ],
+      "fidelity": [
+        {
+          "id": "Pd36e317f50b9",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P4f87872fbb73",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citation_errors": [],
+      "generation_count": 1,
+      "all_required_evidence_retrieved": true
+    },
+    {
+      "id": "H4-response-coverage",
+      "verdict": "PARTIAL",
+      "expected_claim_checks": [
+        {
+          "claim": "Proactive job creation and reskilling",
+          "present": true
+        },
+        {
+          "claim": "Coordination between education, companies and government",
+          "present": false
+        },
+        {
+          "claim": "Universal Basic Income",
+          "present": true
+        },
+        {
+          "claim": "Human-as-bottleneck model increasing human leverage",
+          "present": true
+        },
+        {
+          "claim": "Mandatory AI-content labels",
+          "present": true
+        }
+      ],
+      "actual_answer": "According to the retrieved meeting notes:\n\nProactive job creation and reskilling programs [P571ac3d9e151]\n\nUniversal Basic Income implementation [P571ac3d9e151]\n\nHuman-as-bottleneck model where AI abundance increases human leverage [P571ac3d9e151]\n\nMandatory labeling of AI-generated content as intervention [P19588883e584]",
+      "record": "records/H4-response-coverage.json",
+      "retrieved_source_paths": [
+        "vault/raw/risk-defenses-notes.md",
+        "vault/raw/risk-defenses-notes.md",
+        "vault/raw/alignment-fundamentals-notes.md",
+        "vault/raw/alignment-lecture-notes.md"
+      ],
+      "citation_checks": [
+        {
+          "claim": "Proactive job creation and reskilling programs",
+          "id_and_quote_exact": true,
+          "source_id": "P571ac3d9e151",
+          "quote": "1. Proactive job creation and reskilling programs",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        },
+        {
+          "claim": "Universal Basic Income implementation",
+          "id_and_quote_exact": true,
+          "source_id": "P571ac3d9e151",
+          "quote": "2. Universal Basic Income implementation",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        },
+        {
+          "claim": "Human-as-bottleneck model where AI abundance increases human leverage",
+          "id_and_quote_exact": true,
+          "source_id": "P571ac3d9e151",
+          "quote": "3. Human-as-bottleneck model where AI abundance increases human leverage",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        },
+        {
+          "claim": "Mandatory labeling of AI-generated content as intervention",
+          "id_and_quote_exact": true,
+          "source_id": "P19588883e584",
+          "quote": "Mandatory labeling of AI-generated content as intervention",
+          "semantic_support": "PASS: quoted passage supports the displayed claim"
+        }
+      ],
+      "fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citation_errors": [],
+      "generation_count": 1,
+      "all_required_evidence_retrieved": true
+    },
+    {
+      "id": "H5-missing-efficacy",
+      "verdict": "PASS",
+      "expected_claim_checks": [
+        {
+          "claim": "Explicit insufficient evidence for measured detector success rate",
+          "present": true
+        },
+        {
+          "claim": "No fabricated efficacy statistic",
+          "present": true
+        }
+      ],
+      "actual_answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "record": "records/H5-missing-efficacy.json",
+      "retrieved_source_paths": [
+        "vault/raw/alignment-fundamentals-notes.md",
+        "vault/raw/risk-defenses-notes.md",
+        "vault/raw/alignment-fundamentals-notes.md"
+      ],
+      "citation_checks": [],
+      "fidelity": [
+        {
+          "id": "Pd3902efa8beb",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P571ac3d9e151",
+          "exact_text": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "exact_text": true,
+          "hash_matches": true
+        }
+      ],
+      "citation_errors": [],
+      "generation_count": 1,
+      "all_required_evidence_retrieved": null
+    }
+  ],
+  "heldout_cases": [
+    {
+      "id": "H1-domain-draft",
+      "verdict": "PASS",
+      "observed": "Two suggestion-labelled invitation sentences; no date, venue, attendee specifics, retrieval or citations.",
+      "records": [
+        "heldout-chat/H1-domain-draft/chat-01.json"
+      ]
+    },
+    {
+      "id": "H2-capability-paraphrase",
+      "verdict": "FAIL",
+      "observed": "Correctly skips retrieval and says browsing is unavailable, but omits chat and misdescribes review as reviewing provided text and doctor as doctoring provided text. Actual review marks a named page reviewed; doctor reports model/device.",
+      "records": [
+        "heldout-chat/H2-capability-paraphrase/chat-01.json"
+      ]
+    },
+    {
+      "id": "H3-topic-transition",
+      "verdict": "PASS",
+      "observed": "First turn retrieves actual notes and explains preference manipulation versus interests with correct source IDs. Second turn respects explicit unrelated topic, offers three book-club names, no retrieval/citations/personal specifics. The first factual answer unnecessarily uses a Suggestion label; this does not negate the frozen support/routing criteria.",
+      "records": [
+        "heldout-chat/H3-topic-transition/chat-01.json",
+        "heldout-chat/H3-topic-transition/chat-02.json"
+      ]
+    },
+    {
+      "id": "H4-response-coverage",
+      "verdict": "PARTIAL",
+      "observed": "All four requested proposal types covered, but the predeclared first expected claim also required coordination among education, companies and government. That subordinate detail is absent despite retrieval. This is a narrower omission than B05, not invented content.",
+      "records": [
+        "records/H4-response-coverage.json"
+      ]
+    },
+    {
+      "id": "H5-missing-efficacy",
+      "verdict": "PASS",
+      "observed": "Explicit insufficient evidence, no detector success rate invented.",
+      "records": [
+        "records/H5-missing-efficacy.json"
+      ]
+    }
+  ],
+  "mode_checks": {
+    "required_exact_capability_prompts": "PASS; fixed contract, zero model calls and retrieval",
+    "draft_shortening": {
+      "pass": true,
+      "draft_words": 98,
+      "shorter_words": 43,
+      "one_page_three_step_intent_retained": true
+    },
+    "note_chat": "Retrieves and uses supported citations, but its two-obstacles answer substitutes broader reward-model issues and does not explicitly mention Western/English skew. Mode-boundary pass is not exhaustive answer-completeness certification.",
+    "chat_only_hypothetical_retrieval": false,
+    "chat_only_fact_not_indexed": true,
+    "independent_ask_after_chat": "PASS; abstains with history_messages=0",
+    "fresh_cli_persistence": "PASS; B01 after CLI restart uses persisted index and retains both required claims",
+    "scripted_reset": "PASS; no loop and history_messages=0 after reset"
+  },
+  "reingestion": {
+    "originals_unchanged": true,
+    "same_note_paths": true,
+    "notes_byte_identical": true
+  },
+  "wiki_structure": {
+    "note_count": 6,
+    "all_links_unambiguous": true,
+    "machine_files_in_vault": [],
+    "review_status": "Fresh evaluator drafts remain pending; this run proves draft/path idempotence, not parent final curated-page editorial review."
+  },
+  "isolation": {
+    "server_pid": 28233,
+    "server_exit_code": 0,
+    "command_exit_code": 0,
+    "endpoint": "http://127.0.0.1:11435",
+    "cloud_disabled": true,
+    "server_and_cli_share_profile": true,
+    "server_launched_fresh": true,
+    "server_stopped_after_run": true,
+    "model_children_inherit_os_sandbox": true
+  },
+  "history_comparison": {
+    "B01-B04": "PASS in original, earlier final, and this goal revision",
+    "B05": "Original PARTIAL (skew + preference manipulation, lacks consensus/conflict); previous final PARTIAL regression (skew also absent); this run restores skew but remains PARTIAL, not complete.",
+    "new_heldout": "H2 incorrect capability meanings and H4 omitted coordination disclosed without weakening expectations."
+  }
+}

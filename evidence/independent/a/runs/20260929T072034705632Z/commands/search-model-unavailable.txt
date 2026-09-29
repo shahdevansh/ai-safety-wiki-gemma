@@ -1,0 +1,7 @@
+$ '/usr/bin/sandbox-exec' '-f' '<submission>/isolation/no-network-at-all.sb' 'python3' 'wiki.py' 'search' 'physical fail-safes human override' '--save' '<evaluation>/runs/20260929T072034705632Z/records/search-model-unavailable.json'
+CWD: <evaluation>/runs/20260929T072034705632Z/project
+
+STDERR:
+sandbox-exec: sandbox_apply: Operation not permitted
+
+EXIT: 71

@@ -1,0 +1,25 @@
+{
+  "method": "Direct host launch under deny-all OS profile after isolated server stopped. No nested sandbox, model substitute or endpoint edit.",
+  "search_success": true,
+  "search_passages": 2,
+  "search_model_calls": 0,
+  "search_fidelity": [
+    {
+      "id": "P9e2cc541c9bc",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "safe_raw_path": true,
+      "exact_line_match": true,
+      "source_hash_match": true
+    },
+    {
+      "id": "Pd36e317f50b9",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "safe_raw_path": true,
+      "exact_line_match": true,
+      "source_hash_match": true
+    }
+  ],
+  "ask_failed": true,
+  "ask_error": "Error: Local Ollama unavailable: <urlopen error [Errno 1] Operation not permitted>. Start Ollama; run ollama pull gemma4:e2b-it-qat while online. No cloud fallback.\n",
+  "ask_record_created": false
+}

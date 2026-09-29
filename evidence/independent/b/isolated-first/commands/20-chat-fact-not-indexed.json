@@ -1,0 +1,22 @@
+{
+  "label": "chat-fact-not-indexed",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/isolated-first/workspace/wiki.py",
+    "search",
+    "Z-814",
+    "--mode",
+    "local",
+    "--save",
+    "<evaluation>/isolated-first/records/chat-fact-not-indexed.json"
+  ],
+  "cwd": "<evaluation>/isolated-first/workspace",
+  "stdin": null,
+  "returncode": 0,
+  "stdout": "Pip | search | local | retrieval only; no model call\nNo matching original passages. Try another keyword.\n\nSaved: chat-fact-not-indexed.json\n",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T07:26:27.526987+00:00",
+  "wall_seconds": 0.068,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

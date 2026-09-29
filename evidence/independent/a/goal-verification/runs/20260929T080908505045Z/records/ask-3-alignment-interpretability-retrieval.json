@@ -1,0 +1,49 @@
+{
+  "interaction": "search",
+  "execution": "local",
+  "question": "Why do the notes describe alignment and interpretability as two sides of the same objective?",
+  "passages": [
+    {
+      "id": "Pd3902efa8beb",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "title": "Alignment and Interpretability",
+      "section": "Alignment: Core Challenges",
+      "line_start": 32,
+      "line_end": 52,
+      "text": "  - SGD and numerical optimization assume a single optimum\n  - Fails to capture cultural and individual diversity\n  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective\n- Process reward models exist but limited to math\n  - Still trained on traces that reach a “correct” answer\n  - Don’t capture what a correct process actually looks like\n- Agents still misread intent and don’t ask for clarification\n  - Unlike human collaborators, they don’t flag ambiguity\n\n### Interpretability: The Other Half\n\n- Hard to align models without understanding their internals\n  - Analogous to not knowing what a human is thinking\n- Interpretability and alignment are two sides of the same objective\n  - Need to know what direction to go, and how to get there\n- Active research direction: detecting deception in reasoning models\n  - Tracking discrepancies between thinking trace and explicit model output\n  - Hidden states that lead to deceptive outputs as a target\n\n\n[Participant biographies and personal follow-up actions removed for public sharing.]\n",
+      "source_sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+      "bm25": -9.004244157695453
+    },
+    {
+      "id": "P6641881a8987",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "title": "Alignment and Interpretability",
+      "section": "Alignment and Interpretability",
+      "line_start": 1,
+      "line_end": 34,
+      "text": "\n### AI Safety Course: Group Image Exercise\n\n- Three groups presented AI futures via generated images\n- Group 1 (Outgroup): framed AI development as “camps”\n  - Camp 1: slow development\n  - Camp 2: race ahead (current reality)\n  - Camp 3: pause + global coordination\n  - Ideal future: global agreement on AI governance or ban\n- Group 2: projected AI capabilities to 2045\n  - \\~90% of cognitive tasks, some physical via robotics\n  - Also considered humanity becoming extraterrestrial\n- One group: “equitable AI” prompt\n  - Personal assistant for 8B+ people\n  - Enables professional, personal, and creative fulfillment\n  - Image depicted human-AI hybrid wielding AI for self-determined futures\n  - AI freeing humans from repetitive tasks for creative work\n- Facilitator noted all three were unusually original\n  - Most common outputs: Dubai-with-parks, drones, guy playing guitar\n\n### Breakout: Technical Challenges in AI Safety\n\n- Format: pairs, each person presents then swaps; reconvene to share learnings\n\n### Alignment: Core Challenges\n\n- Defining alignment is itself unsolved\n  - Aligning to individual risks enabling harmful behavior\n  - Aligning to “general human values” produces Western/English-skewed outputs\n  - No consensus on what those values even are\n- Reward modeling is a fundamental bottleneck\n  - SGD and numerical optimization assume a single optimum\n  - Fails to capture cultural and individual diversity\n  - Pluralistic alignment explored as a direction (modeling multiple values simultaneously) but not yet effective\n",
+      "source_sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+      "bm25": -4.932783659859185
+    },
+    {
+      "id": "P0796ce4b536c",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "title": "Transformer Safety Limits",
+      "section": "Transformer Safety Limits",
+      "line_start": 1,
+      "line_end": 23,
+      "text": "\n### Objective Specification vs. Optimal Behavior\n\n- Two distinct ways to build a system that optimizes an objective:\n  - Specify the objective and let the system optimize it\n  - Derive optimal behavior for a given objective and hard-code the behavior\n- Control theory example: autopilot derives a simple control law (e.g., force = 6x deviation + 2x deviation²) without explicitly representing the cost function\n- Humans and animals are similar: evolution optimizes for reproduction, but animals don’t consciously pursue it\n- Classical AI systems (1960–2020) mostly fall into the “objective-in-the-machine” category\n\n### Imitation Learning and the Problem of Objectives\n\n- Imitation learning in the limit reproduces the behavior-generating mechanism of the training source\n- Key complications:\n  - Training data comes from millions of humans in invisible, varied circumstances (e.g., a Solidarity operative in Communist Poland)\n  - Context is stripped; the resulting entity may not resemble a classical rational agent with stable objectives\n- Open question: do imitation-trained models have a mixture of objective structures activated conditionally by context?\n- Empirical signals suggest LLMs develop proxy goals: self-preservation, wealth, human companionship (natural byproducts of human training data)\n\n### The Assistance Game Model\n\n- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them\n- “Interest” preferred over “preference” or “values”:\n",
+      "source_sha256": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02",
+      "bm25": -2.7162767631916607
+    }
+  ],
+  "model_calls": 0,
+  "retrieval_called": true,
+  "network_policy": "os-enforced-loopback-only",
+  "recorded_at_utc": "2026-09-29T08:10:11.112582+00:00",
+  "source_hashes": {
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02",
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  }
+}

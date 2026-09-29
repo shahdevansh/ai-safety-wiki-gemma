@@ -1,0 +1,17 @@
+{
+  "label": "reindex",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/chat-regression/workspace/wiki.py",
+    "reindex"
+  ],
+  "cwd": "<evaluation>/goal-verification/chat-regression/workspace",
+  "stdin": null,
+  "returncode": 0,
+  "stdout": "8 original passages indexed; no model called.\n",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T08:33:44.376739+00:00",
+  "wall_seconds": 0.064,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

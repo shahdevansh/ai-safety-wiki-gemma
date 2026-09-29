@@ -1,0 +1,19 @@
+{
+  "label": "H1-domain-draft",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/final-run/workspace/wiki.py",
+    "chat",
+    "--save-dir",
+    "<evaluation>/goal-verification/final-run/heldout-chat/H1-domain-draft"
+  ],
+  "cwd": "<evaluation>/goal-verification/final-run/workspace",
+  "stdin": "Write a two-sentence invitation to a casual study group on AI alignment. Invent no venue, date, or participant details.\n/exit\n",
+  "returncode": 0,
+  "stdout": "Pip | chat | local | gemma4:e2b-it-qat\n/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.\nYou> Pip | chat | local | gemma4:e2b-it-qat\n\nSuggestion: Join our casual study group to discuss the fascinating and complex topic of AI alignment. Come share your thoughts and learn alongside others in this engaging conversation.\n\nModel time: 1.032 s\nYou> ",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T08:17:51.548761+00:00",
+  "wall_seconds": 1.104,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

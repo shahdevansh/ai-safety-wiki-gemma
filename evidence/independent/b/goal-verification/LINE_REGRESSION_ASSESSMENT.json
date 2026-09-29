@@ -1,0 +1,2599 @@
+{
+  "reviewed_at_utc": "2026-09-29T08:47:10.589024+00:00",
+  "core_sha256": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+  "grounded_chat_prompt_sha256": "d45dc84da09787da9c8af2d4304cafde7698bea8234fcd713c6acc67b81e9ebe",
+  "scope": "Same bounded affected regression plus prospectively added source-shortening/reset. No full research-suite rerun; previous full-suite results and c40 failures remain intact.",
+  "verdict": "PASS for selected bounded cases; no universal reliability claim",
+  "commands": 9,
+  "actual_model_generations": 10,
+  "actual_model_identity_correct": true,
+  "repairs_used": 0,
+  "all_passage_line_hash_matches": true,
+  "all_catalog_line_provenance_pass": true,
+  "all_final_citation_quote_ids_pass": true,
+  "line_catalog_checks": [
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L001",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 4,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L002",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 5,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L003",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 6,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L004",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 7,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L005",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 8,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L006",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 9,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L007",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 10,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L008",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 11,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L009",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 12,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L010",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 13,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L011",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 14,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L012",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 15,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L013",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 16,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L014",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 17,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L015",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 18,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L016",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 19,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L017",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L018",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 27,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L019",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 28,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L020",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 29,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L021",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 30,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L022",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 31,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L023",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 32,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L024",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 33,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L025",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 34,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L026",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 22,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L027",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L028",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 24,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L029",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 25,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L030",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 26,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L031",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 27,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L032",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 28,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L033",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 29,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L034",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 33,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L035",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 34,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L036",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 35,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L037",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 36,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L038",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 37,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L039",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 38,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L040",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 39,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L041",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 40,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L042",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 38,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L043",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 39,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L044",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 40,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L045",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 41,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L046",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 42,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L047",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 43,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L048",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 44,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L049",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 48,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L050",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 49,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L051",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 50,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L052",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 51,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L053",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 52,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L054",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 53,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L055",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 54,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L056",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 55,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L057",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 56,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L058",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 4,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L059",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 5,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L060",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 6,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L061",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 7,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L062",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 8,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L063",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 9,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L064",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 13,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L065",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 14,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L066",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 15,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L067",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 16,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L068",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 17,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L069",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 18,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L070",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 22,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "line_id": "L071",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L001",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 22,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L002",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L003",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 24,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L004",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 25,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L005",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 26,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L006",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 27,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L007",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 28,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L008",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 29,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L009",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 33,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L010",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 34,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L011",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 35,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L012",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 36,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L013",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 37,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L014",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 38,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L015",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 39,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L016",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 40,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L017",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 4,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L018",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 5,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L019",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 6,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L020",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 7,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L021",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 8,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L022",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 9,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L023",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 10,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L024",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 11,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L025",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 12,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L026",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 13,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L027",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 14,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L028",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 15,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L029",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 16,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L030",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 17,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L031",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 18,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L032",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 19,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L033",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L034",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 27,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L035",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 28,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L036",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 29,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L037",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 30,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L038",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 31,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L039",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 32,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L040",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 33,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L041",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 34,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L042",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 4,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L043",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 5,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L044",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 6,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L045",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 7,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L046",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 8,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L047",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 9,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L048",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 13,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L049",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 14,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L050",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 15,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L051",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 16,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L052",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 17,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L053",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 18,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L054",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 22,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L055",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L056",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 38,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L057",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 39,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L058",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 40,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L059",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 41,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L060",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 42,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L061",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 43,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L062",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 44,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L063",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 48,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L064",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 49,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L065",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 50,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L066",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 51,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L067",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 52,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L068",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 53,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L069",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 54,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L070",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 55,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "line_id": "L071",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 56,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L001",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 22,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L002",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L003",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 24,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L004",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 25,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L005",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 26,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L006",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 27,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L007",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 28,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L008",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 29,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L009",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 33,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L010",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 34,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L011",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 35,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L012",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 36,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L013",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 37,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L014",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 38,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L015",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 39,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L016",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 40,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L017",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 4,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L018",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 5,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L019",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 6,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L020",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 7,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L021",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 8,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L022",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 9,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L023",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 10,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L024",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 11,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L025",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 12,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L026",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 13,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L027",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 14,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L028",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 15,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L029",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 16,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L030",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 17,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L031",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 18,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L032",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 19,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L033",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L034",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 27,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L035",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 28,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L036",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 29,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L037",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 30,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L038",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 31,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L039",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 32,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L040",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 33,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L041",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 34,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L042",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 4,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L043",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 5,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L044",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 6,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L045",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 7,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L046",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 8,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L047",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 9,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L048",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 13,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L049",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 14,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L050",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 15,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L051",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 16,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L052",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 17,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L053",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 18,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L054",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 22,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L055",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L056",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 38,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L057",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 39,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L058",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 40,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L059",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 41,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L060",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 42,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L061",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 43,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L062",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 44,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L063",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 48,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L064",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 49,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L065",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 50,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L066",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 51,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L067",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 52,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L068",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 53,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L069",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 54,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L070",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 55,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "line_id": "L071",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 56,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L001",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 22,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L002",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L003",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 24,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L004",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 25,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L005",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 26,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L006",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 27,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L007",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 28,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L008",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 29,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L009",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 33,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L010",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 34,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L011",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 35,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L012",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 36,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L013",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 37,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L014",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 38,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L015",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 39,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L016",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 40,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L017",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 4,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L018",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 5,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L019",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 6,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L020",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 7,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L021",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 8,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L022",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 9,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L023",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 10,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L024",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 11,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L025",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 12,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L026",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 13,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L027",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 14,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L028",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 15,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L029",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 16,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L030",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 17,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L031",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 18,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L032",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 19,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L033",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L034",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 27,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L035",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 28,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L036",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 29,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L037",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 30,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L038",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 31,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L039",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 32,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L040",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 33,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L041",
+      "path": "vault/raw/alignment-fundamentals-notes.md",
+      "line_number": 34,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L042",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 4,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L043",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 5,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L044",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 6,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L045",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 7,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L046",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 8,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L047",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 9,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L048",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 13,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L049",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 14,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L050",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 15,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L051",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 16,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L052",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 17,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L053",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 18,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L054",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 22,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L055",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 23,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L056",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 38,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L057",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 39,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L058",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 40,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L059",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 41,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L060",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 42,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L061",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 43,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L062",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 44,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L063",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 48,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L064",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 49,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L065",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 50,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L066",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 51,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L067",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 52,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L068",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 53,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L069",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 54,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L070",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 55,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "line_id": "L071",
+      "path": "vault/raw/alignment-lecture-notes.md",
+      "line_number": 56,
+      "literal_original_line": true,
+      "inside_indicated_passage": true
+    }
+  ],
+  "semantic_claim_checks": [
+    {
+      "record": "records/B01-research.json",
+      "claim": "Aligning to \"general human values\" produces Western/English-skewed outputs",
+      "supports": [
+        {
+          "source_id": "P6641881a8987",
+          "quote": "Aligning to “general human values” produces Western/English-skewed outputs",
+          "claim": "Aligning to \"general human values\" produces Western/English-skewed outputs",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "records/B01-research.json",
+      "claim": "No consensus on what those values even are",
+      "supports": [
+        {
+          "source_id": "P6641881a8987",
+          "quote": "No consensus on what those values even are",
+          "claim": "No consensus on what those values even are",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "claim": "The core framing of the Assistance Game is that AI’s only goal is to promote human interests.",
+      "supports": [
+        {
+          "source_id": "P0796ce4b536c",
+          "quote": "- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+          "claim": "The core framing of the Assistance Game is that AI’s only goal is to promote human interests.",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "P0796ce4b536c",
+          "quote": "- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+          "claim": "The core framing of the Assistance Game is that AI’s only goal is to promote human interests.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "claim": "The notes state that it is uncertain what human interests are and must be inferred by the AI.",
+      "supports": [
+        {
+          "source_id": "P0796ce4b536c",
+          "quote": "- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+          "claim": "The notes state that it is uncertain what human interests are and must be inferred by the AI.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "claim": "The notes distinguish between 'interest' and 'preference' or 'values,' noting that 'values' can trigger culture-war reactions, while 'interest' acknowledges that preferences can be shaped against one’s own good.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- “Interest” preferred over “preference” or “values”:",
+          "claim": "The notes distinguish between 'interest' and 'preference' or 'values,' noting that 'values' can trigger culture-war reactions, while 'interest' acknowledges that preferences can be shaped against one’s own good.",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "  - “Values” triggered culture-war reactions",
+          "claim": "The notes distinguish between 'interest' and 'preference' or 'values,' noting that 'values' can trigger culture-war reactions, while 'interest' acknowledges that preferences can be shaped against one’s own good.",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+          "claim": "The notes distinguish between 'interest' and 'preference' or 'values,' noting that 'values' can trigger culture-war reactions, while 'interest' acknowledges that preferences can be shaped against one’s own good.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "required-chat/chat-06.json",
+      "claim": "A hard problem for the Assistance Game involves aggregation and social choice, specifically determining what AI should do when serving multiple humans with conflicting interests.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?",
+          "claim": "A hard problem for the Assistance Game involves aggregation and social choice, specifically determining what AI should do when serving multiple humans with conflicting interests.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "claim": "The core framing for AI is that its only goal is to promote human interests, which are uncertain and must be inferred.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+          "claim": "The core framing for AI is that its only goal is to promote human interests, which are uncertain and must be inferred.",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "P0796ce4b536c",
+          "quote": "- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+          "claim": "The core framing for AI is that its only goal is to promote human interests, which are uncertain and must be inferred.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- “Interest” preferred over “preference” or “values”:",
+          "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "P0796ce4b536c",
+          "quote": "- “Interest” preferred over “preference” or “values”:",
+          "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "claim": "Preferences may not be beneficial for the individual.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- Preferences vs. interests: what someone prefers may not be good for them",
+          "claim": "Preferences may not be beneficial for the individual.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "claim": "While 'stated preferences' are easily manipulated, 'interest' implicitly acknowledges that preferences can be shaped against one’s own good.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+          "claim": "While 'stated preferences' are easily manipulated, 'interest' implicitly acknowledges that preferences can be shaped against one’s own good.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "claim": "The core framing for AI is that its only goal is to promote human interests, which are uncertain and must be inferred.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+          "claim": "The core framing for AI is that its only goal is to promote human interests, which are uncertain and must be inferred.",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "P0796ce4b536c",
+          "quote": "- Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+          "claim": "The core framing for AI is that its only goal is to promote human interests, which are uncertain and must be inferred.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- “Interest” preferred over “preference” or “values”:",
+          "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "P0796ce4b536c",
+          "quote": "- “Interest” preferred over “preference” or “values”:",
+          "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "claim": "Preferences may not be beneficial for the individual.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- Preferences vs. interests: what someone prefers may not be good for them",
+          "claim": "Preferences may not be beneficial for the individual.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "source-shortening/chat-01.json",
+      "claim": "While 'stated preferences' are easily manipulated, 'interest' implicitly acknowledges that preferences can be shaped against one’s own good.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+          "claim": "While 'stated preferences' are easily manipulated, 'interest' implicitly acknowledges that preferences can be shaped against one’s own good.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- “Interest” preferred over “preference” or “values”:",
+          "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+          "exact_quote_correct_id": true
+        },
+        {
+          "source_id": "P0796ce4b536c",
+          "quote": "- “Interest” preferred over “preference” or “values”:",
+          "claim": "The notes state that 'interest' is preferred over 'preference' or 'values'.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "claim": "'Stated preferences' are easily manipulated, and 'interest' implicitly acknowledges that preferences can be shaped against one’s own good.'",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "  - “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+          "claim": "'Stated preferences' are easily manipulated, and 'interest' implicitly acknowledges that preferences can be shaped against one’s own good.'",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    },
+    {
+      "record": "source-shortening/chat-02.json",
+      "claim": "What someone prefers may not be good for them.",
+      "supports": [
+        {
+          "source_id": "Pd36e317f50b9",
+          "quote": "- Preferences vs. interests: what someone prefers may not be good for them",
+          "claim": "What someone prefers may not be good for them.",
+          "exact_quote_correct_id": true
+        }
+      ],
+      "independent_semantic_verdict": "PASS: the selected literal source lines jointly support the complete claim."
+    }
+  ],
+  "cases": {
+    "required_chat": "PASS: capabilities honest/no retrieval; draft then shortening; codename stays unverified; grounded answer covers goal and uncertainty plus supported terminology/conflicting interests.",
+    "H2_capability_paraphrase": "PASS: original failed question now returns accurate deterministic command contract, zero generation/retrieval.",
+    "H3_zero_history_source_question": "PASS: manipulation versus interests supported by correct specific original lines, no citation error.",
+    "H3_unrelated_topic_switch": "PASS: three book-club suggestions without original retrieval or citations.",
+    "source_shortening": {
+      "verdict": "PASS",
+      "before_words": 71,
+      "after_words": 48,
+      "history_messages": 2,
+      "retrieval_called": false,
+      "supported_key_meaning_preserved": true
+    },
+    "reset": "PASS: following capability record has zero history, no retrieval/generation.",
+    "B01_research": "PASS: skew plus lack of consensus, exact quotes, no history.",
+    "codename_isolation": "PASS: source search returns no passage; independent ask abstains, no history."
+  },
+  "ordinary_draft_shortening": {
+    "before_words": 99,
+    "after_words": 42,
+    "five_twenty_five_minute_plan_retained": true
+  },
+  "B01_request_payload_identical_to_previous_core": true,
+  "isolation": {
+    "server_pid": 31408,
+    "server_exit_code": 0,
+    "command_exit_code": 0,
+    "endpoint": "http://127.0.0.1:11435",
+    "cloud_disabled": true,
+    "server_and_cli_share_profile": true,
+    "server_launched_fresh": true,
+    "server_stopped_after_run": true,
+    "model_children_inherit_os_sandbox": true
+  },
+  "unretested_prior_limitations": [
+    "B05 two-source completeness",
+    "H4 omitted coordination detail",
+    "Unseen questions and capability paraphrases"
+  ],
+  "confidence": "High for recorded execution, provenance and manual support review; no grade/generalization claim."
+}

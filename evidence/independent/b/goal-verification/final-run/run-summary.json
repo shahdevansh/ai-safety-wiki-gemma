@@ -1,0 +1,170 @@
+{
+  "command_count": 32,
+  "command_outcomes": [
+    {
+      "label": "help-top",
+      "returncode": 0,
+      "wall_seconds": 0.057
+    },
+    {
+      "label": "help-command",
+      "returncode": 0,
+      "wall_seconds": 0.057
+    },
+    {
+      "label": "missing-ingest-path",
+      "returncode": 1,
+      "wall_seconds": 0.057
+    },
+    {
+      "label": "fresh-no-index",
+      "returncode": 1,
+      "wall_seconds": 0.056
+    },
+    {
+      "label": "fresh-ingest",
+      "returncode": 0,
+      "wall_seconds": 27.719
+    },
+    {
+      "label": "assignment-search",
+      "returncode": 0,
+      "wall_seconds": 0.066
+    },
+    {
+      "label": "topic-search",
+      "returncode": 0,
+      "wall_seconds": 0.064
+    },
+    {
+      "label": "B01-values-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.063
+    },
+    {
+      "label": "B01-values",
+      "returncode": 0,
+      "wall_seconds": 18.106
+    },
+    {
+      "label": "B02-mountaintop-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.069
+    },
+    {
+      "label": "B02-mountaintop",
+      "returncode": 0,
+      "wall_seconds": 17.511
+    },
+    {
+      "label": "B03-oversight-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.067
+    },
+    {
+      "label": "B03-oversight",
+      "returncode": 0,
+      "wall_seconds": 15.964
+    },
+    {
+      "label": "B04-next-workshop-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.066
+    },
+    {
+      "label": "B04-next-workshop",
+      "returncode": 0,
+      "wall_seconds": 9.433
+    },
+    {
+      "label": "B05-two-source-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.067
+    },
+    {
+      "label": "B05-two-source",
+      "returncode": 0,
+      "wall_seconds": 20.804
+    },
+    {
+      "label": "interactive-chat",
+      "returncode": 0,
+      "wall_seconds": 12.065
+    },
+    {
+      "label": "B04-after-chat",
+      "returncode": 0,
+      "wall_seconds": 6.625
+    },
+    {
+      "label": "chat-fact-not-indexed",
+      "returncode": 0,
+      "wall_seconds": 0.07
+    },
+    {
+      "label": "assignment-ask",
+      "returncode": 0,
+      "wall_seconds": 7.454
+    },
+    {
+      "label": "unchanged-reingest",
+      "returncode": 0,
+      "wall_seconds": 0.075
+    },
+    {
+      "label": "B01-after-cli-restart",
+      "returncode": 0,
+      "wall_seconds": 15.506
+    },
+    {
+      "label": "invalid-online-mode",
+      "returncode": 2,
+      "wall_seconds": 0.061
+    },
+    {
+      "label": "H1-domain-draft",
+      "returncode": 0,
+      "wall_seconds": 1.104
+    },
+    {
+      "label": "H2-capability-paraphrase",
+      "returncode": 0,
+      "wall_seconds": 2.805
+    },
+    {
+      "label": "H3-topic-transition",
+      "returncode": 0,
+      "wall_seconds": 7.035
+    },
+    {
+      "label": "H4-response-coverage-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.065
+    },
+    {
+      "label": "H4-response-coverage",
+      "returncode": 0,
+      "wall_seconds": 18.577
+    },
+    {
+      "label": "H5-missing-efficacy-retrieval",
+      "returncode": 0,
+      "wall_seconds": 0.076
+    },
+    {
+      "label": "H5-missing-efficacy",
+      "returncode": 0,
+      "wall_seconds": 11.563
+    },
+    {
+      "label": "scripted-reset",
+      "returncode": 0,
+      "wall_seconds": 0.085
+    }
+  ],
+  "source_unchanged": true,
+  "isolation_prefix": [],
+  "server_isolation_proof": "Must be supplied by parent; evaluator prefix alone does not prove model server isolation.",
+  "model_server_restart": "NOT YET VERIFIED; use --restart-check after parent-controlled restart",
+  "semantic_verdict": "REQUIRES INDEPENDENT REVIEW"
+}

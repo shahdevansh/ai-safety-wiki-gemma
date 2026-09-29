@@ -1,0 +1,20 @@
+{
+  "label": "invalid-online-mode",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/final-run/workspace/wiki.py",
+    "ask",
+    "What do the notes say?",
+    "--mode",
+    "online"
+  ],
+  "cwd": "<evaluation>/goal-verification/final-run/workspace",
+  "stdin": null,
+  "returncode": 2,
+  "stdout": "",
+  "stderr": "usage: wiki.py ask [-h] [--save SAVE] [--mode {local}] question\nwiki.py ask: error: argument --mode: invalid choice: 'online' (choose from 'local')\n",
+  "started_at_utc": "2026-09-29T08:17:51.486068+00:00",
+  "wall_seconds": 0.061,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

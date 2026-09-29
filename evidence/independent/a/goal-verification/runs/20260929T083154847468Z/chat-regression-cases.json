@@ -1,0 +1,19 @@
+{
+  "scope": "Bounded regression for shared grounded-answer implementation; expected before model execution.",
+  "original_chat_script": "Unchanged chat_turns from cases.json, including both capabilities prompts, invitation, make that shorter, and fictional appointment.",
+  "original_ask_case": "ask-1-assistance-objective",
+  "isolation_ask": "Unchanged isolation_question from cases.json, executed after the original chat script.",
+  "source_conversation": [
+    "In the lecture, why is hardware regulation described as easier to enforce than software regulation?",
+    "Make that explanation shorter.",
+    "/reset",
+    "What did we just discuss?"
+  ],
+  "source_expectations": [
+    "First turn retrieves the lecture and explains freely copied/transmitted software versus chip safety checks requiring a fabrication facility to bypass.",
+    "Every material factual claim follows from its quoted original passage; no unsupported comparison between malware costs and hardware security costs.",
+    "Follow-up uses the prior conversation and carried original evidence, shortens the explanation, and retains supported citations.",
+    "After reset, actual model request has no pre-reset discussion or original-evidence payload; history count is zero and the assistant does not recall the cleared discussion."
+  ],
+  "research_request_expectation": "Original ask uses unchanged research.md, an empty chat history, JSON source records, and the same structured schema, options, and question as the prior full run. No expected answer text is supplied."
+}

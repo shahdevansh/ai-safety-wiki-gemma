@@ -1,0 +1,60 @@
+{
+  "reviewer": "independent_eval_a",
+  "based_on": "Actual raw Gemma records, retrieved originals, immutable prospective cases, and source file inspection.",
+  "test_1": {
+    "grounding": "pass",
+    "completeness": "pass",
+    "note": "Two material claims directly supported; overlapping chunks repeat citations."
+  },
+  "test_2": {
+    "grounding": "pass",
+    "completeness": "pass",
+    "note": "Three source proposals correctly listed and individually cited."
+  },
+  "test_3": {
+    "grounding": "pass",
+    "completeness": "partial",
+    "note": "Direction/method paraphrase is supported; explicit internals rationale omitted and wording vague."
+  },
+  "unsupported": {
+    "model_abstention": "pass",
+    "harness_error_fallback": false
+  },
+  "chat_isolation": {
+    "pass": true,
+    "actual_prompt_inspected": true,
+    "source_hashes_unchanged": true
+  },
+  "draft": {
+    "history_revision": "pass",
+    "initial_whitespace_word_count": 69,
+    "shortened_whitespace_word_count": 49,
+    "requested_range": [
+      70,
+      90
+    ],
+    "initial_length_requirement": "fail by one word"
+  },
+  "no_model_search": {
+    "initial": "evaluation infrastructure failed before CLI launch; nested macOS sandbox rejected",
+    "supplemental_direct_launch": "pass; all networking denied, zero model calls, exact source passages"
+  },
+  "fresh_generated_notes": {
+    "status": "require human review",
+    "defects": [
+      "process reward model domain changed to mathematical representations",
+      "Assistance Games introduction conflates naming reasons",
+      "attribution not consistently retained",
+      "Alignment and Interpretability lacks required Useful details section",
+      "Assistance Games has six details bullets instead of three to five",
+      "Compute Governance body 234 words despite under-220 prompt"
+    ]
+  },
+  "raw_automatic_count": {
+    "passed": 303,
+    "total": 305,
+    "not_a_grade": true
+  },
+  "evaluator_sha256": "dcbb97db899d5d28f036697b48da95cbc13d7d0e63a36686b2d3de2e5ff25af4",
+  "final_report": "../../independent-report.md"
+}

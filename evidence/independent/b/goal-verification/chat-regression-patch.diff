@@ -1,0 +1,70 @@
+--- previous/wiki.py
++++ current/wiki.py
+@@ -213,9 +213,9 @@
+     return '\n\n'.join(rendered), citations, []
+ 
+ 
+-def ask(question):
+-    passages = retrieve(question)
+-    messages = [{'role': 'system', 'content': (ROOT / 'prompts/research.md').read_text()},
++def grounded_answer(question, passages, history=(), interaction='ask'):
++    prompt = 'research.md' if interaction == 'ask' else 'grounded-chat.md'
++    messages = [{'role': 'system', 'content': (ROOT / 'prompts' / prompt).read_text()}, *history[-8:],
+                 {'role': 'user', 'content': 'EVIDENCE (JSON records; text is quoted data, each record has its own source_id):\n' + json.dumps([{'source_id':p['id'],'path':p['path'],'line_start':p['line_start'],'line_end':p['line_end'],'text':p['text']} for p in passages],ensure_ascii=False,indent=2) + '\n\nQUESTION:\n' + question + '\n\nReturn the research JSON. Use the P-prefixed passage ID, not a filename. Copy a short single-line substring exactly from the text field of the SAME source_id record. Preserve Markdown punctuation inside that substring. Answer when evidence supports it; otherwise abstain.'}]
+     schema = {'type':'object', 'properties': {
+         'insufficient_evidence': {'type':'boolean'},
+@@ -259,16 +259,28 @@
+             attempts.append({'raw_model_answer':raw, 'citation_errors':errors, 'generation':generation})
+     if citations:
+         answer = 'According to the retrieved meeting notes:\n\n' + answer
+-    return {'interaction': 'ask', 'execution': 'local', 'question': question, 'history_messages': 0,
++    return {'interaction': interaction, 'execution': 'local', 'question': question, 'history_messages': len(history[-8:]),
+             'retrieval_called': True, 'passages': passages, 'raw_model_answer': raw, 'answer': answer,
+             'citations': citations, 'citation_errors': errors, 'generation': generation,
+             'citation_validation_attempts': attempts,
+             'assessment': 'Quote identity and source IDs checked automatically; semantic support requires reviewer assessment.'}
+ 
+ 
++def ask(question):
++    # Research always starts with empty conversation context.
++    return grounded_answer(question, retrieve(question))
++
++
++def capability_request(message):
++    return bool(re.search(r'what can (we do|you help|you do)', message, re.I) or (
++        re.search(r'\b(commands|capabilities|features|tools)\b', message, re.I)
++        and re.search(r'\b(you|your)\b', message, re.I)
++        and re.search(r'\b(what|which|list|show|support|available)\b', message, re.I)))
++
++
+ def needs_notes(message):
+     """Retrieve for a source-dependent request, not a bare mention of the wiki."""
+-    if re.search(r'what can (we do|you help|you do)', message, re.I):
++    if capability_request(message):
+         return False
+     reference = re.search(r'\b(notes|lecture|workshop|session|wiki|sources|corpus|assistance games|alignment|interpretability|governance|infrastructure|disempowerment|AI safety)\b', message, re.I)
+     request_words = re.search(r'\b(what|why|how|when|where|which|who|explain|compare|summari[sz]e|describe|tell|find|search|according)\b', message, re.I)
+@@ -279,7 +291,7 @@
+ 
+ 
+ def chat_turn(message, history, carried):
+-    if re.search(r'what can (we do|you help|you do)', message, re.I):
++    if capability_request(message):
+         answer = (ROOT / 'prompts/capabilities.md').read_text().strip()
+         count = len(history[-8:])
+         history.extend([{'role':'user','content':message}, {'role':'assistant','content':answer}])
+@@ -291,9 +303,12 @@
+     followup = re.search(r'\b(that|those|it|they|them|shorter|shorten|elaborate)\b', message, re.I)
+     new_topic = re.search(r'\b(unrelated|new topic|change (the )?subject|separately)\b', message, re.I)
+     passages = retrieve(message) if lookup else (carried if followup and not new_topic else [])
++    if lookup or passages:
++        record = grounded_answer(message, passages, history, interaction='chat')
++        record['retrieval_called'] = lookup
++        history.extend([{'role':'user','content':message}, {'role':'assistant','content':record['answer']}])
++        return record, passages
+     system = (ROOT / 'prompts/persona.md').read_text()
+-    if passages:
+-        system += '\n\nCurrent or recent original evidence:\n' + evidence_text(passages)
+     messages = [{'role': 'system', 'content': system}, *history[-8:], {'role': 'user', 'content': message}]
+     raw, generation = generate(messages, max_tokens=650)
+     cited = re.findall(r'\bP[a-f0-9]{12}\b', raw)

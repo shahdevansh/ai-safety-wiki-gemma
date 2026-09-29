@@ -1,0 +1,17 @@
+{
+  "label": "help-command",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/isolated-first/workspace/wiki.py",
+    "help"
+  ],
+  "cwd": "<evaluation>/isolated-first/workspace",
+  "stdin": null,
+  "returncode": 0,
+  "stdout": "usage: wiki.py [-h] {help,doctor,reindex,ingest,review,ask,search,chat} ...\n\nPip: local Gemma personal wiki. No cloud fallback; Python standard library\nonly.\n\npositional arguments:\n  {help,doctor,reindex,ingest,review,ask,search,chat}\n    help                Show commands\n    doctor              Inspect local model and device\n    reindex             Rebuild original-source retrieval without calling\n                        Gemma\n    ingest              Generate wiki drafts and index registered originals\n    review              Explicitly mark a checked wiki page as reviewed\n    ask                 Independent grounded answer\n    search              Original passages; no model call\n    chat                Conversational assistant; /exit to end, /reset to\n                        clear history\n\noptional arguments:\n  -h, --help            show this help message and exit\n",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T07:24:24.108127+00:00",
+  "wall_seconds": 0.055,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

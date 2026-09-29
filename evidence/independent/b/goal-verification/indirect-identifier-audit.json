@@ -1,0 +1,20 @@
+{
+  "anecdote_in_current_tip_commit": true,
+  "current_tree_artifacts_containing_anecdote": [
+    "evidence/reingestion-before-evals.json",
+    "evidence/assignment-schema-trial/ingest.json",
+    "evidence/assignment-run/ingest.json",
+    "evidence/assignment-repair-trial/ingest.json",
+    "evidence/assignment-initial/ingest.json",
+    "evidence/independent/b/isolated-first/records/fresh-ingest.json",
+    "evidence/independent/b/isolated-first/workspace/vault/wiki/Governance/Compute Governance.md",
+    "evidence/independent/b/final-regression/records/fresh-ingest.json",
+    "evidence/independent/b/final-regression/workspace/vault/wiki/Governance/Compute Governance.md",
+    "evidence/independent/a/runs/20260929T072034705632Z/records/ingest-initial.json",
+    "evidence/independent/a/runs/20260929T072034705632Z/project/vault/wiki/Governance/Compute Governance.md",
+    "evidence/independent/a/runs/20260929T074038279878Z/records/ingest-initial.json",
+    "evidence/independent/a/runs/20260929T074038279878Z/project/vault/wiki/Governance/Compute Governance.md"
+  ],
+  "artifact_count": 13,
+  "note": "Matched biographical content is suppressed. Removing a raw line alone does not remove copies from saved prompts, transcripts or reachable Git history."
+}

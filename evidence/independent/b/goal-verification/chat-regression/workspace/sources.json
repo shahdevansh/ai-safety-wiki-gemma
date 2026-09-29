@@ -1,0 +1,131 @@
+[
+  {
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "title": "Assistance Games",
+    "folder": "Concepts",
+    "description": "Uncertainty about human interests, preference manipulation, and autonomy.",
+    "source_title": "AI alignment lecture notes",
+    "sections": [
+      "The Assistance Game Model",
+      "Hard Problems for the Assistance Game"
+    ],
+    "related": [
+      {
+        "title": "Alignment and Interpretability",
+        "reason": "Both examine how to identify human goals without assuming a single fixed objective."
+      },
+      {
+        "title": "Human Control and Defenses",
+        "reason": "Retaining human agency connects assistance to override mechanisms."
+      }
+    ],
+    "privacy": "Redacted public source; identifying metadata omitted."
+  },
+  {
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "title": "Compute Governance",
+    "folder": "Governance",
+    "description": "Hardware controls and alternative international oversight models.",
+    "source_title": "AI alignment lecture notes",
+    "sections": [
+      "Governance and Regulation"
+    ],
+    "related": [
+      {
+        "title": "Power and Disempowerment",
+        "reason": "Both consider institutions that constrain concentrated AI power."
+      },
+      {
+        "title": "Transformer Safety Limits",
+        "reason": "Model limitations affect the case for relying on behavioral controls."
+      }
+    ],
+    "privacy": "Redacted public source; identifying metadata omitted."
+  },
+  {
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "title": "Transformer Safety Limits",
+    "folder": "Concepts",
+    "description": "Claims in the talk about architecture limits and why they are weak safety guarantees.",
+    "source_title": "AI alignment lecture notes",
+    "sections": [
+      "Transformer Limitations and Safety"
+    ],
+    "related": [
+      {
+        "title": "Alignment and Interpretability",
+        "reason": "Internal behavior and deceptive outputs require evaluation beyond architecture labels."
+      },
+      {
+        "title": "Compute Governance",
+        "reason": "Hardware governance is discussed as an alternative to fragile behavioral guarantees."
+      }
+    ],
+    "privacy": "Redacted public source; identifying metadata omitted."
+  },
+  {
+    "path": "vault/raw/alignment-fundamentals-notes.md",
+    "title": "Alignment and Interpretability",
+    "folder": "Concepts",
+    "description": "Goal ambiguity, reward-model limitations, pluralism, and deception detection.",
+    "source_title": "AI safety fundamentals session notes",
+    "sections": [
+      "Alignment: Core Challenges",
+      "Interpretability: The Other Half"
+    ],
+    "related": [
+      {
+        "title": "Assistance Games",
+        "reason": "Uncertain human interests provide another framing of alignment."
+      },
+      {
+        "title": "Transformer Safety Limits",
+        "reason": "Connects internal understanding to claims about model limitations."
+      }
+    ],
+    "privacy": "Redacted public source; identifying metadata omitted."
+  },
+  {
+    "path": "vault/raw/risk-defenses-notes.md",
+    "title": "Human Control and Defenses",
+    "folder": "Governance",
+    "description": "Workshop proposals for fail-safes and human override in critical infrastructure.",
+    "source_title": "AI risk and defenses workshop notes",
+    "sections": [
+      "Critical Infrastructure Vulnerabilities Discussion"
+    ],
+    "related": [
+      {
+        "title": "Assistance Games",
+        "reason": "Both preserve meaningful human choice and control."
+      },
+      {
+        "title": "Power and Disempowerment",
+        "reason": "Technical overrides and institutional accountability address different failure modes."
+      }
+    ],
+    "privacy": "Redacted public source; identifying metadata omitted."
+  },
+  {
+    "path": "vault/raw/risk-defenses-notes.md",
+    "title": "Power and Disempowerment",
+    "folder": "Governance",
+    "description": "Workshop concerns about displacement, concentration, and accountable institutions.",
+    "source_title": "AI risk and defenses workshop notes",
+    "sections": [
+      "Gradual Disempowerment Analysis (Participant A\u2019s Presentation)",
+      "Power Concentration"
+    ],
+    "related": [
+      {
+        "title": "Compute Governance",
+        "reason": "Examines complementary levers for oversight and accountability."
+      },
+      {
+        "title": "Human Control and Defenses",
+        "reason": "Connects institutional controls to physical and operational fail-safes."
+      }
+    ],
+    "privacy": "Redacted public source; identifying metadata omitted."
+  }
+]

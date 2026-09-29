@@ -1,0 +1,15 @@
+{
+  "interaction": "search",
+  "execution": "local",
+  "question": "Tangerine",
+  "passages": [],
+  "model_calls": 0,
+  "retrieval_called": true,
+  "network_policy": "os-enforced-loopback-only",
+  "recorded_at_utc": "2026-09-29T08:45:09.105001+00:00",
+  "source_hashes": {
+    "vault/raw/alignment-lecture-notes.md": "76c88bc45bce852e63112fffc2cd94ffd377aa0e4a8b1fe7d7c3713a8afa5d02",
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  }
+}

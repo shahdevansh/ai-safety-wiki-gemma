@@ -1,0 +1,3 @@
+# Python >= 3.9. No pip packages required by the CLI.
+# Install Ollama separately and download gemma4:e2b-it-qat while online.
+# PDF inspection used Poppler; PDFs are not ingested by this implementation.

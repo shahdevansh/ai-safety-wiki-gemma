@@ -1,0 +1,158 @@
+{
+  "reviewed_at_utc": "2026-09-29T08:37:03.468937+00:00",
+  "core_sha256": "c40a2ff46ff488cf0d5fead68b7ecafb18142c7ff24cdee51b9e30b76ed1b0e8",
+  "scope": "Bounded affected-path regression only. Prior full-suite results are not relabelled as results on this new core.",
+  "command_count": 8,
+  "actual_model_generations": 10,
+  "all_model_tag_digest_correct": true,
+  "all_retrieved_line_hash_fidelity_pass": true,
+  "required_source_chat": "FAIL",
+  "H2_capability_paraphrase": "PASS: accurate deterministic contract, zero model/retrieval, includes all implemented commands and no web search",
+  "H3_topic_transition": "PARTIAL overall: first source question FAILS; subsequent unrelated three-name suggestion PASSES",
+  "representative_B01_ask": "PASS: both skew and no consensus, correct source quotes, no history",
+  "codename_isolation": "PASS: ask abstains with no history; search returns no matching passage",
+  "draft_followup": {
+    "verdict": "PASS",
+    "draft_words": 99,
+    "shorter_words": 42,
+    "retained_plan": "Three steps; 5/20/5 minutes total 30."
+  },
+  "grounded_chat_failures": [
+    {
+      "record": "required-chat/chat-06.json",
+      "question": "What do my notes say about assistance games?",
+      "verdict": "FAIL: evidence was retrieved, but no usable grounded answer displayed after failed validation and repair",
+      "answer": "Insufficient evidence: citation validation failed; inspect the saved raw Gemma response.",
+      "history_messages": 8,
+      "attempts": [
+        {
+          "errors": [
+            "Unknown citation or nonverbatim quote: P4f87872fbb73",
+            "Unknown citation or nonverbatim quote: P4f87872fbb73",
+            "Unknown citation or nonverbatim quote: P0796ce4b536c",
+            "Unknown citation or nonverbatim quote: P6641881a8987",
+            "Unknown citation or nonverbatim quote: Pd36e317f50b9"
+          ],
+          "failed_supports": [
+            {
+              "claim": "AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+              "source_id": "P4f87872fbb73",
+              "quote": "Core framing: AI’s only goal is to promote human interests; it is uncertain what those interests are and must infer them",
+              "exact_quote_found_in_other_retrieved_ids": [
+                "Pd36e317f50b9",
+                "P0796ce4b536c"
+              ]
+            },
+            {
+              "claim": "\"Interest\" preferred over \"preference\" or \"values\"",
+              "source_id": "P4f87872fbb73",
+              "quote": "\"Interest\" preferred over \"preference\" or \"values\"",
+              "exact_quote_found_in_other_retrieved_ids": []
+            },
+            {
+              "claim": "\"Interest\" preferred over \"preference\" or \"values\"",
+              "source_id": "P0796ce4b536c",
+              "quote": "\"Interest\" preferred over \"preference\" or \"values\"",
+              "exact_quote_found_in_other_retrieved_ids": []
+            },
+            {
+              "claim": "Hard Problems for the Assistance Game include Preferences vs. interests, Preference plasticity and manipulation, Aggregation and social choice, and Autonomy dimension",
+              "source_id": "P6641881a8987",
+              "quote": "Hard Problems for the Assistance Game\n- Preferences vs. interests:\n- Preference plasticity and manipulation:\n- Aggregation and social choice:\n- Autonomy dimension:",
+              "exact_quote_found_in_other_retrieved_ids": []
+            },
+            {
+              "claim": "Hard Problems for the Assistance Game include Preferences vs. interests, Preference plasticity and manipulation, Aggregation and social choice, and Autonomy dimension",
+              "source_id": "Pd36e317f50b9",
+              "quote": "Hard Problems for the Assistance Game\n- Preferences vs. interests:\n- Preference plasticity and manipulation:\n- Aggregation and social choice:\n- Autonomy dimension:",
+              "exact_quote_found_in_other_retrieved_ids": []
+            }
+          ],
+          "seconds": 27.454
+        },
+        {
+          "errors": [
+            "Unknown citation or nonverbatim quote: P6641881a8987",
+            "Unknown citation or nonverbatim quote: Pd36e317f50b9",
+            "Unknown citation or nonverbatim quote: P4f87872fbb73"
+          ],
+          "failed_supports": [
+            {
+              "claim": "Hard Problems for the Assistance Game include Preferences vs. interests, Preference plasticity and manipulation, Aggregation and social choice, and Autonomy dimension",
+              "source_id": "P6641881a8987",
+              "quote": "Hard Problems for the Assistance Game\n- Preferences vs. interests:\n- Preference plasticity and manipulation:\n- Aggregation and social choice:\n- Autonomy dimension:",
+              "exact_quote_found_in_other_retrieved_ids": []
+            },
+            {
+              "claim": "Hard Problems for the Assistance Game include Preferences vs. interests, Preference plasticity and manipulation, Aggregation and social choice, and Autonomy dimension",
+              "source_id": "Pd36e317f50b9",
+              "quote": "Hard Problems for the Assistance Game\n- Preferences vs. interests:\n- Preference plasticity and manipulation:\n- Aggregation and social choice:\n- Autonomy dimension:",
+              "exact_quote_found_in_other_retrieved_ids": []
+            },
+            {
+              "claim": "Hard Problems for the Assistance Game include Preferences vs. interests, Preference plasticity and manipulation, Aggregation and social choice, and Autonomy dimension",
+              "source_id": "P4f87872fbb73",
+              "quote": "Hard Problems for the Assistance Game\n- Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?\n- Autonomy dimension:",
+              "exact_quote_found_in_other_retrieved_ids": []
+            }
+          ],
+          "seconds": 20.976
+        }
+      ]
+    },
+    {
+      "record": "heldout-chat/H3-topic-transition/chat-01.json",
+      "question": "What do my notes say about preferences versus interests?",
+      "verdict": "FAIL: evidence was retrieved, but no usable grounded answer displayed after failed validation and repair",
+      "answer": "Insufficient evidence: citation validation failed; inspect the saved raw Gemma response.",
+      "history_messages": 0,
+      "attempts": [
+        {
+          "errors": [
+            "Unknown citation or nonverbatim quote: Pd36e317f50b9"
+          ],
+          "failed_supports": [
+            {
+              "claim": "“Values” triggered culture-war reactions, while “stated preferences” are easily manipulated, and “interest” implicitly acknowledges that preferences can be shaped against one’s own good.",
+              "source_id": "Pd36e317f50b9",
+              "quote": "“Values” triggered culture-war reactions\n- “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+              "exact_quote_found_in_other_retrieved_ids": []
+            }
+          ],
+          "seconds": 25.636
+        },
+        {
+          "errors": [
+            "Unknown citation or nonverbatim quote: Pd36e317f50b9"
+          ],
+          "failed_supports": [
+            {
+              "claim": "“Values” triggered culture-war reactions, while “stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good.",
+              "source_id": "Pd36e317f50b9",
+              "quote": "“Values” triggered culture-war reactions\n- “Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good",
+              "exact_quote_found_in_other_retrieved_ids": []
+            }
+          ],
+          "seconds": 20.27
+        }
+      ]
+    }
+  ],
+  "isolation": {
+    "server_pid": 30055,
+    "server_exit_code": 0,
+    "command_exit_code": 0,
+    "endpoint": "http://127.0.0.1:11435",
+    "cloud_disabled": true,
+    "server_and_cli_share_profile": true,
+    "server_launched_fresh": true,
+    "server_stopped_after_run": true,
+    "model_children_inherit_os_sandbox": true
+  },
+  "unretested_limitations": [
+    "B05 two-source completeness",
+    "H4 coordination detail",
+    "Broader unseen capability paraphrases"
+  ],
+  "confidence": "High for observed output and direct support checks; no reliability/grade extrapolation."
+}

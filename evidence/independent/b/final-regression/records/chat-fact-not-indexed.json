@@ -1,0 +1,15 @@
+{
+  "interaction": "search",
+  "execution": "local",
+  "question": "Z-814",
+  "passages": [],
+  "model_calls": 0,
+  "retrieval_called": true,
+  "network_policy": "os-enforced-loopback-only",
+  "recorded_at_utc": "2026-09-29T07:39:41.673267+00:00",
+  "source_hashes": {
+    "vault/raw/alignment-lecture-notes.md": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "vault/raw/alignment-fundamentals-notes.md": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "vault/raw/risk-defenses-notes.md": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4"
+  }
+}

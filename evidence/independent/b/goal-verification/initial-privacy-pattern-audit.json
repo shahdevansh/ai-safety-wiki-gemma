@@ -1,0 +1,7 @@
+{
+  "tracked_count": 771,
+  "text_pattern_issues": [],
+  "distinct_commit_author_count": 1,
+  "commits_have_email_metadata": true,
+  "note": "Pattern scan is read-only and suppresses matched content. Commit email metadata is assessed separately from source-file PII. Images not scanned by regex."
+}

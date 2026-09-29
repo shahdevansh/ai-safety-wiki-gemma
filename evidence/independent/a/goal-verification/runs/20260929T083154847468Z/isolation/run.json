@@ -1,0 +1,11 @@
+{
+  "server_pid": 29814,
+  "server_exit_code": 0,
+  "command_exit_code": 0,
+  "endpoint": "http://127.0.0.1:11435",
+  "cloud_disabled": true,
+  "server_and_cli_share_profile": true,
+  "server_launched_fresh": true,
+  "server_stopped_after_run": true,
+  "model_children_inherit_os_sandbox": true
+}

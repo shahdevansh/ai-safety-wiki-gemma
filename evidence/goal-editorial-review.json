@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Assistance Games",
+    "before_sha256": "a0be1913803d05650ba66b3aed49ef5502de4092e90422ae5cb2f2887f084161",
+    "reviewed_sha256": "817604c36514fda08e2c15a18a494edd3dc735dae84f797f25f9edd6d2e1134f",
+    "review": "Assistant editorial review against redacted raw source; corrected scope, attribution, omissions and summary structure. Source bytes unchanged."
+  },
+  {
+    "title": "Compute Governance",
+    "before_sha256": "c67654e4c0f26f0be839d95fb134ce8cb0fd1a31ca8cf2df34e73721333fa15a",
+    "reviewed_sha256": "e0f932f9cb931ba1bddb33d530c509df3d1ada8f6195af0396725f2e9a97350d",
+    "review": "Assistant editorial review against redacted raw source; corrected scope, attribution, omissions and summary structure. Source bytes unchanged."
+  },
+  {
+    "title": "Transformer Safety Limits",
+    "before_sha256": "bcc71342b06a55085134e2ec57959146000edbd72eaf25dbdaef4416096eb14b",
+    "reviewed_sha256": "42852e03e2cc0792b386cb8554006f80a4e1d9fc2234e574fc7038588ba84ac5",
+    "review": "Assistant editorial review against redacted raw source; corrected scope, attribution, omissions and summary structure. Source bytes unchanged."
+  },
+  {
+    "title": "Alignment and Interpretability",
+    "before_sha256": "2acb31f308db0b0608809dd2f2dca5dcf68ef23605bafce2064ba5a935f84993",
+    "reviewed_sha256": "13fbb7428e99c9645c8d0e0f4781ca9be2fa9b4fe2c23f27ef2700ea160dc935",
+    "review": "Assistant editorial review against redacted raw source; corrected scope, attribution, omissions and summary structure. Source bytes unchanged."
+  },
+  {
+    "title": "Human Control and Defenses",
+    "before_sha256": "82af45e891efe3dbb354b5d6d26118b840ee4c9a44b4caeb9fe801779c519323",
+    "reviewed_sha256": "396af3439c3c5b7b37a734afdfde43ad72238e4c91ea6f60893849067903cfa2",
+    "review": "Assistant editorial review against redacted raw source; corrected scope, attribution, omissions and summary structure. Source bytes unchanged."
+  },
+  {
+    "title": "Power and Disempowerment",
+    "before_sha256": "c39e79c4571e71512ce78de2a3ebb66ea63b5f887dfd6391815a48efde2ad03e",
+    "reviewed_sha256": "24fd16163f473b81ad9440679c269093dc22cc40bedf1ba3b7bd25b88baf7eda",
+    "review": "Assistant editorial review against redacted raw source; corrected scope, attribution, omissions and summary structure. Source bytes unchanged."
+  }
+]

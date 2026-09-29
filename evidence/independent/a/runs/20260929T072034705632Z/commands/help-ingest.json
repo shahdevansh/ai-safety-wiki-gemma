@@ -1,0 +1,15 @@
+{
+  "label": "help-ingest",
+  "command": [
+    "python3",
+    "wiki.py",
+    "ingest",
+    "--help"
+  ],
+  "cwd": "<evaluation>/runs/20260929T072034705632Z/project",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 0.062,
+  "stdout": "usage: wiki.py ingest [-h] [--mode {local}]\n                      [--only {Assistance Games,Compute Governance,Transformer Safety Limits,Alignment and Interpretability,Human Control and Defenses,Power and Disempowerment}]\n                      [--force] [--save SAVE]\n                      [source_dir]\n\npositional arguments:\n  source_dir            Registered original-source folder (default\n                        ./vault/raw)\n\noptional arguments:\n  -h, --help            show this help message and exit\n  --mode {local}\n  --only {Assistance Games,Compute Governance,Transformer Safety Limits,Alignment and Interpretability,Human Control and Defenses,Power and Disempowerment}\n                        Ingest one registered topic\n  --force               Regenerate pages; preserve previous versions in\n                        .state/note-backups\n  --save SAVE           Save reviewable evidence JSON and Markdown\n",
+  "stderr": ""
+}

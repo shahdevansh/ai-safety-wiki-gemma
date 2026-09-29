@@ -1,0 +1,6 @@
+{"version": 2, "width": 110, "height": 38, "timestamp": 1790670119, "env": {"TERM": "xterm-256color"}, "title": "Pip local Gemma assignment demonstration", "command": "python3 scripts/local_only.py --evidence-dir evidence/goal-review-isolation -- ./wiki ingest ./vault/raw --save evidence/goal-reviewed-reingest.json"}
+[0.314, "o", "Local-only run: isolated model server and CLI; external network denied, localhost allowed.\r\n"]
+[0.385, "o", "Network guard: external IPv4/IPv6 TCP and UDP denied; loopback works.\r\n"]
+[0.46, "o", "Pip | ingest | local | gemma4:e2b-it-qat\r\nvault/wiki/Concepts/Assistance Games.md: unchanged; reviewed edits preserved\r\nvault/wiki/Governance/Compute Governance.md: unchanged; reviewed edits preserved\r\nvault/wiki/Concepts/Transformer Safety Limits.md: unchanged; reviewed edits preserved\r\nvault/wiki/Concepts/Alignment and Interpretability.md: unchanged; reviewed edits preserved\r\nvault/wiki/Governance/Human Control and Defenses.md: unchanged; reviewed edits preserved\r\nvault/wiki/Governance/Power and Disempowerment.md: unchanged; reviewed edits preserved\r\n8 passages indexed; 0.01 s\r\n"]
+[0.461, "o", "\r\nSaved: evidence/goal-reviewed-reingest.json\r\n"]
+[0.491, "o", "Network guard: external IPv4/IPv6 TCP and UDP denied; loopback works.\r\n"]

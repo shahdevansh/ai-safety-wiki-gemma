@@ -1,0 +1,1002 @@
+{
+  "scope": "Read-only static audit of final parent documentation and recorded evidence; no model calls or project changes.",
+  "doc_sha256": {
+    "README.md": "aca63cd5e769f73460661488b81e107456de0fcc55913c8f0015cba7b84a26ec",
+    "evidence/GOAL-REVIEW.md": "f41ddbe5aadf55e3fcf0830dfd980acdf160139480dbda2f301c21cc462b9c49"
+  },
+  "core_sha256": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+  "check_count": 201,
+  "passed_count": 201,
+  "actual_main_generation_count": 16,
+  "records": {
+    "01-assistance-game": {
+      "generations": 1,
+      "words": 27
+    },
+    "02-deception-detection": {
+      "generations": 1,
+      "words": 16
+    },
+    "03-physical-defenses": {
+      "generations": 1,
+      "words": 41
+    },
+    "04-unsupported": {
+      "generations": 1,
+      "words": 10
+    },
+    "chat-01": {
+      "generations": 0,
+      "words": 76
+    },
+    "chat-02": {
+      "generations": 0,
+      "words": 76
+    },
+    "chat-03": {
+      "generations": 1,
+      "words": 99
+    },
+    "chat-04": {
+      "generations": 1,
+      "words": 42
+    },
+    "chat-05": {
+      "generations": 1,
+      "words": 23
+    },
+    "chat-06": {
+      "generations": 1,
+      "words": 98
+    },
+    "chat-isolation": {
+      "generations": 1,
+      "words": 10
+    },
+    "freeze": {
+      "generations": 0,
+      "words": 0
+    },
+    "ingest": {
+      "generations": 6,
+      "words": 0
+    },
+    "literal-ask": {
+      "generations": 1,
+      "words": 10
+    },
+    "literal-search": {
+      "generations": 0,
+      "words": 0
+    },
+    "reingest": {
+      "generations": 0,
+      "words": 0
+    },
+    "search": {
+      "generations": 0,
+      "words": 0
+    }
+  },
+  "checks": [
+    {
+      "check": "frozen file unchanged: wiki.py",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: prompts/research.md",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: prompts/grounded-chat.md",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: prompts/persona.md",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: prompts/ingest.md",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: prompts/capabilities.md",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: evals/cases.json",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: evals/chat.txt",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: sources.json",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: source-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: scripts/assignment_demo.sh",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: scripts/evaluate.py",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: scripts/local_only.py",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: scripts/record_terminal.py",
+      "passed": true
+    },
+    {
+      "check": "frozen file unchanged: isolation/no-external-network.sb",
+      "passed": true
+    },
+    {
+      "check": "frozen original unchanged: vault/raw/alignment-fundamentals-notes.md",
+      "passed": true
+    },
+    {
+      "check": "frozen original unchanged: vault/raw/alignment-lecture-notes.md",
+      "passed": true
+    },
+    {
+      "check": "frozen original unchanged: vault/raw/risk-defenses-notes.md",
+      "passed": true
+    },
+    {
+      "check": "01-assistance-game.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "01-assistance-game.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P6641881a8987"
+    },
+    {
+      "check": "01-assistance-game.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P0796ce4b536c"
+    },
+    {
+      "check": "01-assistance-game.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "Pd36e317f50b9"
+    },
+    {
+      "check": "01-assistance-game.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "Pd3902efa8beb"
+    },
+    {
+      "check": "01-assistance-game.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "01-assistance-game.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "01-assistance-game.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "01-assistance-game.json: saved timing equals measured all-attempt sum",
+      "passed": true
+    },
+    {
+      "check": "01-assistance-game.json: saved attempt count equals measurement",
+      "passed": true
+    },
+    {
+      "check": "02-deception-detection.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "02-deception-detection.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "Pd3902efa8beb"
+    },
+    {
+      "check": "02-deception-detection.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P6641881a8987"
+    },
+    {
+      "check": "02-deception-detection.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P19588883e584"
+    },
+    {
+      "check": "02-deception-detection.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "Pd36e317f50b9"
+    },
+    {
+      "check": "02-deception-detection.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "02-deception-detection.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "02-deception-detection.json: saved timing equals measured all-attempt sum",
+      "passed": true
+    },
+    {
+      "check": "02-deception-detection.json: saved attempt count equals measurement",
+      "passed": true
+    },
+    {
+      "check": "03-physical-defenses.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "03-physical-defenses.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P571ac3d9e151"
+    },
+    {
+      "check": "03-physical-defenses.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P0796ce4b536c"
+    },
+    {
+      "check": "03-physical-defenses.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "Pd36e317f50b9"
+    },
+    {
+      "check": "03-physical-defenses.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P4f87872fbb73"
+    },
+    {
+      "check": "03-physical-defenses.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "03-physical-defenses.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "03-physical-defenses.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "03-physical-defenses.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "03-physical-defenses.json: saved timing equals measured all-attempt sum",
+      "passed": true
+    },
+    {
+      "check": "03-physical-defenses.json: saved attempt count equals measurement",
+      "passed": true
+    },
+    {
+      "check": "04-unsupported.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "04-unsupported.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P4f87872fbb73"
+    },
+    {
+      "check": "04-unsupported.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "Pd3902efa8beb"
+    },
+    {
+      "check": "04-unsupported.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P571ac3d9e151"
+    },
+    {
+      "check": "04-unsupported.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P6641881a8987"
+    },
+    {
+      "check": "04-unsupported.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "04-unsupported.json: saved timing equals measured all-attempt sum",
+      "passed": true
+    },
+    {
+      "check": "04-unsupported.json: saved attempt count equals measurement",
+      "passed": true
+    },
+    {
+      "check": "chat-01.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "chat-02.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "chat-03.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "chat-03.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "chat-04.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "chat-04.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "chat-05.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "chat-05.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P6641881a8987"
+    },
+    {
+      "check": "chat-06.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "Pd36e317f50b9"
+    },
+    {
+      "check": "chat-06.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P4f87872fbb73"
+    },
+    {
+      "check": "chat-06.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P0796ce4b536c"
+    },
+    {
+      "check": "chat-06.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: quote belongs to cited passage",
+      "passed": true
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L001"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L002"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L003"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L004"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L005"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L006"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L007"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L008"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L009"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L010"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L011"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L012"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L013"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L014"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L015"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L016"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L017"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L018"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L019"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L020"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L021"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L022"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L023"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L024"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L025"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L026"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L027"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L028"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L029"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L030"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L031"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L032"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L033"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L034"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L035"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L036"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L037"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L038"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L039"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L040"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L041"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L042"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L043"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L044"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L045"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L046"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L047"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L048"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L049"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L050"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L051"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L052"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L053"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L054"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L055"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L056"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L057"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L058"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L059"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L060"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L061"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L062"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L063"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L064"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L065"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L066"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L067"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L068"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L069"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L070"
+    },
+    {
+      "check": "chat-06.json: line catalog has exact original text/provenance",
+      "passed": true,
+      "line_id": "L071"
+    },
+    {
+      "check": "chat-06.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "chat-isolation.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "chat-isolation.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P6641881a8987"
+    },
+    {
+      "check": "chat-isolation.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "freeze.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "ingest.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "ingest.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "ingest.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "ingest.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "ingest.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "ingest.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "ingest.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "literal-ask.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "literal-ask.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P571ac3d9e151"
+    },
+    {
+      "check": "literal-ask.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P19588883e584"
+    },
+    {
+      "check": "literal-ask.json: actual generation identity matches Gemma",
+      "passed": true
+    },
+    {
+      "check": "literal-search.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "literal-search.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P571ac3d9e151"
+    },
+    {
+      "check": "reingest.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "search.json: source hashes match current originals",
+      "passed": true
+    },
+    {
+      "check": "search.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P571ac3d9e151"
+    },
+    {
+      "check": "search.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P6641881a8987"
+    },
+    {
+      "check": "search.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "Pd3902efa8beb"
+    },
+    {
+      "check": "search.json: passage bytes/hash/id match original",
+      "passed": true,
+      "source_id": "P19588883e584"
+    },
+    {
+      "check": "Assistance Games: pre-review hash reconstructs from retained actual draft",
+      "passed": true
+    },
+    {
+      "check": "Assistance Games: final reviewed page hash matches ledger",
+      "passed": true
+    },
+    {
+      "check": "Assistance Games: reviewed marker/title/source valid",
+      "passed": true
+    },
+    {
+      "check": "Compute Governance: pre-review hash reconstructs from retained actual draft",
+      "passed": true
+    },
+    {
+      "check": "Compute Governance: final reviewed page hash matches ledger",
+      "passed": true
+    },
+    {
+      "check": "Compute Governance: reviewed marker/title/source valid",
+      "passed": true
+    },
+    {
+      "check": "Transformer Safety Limits: pre-review hash reconstructs from retained actual draft",
+      "passed": true
+    },
+    {
+      "check": "Transformer Safety Limits: final reviewed page hash matches ledger",
+      "passed": true
+    },
+    {
+      "check": "Transformer Safety Limits: reviewed marker/title/source valid",
+      "passed": true
+    },
+    {
+      "check": "Alignment and Interpretability: pre-review hash reconstructs from retained actual draft",
+      "passed": true
+    },
+    {
+      "check": "Alignment and Interpretability: final reviewed page hash matches ledger",
+      "passed": true
+    },
+    {
+      "check": "Alignment and Interpretability: reviewed marker/title/source valid",
+      "passed": true
+    },
+    {
+      "check": "Human Control and Defenses: pre-review hash reconstructs from retained actual draft",
+      "passed": true
+    },
+    {
+      "check": "Human Control and Defenses: final reviewed page hash matches ledger",
+      "passed": true
+    },
+    {
+      "check": "Human Control and Defenses: reviewed marker/title/source valid",
+      "passed": true
+    },
+    {
+      "check": "Power and Disempowerment: pre-review hash reconstructs from retained actual draft",
+      "passed": true
+    },
+    {
+      "check": "Power and Disempowerment: final reviewed page hash matches ledger",
+      "passed": true
+    },
+    {
+      "check": "Power and Disempowerment: reviewed marker/title/source valid",
+      "passed": true
+    },
+    {
+      "check": "six actual ingestion calls",
+      "passed": true
+    },
+    {
+      "check": "ingestion whole-operation seconds correct",
+      "passed": true
+    },
+    {
+      "check": "ingestion summed generation seconds correct",
+      "passed": true
+    },
+    {
+      "check": "ingestion peak CLI RSS correct",
+      "passed": true
+    },
+    {
+      "check": "reviewed reingestion six paths unchanged and no generation",
+      "passed": true
+    },
+    {
+      "check": "reviewed reingestion source hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "reviewed reingestion timing correct",
+      "passed": true
+    },
+    {
+      "check": "draft word counts 99 to 42",
+      "passed": true
+    },
+    {
+      "check": "draft and shortening preserve 5/20/5 minutes",
+      "passed": true
+    },
+    {
+      "check": "chat06 has exactly four model claims",
+      "passed": true
+    },
+    {
+      "check": "model sampled RSS maximum matches raw samples",
+      "passed": true
+    },
+    {
+      "check": "device snapshot matches measurement copy",
+      "passed": true
+    }
+  ],
+  "readme_rounded_values": {
+    "disk_free_gib": 12.28,
+    "free_ram_gib": 2.02,
+    "inactive_ram_gib": 10.5,
+    "speculative_ram_gib": 1.55,
+    "ingest_cli_mib": 18.98,
+    "first_ask_cli_mib": 19.33,
+    "loaded_gib": 3.48,
+    "sampled_rss_gib": 4.82,
+    "model_disk_gib": 4.04
+  },
+  "final_documentation_sha256": {
+    "README.md": "b0b582855155010865c57f33af99cdf64f55c2f2e7786c8220309af403533e97",
+    "evidence/GOAL-REVIEW.md": "e2de979a1cd1964200b783d7e062691681d9ae835e85d2f8bceef661125dea97"
+  },
+  "final_documentation_note": "Read both documents again after README ingestion-count clarification and mapping link plus current-review audit-section additions. Required numeric/semantic claims unchanged. Remote publication receipt and completion are outside this audit."
+}

@@ -1,0 +1,41 @@
+{
+  "time_utc": "2026-09-29T08:31:54.809706+00:00",
+  "pid": 29818,
+  "wifi_state": "Wi-Fi Power (en0): On",
+  "external_probes": [
+    {
+      "family": "IPv4",
+      "transport": "TCP",
+      "destination": "('1.1.1.1', 443)",
+      "result": {
+        "blocked": true,
+        "errno": 1,
+        "error": "Operation not permitted"
+      }
+    },
+    {
+      "family": "IPv6",
+      "transport": "TCP",
+      "destination": "('2606:4700:4700::1111', 443, 0, 0)",
+      "result": {
+        "blocked": true,
+        "errno": 1,
+        "error": "Operation not permitted"
+      }
+    },
+    {
+      "family": "IPv4",
+      "transport": "UDP",
+      "destination": "('8.8.8.8', 53)",
+      "result": {
+        "blocked": true,
+        "errno": 1,
+        "error": "Operation not permitted"
+      }
+    }
+  ],
+  "loopback_probe_passed": true,
+  "os_denial_verified": true,
+  "sandbox_profile_sha256": "339423f809b977e1c1a1b0ca1d88035fc03f56227d8ae69e844d983b61bc484f",
+  "scope": "OS policy denies all non-loopback network operations for this process and inherited children. Probes check IPv4 TCP, IPv6 TCP, UDP and successful local IPC. Wi-Fi can remain connected."
+}

@@ -1,0 +1,4 @@
+{
+  "passed": true,
+  "scope": "Source byte/line fidelity, four fixed expected retrieval hits, source ID/quote integrity, intended routing for six required chat turns, unsupported answers, no-model search and OS isolation status. Semantic judgments are separate in GOAL-REVIEW.md."
+}

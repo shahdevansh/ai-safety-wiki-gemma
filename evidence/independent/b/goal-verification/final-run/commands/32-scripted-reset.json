@@ -1,0 +1,21 @@
+{
+  "label": "scripted-reset",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "<evaluation>/goal-verification/final-run/workspace/wiki.py",
+    "chat",
+    "--script",
+    "<evaluation>/goal-verification/final-run/reset-script.txt",
+    "--save-dir",
+    "<evaluation>/goal-verification/final-run/reset-chat"
+  ],
+  "cwd": "<evaluation>/goal-verification/final-run/workspace",
+  "stdin": null,
+  "returncode": 0,
+  "stdout": "Pip | chat | local | gemma4:e2b-it-qat\n/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.\nYou> what can we do?\nPip | chat | local | gemma4:e2b-it-qat\n\nI'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.\nYou> /reset\nYou> what can you help me with?\nPip | chat | local | gemma4:e2b-it-qat\n\nI'm Pip, your local AI Safety study partner. I can brainstorm, draft, plan, and revise using our recent conversation. For your notes, I can retrieve original passages and cite them.\n\nUse `ask` for an independent source-grounded answer, `search` to inspect passages without generation, and `ingest` to generate wiki drafts for review. I have no web search and do not save chat as source evidence.\n\nSuggestion: explore assistance games, compare governance ideas, or draft a 30-minute study plan.\nYou> /exit\n",
+  "stderr": "",
+  "started_at_utc": "2026-09-29T08:18:32.783593+00:00",
+  "wall_seconds": 0.085,
+  "network_profile": "external-network-denied",
+  "timeout": false
+}

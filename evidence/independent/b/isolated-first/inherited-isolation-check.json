@@ -1,0 +1,36 @@
+{
+  "inherited_profile_verified_by_direct_probes": true,
+  "probes": [
+    {
+      "family": 2,
+      "kind": 1,
+      "denied": true,
+      "errno": 1,
+      "error": "[Errno 1] Operation not permitted"
+    },
+    {
+      "family": 2,
+      "kind": 2,
+      "denied": true,
+      "errno": 1,
+      "error": "[Errno 1] Operation not permitted"
+    },
+    {
+      "family": 30,
+      "kind": 1,
+      "denied": true,
+      "errno": 1,
+      "error": "[Errno 1] Operation not permitted"
+    },
+    {
+      "family": 30,
+      "kind": 2,
+      "denied": true,
+      "errno": 1,
+      "error": "[Errno 1] Operation not permitted"
+    }
+  ],
+  "WIKI_PORT": "11435",
+  "server_pid": "19603",
+  "server_policy_proof": "Parent isolation server-network.json required"
+}

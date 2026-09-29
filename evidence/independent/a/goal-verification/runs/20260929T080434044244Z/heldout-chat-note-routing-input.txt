@@ -1,0 +1,1 @@
+In the lecture, why is hardware regulation described as easier to enforce than software regulation?

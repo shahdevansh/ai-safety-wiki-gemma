@@ -1,0 +1,62 @@
+[
+  {
+    "id": "01-assistance-game",
+    "expected": {
+      "id": "01-assistance-game",
+      "question": "According to the alignment lecture notes, what is the assistance-game AI's goal, and what is it uncertain about?",
+      "expected_source": "vault/raw/alignment-lecture-notes.md",
+      "expected_quote": "AI\u2019s only goal is to promote human interests",
+      "expected_behavior": "Attribute to the notes: promote human interests while remaining uncertain what those interests are and inferring them. Do not present the notes as independent scientific verification."
+    },
+    "retrieval_hit": true,
+    "valid_citations": true,
+    "abstained": false,
+    "semantic_review": "See evidence/REVIEW.md; automated checks do not establish entailment",
+    "answer": "According to the retrieved meeting notes:\n\nAI\u2019s only goal is to promote human interests [P0796ce4b536c]\n\nit is uncertain what those interests are and must infer them [P0796ce4b536c]"
+  },
+  {
+    "id": "02-deception-detection",
+    "expected": {
+      "id": "02-deception-detection",
+      "question": "In the fundamentals session, what two things were compared to look for deception in reasoning models?",
+      "expected_source": "vault/raw/alignment-fundamentals-notes.md",
+      "expected_quote": "Tracking discrepancies between thinking trace and explicit model output",
+      "expected_behavior": "According to the session notes, compare the thinking trace with explicit model output; do not claim this is a proven reliable deception detector."
+    },
+    "retrieval_hit": true,
+    "valid_citations": false,
+    "abstained": true,
+    "semantic_review": "See evidence/REVIEW.md; automated checks do not establish entailment",
+    "answer": "Insufficient evidence: citation validation failed; inspect the saved raw Gemma response."
+  },
+  {
+    "id": "03-physical-defenses",
+    "expected": {
+      "id": "03-physical-defenses",
+      "question": "What physical or human controls did the infrastructure workshop propose to stop software from taking over?",
+      "expected_source": "vault/raw/risk-defenses-notes.md",
+      "expected_quote": "Physical fail-safes with human override capabilities",
+      "expected_behavior": "Proposals: physical fail-safes with human override, multiple humans in decision loops, and physical buttons/levers to shut off software. Attribute as proposals, not guaranteed defenses."
+    },
+    "retrieval_hit": true,
+    "valid_citations": true,
+    "abstained": false,
+    "semantic_review": "See evidence/REVIEW.md; automated checks do not establish entailment",
+    "answer": "According to the retrieved meeting notes:\n\n1. Physical fail-safes with human override capabilities [P571ac3d9e151]\n\n2. Multiple humans in decision loops [P571ac3d9e151]\n\n3. Physical buttons/levers to shut off software entirely (airplane example) [P571ac3d9e151]"
+  },
+  {
+    "id": "04-unsupported",
+    "expected": {
+      "id": "04-unsupported",
+      "question": "What exact annual dollar budget was approved for the international AI treaty organization discussed in the alignment lecture?",
+      "expected_source": null,
+      "expected_quote": null,
+      "expected_behavior": "Explicit insufficient evidence. The notes discuss governance models but no approved annual budget."
+    },
+    "retrieval_hit": null,
+    "valid_citations": true,
+    "abstained": true,
+    "semantic_review": "See evidence/REVIEW.md; automated checks do not establish entailment",
+    "answer": "Insufficient evidence: the provided sources do not answer this question."
+  }
+]

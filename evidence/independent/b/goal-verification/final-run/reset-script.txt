@@ -1,0 +1,4 @@
+what can we do?
+/reset
+what can you help me with?
+/exit

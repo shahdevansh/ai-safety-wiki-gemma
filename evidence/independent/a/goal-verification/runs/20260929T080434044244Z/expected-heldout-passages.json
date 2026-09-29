@@ -1,0 +1,72 @@
+[
+  {
+    "case": "heldout-1-distinct-reasons",
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "line_start": 24,
+    "original_fragment": "“Values” triggered culture-war reactions"
+  },
+  {
+    "case": "heldout-1-distinct-reasons",
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "line_start": 25,
+    "original_fragment": "“Stated preferences” are easily manipulated; “interest” implicitly acknowledges that preferences can be shaped against one’s own good"
+  },
+  {
+    "case": "heldout-2-plural-human-objectives",
+    "path": "vault/raw/alignment-fundamentals-notes.md",
+    "sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "line_start": 32,
+    "original_fragment": "SGD and numerical optimization assume a single optimum"
+  },
+  {
+    "case": "heldout-2-plural-human-objectives",
+    "path": "vault/raw/alignment-fundamentals-notes.md",
+    "sha256": "d9097717f4c977fadeef5b03d44566ab7b5e04dc1f2784bd1e5079872bbef9b8",
+    "line_start": 33,
+    "original_fragment": "Fails to capture cultural and individual diversity"
+  },
+  {
+    "case": "heldout-2-plural-human-objectives",
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "line_start": 38,
+    "original_fragment": "Aggregation and social choice: what should AI do when serving multiple humans with conflicting interests?"
+  },
+  {
+    "case": "heldout-3-hardware-human-override",
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "line_start": 50,
+    "original_fragment": "Software can be copied and transmitted freely"
+  },
+  {
+    "case": "heldout-3-hardware-human-override",
+    "path": "vault/raw/alignment-lecture-notes.md",
+    "sha256": "ca80e954abbe4505ba0fc9d5e220babac2f998ff091b23b6c79e385c7d24f865",
+    "line_start": 51,
+    "original_fragment": "bypassing requires building a fab from scratch"
+  },
+  {
+    "case": "heldout-3-hardware-human-override",
+    "path": "vault/raw/risk-defenses-notes.md",
+    "sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+    "line_start": 15,
+    "original_fragment": "Physical fail-safes with human override capabilities"
+  },
+  {
+    "case": "heldout-3-hardware-human-override",
+    "path": "vault/raw/risk-defenses-notes.md",
+    "sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+    "line_start": 17,
+    "original_fragment": "Physical buttons/levers to shut off software entirely"
+  },
+  {
+    "case": "heldout-4-scenario-versus-measurement",
+    "path": "vault/raw/risk-defenses-notes.md",
+    "sha256": "b57498af2546a80142e02e11a6f818f14e8799a9cc04ca8dca495cdc416627b4",
+    "line_start": 26,
+    "original_fragment": "40% unemployment scenario potential social crisis"
+  }
+]

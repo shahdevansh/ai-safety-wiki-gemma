@@ -1,0 +1,13 @@
+Local-only run: isolated model server and CLI; external network denied, localhost allowed.
+Network guard: external IPv4/IPv6 TCP and UDP denied; loopback works.
+Pip | ingest | local | gemma4:e2b-it-qat
+vault/wiki/Concepts/Assistance Games.md: unchanged; reviewed edits preserved
+vault/wiki/Governance/Compute Governance.md: unchanged; reviewed edits preserved
+vault/wiki/Concepts/Transformer Safety Limits.md: unchanged; reviewed edits preserved
+vault/wiki/Concepts/Alignment and Interpretability.md: unchanged; reviewed edits preserved
+vault/wiki/Governance/Human Control and Defenses.md: unchanged; reviewed edits preserved
+vault/wiki/Governance/Power and Disempowerment.md: unchanged; reviewed edits preserved
+8 passages indexed; 0.01 s
+
+Saved: evidence/goal-reviewed-reingest.json
+Network guard: external IPv4/IPv6 TCP and UDP denied; loopback works.

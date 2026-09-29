@@ -1,0 +1,82 @@
+[
+  {
+    "record": "records/ask-1-assistance-objective.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 16.533,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-chat-isolation.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 8.881,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-03.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 4.785,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-04.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 1.644,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-05.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 0.846,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/source-followup-reset/chat-01.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 17.739,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/source-followup-reset/chat-02.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 19.349,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/source-followup-reset/chat-04.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 0.908,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  }
+]

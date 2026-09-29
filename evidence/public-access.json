@@ -1,0 +1,18 @@
+{
+  "verified_at_utc": "2026-09-29T07:54:46.812025+00:00",
+  "public": true,
+  "authentication": "Anonymous HTTP requests with no Authorization header or cookie jar; repository page shows Sign in.",
+  "repository_page_status": 200,
+  "archive_http_status": 200,
+  "verified_remote_commit": "40bdf3605c914859a26f251d3997847ab78b655d",
+  "tracked_files_compared": 771,
+  "all_published_bytes_match_local": true,
+  "mismatches": [],
+  "archive_sha256": "89a3bcf23b29df3fe78f332e277bb0b41a40c7f67c195da2146a4318f92649e6",
+  "scope": "Public repository page, default-branch commit and full downloadable archive; README, code, sources, wiki and all evidence files are accessible without sign-in. This record is committed after checking that preceding content revision.",
+  "course_portal_submitted": false,
+  "comparison_method": "Recomputed Git blob content IDs from every anonymous archive file and compared them with the clean local Git index at the verified commit.",
+  "historical_only": true,
+  "superseded_by": "private-delivery.json",
+  "current_visibility_note": "The user subsequently requested PRIVATE visibility. This old HTTP200 receipt does not establish current signed-out access."
+}

@@ -1,0 +1,170 @@
+{
+  "reviewed_at_utc": "2026-09-29T07:38:51.499387+00:00",
+  "evidence_root": "evidence/assignment-run",
+  "cases": [
+    {
+      "case": "01-assistance-game",
+      "question": "According to the alignment lecture notes, what is the assistance-game AI's goal, and what is it uncertain about?",
+      "answer": "According to the retrieved meeting notes:\n\nAI’s only goal is to promote human interests [P0796ce4b536c]\n\nit is uncertain what those interests are and must infer them [P0796ce4b536c]",
+      "semantic_verdict": "PASS",
+      "citation_pair_checks": [
+        {
+          "claim": "AI’s only goal is to promote human interests",
+          "source_id": "P0796ce4b536c",
+          "quote": "AI’s only goal is to promote human interests",
+          "pair_valid": true
+        },
+        {
+          "claim": "it is uncertain what those interests are and must infer them",
+          "source_id": "P0796ce4b536c",
+          "quote": "it is uncertain what those interests are and must infer them",
+          "pair_valid": true
+        }
+      ],
+      "passage_fidelity": [
+        {
+          "id": "P6641881a8987",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "source_matches": true,
+          "hash_matches": true
+        }
+      ],
+      "attempt_count": 1,
+      "card_sha256": "3aefa7cd4d2b93ccdc0429434e276b5564a82da6c620a7c410a2a6fe2bf7b046"
+    },
+    {
+      "case": "02-deception-detection",
+      "question": "In the fundamentals session, what two things were compared to look for deception in reasoning models?",
+      "answer": "According to the retrieved meeting notes:\n\nTracking discrepancies between thinking trace and explicit model output [Pd3902efa8beb]",
+      "semantic_verdict": "PASS",
+      "citation_pair_checks": [
+        {
+          "claim": "Tracking discrepancies between thinking trace and explicit model output",
+          "source_id": "Pd3902efa8beb",
+          "quote": "Tracking discrepancies between thinking trace and explicit model output",
+          "pair_valid": true
+        }
+      ],
+      "passage_fidelity": [
+        {
+          "id": "Pd3902efa8beb",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P6641881a8987",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P19588883e584",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "source_matches": true,
+          "hash_matches": true
+        }
+      ],
+      "attempt_count": 1,
+      "card_sha256": "fd449c84585b0e9633f0f89f655ac0df0b623bd804d18e5617efd5c5086effad"
+    },
+    {
+      "case": "03-physical-defenses",
+      "question": "What physical or human controls did the infrastructure workshop propose to stop software from taking over?",
+      "answer": "According to the retrieved meeting notes:\n\nProposed defense mechanisms include Physical fail-safes with human override capabilities [P571ac3d9e151]\n\nProposed defense mechanisms include Multiple humans in decision loops [P571ac3d9e151]\n\nProposed defense mechanisms include Physical buttons/levers to shut off software entirely [P571ac3d9e151]",
+      "semantic_verdict": "PASS",
+      "citation_pair_checks": [
+        {
+          "claim": "Proposed defense mechanisms include Physical fail-safes with human override capabilities",
+          "source_id": "P571ac3d9e151",
+          "quote": "1. Physical fail-safes with human override capabilities",
+          "pair_valid": true
+        },
+        {
+          "claim": "Proposed defense mechanisms include Multiple humans in decision loops",
+          "source_id": "P571ac3d9e151",
+          "quote": "2. Multiple humans in decision loops",
+          "pair_valid": true
+        },
+        {
+          "claim": "Proposed defense mechanisms include Physical buttons/levers to shut off software entirely",
+          "source_id": "P571ac3d9e151",
+          "quote": "3. Physical buttons/levers to shut off software entirely (airplane example)",
+          "pair_valid": true
+        }
+      ],
+      "passage_fidelity": [
+        {
+          "id": "P571ac3d9e151",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P0796ce4b536c",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd36e317f50b9",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P9e2cc541c9bc",
+          "source_matches": true,
+          "hash_matches": true
+        }
+      ],
+      "attempt_count": 1,
+      "card_sha256": "566110cf222be77751ecff83cf4c01bb1cf5acb656a08231a8cfa3fa86df5b89"
+    },
+    {
+      "case": "04-unsupported",
+      "question": "What exact annual dollar budget was approved for the international AI treaty organization discussed in the alignment lecture?",
+      "answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "semantic_verdict": "PASS",
+      "citation_pair_checks": [],
+      "passage_fidelity": [
+        {
+          "id": "P9e2cc541c9bc",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P393649e8c594",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "Pd3902efa8beb",
+          "source_matches": true,
+          "hash_matches": true
+        },
+        {
+          "id": "P571ac3d9e151",
+          "source_matches": true,
+          "hash_matches": true
+        }
+      ],
+      "attempt_count": 1,
+      "card_sha256": "6c4cda26e77cc6f24fedb6e66401a9524bdd91a6faf5789e84920c124ec9d343"
+    }
+  ],
+  "code_sha256_at_review": "bc42a74f3dfcbb4373a75647e80d95cf7ec5be0a03525017d1f9152ad9d13f4b"
+}

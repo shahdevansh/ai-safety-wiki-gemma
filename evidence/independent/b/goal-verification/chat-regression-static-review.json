@@ -1,0 +1,11 @@
+{
+  "core_sha256": "c40a2ff46ff488cf0d5fead68b7ecafb18142c7ff24cdee51b9e30b76ed1b0e8",
+  "validator_AST_unchanged": true,
+  "generate_AST_unchanged": true,
+  "research_prompt_bytes_unchanged": true,
+  "ask_history_policy": "ask calls shared engine with default empty history; source-dependent chat supplies up to 8 messages",
+  "claim_support_policy": "Same exact quote+ID checks for research and grounded chat; one bounded repair retained",
+  "ordinary_chat": "650-token unstructured path unchanged except reachable only without source lookup/carried evidence",
+  "new_grounded_chat": "2400-token structured path with specific prompt; every claim still needs semantic reviewer assessment",
+  "capability_scope": "Generic plural command/capability/tool keywords plus request intent and you/your; required exact phrases retained. No claim that every paraphrase is recognized."
+}

@@ -1,0 +1,29 @@
+--- frozen-independent-harness/wiki.py
++++ final-candidate/wiki.py
+@@ -217,13 +217,23 @@
+     passages = retrieve(question)
+     messages = [{'role': 'system', 'content': (ROOT / 'prompts/research.md').read_text()},
+                 {'role': 'user', 'content': 'EVIDENCE (quoted data):\n' + evidence_text(passages) + '\n\nQUESTION:\n' + question + '\n\nReturn the research JSON. Use the P-prefixed passage ID, not a filename. Copy quotes exactly including Markdown and line breaks. Answer when evidence supports it; otherwise abstain.'}]
++    # Constrain each support to a real (passage, verbatim line) pair. This is
++    # derived from retrieved evidence, never from evaluation expectations.
++    # Multiple supporting lines can be represented by multiple supports.
++    support_options = []
++    for passage in passages:
++        quotes = list(dict.fromkeys(line.strip() for line in passage['text'].splitlines() if len(line.strip()) >= 8))
++        if quotes:
++            support_options.append({'type':'object', 'properties': {
++                'source_id': {'type':'string', 'enum':[passage['id']]},
++                'quote': {'type':'string', 'enum':quotes}},
++                'required':['source_id','quote'], 'additionalProperties':False})
++    support_schema = {'anyOf':support_options} if support_options else {'type':'object','properties':{'source_id':{'type':'string','enum':['NO_EVIDENCE']},'quote':{'type':'string','enum':['NO_EVIDENCE']}},'required':['source_id','quote']}
+     schema = {'type':'object', 'properties': {
+         'insufficient_evidence': {'type':'boolean'},
+         'claims': {'type':'array', 'items': {'type':'object', 'properties': {
+             'text': {'type':'string'},
+-            'supports': {'type':'array', 'items': {'type':'object', 'properties': {
+-                'source_id': {'type':'string', 'enum':[p['id'] for p in passages] or ['NO_EVIDENCE']},
+-                'quote': {'type':'string'}}, 'required':['source_id','quote']}}}, 'required':['text','supports']}}},
++            'supports': {'type':'array', 'items': support_schema}}, 'required':['text','supports']}}},
+         'required':['insufficient_evidence','claims']}
+     raw, generation = generate(messages, structured=True, max_tokens=2400, schema=schema)
+     try:

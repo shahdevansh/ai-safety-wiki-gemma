@@ -1,0 +1,82 @@
+[
+  {
+    "record": "records/ask-1-assistance-objective.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 16.585,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-2-infrastructure-controls.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 17.621,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-3-alignment-interpretability.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 10.297,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-4-unsupported-schedule.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 10.657,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/ask-chat-isolation.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 9.004,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-03.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 2.684,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-04.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 1.663,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  },
+  {
+    "record": "records/chat/chat-05.json",
+    "attempt_count": 1,
+    "completed_generation_count": 1,
+    "all_attempt_seconds": 2.14,
+    "attempt_errors": [
+      []
+    ],
+    "repair_errors": []
+  }
+]

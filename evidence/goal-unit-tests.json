@@ -1,0 +1,8 @@
+{
+  "command": "python3 -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "tests_run": 17,
+  "elapsed_seconds": 3.246,
+  "harness_sha256": "a00342076c80b8142fd456c842fcc25f11e940a2f2d7e70cfee449cb8a35b444",
+  "scope": "Observed local unit-test command. Stubs verify harness control flow only; actual Gemma evaluations are separate."
+}

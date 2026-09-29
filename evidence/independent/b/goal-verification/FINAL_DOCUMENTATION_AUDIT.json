@@ -1,0 +1,110 @@
+{
+  "scope": "Documentation-only final audit; no model calls or root edits. Authenticated post-upload delivery verification is parent pending work and not certified here.",
+  "docs_reviewed_sha256": {
+    "README.md": "e4c6ae27e10aa34123e45d5187b3a7f870f6d3f2de1feb53516db9de00599e7e",
+    "evidence/GOAL-REVIEW.md": "079b5d1e2efd818f4056a6cf95f4214a39b7428646f2ffdffe5469edc68bd508",
+    "evidence/assignment-checklist.md": "a4daa9169748ef6a6288108a10ce9a977288d5fd6776c79abb4c75b87039cad6",
+    "evidence/obsidian/README.md": "0576a3e957703b6d4251191bd485738cb654019e3e5cf5ddaf31bc0668e98a82"
+  },
+  "required_asks": [
+    {
+      "case": "01-assistance-game",
+      "all_passages_exact": true,
+      "citations_exact": true,
+      "attempts": 1,
+      "model_seconds": 12.963,
+      "semantics": "PASS"
+    },
+    {
+      "case": "02-deception-detection",
+      "all_passages_exact": true,
+      "citations_exact": true,
+      "attempts": 1,
+      "model_seconds": 14.412,
+      "semantics": "PASS"
+    },
+    {
+      "case": "03-physical-defenses",
+      "all_passages_exact": true,
+      "citations_exact": true,
+      "attempts": 1,
+      "model_seconds": 11.753,
+      "semantics": "PASS"
+    },
+    {
+      "case": "04-unsupported",
+      "all_passages_exact": true,
+      "citations_exact": true,
+      "attempts": 1,
+      "model_seconds": 12.646,
+      "semantics": "PASS"
+    }
+  ],
+  "verified_metrics": {
+    "ingest_model_sum": 27.512999999999998,
+    "ingest_whole_operation": 28.696,
+    "max_sample_sum_rss": 5175361536,
+    "max_sample_sum_rss_GiB": 4.8199310302734375,
+    "ingest_peak_cli_MiB": 18.921875,
+    "first_ask_peak_cli_MiB": 19.328125
+  },
+  "current_reviewed_page_hashes": [
+    {
+      "title": "Assistance Games",
+      "final_hash_matches_review_record": true,
+      "reviewed_marker": true
+    },
+    {
+      "title": "Compute Governance",
+      "final_hash_matches_review_record": true,
+      "reviewed_marker": true
+    },
+    {
+      "title": "Transformer Safety Limits",
+      "final_hash_matches_review_record": true,
+      "reviewed_marker": true
+    },
+    {
+      "title": "Alignment and Interpretability",
+      "final_hash_matches_review_record": true,
+      "reviewed_marker": true
+    },
+    {
+      "title": "Human Control and Defenses",
+      "final_hash_matches_review_record": true,
+      "reviewed_marker": true
+    },
+    {
+      "title": "Power and Disempowerment",
+      "final_hash_matches_review_record": true,
+      "reviewed_marker": true
+    }
+  ],
+  "source_catalog_screenshot": "Visually inspected recapture: final three hashes match manifest; no direct PII visible.",
+  "private_delivery_record": "Correctly states visibility verified, payload upload not yet verified.",
+  "B_summary_accurate": true,
+  "findings": [
+    {
+      "claim": "What someone prefers might not be good for them",
+      "cited_id": "P4f87872fbb73",
+      "cited_lines": [
+        38,
+        56
+      ],
+      "cited_passage_supports_claim": false,
+      "actually_supporting_id": "Pd36e317f50b9",
+      "actually_supporting_text_present": true,
+      "type": "Correct retrieved-context fact with incorrect specific citation location; membership-only check misses it."
+    },
+    {
+      "type": "Small exact-command documentation fix",
+      "location": "README: inline chat script example",
+      "detail": "Use ./wiki chat --script ..., not bare chat --script ..."
+    },
+    {
+      "type": "Historical/current evidence link clarification",
+      "location": "evidence/obsidian/README.md",
+      "detail": "Link current goal-editorial-review.json instead of earlier editorial-review.json when identifying final reviewed-page hashes."
+    }
+  ]
+}

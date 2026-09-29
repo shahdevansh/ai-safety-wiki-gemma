@@ -1,0 +1,14 @@
+$ /Library/Developer/CommandLineTools/usr/bin/python3 <evaluation>/goal-verification/final-run/workspace/wiki.py chat --save-dir <evaluation>/goal-verification/final-run/heldout-chat/H1-domain-draft
+STDIN:
+Write a two-sentence invitation to a casual study group on AI alignment. Invent no venue, date, or participant details.
+/exit
+
+Pip | chat | local | gemma4:e2b-it-qat
+/exit to end; /reset clears conversation. Chat never becomes searchable source evidence.
+You> Pip | chat | local | gemma4:e2b-it-qat
+
+Suggestion: Join our casual study group to discuss the fascinating and complex topic of AI alignment. Come share your thoughts and learn alongside others in this engaging conversation.
+
+Model time: 1.032 s
+You> 
+STDERR:

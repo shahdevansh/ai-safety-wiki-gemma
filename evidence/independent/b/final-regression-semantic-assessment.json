@@ -1,0 +1,179 @@
+{
+  "reviewed_at_utc": "2026-09-29T07:42:46.598139+00:00",
+  "final_code_sha256": "bc42a74f3dfcbb4373a75647e80d95cf7ec5be0a03525017d1f9152ad9d13f4b",
+  "current_candidate_matches_tested_code": true,
+  "unchanged_expectations_sha256": "12ccd4cc38ede6349c91b005f85e5ce8cab0b06fedaef7c25012dbd8fbe24097",
+  "main_case_passes": 4,
+  "extra_case": "PARTIAL, with reduced completeness",
+  "actual_model_generations": 18,
+  "final_b_cases": [
+    {
+      "id": "B01-values",
+      "question": "Which two obstacles do the alignment notes identify when aligning AI to general human values?",
+      "verdict": "PASS",
+      "retrieval_expected_sources_present": true,
+      "answer": "According to the retrieved meeting notes:\n\nAligning to “general human values” produces Western/English-skewed outputs [P6641881a8987]\n\nNo consensus on what those values even are [P6641881a8987]",
+      "citations": [
+        {
+          "claim": "Aligning to “general human values” produces Western/English-skewed outputs",
+          "source_id": "P6641881a8987",
+          "quote": "Aligning to “general human values” produces Western/English-skewed outputs",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        },
+        {
+          "claim": "No consensus on what those values even are",
+          "source_id": "P6641881a8987",
+          "quote": "No consensus on what those values even are",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        }
+      ],
+      "attempt_count": 1,
+      "coverage": [
+        "PASS: every frozen expected claim"
+      ],
+      "comparison_to_initial": "Core verdict unchanged"
+    },
+    {
+      "id": "B02-mountaintop",
+      "question": "Why might taking someone straight to the mountaintop fail to respect what they want from the climb?",
+      "verdict": "PASS",
+      "retrieval_expected_sources_present": true,
+      "answer": "According to the retrieved meeting notes:\n\nOutcomes matter, but so does agency when comparing climbing Everest versus being helicoptered to the top. [P9e2cc541c9bc]\n\nClosing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal. [P9e2cc541c9bc]",
+      "citations": [
+        {
+          "claim": "Outcomes matter, but so does agency when comparing climbing Everest versus being helicoptered to the top.",
+          "source_id": "P9e2cc541c9bc",
+          "quote": "Climbing Everest vs. being helicoptered to the top: outcomes matter, but so does agency",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        },
+        {
+          "claim": "Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal.",
+          "source_id": "P9e2cc541c9bc",
+          "quote": "Closing off “exits” (non-optimal choices) violates autonomy even if outcomes are optimal",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        }
+      ],
+      "attempt_count": 1,
+      "coverage": [
+        "PASS: every frozen expected claim"
+      ],
+      "comparison_to_initial": "Core verdict unchanged"
+    },
+    {
+      "id": "B03-oversight",
+      "question": "How do the notes contrast the ICAO/IMO and IAEA approaches to AI oversight?",
+      "verdict": "PASS",
+      "retrieval_expected_sources_present": true,
+      "answer": "According to the retrieved meeting notes:\n\nICAO/IMO model: regulate the national regulators; hands-off, less intrusive [P9e2cc541c9bc]\n\nIAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction) [P9e2cc541c9bc]",
+      "citations": [
+        {
+          "claim": "ICAO/IMO model: regulate the national regulators; hands-off, less intrusive",
+          "source_id": "P9e2cc541c9bc",
+          "quote": "- ICAO/IMO model: regulate the national regulators; hands-off, less intrusive",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        },
+        {
+          "claim": "IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)",
+          "source_id": "P9e2cc541c9bc",
+          "quote": "- IAEA model: direct inspection powers, can enter facilities and seize files; strictly stronger but politically harder (US won’t accept jurisdiction)",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        }
+      ],
+      "attempt_count": 1,
+      "coverage": [
+        "PASS: every frozen expected claim"
+      ],
+      "comparison_to_initial": "Core verdict unchanged"
+    },
+    {
+      "id": "B04-next-workshop",
+      "question": "What is the date, start time, and room number of the next AI safety workshop?",
+      "verdict": "PASS",
+      "retrieval_expected_sources_present": true,
+      "answer": "Insufficient evidence: the provided sources do not answer this question.",
+      "citations": [],
+      "attempt_count": 1,
+      "coverage": [
+        "PASS: every frozen expected claim"
+      ],
+      "comparison_to_initial": "Core verdict unchanged"
+    },
+    {
+      "id": "B05-two-source",
+      "question": "According to these notes, how do cultural skew and preference manipulation complicate deciding whose interests an AI should serve?",
+      "verdict": "PARTIAL",
+      "retrieval_expected_sources_present": true,
+      "answer": "According to the retrieved meeting notes:\n\n“Values” triggered culture-war reactions [Pd36e317f50b9]\n\n“Stated preferences” are easily manipulated [Pd36e317f50b9]\n\npreferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences) [Pd36e317f50b9]",
+      "citations": [
+        {
+          "claim": "“Values” triggered culture-war reactions",
+          "source_id": "Pd36e317f50b9",
+          "quote": "“Values” triggered culture-war reactions",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        },
+        {
+          "claim": "“Stated preferences” are easily manipulated",
+          "source_id": "Pd36e317f50b9",
+          "quote": "“Stated preferences” are easily manipulated",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        },
+        {
+          "claim": "preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)",
+          "source_id": "Pd36e317f50b9",
+          "quote": "preferences are shaped by external parties (e.g., patriarchal societies shaping women’s preferences)",
+          "exact_quote_in_cited_passage": true,
+          "passage_matches_original_lines": true,
+          "semantic_support": "PASS"
+        }
+      ],
+      "attempt_count": 1,
+      "coverage": [
+        "FAIL: Western/English skew and lack of consensus both omitted",
+        "PASS: preferences can be manipulated or externally shaped",
+        "FAIL: conflicting interests among multiple humans omitted"
+      ],
+      "comparison_to_initial": "Worse completeness: initial answer included Western/English skew; final answer drops it and cites only the lecture source."
+    }
+  ],
+  "mode_checks": {
+    "capabilities_skip_retrieval": true,
+    "draft_and_followup_skip_retrieval": true,
+    "draft_words": 98,
+    "shorter_words": 43,
+    "ask_after_chat_abstains": true,
+    "chat_only_fact_not_searchable": true,
+    "notes_chat_retrieves_and_cites": true
+  },
+  "reingestion": {
+    "originals_unchanged": true,
+    "same_note_paths": true,
+    "notes_byte_identical": true
+  },
+  "isolation": {
+    "server_pid": 21494,
+    "server_exit_code": 0,
+    "command_exit_code": 0,
+    "endpoint": "http://127.0.0.1:11435",
+    "cloud_disabled": true,
+    "server_and_cli_share_profile": true,
+    "server_launched_fresh": true,
+    "server_stopped_after_run": true,
+    "model_children_inherit_os_sandbox": true
+  }
+}

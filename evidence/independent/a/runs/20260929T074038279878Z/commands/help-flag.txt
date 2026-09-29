@@ -1,0 +1,26 @@
+$ 'python3' 'wiki.py' '--help'
+CWD: <evaluation>/runs/20260929T074038279878Z/project
+usage: wiki.py [-h] {help,doctor,reindex,ingest,review,ask,search,chat} ...
+
+Pip: local Gemma personal wiki. No cloud fallback; Python standard library
+only.
+
+positional arguments:
+  {help,doctor,reindex,ingest,review,ask,search,chat}
+    help                Show commands
+    doctor              Inspect local model and device
+    reindex             Rebuild original-source retrieval without calling
+                        Gemma
+    ingest              Generate wiki drafts and index registered originals
+    review              Explicitly mark a checked wiki page as reviewed
+    ask                 Independent grounded answer
+    search              Original passages; no model call
+    chat                Conversational assistant; /exit to end, /reset to
+                        clear history
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+STDERR:
+
+EXIT: 0

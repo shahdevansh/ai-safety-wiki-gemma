@@ -1,0 +1,24 @@
+{
+  "reviewed_at_utc": "2026-09-29T08:13:46.635585+00:00",
+  "files_sha256": {
+    "wiki.py": "640884e09d7be392cad6df4d8d2421d6879006b466bda8e7b5e3101a18da6826",
+    "prompts/research.md": "4d531737c34fc85b5eaa128b96510404a9ce4c7efaff037b4c5e89b69cb2897c",
+    "prompts/persona.md": "2c659d4b2be20a2673abd1fca89f3e6765c4a40febb267998d4299440152b069",
+    "source-manifest.json": "1299471916c7d26aeb14cc9318662ed81dfe2f05216ced8baaee038f7d4eed94",
+    "scripts/assignment_demo.sh": "85954547c7c4ffea8f3ca3b7ff5871115c5a85796969f48cc94c3e0636bedb7d",
+    "scripts/verify_vault.py": "6ae9e05c15c868d522bc2231c589915cab2c9e785b51186b78a9760e6ba32fd6",
+    "scripts/device_snapshot.py": "4e9579af5217fcd143150b99ce90119c826deb5aa11afc7afe9217dccf3ecbc8",
+    ".state/README-next.md": "c41e13fa2f10f6778d5fbcd59297b63fe6bf4ee85bd784d6bbf1ab54d2f4f29e"
+  },
+  "findings": {
+    "generic_completeness_prompt": true,
+    "no_test_or_expected_answer_access": true,
+    "validator_not_relaxed": true,
+    "repair_bounded_to_one": true,
+    "all_attempts_retained": true,
+    "source_presentation_exact_json_records": true,
+    "router_generic_source_reference_nouns": true,
+    "scripted_reset_advances_counter": true
+  },
+  "proof_boundary": "Static review is not semantic evidence. Actual-model results pending."
+}

@@ -1,0 +1,1790 @@
+[
+  {
+    "file": "evidence/independent/a/goal-verification/approved-run.json",
+    "original_private_sha256": "dd0b71e49ba58cb5f24e7f05b7363f387cd783bc750fd60e8e96d12ce2014024",
+    "redacted_sha256": "383f0f561f89203b14f77a8facaee2f4615f9c7a5ad0625cf99c9b9a999de63d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/final-core-approved-run.json",
+    "original_private_sha256": "bc0f61296d3e9ea7e5d798502753e9ddcc888548801d518a9ad65c11cdb12943",
+    "redacted_sha256": "0e9a1b40e1b67c05bb265564838815f0dfcb15a787b6c38cf25b3a1377123e45",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/test_plan.md",
+    "original_private_sha256": "eb05820a1313f8fdb51e531352c307ffe8277a2b7b4b3d319249117ebdb4d8e6",
+    "redacted_sha256": "a256ffa1e9ce42ea1b946d40e3ea8e92461100bac031af693c2736dc3988e79c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/cases.json",
+    "original_private_sha256": "401189badc3052e89ded6cd1451067394a981a08c381aa1af66a7d6ba9b6f571",
+    "redacted_sha256": "a7a7b004b3e225ea8656c4ec3534326b88be05844c16201b33ad010e10731140",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/privacy-final-approved-run.json",
+    "original_private_sha256": "1b4d8ac3cc79433fde5c67ee4bf16c16ac43f33b5ba625daec9eb126148c6c8d",
+    "redacted_sha256": "67a685c27fc0d9c49175a1915d4d766803458463bee5466a02b5786863196020",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/summary.json",
+    "original_private_sha256": "7bea376158c90f01dfbf4daa8a89f4b5cf2214e824b90c4de26feeac3047a74b",
+    "redacted_sha256": "f2ec9caba9eb92ae28ba12b17e34f32a7971d6dd38b45d112e505852675eef79",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/test_plan.md",
+    "original_private_sha256": "eb05820a1313f8fdb51e531352c307ffe8277a2b7b4b3d319249117ebdb4d8e6",
+    "redacted_sha256": "a256ffa1e9ce42ea1b946d40e3ea8e92461100bac031af693c2736dc3988e79c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/configuration.json",
+    "original_private_sha256": "1b4d8ac3cc79433fde5c67ee4bf16c16ac43f33b5ba625daec9eb126148c6c8d",
+    "redacted_sha256": "67a685c27fc0d9c49175a1915d4d766803458463bee5466a02b5786863196020",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/cases.json",
+    "original_private_sha256": "401189badc3052e89ded6cd1451067394a981a08c381aa1af66a7d6ba9b6f571",
+    "redacted_sha256": "a7a7b004b3e225ea8656c4ec3534326b88be05844c16201b33ad010e10731140",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/review.md",
+    "original_private_sha256": "f7367d308d5e33b0c60ec621213687fe2ef2094bb49aed0a99aedc7df6160faa",
+    "redacted_sha256": "031dcc92f953fd4ac59d31b4453d30952f532c4934936d0bb6f249902728992b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-chat-isolation.json",
+    "original_private_sha256": "91b62c196c98e22c325510512b480f9c44b2ba7d1bcc1c303372091fb34c394c",
+    "redacted_sha256": "1ff8db1bcced114c2e873700564cfb03a99a8428f99d7ecd6d6144c5e1e32012",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-4-unsupported-schedule-retrieval.txt",
+    "original_private_sha256": "1b1e49818ce3f327f437b2217eb01fcd0395e51068ad3298c64dc390d1188431",
+    "redacted_sha256": "5b59fa847d5719e9b3d266449c7ae6a810f6e506fbc38113f6aa8c4d7c4bb500",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-2-infrastructure-controls.json",
+    "original_private_sha256": "cd5967e94902869986e23b2db0327e9358b1b4f12e94ea5a071f9a8dfecee6e7",
+    "redacted_sha256": "68bb1f9939e378a3e38ee2ad3bf86a53cb14f65861d8e2f3c1689d6462a20c11",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/help-command.json",
+    "original_private_sha256": "3fb659662ef06bca4dd4f14acab67e670ec5dd5dd5a933ea0624cdaf04d5d1a9",
+    "redacted_sha256": "461fcba3cc6ca975e92490788b29f4522da897594cf06bfaa3cd36113da47f67",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-4-unsupported-schedule-retrieval.json",
+    "original_private_sha256": "2a61126bddde542e3aee0a1da929ddcdcc79330d0a31074ef38cb64784814207",
+    "redacted_sha256": "54148e10406ab6989e088e6aeb0f4e86c93caf8744417b4dbaba492bc3e61b97",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-chat-isolation.txt",
+    "original_private_sha256": "f1b5d6cc9f3da95d4fd8c5fe1f695a434bc823ea77be8c605e2ddee726f38976",
+    "redacted_sha256": "690d85eb3ed77d5386139f369a82927323a40704fbc749456c373424855e0701",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/chat-script.json",
+    "original_private_sha256": "4e47b1b957337db0051047781cd14cae117f0a3d941c9c3316145005e144135d",
+    "redacted_sha256": "2f0794160f9d73b79d1226cf5d49d569e50e58d5a5bd0021f3bd792c58aacd7a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/help-command.txt",
+    "original_private_sha256": "a34cf209ef52feaf1880481f78f787cc4f4e113afb8d13b708cc52a170e9cd90",
+    "redacted_sha256": "483a91461ddfd6a1d65d1badb4f8cce0372791a7050b6ed4c82fc87dd3d62a87",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/help-ingest.json",
+    "original_private_sha256": "3437e87cb71a25a94af869b129c6b61cd467ea81aeef1c33f1269a9b5c4df9f8",
+    "redacted_sha256": "3147094939b32f2cdcc26c7155ca62a48b5128d63419967ffa1d8e4302ab0532",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-1-assistance-objective.json",
+    "original_private_sha256": "ecefbe9414e50df225cc6c02fa5bf7ebeeba1ec88abf1f66b767e2f98578315f",
+    "redacted_sha256": "3656c17b7d3dda249b3b3e1d3b15545e4b85a9451df067a958605fc73e680d40",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-2-infrastructure-controls.txt",
+    "original_private_sha256": "87e8ae5a242e7efdf6ccfa88bbcaabf6b4db2c298abb971eea10dc6f23a0e148",
+    "redacted_sha256": "fd512eae0891342c9aa62def50987bfcf16de7f1e5504d5dd30207dd86cec732",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/search-original.json",
+    "original_private_sha256": "91c015abcfc90ba00c37c3ca8c11da8a629c6cac1605623c468776355743ca44",
+    "redacted_sha256": "18116158352a15c8da950d1f9d33beef5c82fe4f0aeb777b18758d683bc3f22b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/search-original.txt",
+    "original_private_sha256": "5bbe898b39883e09c0f2bcc86a3af5521af1842adef0e3358407eddf2dd3b026",
+    "redacted_sha256": "63e7d6407c777a519f77e8e6343567d9a3560187a0a5e2a905395cbe77d42aac",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-1-assistance-objective.txt",
+    "original_private_sha256": "f583a0334db5c4c30ee14044ebbc61013f2857a515eb27becca0781c5dc654c2",
+    "redacted_sha256": "53af9097b61b45a77e30e570c61388fd728c39b317f38bb9415f68b7d0caaadb",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/heldout-1-distinct-reasons-retrieval.json",
+    "original_private_sha256": "93ea875a92225147592dc0c18c1038eb77148c7ae955425d863dd320ffbad2c2",
+    "redacted_sha256": "078b3d26b3c927cac3e612601fb005137e25c61ccc574f2518caa79b8ceaf680",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-4-unsupported-schedule.json",
+    "original_private_sha256": "9196cbde9ae0b397eefd7f058f48ba1b6b7f0089106f2210e4a9e174555280d5",
+    "redacted_sha256": "ba2d704915c96267bcf0ab1b5809296799709d463099826d30af671a165da7c5",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-2-infrastructure-controls-retrieval.txt",
+    "original_private_sha256": "d863ab3c5783738819071bb26bd4563982877002ec65e4544ed4de056567d226",
+    "redacted_sha256": "68465c47cd828a3c4b1e700e01e696bf649060921b07cf5e4c8774a137d95368",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ingest-repeat.json",
+    "original_private_sha256": "4368e40d2781aaa905cbe9128fe3efe1388c0b2135d20bfa6ca957b2dd8f46b6",
+    "redacted_sha256": "fb31cc1375e96b140027b3b1e757223e117e26ab1d159425962c5a01bfc4106b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/help-flag.txt",
+    "original_private_sha256": "11f1812f5b5ed243db28f8a483509b515d533a11e3538c8dfecb5ed1bfc0e6c5",
+    "redacted_sha256": "8787f45e976d2fdbe0b54827dd92636613eab95ce2f17ce97785c9224e9a2ebd",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-3-alignment-interpretability-retrieval.txt",
+    "original_private_sha256": "bcf475a75b496600d13484978fd90793f60d37ae764b9b7a9d6549cc44d5226e",
+    "redacted_sha256": "a822bdc3e1cc6cbacd8af1181e8cd33bd6d4130bfa6e77165408ee17dece2353",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/help-ingest.txt",
+    "original_private_sha256": "7f08bea143fc0c9e0588dbcbe0decf63502b499a90ea4591c87d7f94c86579bb",
+    "redacted_sha256": "979fb2e9ab00c826a44e4ab0d150cb8036b84a566b21097d4a3f6f5bb5a28a15",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ingest-repeat.txt",
+    "original_private_sha256": "e0d69fd2293543de547cd13322016aa6b9d6460e88fc2e3e16d939f61aa64623",
+    "redacted_sha256": "884640d7a44368141a86c4301cc7be5be3bf01156113111f842b42ce11af8f8a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ingest-literal-path.txt",
+    "original_private_sha256": "309251d12e4869e4e4bbf195eac8413e06d76beb52256e927167ced18f9d221c",
+    "redacted_sha256": "8dc2e7e36608ac1d59775d8ebcd8415e1e57ae2637bbd677b9ba363b7ccd8338",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-4-unsupported-schedule.txt",
+    "original_private_sha256": "e2a0091a7f1385d953b23c90c17460a4781fa5ab22a0136b7ec3925d4028d8b0",
+    "redacted_sha256": "239af0d8a1c8506007fe7d901bb28fbaad0fb6a283f3162895941e20660c01e2",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-3-alignment-interpretability-retrieval.json",
+    "original_private_sha256": "48efcf81a5b091089ef51f5ec86be484ba53fb6bda075cb317633b5d23bc97d1",
+    "redacted_sha256": "d2ecfe11637b2fd3859e6e03adb4583855c99d5e3c1a55eb83d2ce451b780d63",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/help-flag.json",
+    "original_private_sha256": "285a7cd77be58b5b2b995afddea4df6b349039b8eb1ebb5fc5a7e37de6085506",
+    "redacted_sha256": "5859d289e81b7107673503cb1661403b7279b0a2a62c01075ae943ca99be49ec",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-1-assistance-objective-retrieval.json",
+    "original_private_sha256": "61baa271ab81ff6f61ac9149901878d6d337e4e003068a7685d202f259d8303e",
+    "redacted_sha256": "7975a967555a40b64fc3375611d3b8ed9717b0534c28fd512543cf20ed3ac2b4",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-3-alignment-interpretability.json",
+    "original_private_sha256": "f64661ec60bce9aea0f72eb20e49ebeeca2ed20c56362407dd7733772e519637",
+    "redacted_sha256": "d4831245fd7de81e360a8e20388311ab29679ba68135a983e507c5e0102799ac",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-1-assistance-objective-retrieval.txt",
+    "original_private_sha256": "1f0d68751b53adcc9386b87dc6c06162719964aa428d9a7f42814e143d158f1d",
+    "redacted_sha256": "ec121966bb2fd4b571bbc7a7a31c670ce998e7997d3741e393c7a08ef80bcbef",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/heldout-1-distinct-reasons-retrieval.txt",
+    "original_private_sha256": "42a41a075053d2bf403bee7708c3d3df707174396b9965d9bfa8798ff8df3f2d",
+    "redacted_sha256": "7878f6897a8de5e0014ba19fa5fdb3811c4f823db383d5a5ee2d7fc3141ed829",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/chat-script.txt",
+    "original_private_sha256": "2524df7ab7c8d62de8da86f7d600c923591e8f42fd63c41092779213f1b643e1",
+    "redacted_sha256": "b1ee0949f5cf2bf2746211c99f8d578ab7da0bd081cd20800a354bf28f5752b8",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-3-alignment-interpretability.txt",
+    "original_private_sha256": "573e5e6b25f57040e45c62fee798ddd3d5997db3d963f19b2d680b6d9e225958",
+    "redacted_sha256": "e651dd2977cc60ce800183eea4adb28ccd5d400c57dc06a5f232842b6785a9aa",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ingest-literal-path.json",
+    "original_private_sha256": "eb049559e54c2aede59465e3ab9060d2bfc98ba0b16ce3f484e06f58eea47e6b",
+    "redacted_sha256": "ec656c1f96fe9c97ef52b45f1fe1cfdf82b2162b132674744e5c7d6c23dd0d3b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080908505045Z/commands/ask-2-infrastructure-controls-retrieval.json",
+    "original_private_sha256": "087e6809aab7f43d2ec8e38d4d537e73d0bcff483aec9c4cc3f4a4f3609177df",
+    "redacted_sha256": "a4fee12f47852329d5be8209e37c1c48c836002c6ae358c5211d31c1bf2952ea",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/summary.json",
+    "original_private_sha256": "780cd7cb2f0dc1c9843c003a3b7b4223e6faadb954c92dc14f94c488824127db",
+    "redacted_sha256": "ee746cf2ef6397aec73afab82945e5216ccb0f6d3bbd66424ebb964f8f4e2a72",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/test_plan.md",
+    "original_private_sha256": "eb05820a1313f8fdb51e531352c307ffe8277a2b7b4b3d319249117ebdb4d8e6",
+    "redacted_sha256": "a256ffa1e9ce42ea1b946d40e3ea8e92461100bac031af693c2736dc3988e79c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/configuration.json",
+    "original_private_sha256": "bc0f61296d3e9ea7e5d798502753e9ddcc888548801d518a9ad65c11cdb12943",
+    "redacted_sha256": "0e9a1b40e1b67c05bb265564838815f0dfcb15a787b6c38cf25b3a1377123e45",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/cases.json",
+    "original_private_sha256": "401189badc3052e89ded6cd1451067394a981a08c381aa1af66a7d6ba9b6f571",
+    "redacted_sha256": "a7a7b004b3e225ea8656c4ec3534326b88be05844c16201b33ad010e10731140",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/review.md",
+    "original_private_sha256": "f0476b87f276dc3d288bdefce59a32da441e17096979724c9b2b6292e6243513",
+    "redacted_sha256": "3c75b02774fbe26f5a8794d0b8ce577431d4223da7ca132d4ab038f1f17798fd",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-chat-isolation.json",
+    "original_private_sha256": "c122e9ce083e3e412c6b85b075cd27cac72c7f39e776cd6d70f4278abe751c19",
+    "redacted_sha256": "45f61d99ff33b9467544d0017217bb462fce04d5ce281ad135480c7a2c570e98",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-4-unsupported-schedule-retrieval.txt",
+    "original_private_sha256": "cfc41fac465d5b8e579f509edd6e05a6d02f2cc81ddf59cb83c3b5b221c19813",
+    "redacted_sha256": "094c13a841f489c905770deb90f4d7821601aeeee6ebcb66a47119ac40a28fc2",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-2-infrastructure-controls.json",
+    "original_private_sha256": "c8ef79be2e5fc558089a7231c9c8bb45e3d34938a24d32dcf3bd0844da403418",
+    "redacted_sha256": "3c87c4696eb2b6d9b3ef9bef6ec568d3040b98b8f8311ce6ce2adf24096a87d7",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/help-command.json",
+    "original_private_sha256": "ff06fd49fd672a0a92df1c0e518c5d590e5643fc29ed88239828a15274a57cee",
+    "redacted_sha256": "f61dcf9cccb5b8363b9383cff55516793dcb9a149666ae0a37bd37926a6a0a3f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-4-unsupported-schedule-retrieval.json",
+    "original_private_sha256": "933e1406fa80b4eb12c538e5a9289ed9a0b800ba300cf46d138a674ea1e35e99",
+    "redacted_sha256": "e5665853e5fb64f6a419a91dfc8e33adfcee5b721e9e8c4cc5d19ce8fdf242a5",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-chat-isolation.txt",
+    "original_private_sha256": "7be01dc183f3607798b6928db2d8a93ca0f95057f4c48a2d270d206499b53612",
+    "redacted_sha256": "2d19b3741065f815f055d0a669f9ef726114df66cd6e22623ec9f9480475cd5c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-3-hardware-human-override-retrieval.txt",
+    "original_private_sha256": "a9870d7077b0f7907d7d835796e696e2e9033b685d708a7d506989e5f74d486c",
+    "redacted_sha256": "17f2e2bfe4a6eea8f17d4a614b36e25afdda0afd4d597acbbc2d576c28a6feb0",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-4-scenario-versus-measurement-retrieval.json",
+    "original_private_sha256": "6265741df77b5244bcc5096a7c3322cb70457a6d9874adea419c9524982bc5c3",
+    "redacted_sha256": "09d70319e6c0de732d9a4f3cb207bf1305ddccb56c1af98de81094562d23cd2f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/chat-script.json",
+    "original_private_sha256": "9969415c1c8ffb7aeb55e4ec0a7d722d455b7e3883ccafebadc560051fbac584",
+    "redacted_sha256": "948971c6a74a045d28dfd4f742bbf7e9c9529296230a31742a74dfe8583d2875",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-4-scenario-versus-measurement-retrieval.txt",
+    "original_private_sha256": "ea1fe7ad277513964b61fe51ed59428a19db8b91ee7a0d7c6cf84b3e47a467cf",
+    "redacted_sha256": "3a9f7473f436a0c3ed61c19d0930344faf9a12262bb39433cf58017abdcdc7e9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-2-plural-human-objectives-retrieval.json",
+    "original_private_sha256": "60c44d341f494757aaaabe15464fdc5f42c0fa3b07d27e6108763d2150be2159",
+    "redacted_sha256": "5f79c96299d266517cf3522422013c912f1bcf1eda442196578aee344dc15ab5",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-3-hardware-human-override.txt",
+    "original_private_sha256": "2796a66265e8c59c3a9768b2df492e31bfc79b8496dc608cf68fdbca267caf90",
+    "redacted_sha256": "a38acd4c27051cc38e8fabc00fefb8641414dd5cd6eda01aa985f085c1db3c87",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-3-hardware-human-override.json",
+    "original_private_sha256": "a956efb7e304f5d54b8b92216e13934074b6e62c4070a9742b2641f55d080c29",
+    "redacted_sha256": "2f38cd9e89f729ad8034c3c7bae769d231f8f73f0c93c8ce3892b977ecbc1c13",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-chat-reset.txt",
+    "original_private_sha256": "5345b81f0b9537cf3ff0d210f21920babacdc09073e1c44b4e865cc2d3453918",
+    "redacted_sha256": "668e4f0af6a28a1776bac8cb2e4b401d13d1e376feb7c86d2cd39bcd5d6711b7",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/help-command.txt",
+    "original_private_sha256": "73063fdd28356da406be8f4e564ce07db8837ab493ef08bd085e76397d8da298",
+    "redacted_sha256": "2f7f34f448bc8071a7bfb82bbfec63158e099633a04c47458720352e477a9285",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-reset-smoke.txt",
+    "original_private_sha256": "06ee119e567bf163bf48f4ef0fc4a8bc9c857a925c0e9fb4d4e69bae31c9119d",
+    "redacted_sha256": "7801b84fc4455033747e81f7bb64e8a543ae63e2f528adabd17bc92436ae7fcb",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-3-hardware-human-override-retrieval.json",
+    "original_private_sha256": "4cd784e96c7251cbeadb06a99ea9e9cbf10b7c0353b706520c3d9d05413f25fb",
+    "redacted_sha256": "e052fb87f24a8241a3ce89fc3f925367f603855cc5770b4db97e80a07b951ac9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/help-ingest.json",
+    "original_private_sha256": "8a5dbf83bd89a414cf1b87e243e5c8e0fe46b89214a3fb0815f7b949de9d644b",
+    "redacted_sha256": "b47f69115ad1d0426a2080da4eb0c99bdaee21469f5358a6801154ca8f3060bd",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-1-assistance-objective.json",
+    "original_private_sha256": "f130c73878808813cc9f233744894429871f705a2fb527f0c77e440b6696af2d",
+    "redacted_sha256": "27262628c9ce49be8661db0108c356463896633c89a17d02567aa7cb42bb353d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-2-infrastructure-controls.txt",
+    "original_private_sha256": "78b4e86161e6c65a2c308d045b92e45b4db6486837cf68bfea3d9282cfc8f661",
+    "redacted_sha256": "826c3f3092929a87d4c15d731ab7117d0b64b0e6349c681399ffcfc75e1dd7db",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/search-original.json",
+    "original_private_sha256": "3dc32266f26bb2f4cc796bbe0c83cf55381885b2792518737a87ca136c3d4271",
+    "redacted_sha256": "ce565b297ae2950a0c5029bf93889fedef458d8fdc1271f3fbeb2a6352bee00c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/search-original.txt",
+    "original_private_sha256": "e8c08d611f4f3f9784a5d56a63f9abcc074ae1bca3714e4214a5cb58c093fa40",
+    "redacted_sha256": "b2c64dbe38ae7f82b0d28bcad48b6a458174078a4956d6f4ee6786d4fdb88c52",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-1-assistance-objective.txt",
+    "original_private_sha256": "2dd88efdbb98e04422969e6144627237877ed9f2dca31a86eb69d88ee73d9eb5",
+    "redacted_sha256": "029c18733ec392a2e6a82212153e25182201403b5b1321d403c084f562508058",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-chat-note-routing.json",
+    "original_private_sha256": "e93d168396327df1dda03daa1d56ae728f86edc4fd506b2d4d1653ee70751609",
+    "redacted_sha256": "c5d67b654ca8c3d080ce169ec4d50f771e8a479cd6e700b65abb7b92e4c3389e",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-1-distinct-reasons-retrieval.json",
+    "original_private_sha256": "6b314b236d46d41d82aa6b5f83423c7f7c330feff14a9bbda97d3f9949146928",
+    "redacted_sha256": "2d4830f023a347d799258d7e3a8eec1500aeab570966d924acbf9ea44e0db0b9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-4-unsupported-schedule.json",
+    "original_private_sha256": "27a1c86444ee131cf9473d455984e3a4174342a93ae4f79c4c18be7a72ed2795",
+    "redacted_sha256": "0732e5cf761998a11fed015fe01c5713b37c10a9fc3030a8213c8e4f1dc00b87",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-2-infrastructure-controls-retrieval.txt",
+    "original_private_sha256": "3e2684d3b69c94188ac7eb1e6d3d42fa0793c79638553ebe4568f9935a2e8bd0",
+    "redacted_sha256": "e3f10f845424c2a93d5e21916ba63a3633f57551b69084c7739817f61c56ac41",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ingest-repeat.json",
+    "original_private_sha256": "92fc3c79495e137eefa2b5942e5c26704ee2444f1cf1b118647634ad4eff47a7",
+    "redacted_sha256": "c448607ab3815b1b0b00f5e1d768f37ce8e225981d0c26f0772aefa40242eb32",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-1-distinct-reasons.json",
+    "original_private_sha256": "75df567f8acbe2865f23ed4c151cd3692d6b11aa8ec2151e2e3dc5cb8a545b91",
+    "redacted_sha256": "0164d860363bd6fd8225171d5a8a6a6e264e11befacb4d0c0f2314006a9f4cdd",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-2-plural-human-objectives.json",
+    "original_private_sha256": "1d3b8bd64583005aff41b9b8a69cc67b7199a70fbb27d716a35719e05471601c",
+    "redacted_sha256": "403c1ee95a47c2455c00b11cd30714e45f3fea22d4fbf8c8e5b8ae31234a0c2a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-reset-smoke.json",
+    "original_private_sha256": "aea68a77a9a583a4704816d7723766a93d61c8404295e19c2f23e00e64578158",
+    "redacted_sha256": "a285be3f27a4fe1bc90ff979d31ca62e67679bbb9af4b888332ae69afd85b6c9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/help-flag.txt",
+    "original_private_sha256": "e0605cc8b0dd3912776f471165bc0a5a36d190388c9dceb52d5b0fad60669f31",
+    "redacted_sha256": "2b41ffd3dc3a6d5a6fef601f0aa16b483e98595241df8f9330db99d2a0845b84",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-3-alignment-interpretability-retrieval.txt",
+    "original_private_sha256": "a3bb9b5da295ffa2f716f9655369d676c1e1807e9c7bf135e57b73897ceb1c52",
+    "redacted_sha256": "e021e8f3afa6747fbc469000d7c98753c79b334a78867add2c738a56f2de7571",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/help-ingest.txt",
+    "original_private_sha256": "1d0076cd290e690a919cc18bd682203721c669ff642b9caa4f5508d571c374fd",
+    "redacted_sha256": "e8e8806eb2bedcb62c1120975abc5f05eddcc6076e9ea9d5351de0b0783fb59b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ingest-repeat.txt",
+    "original_private_sha256": "bb656cdbab7c336a6c0b0f9482d1cc8b80d6d52d367580e571833c8b38f871f1",
+    "redacted_sha256": "d8fe293080944acddf4fcc777387ebf13e854ba751bbfad90e8997b31d2c5d38",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/search-model-unavailable-direct.json",
+    "original_private_sha256": "62cc7b6d35eb97b8057e916ca39a88639c5c2542c8541e7ef9280d37216b4fab",
+    "redacted_sha256": "541f540dff55e9fca02fbf968b0569078633981bf6bee3efc9eb38b946b86486",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ingest-literal-path.txt",
+    "original_private_sha256": "36e900a667655ef974b630413c8ab91c9f20a835b1b57db6f2490ae1552915bd",
+    "redacted_sha256": "fdb17e6834cef35232f5c33f4106a4dd8efa56d104033ea9bbe2c2a81a53e22d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-4-unsupported-schedule.txt",
+    "original_private_sha256": "13a9c9714df93d8ecf0e12973d42c4ebd9250c039dd205cae05b4e50d1984232",
+    "redacted_sha256": "de5aac9692870f5edd226c82ab922c421881a24683a00e1e7c8b34a698f1db86",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-chat-reset.json",
+    "original_private_sha256": "aedc618370f722d4d929625612cbed793e36294fa6a5c347d4ae975b7d907cfb",
+    "redacted_sha256": "8ff3dacdbe2cfadb0fb4791aa6e5610fa9616a8602cf5dc104938044eb70eacf",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-chat-note-routing.txt",
+    "original_private_sha256": "f856164436e7265f6c54f70c9cc2bbb670296d3853b2f30104e3b1516b01568b",
+    "redacted_sha256": "d1d629bdc87945bb97e72164eac1035d6d5288ebd7f363c1d86f267d5278efb8",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-3-alignment-interpretability-retrieval.json",
+    "original_private_sha256": "00ccc5ce5831c880393a2d0ee6445c885bc33d5b075b6c0cbe88a98a84a49d22",
+    "redacted_sha256": "ecddbd79b2f020513f9b6cbcd13d25134a4ea4d78bcaa6424fbe61120a497dca",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-2-plural-human-objectives.txt",
+    "original_private_sha256": "e533e59483c90a7fa327bc7672230f461612f0a33be3b38709f1efa088f7dfac",
+    "redacted_sha256": "17ec33a73689696cdc384bdf860fb4fb05e469de39443fd03f99993dc402f2a6",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/help-flag.json",
+    "original_private_sha256": "69303d30cc3617c0a4444dca3423f1ddce7a41171ba41dcea5f6a624b8088233",
+    "redacted_sha256": "2b9db8fd2fb1399db1221213860ec693c79188898434e6d164cca536080f6493",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-1-assistance-objective-retrieval.json",
+    "original_private_sha256": "7fb48d11629d635163a8a0c0e75b8fb6fdade605d3fc73013d15adb28441606e",
+    "redacted_sha256": "d22bfa6ea15aec6702e5e6933a29c739e6282395aeacf6aa6b32578379134609",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-1-distinct-reasons.txt",
+    "original_private_sha256": "15af47050e431f50deebcec92217325ac63b4e38869a9ef0a33f07e766081393",
+    "redacted_sha256": "d06c3660801be7136ae5d41a711a0c9f6d35e6a2a1b385f54f8ee90a5ba3cbe7",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-3-alignment-interpretability.json",
+    "original_private_sha256": "8848525b36b89c32508ae543bfd82d3fda9b518667d323a8581abeaa283aea1c",
+    "redacted_sha256": "66881b12e61661cbbea42f42069e815c36c2d79dad7b3d6c6f24d5067b8732dc",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-1-assistance-objective-retrieval.txt",
+    "original_private_sha256": "57631c503588766c39ad3858a9db49630c916d3b43cc4587a66fe0ddaab4fc54",
+    "redacted_sha256": "afba41631336a7c59197cd0182e38230ceb6b1dd0403bda053c61cc9d7249468",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-1-distinct-reasons-retrieval.txt",
+    "original_private_sha256": "988c508fef25f7bc1dc5a398dadf4eadced21fc2ae20236dbd5259c56b0233b6",
+    "redacted_sha256": "89460c7319472dae45361bfdfac906af628ad5c6d5e351be5052bd1d5240a788",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/chat-script.txt",
+    "original_private_sha256": "4ca3f3ca63cd28849560a2604dd38072466e32c7c81179dd4dea0492a114da02",
+    "redacted_sha256": "a1ec4f23c8cc1754dd1cafbfd5dc3ca306b184597d83b57f97c9f80bdbc365f1",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-3-alignment-interpretability.txt",
+    "original_private_sha256": "7a30d51fe7fd55ad413de775cdc3521b2625d39c6965eba740d1ca0b42dadb0d",
+    "redacted_sha256": "a0063739e7036f196f94f890a92bb3d0869a2ad3202b5570bfdef8e820eada81",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-2-plural-human-objectives-retrieval.txt",
+    "original_private_sha256": "a96b7f064963d7118ee9a899ef8781a9726a2cf7ae6c0d5c205eb71028c474fc",
+    "redacted_sha256": "ee4ed5d58fe532bcbfee3aa83e368818a65aa27f61515b9bf84041b0276cf4c2",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-4-scenario-versus-measurement.txt",
+    "original_private_sha256": "dd161d8ba49a7a7e3190d6b73e4fb4774fab3b32ab85c4cf768e65bbc9eedfac",
+    "redacted_sha256": "097021f16f8754dec86116f800d29e371f4371fd4a6e4212df3928712c9c892b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ingest-literal-path.json",
+    "original_private_sha256": "16fb93b9ca26b46467a8f5aedd2394de3a177bf683c7dd582346429006bff7c0",
+    "redacted_sha256": "8ef1acf4d6d7ce7a4bd33ada598ba1b8b4e927d7891b2939eacd21b301820b18",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/heldout-4-scenario-versus-measurement.json",
+    "original_private_sha256": "f63732abd1863f54826bad01bdfec60637bfa4ad497ed3a70e7e06f9a4d076cf",
+    "redacted_sha256": "956d2e3af1c40de44adb8f54f0fb956856d61946341389292bd03a86b00f0409",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T081134040293Z/commands/ask-2-infrastructure-controls-retrieval.json",
+    "original_private_sha256": "e6c0461cc9c406bbbb133e386cd1ee7a2f8b23b070d3d504c81f0b7af36f3fae",
+    "redacted_sha256": "c0a9182886da5698c6294bb464ae2048196af9f472ed99c22f55e5de6116387c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/summary.json",
+    "original_private_sha256": "3c72fe745188072c7cc4255aa4ef58b778e9afba5c1263425b1eb3cdba12d10b",
+    "redacted_sha256": "99390f4093f0d7ab230299ce016d67c49dfcd307ad742e4c79dad83c82428f7a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/test_plan.md",
+    "original_private_sha256": "eb05820a1313f8fdb51e531352c307ffe8277a2b7b4b3d319249117ebdb4d8e6",
+    "redacted_sha256": "a256ffa1e9ce42ea1b946d40e3ea8e92461100bac031af693c2736dc3988e79c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/configuration.json",
+    "original_private_sha256": "dd0b71e49ba58cb5f24e7f05b7363f387cd783bc750fd60e8e96d12ce2014024",
+    "redacted_sha256": "383f0f561f89203b14f77a8facaee2f4615f9c7a5ad0625cf99c9b9a999de63d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/cases.json",
+    "original_private_sha256": "401189badc3052e89ded6cd1451067394a981a08c381aa1af66a7d6ba9b6f571",
+    "redacted_sha256": "a7a7b004b3e225ea8656c4ec3534326b88be05844c16201b33ad010e10731140",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/review.md",
+    "original_private_sha256": "629ab256e02a77ef10ccac29e79c674c652d5e556f044b04f4419237802ae746",
+    "redacted_sha256": "9408affc25b69d0f605a3b2efc17b3f2a0314d35ad776e7e0a1039f66ec2fde2",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-chat-isolation.json",
+    "original_private_sha256": "00f3edc8d6d4ceb633b0007af54733e437076a4aa21e533adfecaf46166cdc3e",
+    "redacted_sha256": "1708e7359646a402e900afc54217517e156f35ac26403282a517b73482a405d5",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-4-unsupported-schedule-retrieval.txt",
+    "original_private_sha256": "223cb0447d87e4df59e1b55b0c772a7164b2d4e3caf09a7f2dfada0afd9108d3",
+    "redacted_sha256": "b4984b61ae8590d11dbfb9a40f2181fd310b4451745f691b9df4afdf58bf1a4c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-2-infrastructure-controls.json",
+    "original_private_sha256": "44b73659dc89d7dd1bfd35a1dfa99406b1d7b71b33a63ac806ca2671661b2ffd",
+    "redacted_sha256": "5ce9b4fb8fe94017912822c0bc0540a39aefa2b476c917ced5d4a67d122e1e2b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/help-command.json",
+    "original_private_sha256": "5ecb27d26da3a625cf8a69b814fa8e1f0927e3f0f8b91ee7767450d6a31d7b7b",
+    "redacted_sha256": "aa56a916e38c262e60f09349a26f031307722b08c7ee2096ebf0d489e5b9cb82",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-4-unsupported-schedule-retrieval.json",
+    "original_private_sha256": "369ff0945ae0422b0a8452b2476bdb69222b90e7c1d1079091666308cf0b9f84",
+    "redacted_sha256": "ddbe6100a1fd2ebdcc518eb9589c226db735cb95714bac77d69c0c0648e4f1fc",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-chat-isolation.txt",
+    "original_private_sha256": "957b77a87a5d434c318fbb5196820909fa69ada892f6a7ef57cb7fa62c703ba0",
+    "redacted_sha256": "8217a2137cbe94d913fce81475c21f0f54a65e2fe2fc0d468706d47a026c66b8",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-3-hardware-human-override-retrieval.txt",
+    "original_private_sha256": "9e063e6daafffe8afbddddf8db1a9180fb2ec5cd2ca67e8550ce1224739d35e6",
+    "redacted_sha256": "8802ca61200700b86017e0d85b3d6124d5167856aeedf550f4c900631c4c3e02",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-4-scenario-versus-measurement-retrieval.json",
+    "original_private_sha256": "ed5d6c112e3ca208ea8898c154a999f95541cc3dd3f788da4cfbc4e9fb7ec881",
+    "redacted_sha256": "46f9e3a2eaa4efef07090ca15dabda380878a22e412c6693e19aee77cc394703",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/chat-script.json",
+    "original_private_sha256": "a64549edd50a909330dfeb3084c406b784392d56359d274bbf86d8209b94e396",
+    "redacted_sha256": "ff974c51e1d1017c67d5e92879a39e808c190bb156b843d1e573db1dabfaef95",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-4-scenario-versus-measurement-retrieval.txt",
+    "original_private_sha256": "45e14b45c9031096af11be9fa25b62dd9bfe355da213b1aee6f0a8e94a0f4023",
+    "redacted_sha256": "442f5069fca61ffc7bde64cfe06f4be874a423054184d7bdca77aede23fbc798",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-2-plural-human-objectives-retrieval.json",
+    "original_private_sha256": "6f5f2dc94c1db507b8332160bafa9f95fe87cd8c531a8d3061ecfbaf9549709b",
+    "redacted_sha256": "cb8cbb7e5a1f15f4bb719884bed7f65a04894d9c47257dfee19832d7247ad977",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-3-hardware-human-override.txt",
+    "original_private_sha256": "f994233e7deabe6c6a5cc1ed3b6e58a6cfbb068046ca2d9e5c5f4f240ffb86aa",
+    "redacted_sha256": "8cfe7ecf91f202d90e94fea255ed12f065b2e12c12156ec9903ba1ec98a968d5",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-3-hardware-human-override.json",
+    "original_private_sha256": "4a23dc84a2166c9cacf053b7c3ea9c418460d70387ad1022d4789f18c9d0541c",
+    "redacted_sha256": "5855755550b5f212af4407665efa2e421a5a3ec75f0e009ea9509930d33cbd25",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-chat-reset.txt",
+    "original_private_sha256": "7da84046e3c0416f2ec1b6e12d10ceaa23263a843cf49f0013054d306610b35b",
+    "redacted_sha256": "5e493bca4c9e741162c657908fd4e35ccef520c4c8e29239bc7df7b80007046f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/help-command.txt",
+    "original_private_sha256": "36e64c40f261f3065c2a809f1aad621f8863cf44304392cdeef46f9051922884",
+    "redacted_sha256": "40067a3cf7ef7a918c265a8291cfeddbabb32a07c987770fbb01b945d3125c01",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-reset-smoke.txt",
+    "original_private_sha256": "cd43d442bf2eacc16b106dc9469e572e57e5aeb89f1092b7bfd59e290a2f246a",
+    "redacted_sha256": "cc3bc35ebfe4ea10d26849b77b26f63ab486a9338163af572e4ca157db3d0e0a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-3-hardware-human-override-retrieval.json",
+    "original_private_sha256": "643b7c9786c8e542fcbe3f447f44cb2360b27743ad491c56c460bd3084601671",
+    "redacted_sha256": "6d1a54772ceacfebc03cc2ff9002d45645aeac3f9b8fe56b821daaa4edb56f4c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/help-ingest.json",
+    "original_private_sha256": "d93e97a781387cb09a9bf4a6eee32f900c90f568962f09f52b6fced67c6e01ce",
+    "redacted_sha256": "94337d076067442004c541913c0470ac0cdd65b3d4f75aebe993cba816de9d6c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-1-assistance-objective.json",
+    "original_private_sha256": "cc11f94f7c75e7e2354c5131391494693e5fc1bac81c4c8b2704a97b4bb4b63a",
+    "redacted_sha256": "63591e1c3753b7f5fa1ab6e74c879312fa13313d1f3354693c4059bf90c9ffe4",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-2-infrastructure-controls.txt",
+    "original_private_sha256": "17acca1b927a5a199f8218ffe4681d42384030b40b3b8f720d9682e087b3fcc0",
+    "redacted_sha256": "6849e43d9d38a8764547b55d4ba88bdd4b84d0779b281f95981ed8572c797294",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/search-original.json",
+    "original_private_sha256": "a79cc4cf16f7e83891c43e413446913511540280355381007a8412a486984d9a",
+    "redacted_sha256": "b1f391161d2bc491be24ca23f778eb424d1d0a5258a2808b9d7f60fc3892948a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/search-original.txt",
+    "original_private_sha256": "17862e4d19dedff00a3b0ed7d2a9e418051c869e143538dd5e785a1728b0583a",
+    "redacted_sha256": "c641cf3ae71b9aee7fbace20332a310184f9582f323d15f3dcbb46243991b7de",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-1-assistance-objective.txt",
+    "original_private_sha256": "abb52f423ce757b4331a0cf9bd5150b1f67246ac9aa3ff327e3a09092ccc3a36",
+    "redacted_sha256": "d709bde418909b231f325907f56593a81b7cecc4de5cccd487105fddfa53fb19",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-chat-note-routing.json",
+    "original_private_sha256": "992f1d1e9c6c59b819ea830243a063dd17dd609871eed4839642776c93e459c1",
+    "redacted_sha256": "e096e5d7ebefc57e1a884479d2950b1ef6012b587092ea18e49f2002b9bae1bc",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-1-distinct-reasons-retrieval.json",
+    "original_private_sha256": "b6b481883232317da7f5d513c4e90edb50239524ac2fc8198e84b6c07947db3b",
+    "redacted_sha256": "33cd663e97ecc0cddc95afe83ba7d0739e7b37324d77eb751347447f095522de",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-4-unsupported-schedule.json",
+    "original_private_sha256": "25f8ff9f17c25cd69691f961fbab6282bb1e31bff8bd4f606388ee6f97eb6b79",
+    "redacted_sha256": "58d31cfd31966b2fa3243c013f68648a00ac68e3cc33cfc23e00d3c873afd521",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-2-infrastructure-controls-retrieval.txt",
+    "original_private_sha256": "f987df80bba738b2370858ddd072c8a69f48dc0df1b983e539c3cd7e28278e05",
+    "redacted_sha256": "a4e57373068adf58196f5f9dad29cb9e7a565b44e6de5cf5aa4360cf739d2f60",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ingest-repeat.json",
+    "original_private_sha256": "6819a90d6376a688a508956cba6bb1494446dd9bc5feda7f5e94bd47f9ca7c06",
+    "redacted_sha256": "ade7fe8916d2c57b4d910033a3430139b95814a9824e20f60606010c66666e8e",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-1-distinct-reasons.json",
+    "original_private_sha256": "a23d2a284cbd1d577067e6996a273ae29d1b24232766158cc8a23f895f2af56f",
+    "redacted_sha256": "bcb4321c1c994d6b2e2dfef015e37c3e8adbaf5a6a99d78469dec51a4bcca18b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-2-plural-human-objectives.json",
+    "original_private_sha256": "72ff96e7b544ef477bf7d47226aa3dfd03dd8b752aa542856a8a51e44973e912",
+    "redacted_sha256": "cb833cdb7b38d60d112e6ac63f904af12b7aa1b80a591a23970df47e335a1465",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-reset-smoke.json",
+    "original_private_sha256": "f85cf61705c1f6c1e97e30cf64393e7730db77c66ff67ad91095db92a3d565ff",
+    "redacted_sha256": "96436bbb0e7bc2b5baa755290b2b722918527defe49ede63cdda8c67e4ab82d6",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/help-flag.txt",
+    "original_private_sha256": "b280e679d4a04559ef0da7b3902bcc07f8fd63b49e01d2a17800e36f5ad737f5",
+    "redacted_sha256": "d9d925490ecf9e3031909ca4c87c69f59594447c78e959aed634cd25dd4b31d8",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-3-alignment-interpretability-retrieval.txt",
+    "original_private_sha256": "e90cffaee69c1e75f6cb375304953cca35acd9be1b57c6c5c37cc722d8cb9ca8",
+    "redacted_sha256": "ed86474adf1a86be41d95ec5b7a6d6c34192d973d65184dd6ebf14749ebdf1a3",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/help-ingest.txt",
+    "original_private_sha256": "045821ad7be0399315598e0ca71fa57afc487c53f3ff5a4409e877d06cfa3441",
+    "redacted_sha256": "c41d9badc7e9d6ca2f26b2df2d5627f2c38edde342504a9d5addece36d394ceb",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ingest-repeat.txt",
+    "original_private_sha256": "4f25830e7a78495057915b2b2ce4a54a5a3869fcb306698eef56a5c7b2553ce0",
+    "redacted_sha256": "78c50c4248e3d03b01c725acdcbd52ffd081c3e44a5fd6a148fad4a7bf0bace9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ingest-literal-path.txt",
+    "original_private_sha256": "aee274122230e1659acac5199a7137d11897b115f697f48a7d4c7cdc4f9b164b",
+    "redacted_sha256": "989eb313e8bedc1b504d8a4b2786d47deb7209e2f1cb327cac2671e99b53062b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-4-unsupported-schedule.txt",
+    "original_private_sha256": "12e1ed1b283fc32e7b15b31ab0fe20c2a608abf7d9084496949ff37f688c4edb",
+    "redacted_sha256": "eb8098c0037ab9b717f85df6f4e8ec74a2829a206db4671f60d6f7f0b5d364ca",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-chat-reset.json",
+    "original_private_sha256": "750712815d8a1b4c2c34fe2d385ab4abf0aa49ebc000768af6a197bf52b379f0",
+    "redacted_sha256": "b98ee057749aa42b4cd0dd8d4c8f81a4a3803b4ee84e220c99ec8c64ff9e6cd3",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-chat-note-routing.txt",
+    "original_private_sha256": "514b24e6a0b62992c3fa555731ea3fafb6c017fbfa0b7d6be66b89856bb2251a",
+    "redacted_sha256": "980c94020f7838b8b96ca881b2dba65d3131ac88804eef6049d6e0e236e4dab9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-3-alignment-interpretability-retrieval.json",
+    "original_private_sha256": "79f75d9890403f9a1acea500122c823f26e45b991ee990ec145dbcf598926267",
+    "redacted_sha256": "b6ff59e18b56fade0909841261744f100e40b36f647e1339b7fb883fe0d18400",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-2-plural-human-objectives.txt",
+    "original_private_sha256": "cd5e44b06dd7d70fae2cdd3b37fe65c4bc87db55ef2a208e84d17bffbc044b8c",
+    "redacted_sha256": "95c49e52613e498d42d04bdc6f40962354ecf6db8fb43e41ec8d52ffb669ed19",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/help-flag.json",
+    "original_private_sha256": "cc33d70144631d9455c7dc91ca978a05b889ae8d168e057db98d684671e1aa8c",
+    "redacted_sha256": "a5f79c0775f216b64e7b3a0791dea516fab08197913a990b38c7b8ac9c8222c3",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-1-assistance-objective-retrieval.json",
+    "original_private_sha256": "916228236945f41f0555aa918e8028a0fa32b99c7b5e775685353c0d5e720405",
+    "redacted_sha256": "eaf98ab2e0723cdd70c2bab94e050de783d8e740a8fe929421c7d7a2d3dbbffc",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-1-distinct-reasons.txt",
+    "original_private_sha256": "c871d2a571e3eb9c04cc446b7f787dac991fadd1f6ec8a116ff5f87bf444819f",
+    "redacted_sha256": "81e04a8712983dfa22f473277af792085b4a6b4a99a12061f0d99fc2dfa3ee7f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-3-alignment-interpretability.json",
+    "original_private_sha256": "de8c5dd11349bcd8072d24fcdb56f27acc176d9c8ba0b4f221b455f442b00e1d",
+    "redacted_sha256": "7a99e3a1a33f92f0934820cc4f46fdc6c57909707429c9dae581c0780250af23",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-1-assistance-objective-retrieval.txt",
+    "original_private_sha256": "62f37d021173a893b43bbb95ee01f84cfd5efa26e13b5ac018066ddc01391617",
+    "redacted_sha256": "9d7b8b4d2667253b8cdca5613831597a6745a0fd40b90eadfb74529a76a43361",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-1-distinct-reasons-retrieval.txt",
+    "original_private_sha256": "8fc8b580dd0d7857663f77f7c9636f2453b752da23dbee191292b17e65c2c8c0",
+    "redacted_sha256": "73cc157460884507e458c59264d9b763dc059f7af5d8fd0cabe40de9597e2be1",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/chat-script.txt",
+    "original_private_sha256": "78500a756d796cddc156d955b5c7af30a3f7a65bda43b5f1356c968f9f8ce5ab",
+    "redacted_sha256": "474c01900a48925273a99bb6331cd3de99e96991bc373905fae5ec7d1121e6ff",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-3-alignment-interpretability.txt",
+    "original_private_sha256": "6e5a5fc05cb27d72cef9e59fae99d171ca0b79d21b9a3360e6cf0ebed2365634",
+    "redacted_sha256": "4d3db6cf43f3a77ff711f1337c2fd5dae48c7b65a7dc5c75205b6800cc43e304",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-2-plural-human-objectives-retrieval.txt",
+    "original_private_sha256": "ef406a60aeb73d05dff3fb4e71f459588e7ecee909f89b96fce895ae623901cb",
+    "redacted_sha256": "f57735f75b5088f6f07599cadb741141c590b833bd8440196cbfcc3558d21c34",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-4-scenario-versus-measurement.txt",
+    "original_private_sha256": "9e1c30ea0757363a5c99c69bdf8f1725aa96682c3b1fc4fcb4d205317063fcfc",
+    "redacted_sha256": "fefcc822b6d0b998593dea96a9248b961d78d6802305c359f58bddbfe8a6f742",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ingest-literal-path.json",
+    "original_private_sha256": "a5714025ae675c7dfa7906bbe33e05cdc72496d121fac217c3d80257b7e533c9",
+    "redacted_sha256": "4e2ae899c2298e44e55c7f739701653562bc833c083e75eebca5a841b3dca0ca",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/heldout-4-scenario-versus-measurement.json",
+    "original_private_sha256": "6aea01fff641220b77c34ba72ec35719ed371fa0b0e04d988644b3abdb678a34",
+    "redacted_sha256": "48988db40da4130a76500aa853c91a0dc9cf73f0300463992e28c3b77c820b37",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T080434044244Z/commands/ask-2-infrastructure-controls-retrieval.json",
+    "original_private_sha256": "59843e8dca6976a16fd16b49f2b2165fd7dede4ef5f258a3fb08027a8c5bb164",
+    "redacted_sha256": "d56c18db0c5b952584ab2bc3c277880988c50ea46762bda14f04f48e12327784",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/prepare_goal.py",
+    "original_private_sha256": "612611d3f4bb4a3b5cf6c110e80f70c5cd13b6310cf418eda8637d83e089927f",
+    "redacted_sha256": "ffc90ee6ee150c34eb7d694f805d3b86ac875e4d6fffcbd012385c3c13f538ae",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/predeclare.py",
+    "original_private_sha256": "bc9a0c345a8f9f08d8061a32535caa996615f5a125b723cd751c1c21fd70bafa",
+    "redacted_sha256": "8fc916efc6cc3097da63f252007f542e86ef71fd3716a661f42303be2f44606d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/nonmodel-assessment.json",
+    "original_private_sha256": "cb152b0935285021988fb4555ae6b154b5887887ce038162f74a4e8ac2e4234f",
+    "redacted_sha256": "f77b7efac3ee1ece7400ff3d5227a2ab4f74b6587739300555e21f9b2284d4c9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/nonmodel_checks.py",
+    "original_private_sha256": "61b6df4af969fdf1d100087b9a29804f2194ce94f1ed5af1b06cd07653bf0bbb",
+    "redacted_sha256": "8181ebaf9d998e4706e2945756637fe560b02d3e5715814f6c7399d6a842f4b1",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/evaluator.py",
+    "original_private_sha256": "2599d060d2e224bdfc381037835fa087c58ebb9b587ebfbc436a8375c5f83366",
+    "redacted_sha256": "d948f14e76c4ae11c68be69d243d2b4d9c12623b2b8be98c3180471ca051fbab",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/source-freeze.json",
+    "original_private_sha256": "7ac14ebff8e094e778b047026a866958556856c333512f3d564ef7b176cd0b7b",
+    "redacted_sha256": "3b8fecf57f3dbfc969c75f7654009f07cc14f9f86a297efdffdeed51296aede2",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/27-H3-topic-transition.txt",
+    "original_private_sha256": "0c70377b389f6f2384c20f92e440384d6dd4165019ab7764c8718b88a4ff7eb0",
+    "redacted_sha256": "1d79f3a42f322368c5d81bfd209cdc0c1120dffa91e5cf713911c7e6afb5c48d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/01-help-top.txt",
+    "original_private_sha256": "a5ba2a971fa2fb88e6fe14815af7f48df49a5fbc9fd0878dba4c197ab4529a59",
+    "redacted_sha256": "fc08c1b2ab2b8b207864bf5e9897c1afc53d00e15a26764f8e980456f708e7e3",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/28-H4-response-coverage-retrieval.json",
+    "original_private_sha256": "418e0eb97850e9b68755bc0390c5d09789a4502f6981169355149b613ff31840",
+    "redacted_sha256": "e7d1f59e48fa1f8b3a6e6e30098c4f1030889cb0ca011af61b6e09ce139187c6",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/10-B02-mountaintop-retrieval.txt",
+    "original_private_sha256": "4202c013bd3deb526c01e9b451f50a8b89f3125d6a869226a5f3e76e4263404b",
+    "redacted_sha256": "4538eacaa670d416258498be423f4f52fe4e3232f3800754a63d024ff6316246",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/05-fresh-ingest.txt",
+    "original_private_sha256": "027f652acbe4d046a9f002952484b5c7ce39b97cd65b20bec170455e75a485da",
+    "redacted_sha256": "444899ff54d25a4afa987fa19b271c572d46a5d13224ae561fe7f601324c138a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/26-H2-capability-paraphrase.txt",
+    "original_private_sha256": "82d947b47047dd6163700cfb6d2106ff146dc47e05482037d354df56cb7b911c",
+    "redacted_sha256": "33cc227de5698d029d0a99788e4ed693ec53d9b1ab772cd46668e9c88c1e00a3",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/21-assignment-ask.json",
+    "original_private_sha256": "496d0607d2d5b80141fdeb65b773d75685a780e96358265331ab037f118013e8",
+    "redacted_sha256": "63ba21649cdbbd0a5025aa4bc84ebc6759ca1d1f3c1525bd16e7977a12302feb",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/31-H5-missing-efficacy.json",
+    "original_private_sha256": "7891d50d8d1b905284d3450eaf063cbe80d63f0cbffe01f4bfc05fcd2d7b9027",
+    "redacted_sha256": "2db93de0e6f2741db97bade5e3368edda08aa3ba2a3cd9ae2ac34a58dde537b0",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/04-fresh-no-index.json",
+    "original_private_sha256": "cfcb57a93c51590e2a82089f7a2adf9e9a4ae9da6288038ffd824aaecb58f436",
+    "redacted_sha256": "5418ae9cd80f7e3ae0f12ccf33cf772983377b8bcea96fd6c3c45569c2599c70",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/13-B03-oversight.txt",
+    "original_private_sha256": "c3b57c2c6d004004d17ce2ffd5e91f84b28eae215d4c79bbd4a6dad19405707e",
+    "redacted_sha256": "efe85deb84adb5e7766f2e5b288136c8fe587651aa1192de781dc196b3c1daaa",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/11-B02-mountaintop.txt",
+    "original_private_sha256": "c07ed92797bfdbcd746274bef981efbe6ae2c48ff33cf93105a841d7090a299a",
+    "redacted_sha256": "8e9e580a9d84777a9d8f88a01d51a6609b7b2f591526a6427c5e5222cef8786b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/19-B04-after-chat.txt",
+    "original_private_sha256": "25473e26bd0bfa362b80fcd3f7512936c93306412eebe534f8ffa742231cbff4",
+    "redacted_sha256": "83420763f53e8a56c326251943ca366a1ceb326c513b48d7bd7817f6520697c6",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/20-chat-fact-not-indexed.json",
+    "original_private_sha256": "668d97755c2ee05e497ea04dcf4e23bbc7556a5ae3864aadbbdf1294e457e66a",
+    "redacted_sha256": "e5d78fd7508a71f687c74ba45d4ae29c7ed7d4320b0e2dbcbf93b214af746c26",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/03-missing-ingest-path.json",
+    "original_private_sha256": "aca06cf150c58365436feb892dbb4fe3646473a8a0e3aabf310cce942ee074cb",
+    "redacted_sha256": "6ce221ebc11e6a424725fa10b8408a8ee0279e4b829ae57b075ef10571101f1a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/01-help-top.json",
+    "original_private_sha256": "077663debea8699683ba7da415c82f9e4587285a22ace9819f030b7c7e814955",
+    "redacted_sha256": "f37b2a08fa0e8b2d23e690a15e07e93471ac0cd66be87fb3c60236892fa25f28",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/07-topic-search.txt",
+    "original_private_sha256": "372b5b270693d0979ef3dc97d187bd9e5709805a9f8148b06808b87b5c375794",
+    "redacted_sha256": "edb24cbd614db35f92ae93b59c5c309a5cf2b41fce1a6aa11d88315f6b62a655",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/06-assignment-search.txt",
+    "original_private_sha256": "ed1aeeb43b0481b98c8821b5c45ae44689451fde9bcdd5273036ce09f5a64d5e",
+    "redacted_sha256": "87ef7c8ae36f338664d646a3126e0cd624791fea005e031e518a3eb996294738",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/29-H4-response-coverage.txt",
+    "original_private_sha256": "cf21553dce4cd75a71ad212e2cbf3d1833b814a9c4096c6fd35df8c763d6d2a8",
+    "redacted_sha256": "462f03d59eeddf25210679b5607220cc374a817861418e4d1984d656cc98b646",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/23-B01-after-cli-restart.json",
+    "original_private_sha256": "f64d03d912e55320ac52c70eae670ee0d4d052d4d7cff78e59f889220c16801c",
+    "redacted_sha256": "8d9d9e51471831010c470f47fad40aa9cedb7ce02d1fe3f17fa54ddace63e58f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/21-assignment-ask.txt",
+    "original_private_sha256": "e35feba02517332613e39f1d5ec6e7bb76d714165fbbd69913001b5d8338dcbc",
+    "redacted_sha256": "1806c50dffd3c9b59f488b8cd2aad5771943758071b4b22a655a1909c06d419f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/19-B04-after-chat.json",
+    "original_private_sha256": "d7549ae366337e31d2c057c2ea00d5978d51e6987c483a66e8335f519610398c",
+    "redacted_sha256": "4ff1a6cd8da34bb954c5d6a6bb8614f7cdfb443803b66a7878b42d31fd4af2d0",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/14-B04-next-workshop-retrieval.txt",
+    "original_private_sha256": "2e050ce11494070b18b341aacdb01f81e7a39b62513a599a427917cc75ad648e",
+    "redacted_sha256": "2075d44f771030577ead9d59b5dcf927d2145e935601c015f15a68c07eaf3082",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/24-invalid-online-mode.txt",
+    "original_private_sha256": "00160fcc8fb1cb80df14d0de2010f8f4a1036a18e759a38026502da94fbcc9a9",
+    "redacted_sha256": "b397641e73ad77cc2eb8ed1c2f492a55244226d5a482220067209442e07ade43",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/18-interactive-chat.txt",
+    "original_private_sha256": "b3b378bd05990aec83ec2002e6b1e222ffd8ba67a8d683932a5b2574b5669bc2",
+    "redacted_sha256": "afd1f763a139a513383275ffdd14db00991711fec4b930887c56b164ef0e89da",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/16-B05-two-source-retrieval.txt",
+    "original_private_sha256": "8c746092ac7c319182037fc62b91c18292db252567070398c7f71547db78fc2b",
+    "redacted_sha256": "8f47911d86b92559c1afc116a617e7663620869ad118d53d31173e76ce4f4dd6",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/23-B01-after-cli-restart.txt",
+    "original_private_sha256": "4cd20c28e6d6042116aefc270277330e9467498a9449b3cb6867dbe8bc9d88c8",
+    "redacted_sha256": "329723eeae3f76a5580509f0a928821e00e633d21006fdfef7a55d115ad1b08d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/09-B01-values.txt",
+    "original_private_sha256": "7bc063827788687cf2b454734f6026a7d58418e31c521bc0dc39c7e7f325822f",
+    "redacted_sha256": "63e78a55907f920c7b86eb1f778400d50432d3ef5e9f9b776fa2b720bc23e846",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/24-invalid-online-mode.json",
+    "original_private_sha256": "0818297ab4f4d67d2903cc31d5fa313268f7c38d2e9d1e3cc503c237f598ea06",
+    "redacted_sha256": "2fb53d67b60a4504a4739512f1e8b750c562be2ca5d9051fca7c6fd9bcadce68",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/22-unchanged-reingest.txt",
+    "original_private_sha256": "5b0ab0df0987b35b7e483c8d558b30649f0ac97187cac67d8d1e2fec2faab1e3",
+    "redacted_sha256": "edc433ec33862d1b6c1aaae3051a80bd0099fbf70f32795c094b2613b90ff16b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/12-B03-oversight-retrieval.txt",
+    "original_private_sha256": "5cdd686b053e482af9d0546f69500473d2366062f2486a443dd38a4d80901e1a",
+    "redacted_sha256": "280af32f53e8b368d93b96628ce907c1057adf53bf9e24e36c8f6dfa1cba6a4f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/30-H5-missing-efficacy-retrieval.json",
+    "original_private_sha256": "44ddb244939008098df5b382c8522b5184b4cf1fd03a3b5218308ddf277a236d",
+    "redacted_sha256": "4edd3d2cbf1d117e1290c78ad6a432e567ba2975ca96858d6528345ad649de9f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/20-chat-fact-not-indexed.txt",
+    "original_private_sha256": "57071310e707a2dc4fdff644c9af6e879b565070b7dc9e5a751f7421c3510145",
+    "redacted_sha256": "72f84ceb8ed821b42e51312bc42c194fafacc399d149515d076f906bd24f829c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/32-scripted-reset.txt",
+    "original_private_sha256": "72dfa05cd8ce0655cc5b7d818d625e71e7ffaaf94193a2b11c63a638e15e5329",
+    "redacted_sha256": "3b524c7f7ddd325e07417bd6c870ff1b6286372e037fda630d7bff3af55a8daa",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/28-H4-response-coverage-retrieval.txt",
+    "original_private_sha256": "fd7de5d2de9da2224eaf63cf613a8762c436157c0faf1299365bfbcbaadb3615",
+    "redacted_sha256": "671d820240b875aa6567088f4933854e0bad70999380402373b22e12d89177d1",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/17-B05-two-source.json",
+    "original_private_sha256": "5764da3864bbf3c5bd5f15be6526be81faae2b91ec9688ce7b9df87d85a4360b",
+    "redacted_sha256": "1a0e7baf12fd3aa86b50c6d9742bd863167308724473221aa0e06deb3fe49a5d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/27-H3-topic-transition.json",
+    "original_private_sha256": "2ba5fee559c41a9689b5d97b04d47b759d4aac5bcb0a375df463059631b1a2d4",
+    "redacted_sha256": "fe97ea7b98f84b8074faf0db3746a734fd037a98478ceec178e1763360677064",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/31-H5-missing-efficacy.txt",
+    "original_private_sha256": "415f64d0ed6a320712d5c78c24d08f13c4fb3e72b9291068012384dc176f5174",
+    "redacted_sha256": "127fdf53d81dc908b2dac890e8c00649c64729f9297cc039ece9d28b3aacc76a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/11-B02-mountaintop.json",
+    "original_private_sha256": "3a88d3b8b12e684ba1f5bda5b7a4340a7b38cc4ca98442d4453b8ae2316a64db",
+    "redacted_sha256": "b6f3b494453c3c8e6eed8854adb75b9e8ca124b73e9ff28081daf5ed4430d0da",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/25-H1-domain-draft.txt",
+    "original_private_sha256": "c6a248f805a69fb8a9ef0ea8cf286ddd307c6b94a6b8a996c209fc7b2b89dbd5",
+    "redacted_sha256": "77b336016811b8deb267a574915a89f224adc5b84137ca5a38ccf3e8d4920d34",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/02-help-command.txt",
+    "original_private_sha256": "00cdb8d123693bba392b02cb86734a59c931b336254e9f2274bb646e4b087239",
+    "redacted_sha256": "69911c65007a93df97a6b63e60e7a59a2b74186213a5ce6ea0a47a35600f1a03",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/02-help-command.json",
+    "original_private_sha256": "5b1bfc7110db6c3e755cd1455510437c98351f990e83d8fe4279ea780963365d",
+    "redacted_sha256": "b58ad0ad2faef9f7de69623edf969dd9ce9a7f8d0e80e546eafd71a037ac21b2",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/16-B05-two-source-retrieval.json",
+    "original_private_sha256": "afb46ce1a5bbf9628fae738e6a6065a258d204ceb882cfb4c62aca8e679b1d34",
+    "redacted_sha256": "1b5b41947f166c47050b0d6245aca78595dfcd556f77c19279af17425f67c7fc",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/05-fresh-ingest.json",
+    "original_private_sha256": "b712a71b577f364578e0f27710a67b69e300a860cddb93d11325817d0cc66d1f",
+    "redacted_sha256": "b38e572ff43f21233bddd522dc793a555e3ff5beda4b51f5138cfaf997220cfc",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/15-B04-next-workshop.json",
+    "original_private_sha256": "a024fff34df7f9d6ac916f9e6e516a814cf48638b74c8704b5ef0477c799a010",
+    "redacted_sha256": "282a13406d820e4d4370558491f6f88039f8cbec48a9fc5f9701bbf02a8c0870",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/32-scripted-reset.json",
+    "original_private_sha256": "b07d93e0efb94950c4d4b91c967b4b9a853b14a13a1346da9fdc2017e6151dd7",
+    "redacted_sha256": "1e1ed22495769fb2ca9723606092b5c3cd1d477b99973db5e21a1e9cb2795b08",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/07-topic-search.json",
+    "original_private_sha256": "5a29d0d2469e23f210369bb41a178b4d9c02ba0af61b9b6cdb438e73eefd7d88",
+    "redacted_sha256": "f4ec7fcb4cd6ad62d3a95a9021a4e955acb60bdbc1b26987a4b9f908e861440a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/13-B03-oversight.json",
+    "original_private_sha256": "acd1d7024890dc8f80dd15fd5a014da03bc220709345dacf33ca3256d1370262",
+    "redacted_sha256": "56dbdca597352f3a2a6e07abe7c27f531c018077f153e56bbd6a17a494a6b3a3",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/09-B01-values.json",
+    "original_private_sha256": "b9f163ff2572ceb981c2477b9fc9b8d4b543102c5dcf9d538e4da97db552e8cf",
+    "redacted_sha256": "2b2572db8bb479c0a7f8be218d244781383a1fc996bcfac1a7adad2b7aebe783",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/08-B01-values-retrieval.txt",
+    "original_private_sha256": "1192e82c533a025ac0b8efe5f48699f987d08bd9df7f15da9afdcfd89bcd5378",
+    "redacted_sha256": "4b28b6bb0d21acbd6050960292c2f306718566349d8fcebe2c2de3fb67fd925e",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/15-B04-next-workshop.txt",
+    "original_private_sha256": "a7a89dd5b87242e13f22145b0d4704e2e22b9c574cdd18a162d46c151c9e9e1f",
+    "redacted_sha256": "28e2be306092ea6e0d6e5e16adba70607557d708eaaddb845b397f1d116cb0c4",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/29-H4-response-coverage.json",
+    "original_private_sha256": "c70437a48dd1e9bf2021d242af815b11be11ed2fd3ba094f78d086de63beed1d",
+    "redacted_sha256": "0189fdbe068476e602aaf37ac6143ecb1dca61c30244ed0a45b3eecfbc392836",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/06-assignment-search.json",
+    "original_private_sha256": "17cd28612d6b183db8230f54e804e93516137d6d3dd8ce3a395bb98b2b116fa4",
+    "redacted_sha256": "e2d64c48561da1e7bcc502ac9f379e25072d59a2a810a135a54ccd78e55155e8",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/17-B05-two-source.txt",
+    "original_private_sha256": "9516879b785b514e4157a124dd1826f5586cbea72750cf614b79227b6c4d9146",
+    "redacted_sha256": "fd45d71407c2b9c133c7fb240b9cf6b49bdbea57c2c226fb9e71a5c47f47cac9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/03-missing-ingest-path.txt",
+    "original_private_sha256": "a145eb30f9610117d087b5de0a6e35424c53ec60ff002992e68a5269c5c9a73d",
+    "redacted_sha256": "b66207c26c216754ac174395155d9e470c957d776b25a00588d5c6f00e48391b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/30-H5-missing-efficacy-retrieval.txt",
+    "original_private_sha256": "8f8adc2855e8c846c65b795bc2e8b1e72708937b384bfc6a85983b384e5564c4",
+    "redacted_sha256": "3c8b0591c5faa279b9de9a24bdaf494a386c0e2649220103402066b837c5d02f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/25-H1-domain-draft.json",
+    "original_private_sha256": "51bb4df92fff883245e22046fc4cd8b13f91fd3fe4139b3fa8e4743acb11f3d2",
+    "redacted_sha256": "bd8a839901546efb4b1d0d3bd62ec03fa0a1e5e503baa8295981bd210e12d3ba",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/10-B02-mountaintop-retrieval.json",
+    "original_private_sha256": "3691174dc2877fa0577229e5d04beebaa20e1feb9809982c3c2505dc1486f3e1",
+    "redacted_sha256": "8fd31e263ddb45d3db83b944e4d2c8913b803e96bcea0c86e0906d10fe738cf9",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/22-unchanged-reingest.json",
+    "original_private_sha256": "64ae1f29dba05e9fc80369688783bf4d73bedf9469500786491c46df6d55683f",
+    "redacted_sha256": "eaa4956dcfe21032c02a2aafdfde348f52c9dd4c2ca02c9bdbf8a43b50fd6bf0",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/12-B03-oversight-retrieval.json",
+    "original_private_sha256": "aa89cfbe18729b6f1bd664d491711fc6f63a04113160958260c7dbee1f31f226",
+    "redacted_sha256": "58c2ea0cc8a4662566d85605ec999497420f11c3e8d63b54acadc69b88b51889",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/04-fresh-no-index.txt",
+    "original_private_sha256": "b08b8c9a890cd1f3c518e97864f28ec7e787d3cd5284f8e88cc7505f88e86aa3",
+    "redacted_sha256": "7505afb79e5d35242518fdd04d41b004ca1fe067df628fa300eddfec9577ccc4",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/26-H2-capability-paraphrase.json",
+    "original_private_sha256": "81156785f7ea9d70ab6503a535b2b01f60e86152426a7678ea3406c43cf0704a",
+    "redacted_sha256": "2ee294faedff6351cd3f4b1d6471f7aece458ae75a73be53162a2204361f3008",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/18-interactive-chat.json",
+    "original_private_sha256": "a7d88c11042982fce15b3dfc90cd72a9e04c130ebb81caa9d6f8e1919bb6ff06",
+    "redacted_sha256": "7d738d3d72518dda268b36d0a9a991a8907cc2fd330ac7fcb33ff34505fedf21",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/14-B04-next-workshop-retrieval.json",
+    "original_private_sha256": "b374f7e95ab4db190e0754a76710f3a93fa98400ed302157cdb97a92aa16b2dd",
+    "redacted_sha256": "8d4897be9d0ac67f67c4fbb6deb3f4140006e2c7b537de53ca7ca688e3647430",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/final-run/commands/08-B01-values-retrieval.json",
+    "original_private_sha256": "575271a7c8e34796eff446f0930f5a1cea92e42ce60ef6ac3ab1899ee1c4bd87",
+    "redacted_sha256": "ecf13c4ea6a229d4e316df9a049030a12344191e0d5ca155855cc1f0746817ff",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/chat-lines-approved-run.json",
+    "original_private_sha256": "9d929adcd28c5ff49e02500c6b08baf3972fa5e23a1f78380aa90524ed62813f",
+    "redacted_sha256": "05854dae7e985004e591df5137024497c713064652b2e6be04a70efb2c294d25",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/chat-approved-run.json",
+    "original_private_sha256": "27a1869a25e830b06f2d8d5817d1116fa3af46be1e805bb8353f11f2b1373d2f",
+    "redacted_sha256": "f5febb0774661b7be850b61c3a0d89702dc373ca51d54e0052b1869f4a8fc13d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/summary.json",
+    "original_private_sha256": "e1f4a9b0555492f58952a26cc1f4483a22afde3c97a5f0aaef478e7968a3eefa",
+    "redacted_sha256": "f63a8407967387731bc8a19cd8a96e1056b2c165c68fbce9ec0303365f089e7a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/configuration.json",
+    "original_private_sha256": "27a1869a25e830b06f2d8d5817d1116fa3af46be1e805bb8353f11f2b1373d2f",
+    "redacted_sha256": "f5febb0774661b7be850b61c3a0d89702dc373ca51d54e0052b1869f4a8fc13d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/review.md",
+    "original_private_sha256": "ef9155bdfa8f050cd92faaf75d8d3d1a149276bf1afaa9657e8360a3e7d6bb76",
+    "redacted_sha256": "d65269f40fbe4b5fdce340374f08db3f017f9179fbd6e859d18552d3f72bab50",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/ask-1-assistance-objective.txt",
+    "original_private_sha256": "3b101805095c29eef554c1b8a84ea6c7777195ad8beb4ae3b44ec127fb68ab09",
+    "redacted_sha256": "d22c49f430ae3f3c20968e4852dddebfaf6bf9b6eb3577a4fc7dbd342bfa32d8",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/ask-1-assistance-objective.json",
+    "original_private_sha256": "e4a8474ee23c76b2f999904fd00299e53e852ed08070ccd14dce93c9263c7da2",
+    "redacted_sha256": "474416f3937dab6b7c2d9778c78bfc83abf40bd2b146a5d54d8f8fe183c65dca",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/ask-chat-isolation.txt",
+    "original_private_sha256": "21c07d05198b30220e8ab089e3f3860c9268c3092e606542bc347b76d70012f3",
+    "redacted_sha256": "16f5c23cad15374209acfd235b06942f51c57ba708f2dd97b4f85328202edc87",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/ask-chat-isolation.json",
+    "original_private_sha256": "526d4a6ea2128908a0ec60f6e888f1291634949f662e4438c6c84aa1946fd9c8",
+    "redacted_sha256": "443ba8eb50f3aa5167b1ba49b82fd4fd2272b8a124831c7abecbf3891ac5d032",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/reindex.json",
+    "original_private_sha256": "8fd281a8ec5623bd5542cacf6899d8f1139c77af448c8511d31b483444790f35",
+    "redacted_sha256": "86e997f23523c75513942c7b08e6a9f4563fc418bf10932ae3fe671ae233501b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/source-followup-reset.json",
+    "original_private_sha256": "0ee2799cb6ece13764d965ffe4f3bf0d2a070c14f972f24d7a5ff2f0b721d42a",
+    "redacted_sha256": "c7bace069387cad21fb177f88c33a695a502e76a1d9ea270c5d7f725c435058d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/summary.json",
+    "original_private_sha256": "1cbca941e4abaaaeebab5aa5c73baf6e21f9df25b64edf1952b78d8a60f43fff",
+    "redacted_sha256": "cd5f5b379510e69596c9e6caf5a62a9ba427835271669ad58d9f8e988e311448",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/chat-script.json",
+    "original_private_sha256": "33bf931003a3c8ae8dee7acb1b8c3307e9346421924d6799b67585f02eda38c2",
+    "redacted_sha256": "5ccfb6b03af1359a80d3605f94c0865d04c2200923bf33c611ad5bf0c6fc3059",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/reindex.txt",
+    "original_private_sha256": "076b30ee1ac901b3fed88d01ffe97647268f3d56b930b92214884a0a6e550ccb",
+    "redacted_sha256": "f868ff7d6271f1047c9bbed99cf167795ba61efca11b45a4ee1b80bbc2cebd52",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/chat-script.txt",
+    "original_private_sha256": "cc0684ac26ef6c7ee256957f1611b6265adb8d6b732791903986089df7fa8441",
+    "redacted_sha256": "fc11b273a4eef4e27f6e62c2d43c6ec721a7989f9f32b7835d4fe0019b2cf77f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T083154847468Z/commands/source-followup-reset.txt",
+    "original_private_sha256": "7e0d4b539c090f55086e2d591b0cb4d893650de729f1e180fd61a3d582fc4652",
+    "redacted_sha256": "efd5f6cd52269200c90c05b2a6d27ef1094c67aa2101c15ca2d3bceaa68ddcd4",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/configuration.json",
+    "original_private_sha256": "9d929adcd28c5ff49e02500c6b08baf3972fa5e23a1f78380aa90524ed62813f",
+    "redacted_sha256": "05854dae7e985004e591df5137024497c713064652b2e6be04a70efb2c294d25",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/review.md",
+    "original_private_sha256": "3b26caa49542c3cdc3a4dd230d2d519fdec5d6ffbda33f2eda6668980a0610c3",
+    "redacted_sha256": "09048b9008de8e812017e037b3506eb5990686ac060e3f46c84f8760294b10a3",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/ask-chat-isolation.json",
+    "original_private_sha256": "70954202f68ac435493bddb531b826d0f6c2d780d7a7438adda4af19037126ee",
+    "redacted_sha256": "3d513565b3b58879f060dc922f8d501ccd41bdee070609d4b03af9ac21010db3",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/reindex.txt",
+    "original_private_sha256": "85271be5213935aaae0b91632709b26a0c293cde89ac48b2fc539b8cbb147f52",
+    "redacted_sha256": "6ec634939f1c4efbbe23fafe533bf661bf2751c5fe8d6cebdd2e02371b2f634b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/ask-1-assistance-objective.json",
+    "original_private_sha256": "2310f87fd884cdc0be7501c0373341cc379802fcb63398144463efe2be50f2f5",
+    "redacted_sha256": "f8fdd7eb942efd4398312aeb07172017eb8155c10a9b7faa4d9120a198ea3205",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/ask-chat-isolation.txt",
+    "original_private_sha256": "a3cb94bb13887d80074919f4142c21e5cf07db00086e94557fac7e6fd4403b89",
+    "redacted_sha256": "27098eac32396b50ccfd8ab3c298a05b9509e04a0e95d02b6a15c92ce258f46e",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/ask-1-assistance-objective.txt",
+    "original_private_sha256": "fe249d8ad9bedf8cc2fd9fb57579268b933ee3ba0606fd5149596ee5a75194a1",
+    "redacted_sha256": "f9c1e0660f0b8bb170836516e5e7ca6069f91093f1e7709551ed66d1d272db6d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/source-followup-reset.txt",
+    "original_private_sha256": "dfc676fedf379c42eea192e8835441857776678af2c6caa077ab195529b793f0",
+    "redacted_sha256": "91423b219cdcf663e395fabd4466a9c0c142f9eeec6ac2ce8471da898de90098",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat_regression.py",
+    "original_private_sha256": "319f95cb9874fb66c9c09943eb6098eac0ee74726d65015c4fbaee029c1ac11e",
+    "redacted_sha256": "03a7689360e95aa73218dabcaeba9bc493d0723296fbe38ac4244aa679180a53",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/source-followup-reset.json",
+    "original_private_sha256": "83a2a9334c37badd5318035ec9813f9218f682ab63e87e6fcad2d2c0520da7e0",
+    "redacted_sha256": "0f15880a29462381dec285ad1f478ca3af3b18ea2875e5b51b3d73a5a8b23024",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/chat-script.json",
+    "original_private_sha256": "3691909dc22120f7db57d817ce41c3dc123f746d1cb0d9539dba01e6285670d9",
+    "redacted_sha256": "a297453f593e3b12861ae5759c34566ba744dbde95952ca7efeb7b894205ee39",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/chat-script.txt",
+    "original_private_sha256": "854f328de42ebd7669ff3276ce888a424f18d2f418846da9154b079eef607c6e",
+    "redacted_sha256": "3764499115870b6c3bcc1a3f8310f93c69d868ad862148dcb5e26dfbc2bf6ba6",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/a/goal-verification/runs/20260929T084125814134Z/commands/reindex.json",
+    "original_private_sha256": "7a985f0d998f8b2eb51e09442c03080466c398da9a841b4e34f268ce4ec9ef86",
+    "redacted_sha256": "ef22445b56822e7c122dc2bbd4d2d07391e3b16cef5558746283667491eb7c92",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line_regression.py",
+    "original_private_sha256": "f3464d6ed02ea2aa8b32bd4c0af3422210791371fb20fc16eb34f3cc67f24caa",
+    "redacted_sha256": "7c38d37a1ce7b70574ed84df1080120bbe4273948c1a8d4e317017c3364efdaf",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat_regression_prepare.py",
+    "original_private_sha256": "5fe56bf809a7569ce16c6081a2d44f45e534facb8356465fb94ecd353337abf2",
+    "redacted_sha256": "90b09ed4e51d84d79c8cb58f0edd8d33a601626568c6fa886a9a3f25cb812924",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/02-required-chat.txt",
+    "original_private_sha256": "6e8c62baf209a7c918aca9e966b67b6d60f6ba97e771ee08eea92ab9d30f510a",
+    "redacted_sha256": "07dac0eac6835d13695d9999845bf3142d3532f0c125d4d9c8a32a52a74b7b6c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/02-required-chat.json",
+    "original_private_sha256": "4eb0fc4ad519d8c0a08f85abee9fb05d46771193c1140fd20c185cc0e8b77947",
+    "redacted_sha256": "1ed2e1026ad5d1ed1ae62512c7cbd853b775273a2eac3170c779e2e1579f2623",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/09-B01-research.json",
+    "original_private_sha256": "102a49fc21f83c7903872b41b348d7f4464d9c55f682465e532ad19092f5c011",
+    "redacted_sha256": "d3f4a026e161ab803d6c2cc484f4410c0b2c272af85d70c7b56db722ecc01b27",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/04-H3-topic-transition.json",
+    "original_private_sha256": "80be9d33c11942595fe71a6ba28f786c484fd7422b53e598485919dc26abc75a",
+    "redacted_sha256": "03e8fa381f13b4ac13a451c7b7cd88681733358b5a1a2adbd0142dddac42e6b2",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/04-H3-topic-transition.txt",
+    "original_private_sha256": "945352ac8449c622fc93b68785c3aa61f5b279613aa8404c7a7831bd57bb5bb0",
+    "redacted_sha256": "c407ba5bdeeae495e632b9f5e442e1412a8f9e066831fb97dfe338be4b26ea78",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/06-chat-only-codename-search.json",
+    "original_private_sha256": "4f32ffc700635beefd4f9cc0944aa1e3d5956ec25fa0378ecb1113d85ce8da93",
+    "redacted_sha256": "a31b2b69423c9dc8dc85d9613584a863511ba908e2ddbe637d4bad9be369d50a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/01-reindex.txt",
+    "original_private_sha256": "0b059c4f26976708f04d5f7f9bb8783b27c6c80d785f44ff8d60acc3ccab1462",
+    "redacted_sha256": "1e5dadc0f662aaea5cafe8256e0cca2f3a215dd2aef276851d0fe6cbcb71f3b6",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/07-codename-isolation.json",
+    "original_private_sha256": "9daebc5fcab84555c6230e050baa80447373d8bedbeeeb15252f70396483377c",
+    "redacted_sha256": "5577f92f515e49eac66cbef73e7f86c5e84ab948472cdc95bd810fc41bd4a2f2",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/03-H2-capability-paraphrase.json",
+    "original_private_sha256": "9e1c5bca5316039455a60090b7fd28ffebcb19243bfa5ded01cd925d8434c497",
+    "redacted_sha256": "cc83087f55012fbbedff25a794fb720219008045988d1390d2da45ad039b246e",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/05-source-shortening-reset.json",
+    "original_private_sha256": "012a9d8202780ff6ae74deaa678c8858877ab6d7b319527d78336a0b5bb06430",
+    "redacted_sha256": "980dfdcaae3f70f68feaf981590296194bc9103abe2b142e0a14964d07cb9937",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/06-chat-only-codename-search.txt",
+    "original_private_sha256": "9411b3a9a0be4442e7fb1ccd66e4ed7d5c8c21a1cc16e69e0f74ac9f0e81b689",
+    "redacted_sha256": "070fdf865b00d6d86173f4d94a774b0720a55f617191b266ffd15631ca6e3180",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/08-B01-retrieval.json",
+    "original_private_sha256": "ff1f68492cc9bbdfd9d2c87aec9d7ddad751fc68cd7344ea00e82fa130598b6c",
+    "redacted_sha256": "cdccf93cbad50504f49c950051a7736dccb19e5db43e3fc61c5c5f4ccee88c2a",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/08-B01-retrieval.txt",
+    "original_private_sha256": "d2d29276d038e51661d3ea10542f4ebdbc488b274edfc06f88060bfb889a35cb",
+    "redacted_sha256": "a0f1373a0659eff61a57bb1a776c5ff2ddecb1eab64e539bf401772e8ebc8ddb",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/07-codename-isolation.txt",
+    "original_private_sha256": "5deb8d82cd63dc7f5d8468e47c687940f46e0c31f30360ffbee0c5b869db30fa",
+    "redacted_sha256": "519afa42f13907dff0c606295d3793ca364c165a946a3eef6242dc9b728da9a6",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/01-reindex.json",
+    "original_private_sha256": "a23b5fb7e14ea043df3a4b0e7b5a2809714b84136e7d945fabbb5a7cd1d12361",
+    "redacted_sha256": "238fd5cfa919656acc6723ed12257ca4cccae2aa35098a9ba08a9ab71123f724",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/09-B01-research.txt",
+    "original_private_sha256": "e4f828da03c47f0dd76a1b71922a69570cdfe39b58a26b7a0de974247f8110b3",
+    "redacted_sha256": "28760380cb9372437d51a7583cbe09481a868b2fc92482bd05b8093bd01a7355",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/03-H2-capability-paraphrase.txt",
+    "original_private_sha256": "2036db373431d147bf4ca70200504750df405417b0b8f17a394ceaf8d15a4123",
+    "redacted_sha256": "bdfdea12e4ef796ac5629e4d6a46188c0c20de5ad47e7f59478b3bfa6f3f5e34",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/line-regression/commands/05-source-shortening-reset.txt",
+    "original_private_sha256": "a08342407a50fe594dbd548561ac2681b2b77e011d777383add9ff93a87ddb9f",
+    "redacted_sha256": "7ce23c3d559a23e8ff8a92a4a0274ede97f7ef21e6416e983706a416fc5cc80c",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/08-B01-research.txt",
+    "original_private_sha256": "3f94e7af93850a9e677c6aac67ae96fa36f10a338f81dc75ca07d97b64beaa82",
+    "redacted_sha256": "4fcfb2eb1541f982629beab562a6df512c1eb4b5a1a5440e88156b744856c03d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/03-H2-capability-paraphrase.json",
+    "original_private_sha256": "d6564f833ea5b59a1818eb623aa26196f755df308006319bbae74e4acab41d23",
+    "redacted_sha256": "653e4016c17185947e0986f735ab706c2c5b9c920e34c45552582b9f21faa6c5",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/03-H2-capability-paraphrase.txt",
+    "original_private_sha256": "6dc33ab216bd7c2496654e295f40b48fc684bf0526b9ee4782e30ac8e104e048",
+    "redacted_sha256": "c24cf4428b74812fefb56d9edcf07d6d648355ff5f56e2ebf9788337c2f2abb7",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/06-codename-isolation.txt",
+    "original_private_sha256": "cd8f643b883e3d3a52acabbe33880cf205a2f0817596d87c9256356c0a21758e",
+    "redacted_sha256": "bd35d7000dd52f702209a16aafcb6ab0690d88f84e6fe80100647f1f64b4ab3d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/01-reindex.json",
+    "original_private_sha256": "81cda551212f32eeaef42d8cfcf523a37f9189bb404bfba352844c6c7d5524a3",
+    "redacted_sha256": "6f2f8629c155f4f94fd79bdd7703a57e6043b9766b76f032ceed75b7b51ee596",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/07-B01-retrieval.json",
+    "original_private_sha256": "6629d1bb4917a28813cd8055d5d99d2e74a8da6d52f9f6f43ac0e363a015fbab",
+    "redacted_sha256": "246f8e86922cad3ba38e491e4486e285d58490c775b872823293aab8263b33a8",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/04-H3-topic-transition.txt",
+    "original_private_sha256": "66dc8b4b80d3ee66d9d7af965aec1362684a91b78924214cbaeeaf957a07239e",
+    "redacted_sha256": "322f697928a64a8922d694c5f4881678be822f0ad23a1990635c862c37667e48",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/05-chat-only-codename-search.txt",
+    "original_private_sha256": "1245ec294c2fc0f8a7ad6167ca97bddd1697c2184450370134e8f5d557cc40ab",
+    "redacted_sha256": "c76e6694e6b8d5d40988c5a67145cb5d733ed61efb2ae5034be5ee9230bcedda",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/04-H3-topic-transition.json",
+    "original_private_sha256": "04b8db26b6850333392450430b5d2d83f302b9c2549ff50201f86b4d9089e488",
+    "redacted_sha256": "0a368e2599f81cc2a5e7b9f5a02d031b0a301cab992cc875e8f843852b813826",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/08-B01-research.json",
+    "original_private_sha256": "305baa476a92ddee710cc7fc07def2b51d4c7b653bd334e93b4a3a53e4377895",
+    "redacted_sha256": "497c2f7a75fe78620fc7a45071fd7f17e08559c071d8a877daf2a6883ae4b4f1",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/05-chat-only-codename-search.json",
+    "original_private_sha256": "f60fe36512f2e155c204c975e7d8dcc62c16e6c89c32fece5a88ff325507db9d",
+    "redacted_sha256": "4e549e86e7a0e281e8dd9f506876b6cec7052325683617922a553def69676d9b",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/01-reindex.txt",
+    "original_private_sha256": "4147b1cec04026dc630f67881ad0c88174d457e507998fece4ac7ce8b47bdd03",
+    "redacted_sha256": "885e310ac55c3cbca015b56877e223486eada89cb79ff3ca415c970c41d792b4",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/07-B01-retrieval.txt",
+    "original_private_sha256": "8189a7b14589a17e2fe800639a2372e9aed6d0d7f9e15a619351b5f07e9ab229",
+    "redacted_sha256": "f4bb5e420601f5632db911ca97ad2c7b5198b70942b1e92fcbeb4a1ac2054a4d",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/02-required-chat.json",
+    "original_private_sha256": "b464cbf16514a5ad70d8e29308d7e3e7da48523a05a9bb23a14cfa49c3620ce5",
+    "redacted_sha256": "2116cfaa40d3060c1517941595af66feefb9ec00d76fbcf0626b86baa3c94adc",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/06-codename-isolation.json",
+    "original_private_sha256": "081906bbfd639e139320914144f7645fcf7a0cd9ae27b9775aa6520389f47dfc",
+    "redacted_sha256": "b1507e7a3166e1c682f28e41bbadd6992fc392e6bb163d7d0b276cd70ee63ef7",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  },
+  {
+    "file": "evidence/independent/b/goal-verification/chat-regression/commands/02-required-chat.txt",
+    "original_private_sha256": "2e1bab614a99c2932be1aabb4b9fff3092decc5b8c767bbf5aa4e15aeab52f25",
+    "redacted_sha256": "f4d7c1e34a8988560db9fa768072f41f5565da936e00353a6775b365e8fe4f9f",
+    "change": "Account paths and legacy source alias substituted; further personal-context redactions are recorded in the context-redaction ledger."
+  }
+]

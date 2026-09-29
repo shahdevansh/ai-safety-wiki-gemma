@@ -1,0 +1,23 @@
+$ 'python3' 'wiki.py' 'ingest' '--help'
+CWD: <evaluation>/runs/20260929T074038279878Z/project
+usage: wiki.py ingest [-h] [--mode {local}]
+                      [--only {Assistance Games,Compute Governance,Transformer Safety Limits,Alignment and Interpretability,Human Control and Defenses,Power and Disempowerment}]
+                      [--force] [--save SAVE]
+                      [source_dir]
+
+positional arguments:
+  source_dir            Registered original-source folder (default
+                        ./vault/raw)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --mode {local}
+  --only {Assistance Games,Compute Governance,Transformer Safety Limits,Alignment and Interpretability,Human Control and Defenses,Power and Disempowerment}
+                        Ingest one registered topic
+  --force               Regenerate pages; preserve previous versions in
+                        .state/note-backups
+  --save SAVE           Save reviewable evidence JSON and Markdown
+
+STDERR:
+
+EXIT: 0
